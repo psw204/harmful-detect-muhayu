@@ -1,0 +1,28 @@
+train_manifest: "../팀원_전처리/splits/train.jsonl"
+val_manifest: "../팀원_전처리/splits/val.jsonl"
+
+video:
+  num_frames: 16
+  sample_rate: 4
+  size: 224
+
+audio:
+  sample_rate: 16000
+  clip_seconds: 10
+
+text:
+  max_len: 128
+
+batch_size: 8
+num_workers: 4
+epochs: 20
+lr: 2.0e-4
+weight_decay: 1.0e-5
+device: "cuda"
+save_dir: "outputs/checkpoints"
+
+loss_weights:
+  cls: 1.0
+  nce: 0.5
+
+threshold: 0.5
