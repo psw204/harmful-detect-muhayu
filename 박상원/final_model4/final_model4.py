@@ -1,5 +1,5 @@
 """
-무하유 유해 콘텐츠 탐지 시스템 - 개선 버전 3
+무하유 유해 콘텐츠 탐지 시스템 - 개선 버전 4
 이미지: YOLOv8 + CLIP + MLP
 비디오: YOLOv8 + SlowFast + CLIP + Transformer
 
@@ -12,7 +12,7 @@
 """
 
 # ============================================================
-# [변경점] final_model(3): Import 정리 및 그룹화
+# 필수 라이브러리 Import
 # ============================================================
 # 기본 라이브러리
 import torch
@@ -84,7 +84,12 @@ DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # 배치 크기 설정
 BATCH_SIZE = 8          # 이미지 학습 배치 크기
-VIDEO_BATCH_SIZE = 2    # 비디오 학습 배치 크기 (메모리 제약으로 작게 설정)
+
+# ============================================================
+# [변경점] final_model(4): 비디오 배치 크기 증가 (2 → 4)
+# ============================================================
+# 이유: 메모리 효율성이 개선되어 배치 크기를 증가시켜 학습 안정성 향상
+VIDEO_BATCH_SIZE = 4    # 비디오 학습 배치 크기 (2에서 4로 증가)
 
 # 학습 에포크 설정
 IMAGE_EPOCHS = 10       # 이미지 모델 학습 에포크
@@ -92,7 +97,12 @@ VIDEO_EPOCHS = 10       # 비디오 모델 학습 에포크
 
 # 학습률 설정
 IMAGE_LR = 0.001        # 이미지 모델 학습률
-VIDEO_LR = 0.0005       # 비디오 모델 학습률 (더 작은 학습률로 안정적 학습)
+
+# ============================================================
+# [변경점] final_model(4): 비디오 학습률 감소 (0.0005 → 0.0003)
+# ============================================================
+# 이유: 더 안정적인 학습과 세밀한 최적화를 위해 학습률 감소
+VIDEO_LR = 0.0003       # 비디오 모델 학습률 (0.0005에서 0.0003으로 감소)
 
 # 가중치 감쇠 (정규화)
 IMAGE_WEIGHT_DECAY = 0.003   # 이미지 모델 가중치 감쇠
@@ -217,10 +227,10 @@ class HarmfulVideoDataset(Dataset):
         self.clip_model = clip_model     # CLIP 멀티모달 모델
         self.clip_preprocess = clip_preprocess  # CLIP 전처리 함수
         self.slowfast_dim = slowfast_dim  # SlowFast 출력 차원
-    
+
     def __len__(self):
         return len(self.video_paths)
-    
+
     def __getitem__(self, idx):
         """
         인덱스에 해당하는 비디오와 라벨을 반환
@@ -501,8 +511,12 @@ class VideoHarmfulClassifier(nn.Module):
             nn.BatchNorm1d(128),
             nn.Dropout(0.4),
             
-            nn.Linear(128, 1),              # 출력층
-            nn.Sigmoid()                    # 시그모이드 (0~1 확률)
+            # ============================================================
+            # [변경점] final_model(4): Sigmoid 제거 (BCEWithLogitsLoss 사용을 위해)
+            # ============================================================
+            # 이유: BCEWithLogitsLoss는 Sigmoid를 내부적으로 포함하므로
+            # 모델에서 Sigmoid를 제거하면 수치적 안정성이 향상됨
+            nn.Linear(128, 1)                # 출력층 (Sigmoid 없음)
         )
     
     def forward(self, x):
@@ -513,7 +527,7 @@ class VideoHarmfulClassifier(nn.Module):
             x: 입력 시퀀스 (프레임별 특징, shape: [batch, seq_len, features])
             
         Returns:
-            output: 유해 확률 (0~1)
+            output: 로짓 (logit, Sigmoid 적용 전 값)
         """
         # Transformer로 시퀀스 특징 변환
         transformed = self.transformer(x)
@@ -521,12 +535,12 @@ class VideoHarmfulClassifier(nn.Module):
         # 시퀀스 차원에서 평균 풀링 (전체 비디오 특징)
         pooled = transformed.mean(dim=1)
         
-        # 분류기로 최종 예측
+        # 분류기로 최종 예측 (로짓 반환)
         return self.classifier(pooled)
 
 
 # ============================================================
-# 데이터 준비 (유해/안전/공개/실제 통합)
+# 데이터 준비
 # ============================================================
 def prepare_image_data():
     """
@@ -612,6 +626,11 @@ def prepare_video_data():
     """
     비디오 데이터를 준비하고 학습/검증 세트로 분할
     
+    비디오 데이터셋을 통합합니다:
+    1. 실제 수집 유해 비디오
+    2. 실제 수집 안전 비디오
+    3. 공개 비디오 데이터셋 (RWF-2000, RLVS 등)
+    
     Returns:
         X_train, y_train: 학습 데이터 (경로, 라벨)
         X_val, y_val: 검증 데이터 (경로, 라벨)
@@ -668,7 +687,7 @@ def prepare_video_data():
     # 학습/검증 분할 (15% 검증)
     from sklearn.model_selection import train_test_split
     X_train, X_val, y_train, y_val = train_test_split(
-        X, y, test_size=0.15, random_state=42, stratify=y)
+        X, y, test_size=0.15, random_state=42, stratify=y)  # stratify로 클래스 비율 유지
     
     print(f"✓ 통합 완료 (학습 {len(X_train)}, 검증 {len(X_val)})")
     print(f"  (유해: {sum(y_train)}, 안전: {len(y_train)-sum(y_train)} / 검증 유해: {sum(y_val)}, 안전: {len(y_val)-sum(y_val)})")
@@ -832,7 +851,7 @@ def train_video_model():
     slowfast_model = slowfast_r50(pretrained=True)  # 사전 훈련된 SlowFast R50 모델
     slowfast_model = slowfast_model.to(DEVICE)
     slowfast_model.eval()  # SlowFast는 고정 (학습하지 않음)
-    
+
     # SlowFast 실제 출력 차원 확인
     print("SlowFast 출력 차원 확인 중...")
     with torch.no_grad():
@@ -841,60 +860,80 @@ def train_video_model():
         slowfast_output = slowfast_model([dummy_slow, dummy_fast])
         slowfast_dim = slowfast_output.shape[-1]  # 실제 출력 차원
         print(f"✓ SlowFast 실제 출력 차원: {slowfast_dim}")
-    
+
     # CLIP 차원 자동 감지
     with torch.no_grad():
         dummy_image = torch.randn(1, 3, 224, 224).to(DEVICE)
         clip_features = clip_model.encode_image(dummy_image)
         clip_dim = clip_features.shape[-1]  # CLIP 특징 차원 (512)
-    
+
     yolo_dim = len(HARMFUL_OBJECTS)  # YOLO 특징 차원
     print(f"✓ YOLO 차원: {yolo_dim}")
     print(f"✓ CLIP 차원: {clip_dim}")
     print(f"✓ 총 입력 차원: {yolo_dim + clip_dim + slowfast_dim}")
-    
+
     # 3. 데이터셋 및 데이터로더 생성
     train_dataset = HarmfulVideoDataset(train_paths, train_labels, yolo, slowfast_model, clip_model, clip_preprocess, slowfast_dim)
     val_dataset = HarmfulVideoDataset(val_paths, val_labels, yolo, slowfast_model, clip_model, clip_preprocess, slowfast_dim)
     train_loader = DataLoader(train_dataset, batch_size=VIDEO_BATCH_SIZE, shuffle=True, num_workers=0, drop_last=True)
     val_loader = DataLoader(val_dataset, batch_size=VIDEO_BATCH_SIZE, shuffle=False, num_workers=0)
+
+    # ============================================================
+    # [변경점] final_model(4): 클래스 불균형 처리를 위한 pos_weight 추가
+    # ============================================================
+    # 4. 클래스 불균형 처리
+    # 유해 샘플이 적을 경우, 손실 함수에서 가중치를 조정하여 균형 맞춤
+    num_harmful = sum(train_labels)
+    num_safe = len(train_labels) - num_harmful
+    pos_weight = torch.tensor([num_safe / num_harmful]).to(DEVICE)
+    print(f"\n✓ 클래스 불균형 보정: pos_weight={pos_weight.item():.4f}")
+    print(f"  (안전: {num_safe}개, 유해: {num_harmful}개)")
+
+    # 5. 모델, 손실함수, 옵티마이저 설정
+    model = VideoHarmfulClassifier(yolo_dim, clip_dim, slowfast_dim).to(DEVICE)
     
-    # 4. 모델, 손실함수, 옵티마이저 설정
-    model = VideoHarmfulClassifier(yolo_dim=yolo_dim, clip_dim=clip_dim, slowfast_dim=slowfast_dim).to(DEVICE)
-    criterion = nn.BCELoss()  # 이진 분류를 위한 Binary Cross Entropy Loss
-    optimizer = optim.Adam(model.parameters(), lr=VIDEO_LR, weight_decay=VIDEO_WEIGHT_DECAY)  # Adam 옵티마이저 + 가중치 감쇠
+    # ============================================================
+    # [변경점] final_model(4): BCEWithLogitsLoss 사용 (pos_weight 적용)
+    # ============================================================
+    # BCEWithLogitsLoss: BCE + Sigmoid를 한 번에 수행하여 수치적 안정성 향상
+    # pos_weight: 클래스 불균형 처리
+    criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)  # 클래스 불균형을 고려한 손실함수
+    optimizer = optim.Adam(model.parameters(), lr=VIDEO_LR, weight_decay=VIDEO_WEIGHT_DECAY)
     
     best_f1 = 0  # 최고 F1 점수 추적
+    best_threshold = 0.5  # 최적 임계값
     patience, patience_count = 4, 0  # Early Stopping을 위한 patience 설정
-    
+
     print(f"\n학습 시작 (Epochs: {VIDEO_EPOCHS})")
-    
-    # 5. 학습 및 검증 루프
+
+    # 6. 학습 루프
     for epoch in range(VIDEO_EPOCHS):
-        # 학습 단계
-        model.train()  # 학습 모드로 설정
+        # 6-1. 학습 모드
+        model.train()
         train_loss = 0
         
+        # 배치별 학습
         for features, labels_batch in tqdm(train_loader, desc=f"Epoch {epoch+1}/{VIDEO_EPOCHS}"):
             features, labels_batch = features.to(DEVICE), labels_batch.to(DEVICE)  # GPU로 이동
-            
             optimizer.zero_grad()  # 그래디언트 초기화
-            outputs = model(features).squeeze()  # 모델 예측
+            outputs = model(features).squeeze()  # 모델 예측 (로짓)
             loss = criterion(outputs, labels_batch)  # 손실 계산
             loss.backward()  # 역전파
             optimizer.step()  # 가중치 업데이트
             train_loss += loss.item()
-        
-        # 검증 단계
-        model.eval()  # 평가 모드로 설정
+
+        # 6-2. 검증 모드
+        model.eval()
         val_outputs = []
         val_true = []
         
         with torch.no_grad():  # 그래디언트 계산 비활성화
             for features, labels_batch in val_loader:
                 features = features.to(DEVICE)
-                outputs = model(features).squeeze()
-                outputs_np = outputs.cpu().numpy()
+                outputs = model(features).squeeze()  # 모델 예측 (로짓)
+                outputs = torch.sigmoid(outputs)  # 로짓을 확률로 변환
+                outputs_np = outputs.cpu().numpy()  # CPU로 이동하여 NumPy 변환
+                
                 # 단일 값과 배열 모두 처리
                 if outputs_np.ndim == 0:
                     val_outputs.append(float(outputs_np))
@@ -902,59 +941,73 @@ def train_video_model():
                     val_outputs.extend(outputs_np.tolist())
                 val_true.extend(labels_batch.cpu().numpy())
 
-        # ============================================================
-        # [변경점] final_model(3): Threshold 분석 기능 추가
-        # ============================================================
-        # 여러 threshold 값에 대해 성능을 분석하여 최적값 찾기
-        # 이유: 모든 데이터에 0.5가 최적은 아닐 수 있음
-        print(f"\n[Threshold 분석 @ Epoch {epoch+1}]")
+        # NumPy 배열로 변환
         val_outputs_np = np.array(val_outputs)
         val_true_np = np.array(val_true)
-        ths = [0.3, 0.4, 0.5, 0.6, 0.7]  # 테스트할 threshold 값들
-        
-        for th in ths:
-            preds = (val_outputs_np > th).astype(int)
-            precision, recall, f1, _ = precision_recall_fscore_support(val_true_np, preds, average='binary', zero_division=0)
-            cm = confusion_matrix(val_true_np, preds)
-            print(f"  Threshold={th:.2f}: Precision={precision:.4f}, Recall={recall:.4f}, F1={f1:.4f}")
-            print(f"    Confusion Matrix:\n{cm}")
-        
-        # 최적 threshold 선택 (여기서는 0.4 사용)
-        opt_th = 0.4
-        val_preds = (val_outputs_np > opt_th).astype(int)
 
-        # 6. 평가 지표 계산
-        precision, recall, f1, _ = precision_recall_fscore_support(val_true_np, val_preds, average='binary', zero_division=0)
-        print(f"\nEpoch {epoch+1}/{VIDEO_EPOCHS} (최적 Threshold={opt_th})")
-        print(f"  Loss: {train_loss/len(train_loader):.4f}")
-        print(f"  Precision: {precision:.4f}")  # 정밀도
-        print(f"  Recall: {recall:.4f}")         # 재현율
-        print(f"  F1-Score: {f1:.4f}")           # F1 점수
+        # ============================================================
+        # [변경점] final_model(4): Threshold 분석 범위 확장 및 자동 선택
+        # ============================================================
+        # 6-3. Threshold 분석 (최적 임계값 찾기)
+        # 더 넓은 범위의 임계값에서 자동으로 최적값 선택
+        best_th = 0.5
+        best_th_f1 = 0
+        print(f"\n[Threshold 분석 @ Epoch {epoch+1}]")
         
-        # 최고 성능 모델 저장 및 Early Stopping
+        # 다양한 임계값에서 성능 평가 (범위 확장: 0.3~0.7)
+        for th in [0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7]:
+            preds = (val_outputs_np > th).astype(int)  # 임계값으로 예측
+            precision, recall, f1, _ = precision_recall_fscore_support(val_true_np, preds, average='binary', zero_division=0)
+            print(f"  Threshold={th:.2f}: Precision={precision:.4f}, Recall={recall:.4f}, F1={f1:.4f}")
+            
+            # 최고 F1 점수 업데이트
+            if f1 > best_th_f1:
+                best_th_f1 = f1
+                best_th = th
+
+        # 최적 임계값으로 최종 평가
+        val_preds = (val_outputs_np > best_th).astype(int)
+        precision, recall, f1, _ = precision_recall_fscore_support(val_true_np, val_preds, average='binary', zero_division=0)
+        
+        print(f"\nEpoch {epoch+1}/{VIDEO_EPOCHS}")
+        print(f"  Loss: {train_loss/len(train_loader):.4f}")
+        print(f"  최적 Threshold: {best_th:.2f}")
+        print(f"  Precision: {precision:.4f}")
+        print(f"  Recall: {recall:.4f}")
+        print(f"  F1-Score: {f1:.4f}")
+
+        # 6-4. 최고 성능 모델 저장 및 Early Stopping
         if f1 > best_f1:
             best_f1 = f1
-            patience_count = 0  # 성능 향상 시 patience 리셋
-            torch.save(model.state_dict(), 'video_model_best.pth')
-            print(f"  ✓ 모델 저장 (Best F1: {best_f1:.4f})")
+            best_threshold = best_th
+            patience_count = 0
+            # 모델과 최적 임계값을 함께 저장
+            torch.save({
+                'model_state_dict': model.state_dict(),
+                'best_threshold': best_th
+            }, 'video_model_best.pth')
+            print(f"  ✓ 모델 저장 (Best F1: {best_f1:.4f}, Threshold: {best_th:.2f})")
         else:
-            patience_count += 1  # 성능 향상 없을 시 patience 증가
+            patience_count += 1
         
-        # Early Stopping: patience 횟수만큼 성능 향상이 없으면 학습 중단
+        # Early Stopping 체크
         if patience_count >= patience:
             print(f"  ⚠️ Early stopping at epoch {epoch+1}, best F1: {best_f1:.4f}")
             break
 
-    # 7. 학습 완료 요약
+    # 7. 학습 완료 및 결과 출력
     print(f"\n{'='*60}")
     print(f"✅ 비디오 모델 학습 완료!")
     print(f"   Best F1-Score: {best_f1:.4f}")
+    print(f"   Best Threshold: {best_threshold:.2f}")
+    
+    # 목표 달성 여부 확인
     if best_f1 >= 0.75:
         print(f"   ✅ 필수 목표 달성! (F1 ≥ 0.75)")
     else:
         print(f"   ⚠️  목표 미달 (F1 < 0.75)")
-    
-    # 8. Confusion Matrix 생성
+
+    # 8. Confusion Matrix 생성 및 저장
     if len(val_true_np) > 0:
         cm = confusion_matrix(val_true_np, val_preds)
         plt.figure(figsize=(8, 6))
@@ -963,7 +1016,7 @@ def train_video_model():
                     yticklabels=['Safe', 'Harmful'])
         plt.xlabel('Predicted')
         plt.ylabel('True')
-        plt.title(f'Video Model Confusion Matrix (F1={best_f1:.3f})')
+        plt.title(f'Video Model Confusion Matrix (F1={best_f1:.3f}, Th={best_threshold:.2f})')
         plt.savefig('video_confusion_matrix.png')
         print(f"   ✓ Confusion Matrix: video_confusion_matrix.png")
     print("="*60)
@@ -1013,7 +1066,7 @@ if __name__ == "__main__":
         print("="*60)
         print("생성된 파일:")
         print("  - image_model_best.pth")           # 최고 성능 이미지 모델
-        print("  - video_model_best.pth")            # 최고 성능 비디오 모델
+        print("  - video_model_best.pth")            # 최고 성능 비디오 모델 (+ 최적 threshold)
         print("  - image_confusion_matrix.png")     # 이미지 모델 혼동 행렬
         print("  - video_confusion_matrix.png")     # 비디오 모델 혼동 행렬
         print(f"  - {log_filename}")                 # 로그 파일

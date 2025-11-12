@@ -20,6 +20,9 @@
 주의사항:
   - ultralytics (YOLOv8) 설치 필요: pip install ultralytics
   - opencv-python 설치 필요: pip install opencv-python
+
+작성자: 박상원
+작성일: 2025년 2학기
 """
 
 # ============================================================
