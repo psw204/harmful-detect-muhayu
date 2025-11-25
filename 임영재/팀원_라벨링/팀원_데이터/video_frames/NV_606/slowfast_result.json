@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_606",
+  "frames_per_clip": 32,
+  "clip_sec": 1.5238095238095237,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.5238095238095237,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.07923633605241776
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.04377336427569389
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.04196111485362053
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.03747309744358063
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.03285221755504608
+        }
+      ],
+      "top1_prob": 0.07923633605241776,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.5238095238095237,
+      "end_sec": 3.0476190476190474,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.33256635069847107
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.12699294090270996
+        },
+        {
+          "index": 303,
+          "label": "cleaning toilet\t303",
+          "prob": 0.039147403091192245
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.03008934110403061
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.02828105352818966
+        }
+      ],
+      "top1_prob": 0.33256635069847107,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 3.0476190476190474,
+      "end_sec": 4.571428571428571,
+      "topk": [
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.06669944524765015
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.05587856471538544
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.05128934979438782
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.035869721323251724
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.03546007350087166
+        }
+      ],
+      "top1_prob": 0.06669944524765015,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.15950071066617966,
+    "max_top1_prob": 0.33256635069847107,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

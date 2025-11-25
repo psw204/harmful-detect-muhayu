@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_436",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.9006542563438416
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.03566700965166092
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.010350753553211689
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.009884649887681007
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.005320862866938114
+        }
+      ],
+      "top1_prob": 0.9006542563438416,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.46036407351493835
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.2694563865661621
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.07497376948595047
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.028989465907216072
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.02019399031996727
+        }
+      ],
+      "top1_prob": 0.46036407351493835,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.33509865403175354
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.08405981957912445
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.05603581294417381
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.035538606345653534
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.03548847883939743
+        }
+      ],
+      "top1_prob": 0.33509865403175354,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 148,
+          "label": "ice fishing\t148",
+          "prob": 0.17558610439300537
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.07267545908689499
+        },
+        {
+          "index": 20,
+          "label": "wrestling\t20",
+          "prob": 0.07125844061374664
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.07069917768239975
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.06881873309612274
+        }
+      ],
+      "top1_prob": 0.17558610439300537,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.4679257720708847,
+    "max_top1_prob": 0.9006542563438416,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

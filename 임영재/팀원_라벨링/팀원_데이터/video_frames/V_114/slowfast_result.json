@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_114",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.07855827361345291
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.05421803146600723
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.04437953606247902
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.034548867493867874
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.03257963806390762
+        }
+      ],
+      "top1_prob": 0.07855827361345291,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 377,
+          "label": "juggling soccer ball\t377",
+          "prob": 0.0829545184969902
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.05583987012505531
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.05276871472597122
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.050114743411540985
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.0454559363424778
+        }
+      ],
+      "top1_prob": 0.0829545184969902,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 298,
+          "label": "long jump\t298",
+          "prob": 0.30205947160720825
+        },
+        {
+          "index": 50,
+          "label": "playing piano\t50",
+          "prob": 0.26121583580970764
+        },
+        {
+          "index": 377,
+          "label": "juggling soccer ball\t377",
+          "prob": 0.07961482554674149
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.03622373938560486
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.026640314608812332
+        }
+      ],
+      "top1_prob": 0.30205947160720825,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 298,
+          "label": "long jump\t298",
+          "prob": 0.19164597988128662
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.14977319538593292
+        },
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.08030995726585388
+        },
+        {
+          "index": 50,
+          "label": "playing piano\t50",
+          "prob": 0.0775807648897171
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.05850451812148094
+        }
+      ],
+      "top1_prob": 0.19164597988128662,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.1638045608997345,
+    "max_top1_prob": 0.30205947160720825,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

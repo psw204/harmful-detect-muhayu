@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/yldWawWf_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.12377078086137772
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.06857103854417801
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06248084083199501
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.05820667743682861
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.05467286333441734
+        }
+      ],
+      "top1_prob": 0.12377078086137772,
+      "violence_hint": 0.06857103854417801
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.07713550329208374
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.06728801876306534
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.052076127380132675
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.039332691580057144
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.0386088564991951
+        }
+      ],
+      "top1_prob": 0.07713550329208374,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.09070426225662231
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.06451071053743362
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.04438748210668564
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.03810817003250122
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.036746371537446976
+        }
+      ],
+      "top1_prob": 0.09070426225662231,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.06735698133707047
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.0542442612349987
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.036826636642217636
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.032613251358270645
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.027689119800925255
+        }
+      ],
+      "top1_prob": 0.06735698133707047,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.08974188193678856,
+    "max_top1_prob": 0.12377078086137772,
+    "avg_violence_hint": 0.017142759636044502,
+    "max_violence_hint": 0.06857103854417801
+  }
+}

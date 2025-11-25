@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_514",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.999858021736145
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 6.963059422560036e-05
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 3.662873132270761e-05
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 1.8415639715385623e-05
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 7.7301974670263e-06
+        }
+      ],
+      "top1_prob": 0.999858021736145,
+      "violence_hint": 0.999858021736145
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.9995055198669434
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.00028273375937715173
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 0.00013568508438766003
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 2.9680200896109454e-05
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 1.3987868442200124e-05
+        }
+      ],
+      "top1_prob": 0.9995055198669434,
+      "violence_hint": 0.9995055198669434
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.9999586343765259
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 2.3345794033957645e-05
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 7.877962161728647e-06
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 5.891279670322547e-06
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 1.4464170590144931e-06
+        }
+      ],
+      "top1_prob": 0.9999586343765259,
+      "violence_hint": 0.9999586343765259
+    },
+    {
+      "index": 3,
+      "start_sec": 3.310344827586207,
+      "end_sec": 4.413793103448276,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.9999549388885498
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 3.74832161469385e-05
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 2.9412512958515435e-06
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 1.8326378494748496e-06
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 4.774028639076278e-07
+        }
+      ],
+      "top1_prob": 0.9999549388885498,
+      "violence_hint": 0.9999549388885498
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.999819278717041,
+    "max_top1_prob": 0.9999586343765259,
+    "avg_violence_hint": 0.999819278717041,
+    "max_violence_hint": 0.9999586343765259
+  }
+}

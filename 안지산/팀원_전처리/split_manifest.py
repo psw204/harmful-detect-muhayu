@@ -1,20 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-multimodal.jsonl → train/val 분할 스크립트 (안지산)
----------------------------------------------------
-입력:
-  1) multimodal.jsonl  : 전처리 결과 매니페스트
-  2) verified_video_labels.json : 유해 라벨 (safe는 없음, 나머지 자동 0 처리)
-출력:
-  - splits/train.jsonl
-  - splits/val.jsonl
+멀티모달 split_manifest.py (파일명 매칭 완전 해결 버전)
+-------------------------------------------------------
+verified_video_labels.json 의 key = "파일명.mp4"
+전처리 manifest clip_path = ".../파일명.mp4"
 
-사용 예시:
-python split_manifest.py \
-  --manifest "무하유_유해콘텐츠_데이터/4_전처리_결과(개인)/안지산/팀원_전처리/manifests/multimodal.jsonl" \
-  --verified "무하유_유해콘텐츠_데이터/3_라벨링_파일(개인)/안지산/라벨_결과/verified_video_labels.json" \
-  --out-dir "splits" \
-  --ratio 0.8
+→ clip_id 대신 "파일명.mp4" 기준으로 매칭하도록 수정.
 """
 
 import os
@@ -24,66 +15,93 @@ import argparse
 from pathlib import Path
 from collections import defaultdict
 
-def load_verified(verified_path):
-    if not os.path.exists(verified_path):
-        print(f"[경고] verified 파일이 없습니다: {verified_path}")
-        return set()
-    with open(verified_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    # verified 파일이 dict 형태일 수도 있고 list일 수도 있음
-    if isinstance(data, dict):
-        return set(data.keys())
-    elif isinstance(data, list):
-        return set(data)
-    else:
-        return set()
 
-def load_manifest(manifest_path):
+def load_manifest(path):
     items = []
-    with open(manifest_path, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         for line in f:
-            line = line.strip()
-            if not line:
-                continue
             try:
-                items.append(json.loads(line))
-            except json.JSONDecodeError:
-                continue
+                items.append(json.loads(line.strip()))
+            except:
+                pass
     return items
 
-def group_by_video(items):
-    groups = defaultdict(list)
-    for it in items:
-        vsrc = it["video"]["src"]
-        groups[vsrc].append(it)
-    return groups
+
+def load_verified(path):
+    """
+    verified_video_labels.json 은 dict 형태이며 key=파일명.mp4
+    """
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def harmful_from_verified(entry):
+    """
+    YOLO 기반 harmful 판단 (is_harmful 필드)
+    """
+    return 1 if entry.get("is_harmful", False) else 0
+
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--manifest", required=True)
-    ap.add_argument("--verified", required=True)
+    ap.add_argument("--approved", required=True)
+    ap.add_argument("--safe", required=True)
     ap.add_argument("--out-dir", default="splits")
     ap.add_argument("--ratio", type=float, default=0.8)
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
 
     random.seed(args.seed)
+
+    # 1) 전처리된 전체 multimodal.jsonl
     mani_items = load_manifest(args.manifest)
-    verified = load_verified(args.verified)
-    groups = group_by_video(mani_items)
+
+    # 2) YOLO 기반 verified / safe 라벨 로딩
+    verified = load_verified(args.approved) if os.path.exists(args.approved) else {}
+    safe     = load_verified(args.safe) if os.path.exists(args.safe) else {}
+
+    # 두 dict 합치기 (key=파일명.mp4)
+    all_labels = {**verified, **safe}
+
+    enriched = []
+    missing = 0
+
+    for it in mani_items:
+        # clip_path에서 파일명 추출
+        clip_path = it["video"].get("clip_path") or it["video"].get("src")
+        filename = os.path.basename(clip_path)   # 예: NV_215_4.0_5.0.mp4
+
+        if filename not in all_labels:
+            missing += 1
+            continue
+
+        lbl = all_labels[filename]
+        harmful = harmful_from_verified(lbl)
+
+        it["harmful"] = harmful
+        enriched.append(it)
+
+    print(f"[라벨 병합] 총 {len(mani_items)}개 중 {missing}개 라벨 없음 → 제외")
+    print(f"[라벨 병합] 최종 병합된 클립 수: {len(enriched)}")
+
+    # 3) video.src 기준으로 그룹화하여 split
+    groups = defaultdict(list)
+    for it in enriched:
+        vsrc = it["video"]["src"]
+        groups[vsrc].append(it)
 
     vids = list(groups.keys())
     random.shuffle(vids)
 
     cut = int(len(vids) * args.ratio)
     train_vids = set(vids[:cut])
-    val_vids = set(vids[cut:])
+    val_vids   = set(vids[cut:])
 
     train_items, val_items = [], []
     for vsrc, clips in groups.items():
-        label = 1 if vsrc in verified else 0
-        for clip in clips:
-            clip["label"] = label
         if vsrc in train_vids:
             train_items.extend(clips)
         else:
@@ -91,20 +109,19 @@ def main():
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-    train_path = out_dir / "train.jsonl"
-    val_path = out_dir / "val.jsonl"
 
-    with open(train_path, "w", encoding="utf-8") as f:
+    with open(out_dir/"train.jsonl", "w", encoding="utf-8") as f:
         for it in train_items:
             f.write(json.dumps(it, ensure_ascii=False) + "\n")
 
-    with open(val_path, "w", encoding="utf-8") as f:
+    with open(out_dir/"val.jsonl", "w", encoding="utf-8") as f:
         for it in val_items:
             f.write(json.dumps(it, ensure_ascii=False) + "\n")
 
-    print(f"[완료] Train={len(train_items)} clips, Val={len(val_items)} clips")
-    print(f"→ {train_path}")
-    print(f"→ {val_path}")
+    print("\n[완료]")
+    print(f"Train clips: {len(train_items)}")
+    print(f"Val clips  : {len(val_items)}")
+
 
 if __name__ == "__main__":
     main()

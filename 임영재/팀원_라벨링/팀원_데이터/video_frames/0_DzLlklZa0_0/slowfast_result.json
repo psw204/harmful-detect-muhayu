@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/0_DzLlklZa0_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.4192657470703125
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.10255885869264603
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.07360925525426865
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.07213050872087479
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.04647955298423767
+        }
+      ],
+      "top1_prob": 0.4192657470703125,
+      "violence_hint": 0.07213050872087479
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.3111547529697418
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.15486623346805573
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.10960661619901657
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.06827455759048462
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.03982814773917198
+        }
+      ],
+      "top1_prob": 0.3111547529697418,
+      "violence_hint": 0.15486623346805573
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.18944814801216125
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.17450159788131714
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.16115021705627441
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.06818416714668274
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.05336317792534828
+        }
+      ],
+      "top1_prob": 0.18944814801216125,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.13366173207759857
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.12111355364322662
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.10091838240623474
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.07414064556360245
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.05128803476691246
+        }
+      ],
+      "top1_prob": 0.13366173207759857,
+      "violence_hint": 0.05128803476691246
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.26338259503245354,
+    "max_top1_prob": 0.4192657470703125,
+    "avg_violence_hint": 0.06957119423896074,
+    "max_violence_hint": 0.15486623346805573
+  }
+}

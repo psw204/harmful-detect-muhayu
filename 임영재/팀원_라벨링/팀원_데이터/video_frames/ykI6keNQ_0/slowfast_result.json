@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/ykI6keNQ_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.1205277070403099
+        },
+        {
+          "index": 38,
+          "label": "tying tie\t38",
+          "prob": 0.06735191494226456
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.06609757244586945
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.06149991229176521
+        },
+        {
+          "index": 39,
+          "label": "skydiving\t39",
+          "prob": 0.04920715466141701
+        }
+      ],
+      "top1_prob": 0.1205277070403099,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.1865922212600708
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.1008298248052597
+        },
+        {
+          "index": 38,
+          "label": "tying tie\t38",
+          "prob": 0.04168006032705307
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.04154035821557045
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.04140619561076164
+        }
+      ],
+      "top1_prob": 0.1865922212600708,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 258,
+          "label": "breading or breadcrumbing\t258",
+          "prob": 0.10453066974878311
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.056146495044231415
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0373324416577816
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.03187508136034012
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.029196348041296005
+        }
+      ],
+      "top1_prob": 0.10453066974878311,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.06392385810613632
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.04343540221452713
+        },
+        {
+          "index": 8,
+          "label": "drawing\t8",
+          "prob": 0.04138398543000221
+        },
+        {
+          "index": 391,
+          "label": "water sliding\t391",
+          "prob": 0.03841310366988182
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.032809071242809296
+        }
+      ],
+      "top1_prob": 0.06392385810613632,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.11889361403882504,
+    "max_top1_prob": 0.1865922212600708,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

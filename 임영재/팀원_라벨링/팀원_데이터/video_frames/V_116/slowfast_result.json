@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_116",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.08393258601427078
+        },
+        {
+          "index": 50,
+          "label": "playing piano\t50",
+          "prob": 0.06808463484048843
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.06533121317625046
+        },
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.060016702860593796
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.05205262079834938
+        }
+      ],
+      "top1_prob": 0.08393258601427078,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.21989594399929047
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.10005655884742737
+        },
+        {
+          "index": 50,
+          "label": "playing piano\t50",
+          "prob": 0.05678047239780426
+        },
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.0357966385781765
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.035554803907871246
+        }
+      ],
+      "top1_prob": 0.21989594399929047,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.15866437554359436
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.14722920954227448
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.04295333847403526
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.03590622916817665
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.03220171481370926
+        }
+      ],
+      "top1_prob": 0.15866437554359436,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.1616835743188858
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.09397421777248383
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.0882883071899414
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.07820479571819305
+        },
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.047325499355793
+        }
+      ],
+      "top1_prob": 0.1616835743188858,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.15604411996901035,
+    "max_top1_prob": 0.21989594399929047,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

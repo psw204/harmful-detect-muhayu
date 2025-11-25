@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_446",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.12088087946176529
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.10724373906850815
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.07989319413900375
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.07346419990062714
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.059863124042749405
+        }
+      ],
+      "top1_prob": 0.12088087946176529,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.29092493653297424
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.2815103828907013
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.14408807456493378
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.051143474876880646
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.025817954912781715
+        }
+      ],
+      "top1_prob": 0.29092493653297424,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.22578540444374084
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.09661953896284103
+        },
+        {
+          "index": 206,
+          "label": "deadlifting\t206",
+          "prob": 0.04972850903868675
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.04939361289143562
+        },
+        {
+          "index": 101,
+          "label": "catching or throwing frisbee\t101",
+          "prob": 0.03553527966141701
+        }
+      ],
+      "top1_prob": 0.22578540444374084,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.21253040681282678,
+    "max_top1_prob": 0.29092493653297424,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

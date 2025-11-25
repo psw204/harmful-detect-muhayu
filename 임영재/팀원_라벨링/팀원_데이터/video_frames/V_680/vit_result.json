@@ -1,0 +1,52 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_680",
+  "num_frames_total": 125,
+  "num_frames_used": 13,
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.41074463725090027
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.4599479138851166
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.4905521273612976
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.4689347743988037
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.48771214485168457
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.5131468176841736
+    },
+    "clip_001_frame_010.jpg": {
+      "violence_prob": 0.5166305303573608
+    },
+    "clip_001_frame_020.jpg": {
+      "violence_prob": 0.5054110288619995
+    },
+    "clip_001_frame_030.jpg": {
+      "violence_prob": 0.4936522841453552
+    },
+    "clip_001_frame_040.jpg": {
+      "violence_prob": 0.49722352623939514
+    },
+    "clip_002_frame_000.jpg": {
+      "violence_prob": 0.47909802198410034
+    },
+    "clip_002_frame_010.jpg": {
+      "violence_prob": 0.45650914311408997
+    },
+    "clip_002_frame_020.jpg": {
+      "violence_prob": 0.44445905089378357
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.47877092315600467,
+    "max_violence_prob": 0.5166305303573608,
+    "p95_violence_prob": 0.5145403027534485
+  }
+}

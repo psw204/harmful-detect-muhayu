@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_480",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.6482160687446594
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.28107091784477234
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.04816914722323418
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 0.012106331065297127
+        },
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.005299705080688
+        }
+      ],
+      "top1_prob": 0.6482160687446594,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.4082600772380829
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.26624858379364014
+        },
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.07746590673923492
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.03246273100376129
+        },
+        {
+          "index": 313,
+          "label": "rock scissors paper\t313",
+          "prob": 0.03245124965906143
+        }
+      ],
+      "top1_prob": 0.4082600772380829,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.782608695652174,
+      "end_sec": 4.173913043478261,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.548298716545105
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.303535133600235
+        },
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.08684617280960083
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.023157885298132896
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.006043440196663141
+        }
+      ],
+      "top1_prob": 0.548298716545105,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5349249541759491,
+    "max_top1_prob": 0.6482160687446594,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

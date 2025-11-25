@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_541",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 233,
+          "label": "jogging\t233",
+          "prob": 0.9999996423721313
+        },
+        {
+          "index": 392,
+          "label": "grooming horse\t392",
+          "prob": 2.469160165219364e-07
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 1.212803795169748e-07
+        },
+        {
+          "index": 397,
+          "label": "contact juggling\t397",
+          "prob": 1.9312256682724183e-08
+        },
+        {
+          "index": 26,
+          "label": "eating carrots\t26",
+          "prob": 1.515290115605694e-08
+        }
+      ],
+      "top1_prob": 0.9999996423721313,
+      "violence_hint": 1.212803795169748e-07
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 233,
+          "label": "jogging\t233",
+          "prob": 1.0
+        },
+        {
+          "index": 392,
+          "label": "grooming horse\t392",
+          "prob": 2.017785938335237e-09
+        },
+        {
+          "index": 231,
+          "label": "unloading truck\t231",
+          "prob": 6.879625341627005e-11
+        },
+        {
+          "index": 117,
+          "label": "filling eyebrows\t117",
+          "prob": 6.662952134472988e-11
+        },
+        {
+          "index": 26,
+          "label": "eating carrots\t26",
+          "prob": 4.2053981824663467e-11
+        }
+      ],
+      "top1_prob": 1.0,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 233,
+          "label": "jogging\t233",
+          "prob": 1.0
+        },
+        {
+          "index": 392,
+          "label": "grooming horse\t392",
+          "prob": 3.462552555788534e-08
+        },
+        {
+          "index": 231,
+          "label": "unloading truck\t231",
+          "prob": 4.4958894385160875e-09
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 2.536582721646141e-09
+        },
+        {
+          "index": 117,
+          "label": "filling eyebrows\t117",
+          "prob": 2.13722728403809e-09
+        }
+      ],
+      "top1_prob": 1.0,
+      "violence_hint": 2.536582721646141e-09
+    },
+    {
+      "index": 3,
+      "start_sec": 3.310344827586207,
+      "end_sec": 4.413793103448276,
+      "topk": [
+        {
+          "index": 233,
+          "label": "jogging\t233",
+          "prob": 0.9999996423721313
+        },
+        {
+          "index": 392,
+          "label": "grooming horse\t392",
+          "prob": 1.9515888993737462e-07
+        },
+        {
+          "index": 231,
+          "label": "unloading truck\t231",
+          "prob": 4.271368325703406e-08
+        },
+        {
+          "index": 201,
+          "label": "cleaning windows\t201",
+          "prob": 3.8281505965187534e-08
+        },
+        {
+          "index": 262,
+          "label": "juggling balls\t262",
+          "prob": 2.8690287479093968e-08
+        }
+      ],
+      "top1_prob": 0.9999996423721313,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.9999998211860657,
+    "max_top1_prob": 1.0,
+    "avg_violence_hint": 3.095424055965523e-08,
+    "max_violence_hint": 1.212803795169748e-07
+  }
+}

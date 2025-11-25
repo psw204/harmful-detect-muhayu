@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_389",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.42934566736221313
+        },
+        {
+          "index": 94,
+          "label": "singing\t94",
+          "prob": 0.11802396178245544
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.06276744604110718
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.029153643175959587
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.02738115005195141
+        }
+      ],
+      "top1_prob": 0.42934566736221313,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.587104856967926
+        },
+        {
+          "index": 94,
+          "label": "singing\t94",
+          "prob": 0.0928255096077919
+        },
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.040496423840522766
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.03505105897784233
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.024099858477711678
+        }
+      ],
+      "top1_prob": 0.587104856967926,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.23261317610740662
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.1883588284254074
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.08664754033088684
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.061966411769390106
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.043811239302158356
+        }
+      ],
+      "top1_prob": 0.23261317610740662,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.9689335227012634
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.005410343874245882
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.004984522704035044
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.00339828385040164
+        },
+        {
+          "index": 94,
+          "label": "singing\t94",
+          "prob": 0.002380647696554661
+        }
+      ],
+      "top1_prob": 0.9689335227012634,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.5544993057847023,
+    "max_top1_prob": 0.9689335227012634,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

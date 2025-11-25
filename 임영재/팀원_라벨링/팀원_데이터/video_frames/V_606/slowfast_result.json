@@ -1,0 +1,185 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_606",
+  "frames_per_clip": 32,
+  "clip_sec": 0.8648648648648649,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 0.8648648648648649,
+      "topk": [
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.12637627124786377
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.09840701520442963
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.08866763859987259
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.0668390765786171
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.0640273317694664
+        }
+      ],
+      "top1_prob": 0.12637627124786377,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 0.8648648648648649,
+      "end_sec": 1.7297297297297298,
+      "topk": [
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.23232890665531158
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.22686327993869781
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.06121028587222099
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.04643658921122551
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.04460059851408005
+        }
+      ],
+      "top1_prob": 0.23232890665531158,
+      "violence_hint": 0.06121028587222099
+    },
+    {
+      "index": 2,
+      "start_sec": 1.7297297297297298,
+      "end_sec": 2.5945945945945947,
+      "topk": [
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.2584759294986725
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.10063033550977707
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.07371349632740021
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.05587040260434151
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.05378727987408638
+        }
+      ],
+      "top1_prob": 0.2584759294986725,
+      "violence_hint": 0.10063033550977707
+    },
+    {
+      "index": 3,
+      "start_sec": 2.5945945945945947,
+      "end_sec": 3.4594594594594597,
+      "topk": [
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.2116542011499405
+        },
+        {
+          "index": 309,
+          "label": "playing guitar\t309",
+          "prob": 0.07735107094049454
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.0562121756374836
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.05036640912294388
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.049316033720970154
+        }
+      ],
+      "top1_prob": 0.2116542011499405,
+      "violence_hint": 0.0562121756374836
+    },
+    {
+      "index": 4,
+      "start_sec": 3.4594594594594597,
+      "end_sec": 4.324324324324325,
+      "topk": [
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.13822732865810394
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.09838839620351791
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.07106809318065643
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.06975135207176208
+        },
+        {
+          "index": 174,
+          "label": "sharpening knives\t174",
+          "prob": 0.04481799528002739
+        }
+      ],
+      "top1_prob": 0.13822732865810394,
+      "violence_hint": 0.09838839620351791
+    }
+  ],
+  "overall": {
+    "num_clips": 5,
+    "avg_top1_prob": 0.19341252744197845,
+    "max_top1_prob": 0.2584759294986725,
+    "avg_violence_hint": 0.06328823864459991,
+    "max_violence_hint": 0.10063033550977707
+  }
+}

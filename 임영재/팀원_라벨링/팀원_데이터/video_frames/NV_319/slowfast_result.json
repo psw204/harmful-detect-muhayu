@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_319",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 31,
+          "label": "playing flute\t31",
+          "prob": 0.999998927116394
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 9.842520967140445e-07
+        },
+        {
+          "index": 202,
+          "label": "arm wrestling\t202",
+          "prob": 7.666659485039418e-08
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 3.3428126045009776e-08
+        },
+        {
+          "index": 174,
+          "label": "sharpening knives\t174",
+          "prob": 2.6460270419192966e-08
+        }
+      ],
+      "top1_prob": 0.999998927116394,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 31,
+          "label": "playing flute\t31",
+          "prob": 0.9987605810165405
+        },
+        {
+          "index": 202,
+          "label": "arm wrestling\t202",
+          "prob": 0.0005147717893123627
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 9.49865352595225e-05
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 5.9976824559271336e-05
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 4.448093022801913e-05
+        }
+      ],
+      "top1_prob": 0.9987605810165405,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.2982843220233917
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.0417909249663353
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.036127302795648575
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.02281029149889946
+        },
+        {
+          "index": 371,
+          "label": "sharpening pencil\t371",
+          "prob": 0.0218355655670166
+        }
+      ],
+      "top1_prob": 0.2982843220233917,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.84,
+      "end_sec": 5.12,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.3219238221645355
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.03456839174032211
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.033576466143131256
+        },
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.02091878466308117
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.01879614032804966
+        }
+      ],
+      "top1_prob": 0.3219238221645355,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.6547419130802155,
+    "max_top1_prob": 0.999998927116394,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

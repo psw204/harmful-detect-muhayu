@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_962",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.3380914032459259
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.13877618312835693
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.08489538729190826
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.07354465872049332
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 0.05859912559390068
+        }
+      ],
+      "top1_prob": 0.3380914032459259,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.42976313829421997
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.14811712503433228
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.1203620657324791
+        },
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.06378186494112015
+        },
+        {
+          "index": 313,
+          "label": "rock scissors paper\t313",
+          "prob": 0.025300627574324608
+        }
+      ],
+      "top1_prob": 0.42976313829421997,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.14094936847686768
+        },
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.1236635074019432
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.11194992065429688
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.10142263770103455
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.08143022656440735
+        }
+      ],
+      "top1_prob": 0.14094936847686768,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.310344827586207,
+      "end_sec": 4.413793103448276,
+      "topk": [
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.1819031834602356
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.1291539967060089
+        },
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.062350284308195114
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.0611574724316597
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.03516227379441261
+        }
+      ],
+      "top1_prob": 0.1819031834602356,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.2726767733693123,
+    "max_top1_prob": 0.42976313829421997,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

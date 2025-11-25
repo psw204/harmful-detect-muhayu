@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NvYo6CS_i_A_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.8933874368667603
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.05096126347780228
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.04903014749288559
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0047922758385539055
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.00048019859241321683
+        }
+      ],
+      "top1_prob": 0.8933874368667603,
+      "violence_hint": 0.00048019859241321683
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.9605236053466797
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.033220600336790085
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0033861135598272085
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.002568140858784318
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.00010746195766841993
+        }
+      ],
+      "top1_prob": 0.9605236053466797,
+      "violence_hint": 0.00010746195766841993
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.9752371907234192
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.022275913506746292
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0019323058659210801
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0005092232604511082
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 1.114318183681462e-05
+        }
+      ],
+      "top1_prob": 0.9752371907234192,
+      "violence_hint": 1.114318183681462e-05
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.9867041110992432
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.011797786690294743
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0007905101520009339
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0006480884621851146
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 2.1199439288466237e-05
+        }
+      ],
+      "top1_prob": 0.9867041110992432,
+      "violence_hint": 2.1199439288466237e-05
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.9539630860090256,
+    "max_top1_prob": 0.9867041110992432,
+    "avg_violence_hint": 0.0001550007928017294,
+    "max_violence_hint": 0.00048019859241321683
+  }
+}

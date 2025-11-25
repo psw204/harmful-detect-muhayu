@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_122",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 206,
+          "label": "deadlifting\t206",
+          "prob": 0.3571995794773102
+        },
+        {
+          "index": 321,
+          "label": "cutting pineapple\t321",
+          "prob": 0.09946683049201965
+        },
+        {
+          "index": 305,
+          "label": "snowboarding\t305",
+          "prob": 0.05104348808526993
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.04778106138110161
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.036731548607349396
+        }
+      ],
+      "top1_prob": 0.3571995794773102,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 206,
+          "label": "deadlifting\t206",
+          "prob": 0.7833389639854431
+        },
+        {
+          "index": 205,
+          "label": "tossing coin\t205",
+          "prob": 0.036467768251895905
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.030482575297355652
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.019332408905029297
+        },
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.015621557831764221
+        }
+      ],
+      "top1_prob": 0.7833389639854431,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 206,
+          "label": "deadlifting\t206",
+          "prob": 0.24584156274795532
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.10411150753498077
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.08717714250087738
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.07094843685626984
+        },
+        {
+          "index": 205,
+          "label": "tossing coin\t205",
+          "prob": 0.06468512862920761
+        }
+      ],
+      "top1_prob": 0.24584156274795532,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.17993512749671936
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.07300850749015808
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.06550174951553345
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.0513358972966671
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.04343700408935547
+        }
+      ],
+      "top1_prob": 0.17993512749671936,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.391578808426857,
+    "max_top1_prob": 0.7833389639854431,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

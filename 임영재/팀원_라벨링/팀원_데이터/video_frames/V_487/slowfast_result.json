@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_487",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677344010677345,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677344010677345,
+      "topk": [
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.39438891410827637
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.25795215368270874
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.15049675107002258
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.0500512458384037
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.022502988576889038
+        }
+      ],
+      "top1_prob": 0.39438891410827637,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677344010677345,
+      "end_sec": 2.135468802135469,
+      "topk": [
+        {
+          "index": 358,
+          "label": "tying knot (not on a tie)\t358",
+          "prob": 0.36782222986221313
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.1875290423631668
+        },
+        {
+          "index": 298,
+          "label": "long jump\t298",
+          "prob": 0.1866171956062317
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.04805901646614075
+        },
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.023471832275390625
+        }
+      ],
+      "top1_prob": 0.36782222986221313,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135468802135469,
+      "end_sec": 3.203203203203204,
+      "topk": [
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.991873562335968
+        },
+        {
+          "index": 50,
+          "label": "playing piano\t50",
+          "prob": 0.0012324698036536574
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.0011558916885405779
+        },
+        {
+          "index": 183,
+          "label": "rock climbing\t183",
+          "prob": 0.0009420339483767748
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.0005652456893585622
+        }
+      ],
+      "top1_prob": 0.991873562335968,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5846949021021525,
+    "max_top1_prob": 0.991873562335968,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+train_manifest: "../팀원_전처리/splits/train_fm3.jsonl"
+val_manifest: "../팀원_전처리/splits/val_fm3.jsonl"
+eval_manifest: "../최종평가/splits/final_eval.jsonl"   # 선택, 없으면 무시됨
+
+video:
+  num_frames: 16
+  sample_rate: 4
+  size: 224
+
+audio:
+  sample_rate: 16000
+  clip_seconds: 10
+
+text:
+  max_len: 128
+  model_name: "skt/kobert-base-v1"
+
+batch_size: 8
+num_workers: 4
+
+epochs: 1   # final_model3는 빠르게 하이퍼튜닝 가능하도록 낮춤
+lr: 2.0e-4
+weight_decay: 1.0e-5
+device: "cuda"
+
+save_dir: "outputs/checkpoints_v3"
+
+loss:
+  type: "focal"      # focal loss 추가
+  gamma: 2.0         # focal gamma
+  alpha: 0.25        # focal alpha
+  nce_weight: 0.0    # final_model3는 contrastive 없음
+
+threshold:
+  default: 0.12        # 기본 threshold
+  optimize: true       # threshold optimization 활성화

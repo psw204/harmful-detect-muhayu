@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/D6cjNRiP_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.08292141556739807
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.06546983867883682
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.05865863338112831
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.055920522660017014
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.021053194999694824
+        }
+      ],
+      "top1_prob": 0.08292141556739807,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.06880460679531097
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.03906695172190666
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.03405896574258804
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.0275188647210598
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.026875391602516174
+        }
+      ],
+      "top1_prob": 0.06880460679531097,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.14284303784370422
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.09477315098047256
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.0730481818318367
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0643126368522644
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.04081656411290169
+        }
+      ],
+      "top1_prob": 0.14284303784370422,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.1256307065486908
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.0884842574596405
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.07510241121053696
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.05443341284990311
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.05299118533730507
+        }
+      ],
+      "top1_prob": 0.1256307065486908,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.10504994168877602,
+    "max_top1_prob": 0.14284303784370422,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_487",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.8831955194473267
+        },
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.05729329586029053
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 0.028414135798811913
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.022929921746253967
+        },
+        {
+          "index": 20,
+          "label": "wrestling\t20",
+          "prob": 0.002897520549595356
+        }
+      ],
+      "top1_prob": 0.8831955194473267,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.551719069480896
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.22069194912910461
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.1759299635887146
+        },
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.033195361495018005
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 0.015831386670470238
+        }
+      ],
+      "top1_prob": 0.551719069480896,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.782608695652174,
+      "end_sec": 4.173913043478261,
+      "topk": [
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.883888304233551
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.061175160109996796
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.03472039848566055
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 0.0193275585770607
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.00043643222306855023
+        }
+      ],
+      "top1_prob": 0.883888304233551,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.7729342977205912,
+    "max_top1_prob": 0.883888304233551,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

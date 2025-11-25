@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/Y-TiUAODEYw_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.07738319039344788
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.06856372207403183
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.051348187029361725
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.03833234682679176
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.03275929391384125
+        }
+      ],
+      "top1_prob": 0.07738319039344788,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.08517478406429291
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.055205442011356354
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.05323967710137367
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.03659180551767349
+        },
+        {
+          "index": 371,
+          "label": "sharpening pencil\t371",
+          "prob": 0.03438244014978409
+        }
+      ],
+      "top1_prob": 0.08517478406429291,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.08444689959287643
+        },
+        {
+          "index": 240,
+          "label": "weaving basket\t240",
+          "prob": 0.08433929830789566
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.06182039529085159
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.060977544635534286
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.05112749710679054
+        }
+      ],
+      "top1_prob": 0.08444689959287643,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.07944755256175995
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.04613634571433067
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.04389262944459915
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.0415208600461483
+        },
+        {
+          "index": 240,
+          "label": "weaving basket\t240",
+          "prob": 0.04136882349848747
+        }
+      ],
+      "top1_prob": 0.07944755256175995,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.08161310665309429,
+    "max_top1_prob": 0.08517478406429291,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

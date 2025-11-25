@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_763",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.44121530652046204
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.28855857253074646
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.11934345960617065
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.03461558744311333
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.024663615971803665
+        }
+      ],
+      "top1_prob": 0.44121530652046204,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.12069643288850784
+        },
+        {
+          "index": 305,
+          "label": "snowboarding\t305",
+          "prob": 0.05093180015683174
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.04978414997458458
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.049663107842206955
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.046792976558208466
+        }
+      ],
+      "top1_prob": 0.12069643288850784,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.19115981459617615
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.11045122146606445
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.10052306205034256
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.07721982151269913
+        },
+        {
+          "index": 305,
+          "label": "snowboarding\t305",
+          "prob": 0.046136874705553055
+        }
+      ],
+      "top1_prob": 0.19115981459617615,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.34106123447418213
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.12897081673145294
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.0735294446349144
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.05331191420555115
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.03951573744416237
+        }
+      ],
+      "top1_prob": 0.34106123447418213,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.27353319711983204,
+    "max_top1_prob": 0.44121530652046204,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

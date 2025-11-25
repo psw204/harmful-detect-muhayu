@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/lmfaDmCCRoY_5",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.1902293711900711
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.07402542978525162
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.038781628012657166
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.037989553064107895
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.02617189846932888
+        }
+      ],
+      "top1_prob": 0.1902293711900711,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.173261821269989
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.060725852847099304
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.04614205285906792
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.040183667093515396
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.03451741114258766
+        }
+      ],
+      "top1_prob": 0.173261821269989,
+      "violence_hint": 0.04614205285906792
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.5648585557937622
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.04853073135018349
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.04248151555657387
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.03863954544067383
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.02847260981798172
+        }
+      ],
+      "top1_prob": 0.5648585557937622,
+      "violence_hint": 0.5648585557937622
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.5610992312431335
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.15250563621520996
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.10729118436574936
+        },
+        {
+          "index": 348,
+          "label": "throwing ball\t348",
+          "prob": 0.049875322729349136
+        },
+        {
+          "index": 283,
+          "label": "sword fighting\t283",
+          "prob": 0.02548959106206894
+        }
+      ],
+      "top1_prob": 0.5610992312431335,
+      "violence_hint": 0.02548959106206894
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.37236224487423897,
+    "max_top1_prob": 0.5648585557937622,
+    "avg_violence_hint": 0.15912254992872477,
+    "max_violence_hint": 0.5648585557937622
+  }
+}

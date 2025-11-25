@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/YaWxiAtCwxE_5",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.16097338497638702
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.11499138176441193
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.09458594024181366
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.08838178962469101
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.0825456753373146
+        }
+      ],
+      "top1_prob": 0.16097338497638702,
+      "violence_hint": 0.09458594024181366
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.7400580644607544
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.036951944231987
+        },
+        {
+          "index": 363,
+          "label": "counting money\t363",
+          "prob": 0.03378896042704582
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.02472446858882904
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.02407163567841053
+        }
+      ],
+      "top1_prob": 0.7400580644607544,
+      "violence_hint": 0.7400580644607544
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.8441033363342285
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.022380242124199867
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.015469081699848175
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.010624224320054054
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.009876872412860394
+        }
+      ],
+      "top1_prob": 0.8441033363342285,
+      "violence_hint": 0.8441033363342285
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.7353853583335876
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.2246864289045334
+        },
+        {
+          "index": 262,
+          "label": "juggling balls\t262",
+          "prob": 0.008125191554427147
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.007719556801021099
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.006999898236244917
+        }
+      ],
+      "top1_prob": 0.7353853583335876,
+      "violence_hint": 0.7353853583335876
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.6201300360262394,
+    "max_top1_prob": 0.8441033363342285,
+    "avg_violence_hint": 0.603533174842596,
+    "max_violence_hint": 0.8441033363342285
+  }
+}

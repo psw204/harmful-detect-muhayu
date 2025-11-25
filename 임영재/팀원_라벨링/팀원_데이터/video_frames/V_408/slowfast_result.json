@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_408",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0691970998028668,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0691970998028668,
+      "topk": [
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.9442796111106873
+        },
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.017374388873577118
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.01374248880892992
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.009042039513587952
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.004305883776396513
+        }
+      ],
+      "top1_prob": 0.9442796111106873,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0691970998028668,
+      "end_sec": 2.1383941996057336,
+      "topk": [
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.32175716757774353
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.1843971163034439
+        },
+        {
+          "index": 50,
+          "label": "playing piano\t50",
+          "prob": 0.10513295233249664
+        },
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.09048345685005188
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.08369365334510803
+        }
+      ],
+      "top1_prob": 0.32175716757774353,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1383941996057336,
+      "end_sec": 3.2075912994086004,
+      "topk": [
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.4058000147342682
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.09809274226427078
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.08003111183643341
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.0662732869386673
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.03385753929615021
+        }
+      ],
+      "top1_prob": 0.4058000147342682,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5572789311408997,
+    "max_top1_prob": 0.9442796111106873,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

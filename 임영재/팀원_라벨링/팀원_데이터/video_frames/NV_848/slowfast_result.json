@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_848",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.5159266591072083
+        },
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.305866003036499
+        },
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.03731834888458252
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.015173308551311493
+        },
+        {
+          "index": 326,
+          "label": "busking\t326",
+          "prob": 0.014134685508906841
+        }
+      ],
+      "top1_prob": 0.5159266591072083,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.4453844726085663
+        },
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.2671538293361664
+        },
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.2104639858007431
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.012151077389717102
+        },
+        {
+          "index": 218,
+          "label": "ironing\t218",
+          "prob": 0.009502513334155083
+        }
+      ],
+      "top1_prob": 0.4453844726085663,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.40682223439216614
+        },
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.1006503477692604
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.09829572588205338
+        },
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.0625738874077797
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.018764594569802284
+        }
+      ],
+      "top1_prob": 0.40682223439216614,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.45604445536931354,
+    "max_top1_prob": 0.5159266591072083,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/aQysMqg0K7M_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.5445570349693298
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.09986050426959991
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.06269782781600952
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 0.025831155478954315
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.025136202573776245
+        }
+      ],
+      "top1_prob": 0.5445570349693298,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.6410579681396484
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.1231420636177063
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.06503256410360336
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.05158016458153725
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.023416219279170036
+        }
+      ],
+      "top1_prob": 0.6410579681396484,
+      "violence_hint": 0.05158016458153725
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.38742098212242126
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.09804274141788483
+        },
+        {
+          "index": 53,
+          "label": "kicking field goal\t53",
+          "prob": 0.06665679812431335
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.05142996832728386
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.040500182658433914
+        }
+      ],
+      "top1_prob": 0.38742098212242126,
+      "violence_hint": 0.09804274141788483
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.2398601770401001
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.20110490918159485
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.1663259118795395
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.11330117285251617
+        },
+        {
+          "index": 53,
+          "label": "kicking field goal\t53",
+          "prob": 0.036675162613391876
+        }
+      ],
+      "top1_prob": 0.2398601770401001,
+      "violence_hint": 0.11330117285251617
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.4532240405678749,
+    "max_top1_prob": 0.6410579681396484,
+    "avg_violence_hint": 0.06573101971298456,
+    "max_violence_hint": 0.11330117285251617
+  }
+}

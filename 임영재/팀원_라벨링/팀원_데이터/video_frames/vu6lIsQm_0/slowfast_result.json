@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/vu6lIsQm_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.08679307997226715
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.08436476439237595
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.08002325147390366
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03830673545598984
+        },
+        {
+          "index": 264,
+          "label": "eating ice cream\t264",
+          "prob": 0.03449977561831474
+        }
+      ],
+      "top1_prob": 0.08679307997226715,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.09087472409009933
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.08731535077095032
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.08332431316375732
+        },
+        {
+          "index": 264,
+          "label": "eating ice cream\t264",
+          "prob": 0.03619413822889328
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03580055385828018
+        }
+      ],
+      "top1_prob": 0.09087472409009933,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.0905103012919426
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.07989963889122009
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.07819665223360062
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03990336135029793
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.030060919001698494
+        }
+      ],
+      "top1_prob": 0.0905103012919426,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.09215912967920303
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.08440350741147995
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.08206940442323685
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.04459274932742119
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.03579523041844368
+        }
+      ],
+      "top1_prob": 0.09215912967920303,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.09008430875837803,
+    "max_top1_prob": 0.09215912967920303,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

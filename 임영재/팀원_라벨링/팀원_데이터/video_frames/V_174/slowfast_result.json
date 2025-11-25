@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_174",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.8056833744049072
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.06272212415933609
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.04922477528452873
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.03723548725247383
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.013525032438337803
+        }
+      ],
+      "top1_prob": 0.8056833744049072,
+      "violence_hint": 0.04922477528452873
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.9427768588066101
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.01918194256722927
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.0114096999168396
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.008368382230401039
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.0054504238069057465
+        }
+      ],
+      "top1_prob": 0.9427768588066101,
+      "violence_hint": 0.0114096999168396
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.8941242098808289
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.03449525311589241
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.019916381686925888
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.01816765032708645
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.009818684309720993
+        }
+      ],
+      "top1_prob": 0.8941242098808289,
+      "violence_hint": 0.8941242098808289
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.8808614810307821,
+    "max_top1_prob": 0.9427768588066101,
+    "avg_violence_hint": 0.31825289502739906,
+    "max_violence_hint": 0.8941242098808289
+  }
+}

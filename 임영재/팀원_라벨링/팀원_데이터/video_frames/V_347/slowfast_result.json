@@ -1,0 +1,185 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_347",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.11665833741426468
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.10272298753261566
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.09100891649723053
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.05618321895599365
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.05233973637223244
+        }
+      ],
+      "top1_prob": 0.11665833741426468,
+      "violence_hint": 0.09100891649723053
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.5831772089004517
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.16541531682014465
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.11942595988512039
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.03330922871828079
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0173882357776165
+        }
+      ],
+      "top1_prob": 0.5831772089004517,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.959376871585846
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.016470806673169136
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0030607690569013357
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.0022735665552318096
+        },
+        {
+          "index": 153,
+          "label": "welding\t153",
+          "prob": 0.00165265379473567
+        }
+      ],
+      "top1_prob": 0.959376871585846,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.9020164012908936
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.030946915969252586
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.017440278083086014
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.007198665291070938
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.0048380047082901
+        }
+      ],
+      "top1_prob": 0.9020164012908936,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 4,
+      "start_sec": 4.270933333333334,
+      "end_sec": 5.338666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.9963597655296326
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0013998060021549463
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.0002269349351990968
+        },
+        {
+          "index": 121,
+          "label": "feeding fish\t121",
+          "prob": 0.00020837533520534635
+        },
+        {
+          "index": 298,
+          "label": "long jump\t298",
+          "prob": 0.00018475332763046026
+        }
+      ],
+      "top1_prob": 0.9963597655296326,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 5,
+    "avg_top1_prob": 0.7115177169442177,
+    "max_top1_prob": 0.9963597655296326,
+    "avg_violence_hint": 0.018201783299446106,
+    "max_violence_hint": 0.09100891649723053
+  }
+}

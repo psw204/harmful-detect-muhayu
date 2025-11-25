@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/4HH7yMU8y9A_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.3319329619407654
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.2232915461063385
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.16233421862125397
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.0619247667491436
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.054093942046165466
+        }
+      ],
+      "top1_prob": 0.3319329619407654,
+      "violence_hint": 0.0619247667491436
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.8285019397735596
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.027877481654286385
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.02738044783473015
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.02178959921002388
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.019325293600559235
+        }
+      ],
+      "top1_prob": 0.8285019397735596,
+      "violence_hint": 0.02178959921002388
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.19465377926826477
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.1814412623643875
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.07768498361110687
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.07439804077148438
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.07432138174772263
+        }
+      ],
+      "top1_prob": 0.19465377926826477,
+      "violence_hint": 0.07439804077148438
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.4212610721588135
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.2064213901758194
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.09278949350118637
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.03436601534485817
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0289477426558733
+        }
+      ],
+      "top1_prob": 0.4212610721588135,
+      "violence_hint": 0.2064213901758194
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.4440874382853508,
+    "max_top1_prob": 0.8285019397735596,
+    "avg_violence_hint": 0.09113344922661781,
+    "max_violence_hint": 0.2064213901758194
+  }
+}

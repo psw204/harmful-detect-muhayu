@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/JwTPruSFTjk_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.4573203921318054
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.3442114293575287
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.025786684826016426
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.016085853800177574
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.015820419415831566
+        }
+      ],
+      "top1_prob": 0.4573203921318054,
+      "violence_hint": 0.4573203921318054
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.4501744210720062
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.14666560292243958
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.04469216987490654
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.028998706489801407
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.021741200238466263
+        }
+      ],
+      "top1_prob": 0.4501744210720062,
+      "violence_hint": 0.4501744210720062
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.35513758659362793
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.20654144883155823
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.05591314285993576
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.02920415624976158
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.026387909427285194
+        }
+      ],
+      "top1_prob": 0.35513758659362793,
+      "violence_hint": 0.35513758659362793
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.3089134395122528
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.2492201328277588
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.027356404811143875
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.022423190996050835
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.022107712924480438
+        }
+      ],
+      "top1_prob": 0.3089134395122528,
+      "violence_hint": 0.3089134395122528
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.3928864598274231,
+    "max_top1_prob": 0.4573203921318054,
+    "avg_violence_hint": 0.3928864598274231,
+    "max_violence_hint": 0.4573203921318054
+  }
+}

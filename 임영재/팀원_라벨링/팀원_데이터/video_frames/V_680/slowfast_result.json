@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_680",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.21643109619617462
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.15679001808166504
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.08766748011112213
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.04874150827527046
+        },
+        {
+          "index": 251,
+          "label": "surfing crowd\t251",
+          "prob": 0.04687910154461861
+        }
+      ],
+      "top1_prob": 0.21643109619617462,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.15121620893478394
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.10428198426961899
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.08153326064348221
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.048450298607349396
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.04550638049840927
+        }
+      ],
+      "top1_prob": 0.15121620893478394,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.22650142014026642
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.21426662802696228
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.19752074778079987
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.1141449436545372
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.04768408089876175
+        }
+      ],
+      "top1_prob": 0.22650142014026642,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.19804957509040833,
+    "max_top1_prob": 0.22650142014026642,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

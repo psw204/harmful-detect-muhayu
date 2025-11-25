@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_12",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 0.4765329658985138
+        },
+        {
+          "index": 369,
+          "label": "peeling apples\t369",
+          "prob": 0.2520134449005127
+        },
+        {
+          "index": 5,
+          "label": "roller skating\t5",
+          "prob": 0.1397560089826584
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.01923571340739727
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.012562778778374195
+        }
+      ],
+      "top1_prob": 0.4765329658985138,
+      "violence_hint": 0.4765329658985138
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 369,
+          "label": "peeling apples\t369",
+          "prob": 0.3742079734802246
+        },
+        {
+          "index": 5,
+          "label": "roller skating\t5",
+          "prob": 0.21448612213134766
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.07728414237499237
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 0.05575137212872505
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.031035475432872772
+        }
+      ],
+      "top1_prob": 0.3742079734802246,
+      "violence_hint": 0.05575137212872505
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 5,
+          "label": "roller skating\t5",
+          "prob": 1.0
+        },
+        {
+          "index": 369,
+          "label": "peeling apples\t369",
+          "prob": 4.9243569222312544e-09
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 2.4631587880463712e-09
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 4.0799810752112364e-10
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 3.1643437869988134e-10
+        }
+      ],
+      "top1_prob": 1.0,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.84,
+      "end_sec": 5.12,
+      "topk": [
+        {
+          "index": 5,
+          "label": "roller skating\t5",
+          "prob": 1.0
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 6.541654696233523e-13
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 1.8709652696482365e-13
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 6.196984521670765e-14
+        },
+        {
+          "index": 134,
+          "label": "playing cards\t134",
+          "prob": 5.310884043196844e-14
+        }
+      ],
+      "top1_prob": 1.0,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.7126852348446846,
+    "max_top1_prob": 1.0,
+    "avg_violence_hint": 0.1330710845068097,
+    "max_violence_hint": 0.4765329658985138
+  }
+}

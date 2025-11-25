@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/CKzrrb7E_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.0670105516910553
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.045139800757169724
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.04280662536621094
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.03822901099920273
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.03549135476350784
+        }
+      ],
+      "top1_prob": 0.0670105516910553,
+      "violence_hint": 0.03549135476350784
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.16103585064411163
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.1133311316370964
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.08754085749387741
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.07400696724653244
+        },
+        {
+          "index": 254,
+          "label": "springboard diving\t254",
+          "prob": 0.06289422512054443
+        }
+      ],
+      "top1_prob": 0.16103585064411163,
+      "violence_hint": 0.1133311316370964
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 254,
+          "label": "springboard diving\t254",
+          "prob": 0.40668004751205444
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.10419933497905731
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.04755992814898491
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.028275586664676666
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.027044344693422318
+        }
+      ],
+      "top1_prob": 0.40668004751205444,
+      "violence_hint": 0.028275586664676666
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.2641347646713257
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.1434212476015091
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.08711407333612442
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.06964544951915741
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.06538822501897812
+        }
+      ],
+      "top1_prob": 0.2641347646713257,
+      "violence_hint": 0.2641347646713257
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.22471530362963676,
+    "max_top1_prob": 0.40668004751205444,
+    "avg_violence_hint": 0.11030820943415165,
+    "max_violence_hint": 0.2641347646713257
+  }
+}

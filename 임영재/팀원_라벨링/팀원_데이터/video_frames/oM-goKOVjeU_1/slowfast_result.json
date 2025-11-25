@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/oM-goKOVjeU_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.7543529272079468
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.0399443693459034
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.038290224969387054
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.012140950188040733
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.011082069016993046
+        }
+      ],
+      "top1_prob": 0.7543529272079468,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.5423410534858704
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.09447461366653442
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.05939490720629692
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.031805265694856644
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.03066863864660263
+        }
+      ],
+      "top1_prob": 0.5423410534858704,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.38836774230003357
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.15316110849380493
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06742238253355026
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.06463468819856644
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.037344790995121
+        }
+      ],
+      "top1_prob": 0.38836774230003357,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.9360180497169495
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.02067432552576065
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.012201493605971336
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0031338597182184458
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.00284178857691586
+        }
+      ],
+      "top1_prob": 0.9360180497169495,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.6552699431777,
+    "max_top1_prob": 0.9360180497169495,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_484",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677344010677345,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677344010677345,
+      "topk": [
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.13875794410705566
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.11890681833028793
+        },
+        {
+          "index": 121,
+          "label": "feeding fish\t121",
+          "prob": 0.08419587463140488
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.05149677023291588
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0413455031812191
+        }
+      ],
+      "top1_prob": 0.13875794410705566,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677344010677345,
+      "end_sec": 2.135468802135469,
+      "topk": [
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.22763676941394806
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.2157447636127472
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.08332154899835587
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.05821879580616951
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.044818997383117676
+        }
+      ],
+      "top1_prob": 0.22763676941394806,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135468802135469,
+      "end_sec": 3.203203203203204,
+      "topk": [
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.23823370039463043
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.21232415735721588
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.09637117385864258
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.07676788419485092
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.059041425585746765
+        }
+      ],
+      "top1_prob": 0.23823370039463043,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.203203203203204,
+      "end_sec": 4.270937604270938,
+      "topk": [
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.9628109931945801
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.017171228304505348
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.012631121091544628
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.0020976371597498655
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.0016361877787858248
+        }
+      ],
+      "top1_prob": 0.9628109931945801,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.39185985177755356,
+    "max_top1_prob": 0.9628109931945801,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_780",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.6434611678123474
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.2237098217010498
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.07157742232084274
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.046705082058906555
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.00549161434173584
+        }
+      ],
+      "top1_prob": 0.6434611678123474,
+      "violence_hint": 0.6434611678123474
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.11732494831085205
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.05827924609184265
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.05203910171985626
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.04139255732297897
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.03276219964027405
+        }
+      ],
+      "top1_prob": 0.11732494831085205,
+      "violence_hint": 0.05203910171985626
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.3411429226398468
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.09375227242708206
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.06957712024450302
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.06108294054865837
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.03381465747952461
+        }
+      ],
+      "top1_prob": 0.3411429226398468,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.9930509328842163
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.003342591691762209
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.0033096279948949814
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 7.839894533390179e-05
+        },
+        {
+          "index": 17,
+          "label": "playing harp\t17",
+          "prob": 5.2552302804542705e-05
+        }
+      ],
+      "top1_prob": 0.9930509328842163,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.5237449929118156,
+    "max_top1_prob": 0.9930509328842163,
+    "avg_violence_hint": 0.17387506738305092,
+    "max_violence_hint": 0.6434611678123474
+  }
+}

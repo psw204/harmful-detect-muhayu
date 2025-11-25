@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_898",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.9299681186676025
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.06269073486328125
+        },
+        {
+          "index": 196,
+          "label": "making pizza\t196",
+          "prob": 0.0015733642503619194
+        },
+        {
+          "index": 397,
+          "label": "contact juggling\t397",
+          "prob": 0.001238880562596023
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.0009147984092123806
+        }
+      ],
+      "top1_prob": 0.9299681186676025,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 303,
+          "label": "cleaning toilet\t303",
+          "prob": 0.7634406685829163
+        },
+        {
+          "index": 69,
+          "label": "washing hair\t69",
+          "prob": 0.12159783393144608
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.026508405804634094
+        },
+        {
+          "index": 4,
+          "label": "checking tires\t4",
+          "prob": 0.02066604234278202
+        },
+        {
+          "index": 21,
+          "label": "pole vault\t21",
+          "prob": 0.0187641941010952
+        }
+      ],
+      "top1_prob": 0.7634406685829163,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 303,
+          "label": "cleaning toilet\t303",
+          "prob": 0.5285789966583252
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.14458443224430084
+        },
+        {
+          "index": 397,
+          "label": "contact juggling\t397",
+          "prob": 0.09603060036897659
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.044496193528175354
+        },
+        {
+          "index": 69,
+          "label": "washing hair\t69",
+          "prob": 0.027249282225966454
+        }
+      ],
+      "top1_prob": 0.5285789966583252,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 397,
+          "label": "contact juggling\t397",
+          "prob": 0.24335069954395294
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.16721421480178833
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.146523118019104
+        },
+        {
+          "index": 303,
+          "label": "cleaning toilet\t303",
+          "prob": 0.07144828140735626
+        },
+        {
+          "index": 137,
+          "label": "playing drums\t137",
+          "prob": 0.04492126405239105
+        }
+      ],
+      "top1_prob": 0.24335069954395294,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.6163346208631992,
+    "max_top1_prob": 0.9299681186676025,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

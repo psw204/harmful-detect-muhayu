@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/ThiaJUQ8_3",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.577219545841217
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.35169458389282227
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.03957454487681389
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.008735076524317265
+        },
+        {
+          "index": 121,
+          "label": "feeding fish\t121",
+          "prob": 0.0039941128343343735
+        }
+      ],
+      "top1_prob": 0.577219545841217,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.5230255722999573
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.23945511877536774
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.12813198566436768
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.022831998765468597
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.01313562598079443
+        }
+      ],
+      "top1_prob": 0.5230255722999573,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.6265677213668823
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.33074870705604553
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.012077649123966694
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.008962509222328663
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.006286241114139557
+        }
+      ],
+      "top1_prob": 0.6265677213668823,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.8395968079566956
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.0794009193778038
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.02695365808904171
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0258555319160223
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.004085106309503317
+        }
+      ],
+      "top1_prob": 0.8395968079566956,
+      "violence_hint": 0.004085106309503317
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.641602411866188,
+    "max_top1_prob": 0.8395968079566956,
+    "avg_violence_hint": 0.0010212765773758292,
+    "max_violence_hint": 0.004085106309503317
+  }
+}

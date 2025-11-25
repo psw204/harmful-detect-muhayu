@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_939",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.11406072974205017
+        },
+        {
+          "index": 44,
+          "label": "bookbinding\t44",
+          "prob": 0.1106935515999794
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.08264777809381485
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.06487518548965454
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.060793470591306686
+        }
+      ],
+      "top1_prob": 0.11406072974205017,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.13360482454299927
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.10787884891033173
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.09169214963912964
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.07881993055343628
+        },
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.0756160244345665
+        }
+      ],
+      "top1_prob": 0.13360482454299927,
+      "violence_hint": 0.07881993055343628
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.3146282434463501
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.09676063060760498
+        },
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.0906505286693573
+        },
+        {
+          "index": 44,
+          "label": "bookbinding\t44",
+          "prob": 0.08430317044258118
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.07354221493005753
+        }
+      ],
+      "top1_prob": 0.3146282434463501,
+      "violence_hint": 0.3146282434463501
+    },
+    {
+      "index": 3,
+      "start_sec": 3.310344827586207,
+      "end_sec": 4.413793103448276,
+      "topk": [
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.18879124522209167
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.09205251187086105
+        },
+        {
+          "index": 67,
+          "label": "playing saxophone\t67",
+          "prob": 0.06780904531478882
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.06658288091421127
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.06526009738445282
+        }
+      ],
+      "top1_prob": 0.18879124522209167,
+      "violence_hint": 0.09205251187086105
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.1877712607383728,
+    "max_top1_prob": 0.3146282434463501,
+    "avg_violence_hint": 0.12137517146766186,
+    "max_violence_hint": 0.3146282434463501
+  }
+}

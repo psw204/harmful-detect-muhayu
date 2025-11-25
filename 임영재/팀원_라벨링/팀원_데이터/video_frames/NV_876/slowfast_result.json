@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_876",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 319,
+          "label": "playing bass guitar\t319",
+          "prob": 0.7059140801429749
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.08138401806354523
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 0.03950078412890434
+        },
+        {
+          "index": 320,
+          "label": "spraying\t320",
+          "prob": 0.028166232630610466
+        },
+        {
+          "index": 397,
+          "label": "contact juggling\t397",
+          "prob": 0.023425348103046417
+        }
+      ],
+      "top1_prob": 0.7059140801429749,
+      "violence_hint": 0.03950078412890434
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.3854426443576813
+        },
+        {
+          "index": 319,
+          "label": "playing bass guitar\t319",
+          "prob": 0.21150526404380798
+        },
+        {
+          "index": 320,
+          "label": "spraying\t320",
+          "prob": 0.09538455307483673
+        },
+        {
+          "index": 264,
+          "label": "eating ice cream\t264",
+          "prob": 0.06985463947057724
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.027213580906391144
+        }
+      ],
+      "top1_prob": 0.3854426443576813,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.3997305631637573
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.22319909930229187
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.13935165107250214
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.07960564643144608
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.053539592772722244
+        }
+      ],
+      "top1_prob": 0.3997305631637573,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4970290958881378,
+    "max_top1_prob": 0.7059140801429749,
+    "avg_violence_hint": 0.013166928042968115,
+    "max_violence_hint": 0.03950078412890434
+  }
+}

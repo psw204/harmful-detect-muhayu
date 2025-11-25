@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_30",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.6495173573493958
+        },
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.1897204965353012
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.027377156540751457
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.02269122004508972
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.014430111274123192
+        }
+      ],
+      "top1_prob": 0.6495173573493958,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.9197394847869873
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.04904273524880409
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.016827808693051338
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.008614645339548588
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.0028624371625483036
+        }
+      ],
+      "top1_prob": 0.9197394847869873,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.9457328915596008
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.027470460161566734
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.014162255451083183
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.009804725646972656
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.001462272135540843
+        }
+      ],
+      "top1_prob": 0.9457328915596008,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.9763626456260681
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.008265209384262562
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.007313510403037071
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.0050393082201480865
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.0004652812785934657
+        }
+      ],
+      "top1_prob": 0.9763626456260681,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.872838094830513,
+    "max_top1_prob": 0.9763626456260681,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

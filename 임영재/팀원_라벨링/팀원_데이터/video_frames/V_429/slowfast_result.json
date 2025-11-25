@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_429",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.24163192510604858
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.09250299632549286
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.09105633199214935
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.035570401698350906
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.034895554184913635
+        }
+      ],
+      "top1_prob": 0.24163192510604858,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.6936858296394348
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.03733499348163605
+        },
+        {
+          "index": 128,
+          "label": "tai chi\t128",
+          "prob": 0.02647457644343376
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.021105529740452766
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.014528240077197552
+        }
+      ],
+      "top1_prob": 0.6936858296394348,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.07533141225576401
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.07500220090150833
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.0743645653128624
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.0685642659664154
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.05272465571761131
+        }
+      ],
+      "top1_prob": 0.07533141225576401,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.3368830556670825,
+    "max_top1_prob": 0.6936858296394348,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_777",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.2427360713481903
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.12148655951023102
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.09728416800498962
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.07289586216211319
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.05785878375172615
+        }
+      ],
+      "top1_prob": 0.2427360713481903,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.7309694886207581
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.034732308238744736
+        },
+        {
+          "index": 262,
+          "label": "juggling balls\t262",
+          "prob": 0.026263918727636337
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.02430359274148941
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.02276294305920601
+        }
+      ],
+      "top1_prob": 0.7309694886207581,
+      "violence_hint": 0.02276294305920601
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.5375279784202576
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.05513085424900055
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.04997686296701431
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.04967029392719269
+        },
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.03205100819468498
+        }
+      ],
+      "top1_prob": 0.5375279784202576,
+      "violence_hint": 0.05513085424900055
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.503744512796402,
+    "max_top1_prob": 0.7309694886207581,
+    "avg_violence_hint": 0.02596459910273552,
+    "max_violence_hint": 0.05513085424900055
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_500",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.33235493302345276
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.27538952231407166
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.19878721237182617
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.04692696034908295
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.029883773997426033
+        }
+      ],
+      "top1_prob": 0.33235493302345276,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.2327139973640442
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.07750388979911804
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.05145152658224106
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.042119190096855164
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.034067969769239426
+        }
+      ],
+      "top1_prob": 0.2327139973640442,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.782608695652174,
+      "end_sec": 4.173913043478261,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.04467858374118805
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.02784106507897377
+        },
+        {
+          "index": 369,
+          "label": "peeling apples\t369",
+          "prob": 0.025415057316422462
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.022084390744566917
+        },
+        {
+          "index": 382,
+          "label": "playing basketball\t382",
+          "prob": 0.019107714295387268
+        }
+      ],
+      "top1_prob": 0.04467858374118805,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.20324917137622833,
+    "max_top1_prob": 0.33235493302345276,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

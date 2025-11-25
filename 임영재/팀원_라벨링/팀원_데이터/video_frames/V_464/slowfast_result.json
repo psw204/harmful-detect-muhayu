@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_464",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677344010677345,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677344010677345,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.06045403704047203
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.05519328638911247
+        },
+        {
+          "index": 86,
+          "label": "tap dancing\t86",
+          "prob": 0.04303106665611267
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.041347578167915344
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.04080402851104736
+        }
+      ],
+      "top1_prob": 0.06045403704047203,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677344010677345,
+      "end_sec": 2.135468802135469,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.06465113908052444
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.06406346708536148
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.06257466226816177
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.051741261035203934
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.04759671539068222
+        }
+      ],
+      "top1_prob": 0.06465113908052444,
+      "violence_hint": 0.04759671539068222
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135468802135469,
+      "end_sec": 3.203203203203204,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.31615468859672546
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.07703574746847153
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.05128323286771774
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.03875548020005226
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.0355968251824379
+        }
+      ],
+      "top1_prob": 0.31615468859672546,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.203203203203204,
+      "end_sec": 4.270937604270938,
+      "topk": [
+        {
+          "index": 86,
+          "label": "tap dancing\t86",
+          "prob": 0.11117880791425705
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.09514176845550537
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.06469279527664185
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.06008171662688255
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.058680467307567596
+        }
+      ],
+      "top1_prob": 0.11117880791425705,
+      "violence_hint": 0.06008171662688255
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.13810966815799475,
+    "max_top1_prob": 0.31615468859672546,
+    "avg_violence_hint": 0.026919608004391193,
+    "max_violence_hint": 0.06008171662688255
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_224",
+  "num_frames_total": 125,
+  "num_frames_used": 13,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.5028069019317627
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.5448977947235107
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.536200761795044
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.4398421049118042
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.514227569103241
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.44275593757629395
+    },
+    "clip_001_frame_010.jpg": {
+      "violence_prob": 0.44846460223197937
+    },
+    "clip_001_frame_020.jpg": {
+      "violence_prob": 0.40623709559440613
+    },
+    "clip_001_frame_030.jpg": {
+      "violence_prob": 0.44506120681762695
+    },
+    "clip_001_frame_040.jpg": {
+      "violence_prob": 0.40059545636177063
+    },
+    "clip_002_frame_000.jpg": {
+      "violence_prob": 0.5013382434844971
+    },
+    "clip_002_frame_010.jpg": {
+      "violence_prob": 0.46453070640563965
+    },
+    "clip_002_frame_020.jpg": {
+      "violence_prob": 0.4629841446876526
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.46999557889424837,
+    "max_violence_prob": 0.5448977947235107,
+    "p95_violence_prob": 0.5396795749664306
+  }
+}

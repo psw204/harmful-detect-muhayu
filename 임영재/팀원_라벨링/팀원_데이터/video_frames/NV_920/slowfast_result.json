@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_920",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.6983587145805359
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.08885588496923447
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.08490873873233795
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.045714933425188065
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.022999344393610954
+        }
+      ],
+      "top1_prob": 0.6983587145805359,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.5850710272789001
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.1471165120601654
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.07222922891378403
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.055072493851184845
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.04898744076490402
+        }
+      ],
+      "top1_prob": 0.5850710272789001,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.6816375255584717
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.14675869047641754
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.05176728218793869
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.04011256620287895
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.029537204653024673
+        }
+      ],
+      "top1_prob": 0.6816375255584717,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.310344827586207,
+      "end_sec": 4.413793103448276,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.5221182703971863
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.20216777920722961
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.15038424730300903
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.06909641623497009
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.035797521471977234
+        }
+      ],
+      "top1_prob": 0.5221182703971863,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.6217963844537735,
+    "max_top1_prob": 0.6983587145805359,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

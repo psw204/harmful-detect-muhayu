@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/f9jcrHqO_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.07180587947368622
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.06138454005122185
+        },
+        {
+          "index": 305,
+          "label": "snowboarding\t305",
+          "prob": 0.05106336623430252
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.041681136935949326
+        },
+        {
+          "index": 134,
+          "label": "playing cards\t134",
+          "prob": 0.037968046963214874
+        }
+      ],
+      "top1_prob": 0.07180587947368622,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.11611641198396683
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.10164574533700943
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.09372192621231079
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.06837791204452515
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.050969041883945465
+        }
+      ],
+      "top1_prob": 0.11611641198396683,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.8306971788406372
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.08471987396478653
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.0334538035094738
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.00564068416133523
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.004190451465547085
+        }
+      ],
+      "top1_prob": 0.8306971788406372,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.9116931557655334
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.020081652328372
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.00742966216057539
+        },
+        {
+          "index": 31,
+          "label": "playing flute\t31",
+          "prob": 0.006137005519121885
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.00575972581282258
+        }
+      ],
+      "top1_prob": 0.9116931557655334,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.4825781565159559,
+    "max_top1_prob": 0.9116931557655334,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

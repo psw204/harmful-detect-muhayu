@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_333",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.25576940178871155
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.11847145110368729
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.07693811506032944
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.05160355940461159
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.05133499577641487
+        }
+      ],
+      "top1_prob": 0.25576940178871155,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.26319649815559387
+        },
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.09847060590982437
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.059043411165475845
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.048497527837753296
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.047387391328811646
+        }
+      ],
+      "top1_prob": 0.26319649815559387,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.3368034362792969
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.06788048148155212
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.06227946653962135
+        },
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.06067143380641937
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.03837893158197403
+        }
+      ],
+      "top1_prob": 0.3368034362792969,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.8613555431365967
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.050747837871313095
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.04598658159375191
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.025433650240302086
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.002896507503464818
+        }
+      ],
+      "top1_prob": 0.8613555431365967,
+      "violence_hint": 0.002896507503464818
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.42928121984004974,
+    "max_top1_prob": 0.8613555431365967,
+    "avg_violence_hint": 0.0007241268758662045,
+    "max_violence_hint": 0.002896507503464818
+  }
+}

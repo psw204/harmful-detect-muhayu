@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/Yw7Ip3VS_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.10874558240175247
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.10420224070549011
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.06685133278369904
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.06380446255207062
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.04540177807211876
+        }
+      ],
+      "top1_prob": 0.10874558240175247,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.13152001798152924
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.11980123817920685
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.07373616844415665
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.040562842041254044
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.036177318543195724
+        }
+      ],
+      "top1_prob": 0.13152001798152924,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.12103517353534698
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.11831231415271759
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.06329375505447388
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.04834004491567612
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.033450640738010406
+        }
+      ],
+      "top1_prob": 0.12103517353534698,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.11734072864055634
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.08782658725976944
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.05232258141040802
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.04016171023249626
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.04014752060174942
+        }
+      ],
+      "top1_prob": 0.11734072864055634,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.11966037563979626,
+    "max_top1_prob": 0.13152001798152924,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

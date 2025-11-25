@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/o8sEvktx_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.4210093021392822
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.08583994954824448
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.07275588810443878
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.06602805107831955
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.0640433132648468
+        }
+      ],
+      "top1_prob": 0.4210093021392822,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.3100205659866333
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.1186961904168129
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.08127855509519577
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.07019128650426865
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.06733458489179611
+        }
+      ],
+      "top1_prob": 0.3100205659866333,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.29177024960517883
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.11052772402763367
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.07624199241399765
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.0682242214679718
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.06700346618890762
+        }
+      ],
+      "top1_prob": 0.29177024960517883,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.321529358625412
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.09848085790872574
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.08035413175821304
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.07506636530160904
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.07188857346773148
+        }
+      ],
+      "top1_prob": 0.321529358625412,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.3360823690891266,
+    "max_top1_prob": 0.4210093021392822,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

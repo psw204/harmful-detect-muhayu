@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_969",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 305,
+          "label": "snowboarding\t305",
+          "prob": 0.3543493151664734
+        },
+        {
+          "index": 20,
+          "label": "wrestling\t20",
+          "prob": 0.2426111400127411
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.10145726054906845
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.09267578274011612
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.07714413851499557
+        }
+      ],
+      "top1_prob": 0.3543493151664734,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.5845437049865723
+        },
+        {
+          "index": 305,
+          "label": "snowboarding\t305",
+          "prob": 0.0795757919549942
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.07933855056762695
+        },
+        {
+          "index": 343,
+          "label": "crying\t343",
+          "prob": 0.05288086086511612
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.04975093528628349
+        }
+      ],
+      "top1_prob": 0.5845437049865723,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.2597830295562744
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06246040761470795
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.048111408948898315
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.04588758572936058
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.041657764464616776
+        }
+      ],
+      "top1_prob": 0.2597830295562744,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.310344827586207,
+      "end_sec": 4.413793103448276,
+      "topk": [
+        {
+          "index": 262,
+          "label": "juggling balls\t262",
+          "prob": 0.518085777759552
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.22946305572986603
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.08646991848945618
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.026531744748353958
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.012131488882005215
+        }
+      ],
+      "top1_prob": 0.518085777759552,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.429190456867218,
+    "max_top1_prob": 0.5845437049865723,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

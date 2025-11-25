@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_224",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.17468152940273285
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.16530552506446838
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.052431248128414154
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.03565974161028862
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.03470075875520706
+        }
+      ],
+      "top1_prob": 0.17468152940273285,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.36486995220184326
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.3496323227882385
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.09484326094388962
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.018822265788912773
+        },
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.01686415821313858
+        }
+      ],
+      "top1_prob": 0.36486995220184326,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.9292321801185608
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.043523646891117096
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.005630552303045988
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.005024239420890808
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.0036978183779865503
+        }
+      ],
+      "top1_prob": 0.9292321801185608,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4895945539077123,
+    "max_top1_prob": 0.9292321801185608,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

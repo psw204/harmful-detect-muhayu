@@ -1,0 +1,185 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_504",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 0.7345231175422668
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.21901609003543854
+        },
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.01121640857309103
+        },
+        {
+          "index": 218,
+          "label": "ironing\t218",
+          "prob": 0.0065409475937485695
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.0023929488379508257
+        }
+      ],
+      "top1_prob": 0.7345231175422668,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 0.46338024735450745
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.43124082684516907
+        },
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.021819911897182465
+        },
+        {
+          "index": 218,
+          "label": "ironing\t218",
+          "prob": 0.011851881630718708
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.010561024770140648
+        }
+      ],
+      "top1_prob": 0.46338024735450745,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 0.6704336404800415
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.2176218330860138
+        },
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.009997222572565079
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.008502754382789135
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.0075293174013495445
+        }
+      ],
+      "top1_prob": 0.6704336404800415,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2032000000000003,
+      "end_sec": 4.270933333333334,
+      "topk": [
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 0.7224922776222229
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.08198117464780807
+        },
+        {
+          "index": 218,
+          "label": "ironing\t218",
+          "prob": 0.039366014301776886
+        },
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.026888681575655937
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.011761602945625782
+        }
+      ],
+      "top1_prob": 0.7224922776222229,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 4,
+      "start_sec": 4.270933333333334,
+      "end_sec": 5.338666666666667,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.4172973036766052
+        },
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 0.3505510687828064
+        },
+        {
+          "index": 311,
+          "label": "golf driving\t311",
+          "prob": 0.057962656021118164
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.038467563688755035
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.03793743625283241
+        }
+      ],
+      "top1_prob": 0.4172973036766052,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 5,
+    "avg_top1_prob": 0.6016253173351288,
+    "max_top1_prob": 0.7345231175422668,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

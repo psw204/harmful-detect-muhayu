@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/24E0xYYUz44_2",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.6155370473861694
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.2339749038219452
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.041401397436857224
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.021490348502993584
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.016044240444898605
+        }
+      ],
+      "top1_prob": 0.6155370473861694,
+      "violence_hint": 0.016044240444898605
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.9075123071670532
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.05796206369996071
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.020457951352000237
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0038405312225222588
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.002334516029804945
+        }
+      ],
+      "top1_prob": 0.9075123071670532,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.4431513547897339
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.18995466828346252
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.17200790345668793
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.04578828439116478
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.0223670843988657
+        }
+      ],
+      "top1_prob": 0.4431513547897339,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.5848150253295898
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.16817152500152588
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.09931936860084534
+        },
+        {
+          "index": 366,
+          "label": "news anchoring\t366",
+          "prob": 0.03893885761499405
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.03868187963962555
+        }
+      ],
+      "top1_prob": 0.5848150253295898,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.6377539336681366,
+    "max_top1_prob": 0.9075123071670532,
+    "avg_violence_hint": 0.004011060111224651,
+    "max_violence_hint": 0.016044240444898605
+  }
+}

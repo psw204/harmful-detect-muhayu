@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_976",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.714339017868042
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.12089457362890244
+        },
+        {
+          "index": 260,
+          "label": "brushing teeth\t260",
+          "prob": 0.02308376505970955
+        },
+        {
+          "index": 88,
+          "label": "bandaging\t88",
+          "prob": 0.02118503674864769
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.016508838161826134
+        }
+      ],
+      "top1_prob": 0.714339017868042,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.2987975776195526
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.23856641352176666
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.08156181126832962
+        },
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.04965469241142273
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.044403571635484695
+        }
+      ],
+      "top1_prob": 0.2987975776195526,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.2375085949897766
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.20820125937461853
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.11126708984375
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.09968079626560211
+        },
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.059081900864839554
+        }
+      ],
+      "top1_prob": 0.2375085949897766,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.310344827586207,
+      "end_sec": 4.413793103448276,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.15389662981033325
+        },
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.11842481046915054
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.11125071346759796
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.08492129296064377
+        },
+        {
+          "index": 88,
+          "label": "bandaging\t88",
+          "prob": 0.0810663104057312
+        }
+      ],
+      "top1_prob": 0.15389662981033325,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.3511354550719261,
+    "max_top1_prob": 0.714339017868042,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}
