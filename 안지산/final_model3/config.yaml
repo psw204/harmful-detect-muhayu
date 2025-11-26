@@ -18,7 +18,7 @@ text:
 batch_size: 8
 num_workers: 4
 
-epochs: 1   # final_model3는 빠르게 하이퍼튜닝 가능하도록 낮춤
+epochs: 15   # final_model3는 빠르게 하이퍼튜닝 가능하도록 낮춤
 lr: 2.0e-4
 weight_decay: 1.0e-5
 device: "cuda"
