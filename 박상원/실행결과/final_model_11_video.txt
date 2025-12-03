@@ -1,0 +1,324 @@
+C:\Users\psw20\OneDrive\바탕 화면\PSW\한국항공대학교_3-2\무하유>python final_model_11_v.py
+✓ 재현성 보장: Seed 고정 완료 (SEED=42)
+============================================================
+무하유 유해 콘텐츠 탐지 시스템 - 최종 버전
+============================================================
+Device: cuda
+학습 데이터: 공개 데이터셋만 사용 (독립 평가용)
+Harmful Objects: 20개
+Behavior Categories: 8개
+  카테고리: violence, alcohol, smoking, drugs, blood, threat, sexual, dangerous
+Image Epochs: 10
+Video Epochs: 10
+✓ 로그 파일: train_log_20251125_195414.txt
+============================================================
+
+[라이브러리 버전]
+PyTorch: 2.7.1+cu118
+CUDA: 11.8
+Python: 3.13.1
+
+============================================================
+비디오 모델 학습
+============================================================
+
+비디오 데이터 준비 중 (공개 데이터만 사용)...
+
+비디오 검증 중... (총 3667개)
+✓ 검증 완료: 3667개 유효, 0개 필터링됨
+✓ 통합 완료 (학습 3116, 검증 551)
+
+모델 로딩...
+SlowFast 출력 차원 확인 중...
+✓ SlowFast 실제 출력 차원: 400
+✓ YOLO 차원: 20
+✓ CLIP 차원: 512
+✓ SlowFast 차원: 400
+✓ 행동 차원: 8
+✓ 총 입력 차원: 940
+✓ 차원 축소 후: 256
+
+✓ 비디오 클래스 분포: 유해 2308개, 안전 808개
+✓ Transformer nhead: 8 (reduced_dim=256)
+✓ 손실 함수: Focal Loss (alpha=0.25, gamma=2.0)
+Epoch 1/10:  33%|###################################1                                                                       | 256/779 [32:45<1:12:58,  8.37s/it]
+Epoch 1/10:  52%|########################################################9                                                    | 407/779 [52:04<40:27,  6.53s/it][h264 @ 000002843cc4d680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4d680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+[h264 @ 000002843cc4f680] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843cc4f680] error while decoding MB 98 31
+Epoch 1/10: 100%|###########################################################################################################| 779/779 [1:39:36<00:00,  7.67s/it]
+
+[Threshold 분석 @ Epoch 1]
+  Threshold=0.30: Precision=0.9505, Recall=0.9877, F1=0.9688
+  Threshold=0.35: Precision=0.9618, Recall=0.9877, F1=0.9746
+  Threshold=0.40: Precision=0.9685, Recall=0.9804, F1=0.9744
+  Threshold=0.45: Precision=0.9778, Recall=0.9730, F1=0.9754
+  Threshold=0.50: Precision=0.9801, Recall=0.9657, F1=0.9728
+  Threshold=0.55: Precision=0.9799, Recall=0.9583, F1=0.9690
+  Threshold=0.60: Precision=0.9846, Recall=0.9387, F1=0.9611
+  Threshold=0.65: Precision=0.9869, Recall=0.9240, F1=0.9544
+  Threshold=0.70: Precision=0.9946, Recall=0.8946, F1=0.9419
+  Threshold=0.75: Precision=0.9943, Recall=0.8505, F1=0.9168
+  Threshold=0.80: Precision=1.0000, Recall=0.7917, F1=0.8837
+
+Epoch 1/10
+  Train Loss: 0.0244
+  Val Loss: 0.0130
+  최적 Threshold: 0.45
+  Precision: 0.9778
+  Recall: 0.9730
+  F1-Score: 0.9754
+  Learning Rate: 0.000100
+  ✓ 모델 저장 (Best Val Loss: 0.0130, F1: 0.9754, Threshold: 0.45)
+Epoch 2/10:  85%|#########################################################################################9                | 661/779 [1:22:35<13:24,  6.82s/it][h264 @ 000002843c509e80] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c509e80] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+[h264 @ 000002843c50b0c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c50b0c0] error while decoding MB 98 31
+Epoch 2/10: 100%|##########################################################################################################| 779/779 [1:37:24<00:00,  7.50s/it]
+
+[Threshold 분석 @ Epoch 2]
+  Threshold=0.30: Precision=0.9641, Recall=0.9877, F1=0.9758
+  Threshold=0.35: Precision=0.9733, Recall=0.9828, F1=0.9780
+  Threshold=0.40: Precision=0.9732, Recall=0.9804, F1=0.9768
+  Threshold=0.45: Precision=0.9779, Recall=0.9779, F1=0.9779
+  Threshold=0.50: Precision=0.9802, Recall=0.9730, F1=0.9766
+  Threshold=0.55: Precision=0.9800, Recall=0.9608, F1=0.9703
+  Threshold=0.60: Precision=0.9849, Recall=0.9583, F1=0.9714
+  Threshold=0.65: Precision=0.9898, Recall=0.9510, F1=0.9700
+  Threshold=0.70: Precision=0.9974, Recall=0.9387, F1=0.9672
+  Threshold=0.75: Precision=0.9973, Recall=0.9093, F1=0.9513
+  Threshold=0.80: Precision=1.0000, Recall=0.8505, F1=0.9192
+
+Epoch 2/10
+  Train Loss: 0.0141
+  Val Loss: 0.0108
+  최적 Threshold: 0.35
+  Precision: 0.9733
+  Recall: 0.9828
+  F1-Score: 0.9780
+  Learning Rate: 0.000100
+  ✓ 모델 저장 (Best Val Loss: 0.0108, F1: 0.9780, Threshold: 0.35)
+Epoch 3/10:  38%|#######################################8                                                                  | 293/779 [36:11<1:07:54,  8.38s/it][h264 @ 000002843c4dff80] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c4dff80] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+[h264 @ 000002843c7a7380] mb_type 104 in P slice too large at 98 31
+[h264 @ 000002843c7a7380] error while decoding MB 98 31
+Epoch 3/10: 100%|##########################################################################################################| 779/779 [1:36:23<00:00,  7.42s/it]
+
+[Threshold 분석 @ Epoch 3]
+  Threshold=0.30: Precision=0.9804, Recall=0.9804, F1=0.9804
+  Threshold=0.35: Precision=0.9850, Recall=0.9632, F1=0.9740
+  Threshold=0.40: Precision=0.9923, Recall=0.9485, F1=0.9699
+  Threshold=0.45: Precision=0.9974, Recall=0.9387, F1=0.9672
+  Threshold=0.50: Precision=1.0000, Recall=0.9265, F1=0.9618
+  Threshold=0.55: Precision=1.0000, Recall=0.8995, F1=0.9471
+  Threshold=0.60: Precision=1.0000, Recall=0.8627, F1=0.9263
+  Threshold=0.65: Precision=1.0000, Recall=0.8333, F1=0.9091
+  Threshold=0.70: Precision=1.0000, Recall=0.7966, F1=0.8868
+  Threshold=0.75: Precision=1.0000, Recall=0.7451, F1=0.8539
+  Threshold=0.80: Precision=1.0000, Recall=0.6495, F1=0.7875
+
+Epoch 3/10
+  Train Loss: 0.0123
+  Val Loss: 0.0120
+  최적 Threshold: 0.30
+  Precision: 0.9804
+  Recall: 0.9804
+  F1-Score: 0.9804
+  Learning Rate: 0.000100
+Epoch 4/10:  23%|########################3                                                                                 | 179/779 [22:10<1:17:50,  7.78s/it][h264 @ 00000283b3785040] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3785040] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+[h264 @ 00000283b3784280] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3784280] error while decoding MB 98 31
+Epoch 4/10: 100%|##########################################################################################################| 779/779 [1:37:43<00:00,  7.53s/it]
+
+[Threshold 분석 @ Epoch 4]
+  Threshold=0.30: Precision=0.9736, Recall=0.9951, F1=0.9842
+  Threshold=0.35: Precision=0.9783, Recall=0.9926, F1=0.9854
+  Threshold=0.40: Precision=0.9830, Recall=0.9926, F1=0.9878
+  Threshold=0.45: Precision=0.9853, Recall=0.9853, F1=0.9853
+  Threshold=0.50: Precision=0.9853, Recall=0.9853, F1=0.9853
+  Threshold=0.55: Precision=0.9852, Recall=0.9804, F1=0.9828
+  Threshold=0.60: Precision=0.9900, Recall=0.9730, F1=0.9815
+  Threshold=0.65: Precision=0.9924, Recall=0.9632, F1=0.9776
+  Threshold=0.70: Precision=0.9949, Recall=0.9559, F1=0.9750
+  Threshold=0.75: Precision=0.9974, Recall=0.9387, F1=0.9672
+  Threshold=0.80: Precision=1.0000, Recall=0.9093, F1=0.9525
+
+Epoch 4/10
+  Train Loss: 0.0106
+  Val Loss: 0.0077
+  최적 Threshold: 0.40
+  Precision: 0.9830
+  Recall: 0.9926
+  F1-Score: 0.9878
+  Learning Rate: 0.000100
+  ✓ 모델 저장 (Best Val Loss: 0.0077, F1: 0.9878, Threshold: 0.40)
+Epoch 5/10:  92%|#################################################################################################8        | 719/779 [1:36:40<07:29,  7.50s/it][h264 @ 0000028457c58340] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c58340] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+[h264 @ 0000028457c5ac80] mb_type 104 in P slice too large at 98 31
+[h264 @ 0000028457c5ac80] error while decoding MB 98 31
+Epoch 5/10: 100%|##########################################################################################################| 779/779 [1:45:00<00:00,  8.09s/it]
+
+[Threshold 분석 @ Epoch 5]
+  Threshold=0.30: Precision=0.9575, Recall=0.9951, F1=0.9760
+  Threshold=0.35: Precision=0.9621, Recall=0.9951, F1=0.9783
+  Threshold=0.40: Precision=0.9736, Recall=0.9926, F1=0.9830
+  Threshold=0.45: Precision=0.9805, Recall=0.9877, F1=0.9841
+  Threshold=0.50: Precision=0.9877, Recall=0.9804, F1=0.9840
+  Threshold=0.55: Precision=0.9900, Recall=0.9755, F1=0.9827
+  Threshold=0.60: Precision=0.9925, Recall=0.9706, F1=0.9814
+  Threshold=0.65: Precision=0.9950, Recall=0.9681, F1=0.9814
+  Threshold=0.70: Precision=0.9949, Recall=0.9510, F1=0.9724
+  Threshold=0.75: Precision=0.9947, Recall=0.9240, F1=0.9581
+  Threshold=0.80: Precision=0.9944, Recall=0.8775, F1=0.9323
+
+Epoch 5/10
+  Train Loss: 0.0100
+  Val Loss: 0.0089
+  최적 Threshold: 0.45
+  Precision: 0.9805
+  Recall: 0.9877
+  F1-Score: 0.9841
+  Learning Rate: 0.000100
+Epoch 6/10:  55%|###########################################################8                                                | 432/779 [58:09<48:35,  8.40s/it][h264 @ 00000283b3cd2680] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3cd2680] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+[h264 @ 00000283b3f63100] mb_type 104 in P slice too large at 98 31
+[h264 @ 00000283b3f63100] error while decoding MB 98 31
+Epoch 6/10: 100%|##########################################################################################################| 779/779 [1:44:59<00:00,  8.09s/it] 
+
+[Threshold 분석 @ Epoch 6]
+  Threshold=0.30: Precision=0.9667, Recall=0.9975, F1=0.9819
+  Threshold=0.35: Precision=0.9736, Recall=0.9926, F1=0.9830
+  Threshold=0.40: Precision=0.9759, Recall=0.9926, F1=0.9842
+  Threshold=0.45: Precision=0.9806, Recall=0.9902, F1=0.9854
+  Threshold=0.50: Precision=0.9830, Recall=0.9902, F1=0.9866
+  Threshold=0.55: Precision=0.9902, Recall=0.9877, F1=0.9890
+  Threshold=0.60: Precision=0.9901, Recall=0.9828, F1=0.9865
+  Threshold=0.65: Precision=0.9926, Recall=0.9804, F1=0.9864
+  Threshold=0.70: Precision=0.9925, Recall=0.9730, F1=0.9827
+  Threshold=0.75: Precision=0.9974, Recall=0.9436, F1=0.9698
+  Threshold=0.80: Precision=0.9974, Recall=0.9240, F1=0.9593
+
+Epoch 6/10
+  Train Loss: 0.0095
+  Val Loss: 0.0083
+  최적 Threshold: 0.55
+  Precision: 0.9902
+  Recall: 0.9877
+  F1-Score: 0.9890
+  Learning Rate: 0.000100
+Early stopping at epoch 6 (Val Loss 기준)
+  Best Val Loss: 0.0077, Best F1: 0.9878
+✓ Best 모델 로드 완료 (Threshold: 0.40)
+  ✓ Confusion Matrix: video_confusion_matrix.png
+
+============================================================
+✅ 비디오 모델 학습 완료!
+   Best F1-Score: 0.9878
+   ✅ 필수 목표 달성! (F1 ≥ 0.75)
+============================================================
+
+============================================================
+✅ 비디오 모델 학습 완료!
+============================================================
+비디오 모델 Best F1: 0.9878 (Threshold: 0.40)
+
+✓ 학습 데이터:
+  - 공개 데이터셋만 사용 (독립 평가를 위해 직접 수집 데이터 제외)
+  - 최종 평가: 1200개 데이터 (400개 × 3명)로 독립 평가 예정
+
+✓ 주요 특징:
+  - 차원 축소: 940 → 256 (과적합 방지)
+  - Focal Loss: 어려운 샘플 집중 학습 (alpha=0.25)
+  - CLIP 정규화: F.normalize 적용
+  - 재현성 보장: Seed 고정 (SEED=42)
+  - Early Stopping: Val Loss 기준
+  - 프레임 에러 처리: 강화된 예외 처리
+  - FRAME_SAMPLE: 32 (SlowFast 호환)
+
+✓ 로그 파일: train_log_20251125_195414.txt
+============================================================

@@ -1,0 +1,278 @@
+C:\Users\psw20\OneDrive\바탕 화면\PSW\한국항공대학교_3-2\무하유>python final_model2.py
+
+============================================================
+무하유 유해 콘텐츠 탐지 시스템
+============================================================
+Device: cuda
+Harmful Objects: 18개
+Image Epochs: 10
+Video Epochs: 10
+============================================================
+
+============================================================
+이미지 모델 학습
+============================================================
+
+이미지 데이터 준비 중...
+✓ 데이터셋 통합 완료 (학습 22492, 검증 3970)
+  (유해: 18123, 안전: 4369 / 검증 유해: 3199, 안전: 771)
+
+모델 로딩...
+Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 100% ━━━━━━━━━━━━ 6.2MB 10.5MB/s 0.6s
+✓ YOLO 차원: 18
+✓ CLIP 차원: 512
+✓ 총 입력 차원: 530
+Epoch 1/10:  11%|████████████▏                                                                                              | 321/2811 [01:29<11:55,  3.48it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 1/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:30<00:00,  3.47it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 1/10
+  Loss: 0.1832
+  Precision: 0.9821
+  Recall: 0.9959
+  F1-Score: 0.9890
+Epoch 2/10:  85%|█████████████████████████████████████████████████████████████████████████████████████████▊                | 2383/2811 [11:25<01:53,  3.77it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 2/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:22<00:00,  3.50it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 2/10
+  Loss: 0.1330
+  Precision: 0.9788
+  Recall: 0.9978
+  F1-Score: 0.9882
+Epoch 3/10:  55%|█████████████████████████████████████████████████████████▉                                                | 1537/2811 [07:21<05:55,  3.59it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 3/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:22<00:00,  3.50it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 3/10
+  Loss: 0.1259
+  Precision: 0.9803
+  Recall: 0.9975
+  F1-Score: 0.9888
+Epoch 4/10:  64%|███████████████████████████████████████████████████████████████████▍                                      | 1787/2811 [08:30<04:19,  3.94it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 4/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:19<00:00,  3.52it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 4/10
+  Loss: 0.1354
+  Precision: 0.9888
+  Recall: 0.9928
+  F1-Score: 0.9908
+Epoch 5/10:  94%|███████████████████████████████████████████████████████████████████████████████████████████████████▉      | 2649/2811 [12:35<01:22,  1.97it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 5/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:19<00:00,  3.51it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 5/10
+  Loss: 0.1308
+  Precision: 0.9858
+  Recall: 0.9959
+  F1-Score: 0.9908
+Epoch 6/10:  70%|█████████████████████████████████████████████████████████████████████████▊                                | 1957/2811 [09:13<04:05,  3.48it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 6/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:22<00:00,  3.50it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 6/10
+  Loss: 0.1323
+  Precision: 0.9828
+  Recall: 0.9981
+  F1-Score: 0.9904
+Epoch 7/10:  83%|███████████████████████████████████████████████████████████████████████████████████████▉                  | 2333/2811 [11:09<01:49,  4.38it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 7/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:28<00:00,  3.47it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 7/10
+  Loss: 0.1305
+  Precision: 0.9900
+  Recall: 0.9922
+  F1-Score: 0.9911
+Epoch 8/10:  65%|█████████████████████████████████████████████████████████████████████                                     | 1830/2811 [08:49<04:07,  3.96it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 8/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:33<00:00,  3.45it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 8/10
+  Loss: 0.1248
+  Precision: 0.9885
+  Recall: 0.9909
+  F1-Score: 0.9897
+Epoch 9/10:  19%|████████████████████▌                                                                                      | 539/2811 [02:32<11:49,  3.20it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 9/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [13:34<00:00,  3.45it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 9/10
+  Loss: 0.1373
+  Precision: 0.9879
+  Recall: 0.9962
+  F1-Score: 0.9921
+Epoch 10/10:  63%|██████████████████████████████████████████████████████████████████▎                                      | 1774/2811 [08:07<04:38,  3.73it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 10/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2811/2811 [12:51<00:00,  3.64it/s]
+libpng warning: iCCP: known incorrect sRGB profile
+
+Epoch 10/10
+  Loss: 0.1256
+  Precision: 0.9819
+  Recall: 0.9981
+  F1-Score: 0.9899
+
+============================================================
+✅ 이미지 모델 학습 완료!
+   Best F1-Score: 0.9921
+   ✅ 필수 목표 달성! (F1 ≥ 0.75)
+   ✓ Confusion Matrix: image_confusion_matrix.png
+============================================================
+
+============================================================
+비디오 모델 학습
+============================================================
+
+비디오 데이터 준비 중...
+✓ 통합 완료 (학습 3286, 검증 581)
+  (유해: 2393, 안전: 893 / 검증 유해: 423, 안전: 158)
+
+모델 로딩...
+SlowFast 출력 차원 확인 중...
+✓ SlowFast 실제 출력 차원: 400
+✓ YOLO 차원: 18
+✓ CLIP 차원: 512
+✓ 총 입력 차원: 930
+Epoch 1/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1643/1643 [53:37<00:00,  1.96s/it]
+[h264 @ 000001af3a529480] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af3a529480] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+[h264 @ 000001af38fd68c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af38fd68c0] error while decoding MB 98 31
+
+Epoch 1/10
+  Loss: 0.6383
+  Precision: 0.7281
+  Recall: 1.0000
+  F1-Score: 0.8426
+Epoch 2/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1643/1643 [52:53<00:00,  1.93s/it]
+[h264 @ 000001aeac131400] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac131400] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+[h264 @ 000001aeac1333c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001aeac1333c0] error while decoding MB 98 31
+
+Epoch 2/10
+  Loss: 0.6013
+  Precision: 0.7036
+  Recall: 0.8251
+  F1-Score: 0.7595
+Epoch 3/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1643/1643 [53:46<00:00,  1.96s/it] 
+[h264 @ 000001af39404f80] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39404f80] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+[h264 @ 000001af39405d40] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39405d40] error while decoding MB 98 31
+
+Epoch 3/10
+  Loss: 0.5934
+  Precision: 0.7281
+  Recall: 1.0000
+  F1-Score: 0.8426
+Epoch 4/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1643/1643 [53:34<00:00,  1.96s/it]
+[h264 @ 000001af4d08c100] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08c100] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+[h264 @ 000001af4d08cec0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af4d08cec0] error while decoding MB 98 31
+
+Epoch 4/10
+  Loss: 0.5909
+  Precision: 0.7251
+  Recall: 0.4988
+  F1-Score: 0.5910
+Epoch 5/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1643/1643 [53:07<00:00,  1.94s/it]
+[h264 @ 000001af05051340] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af05051340] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+[h264 @ 000001af39e446c0] mb_type 104 in P slice too large at 98 31
+[h264 @ 000001af39e446c0] error while decoding MB 98 31
+
+Epoch 5/10
+  Loss: 0.5902
+  Precision: 0.7281
+  Recall: 1.0000
+  F1-Score: 0.8426
+Early stopping at epoch 5, best F1: 0.8426
+
+============================================================
+✅ 비디오 모델 학습 완료!
+   Best F1-Score: 0.8426
+   ✅ 필수 목표 달성! (F1 ≥ 0.75)
+   ✓ Confusion Matrix: video_confusion_matrix.png
+============================================================
+
+============================================================
+✅ 전체 학습 완료!
+============================================================
+생성된 파일:
+  - image_model_best.pth
+  - video_model_best.pth
+  - image_confusion_matrix.png
+  - video_confusion_matrix.png

@@ -1,0 +1,390 @@
+Microsoft Windows [Version 10.0.26100.6584]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\psw20>cd C:\Users\psw20\OneDrive\바탕 화면\PSW\한국항공대학교_3-2\무하유
+
+C:\Users\psw20\OneDrive\바탕 화면\PSW\한국항공대학교_3-2\무하유>python final_model.py
+
+============================================================
+무하유 유해 콘텐츠 탐지 시스템
+============================================================
+Device: cuda
+Harmful Objects: 18개
+Image Epochs: 5 (초기 테스트)
+Video Epochs: 3 (초기 테스트)
+============================================================
+
+============================================================
+이미지 모델 학습
+============================================================
+
+이미지 데이터 준비 중...
+✓ 데이터셋 통합 완료 (학습 22398, 검증 3953)
+  (유해: 18116, 안전: 4282 / 검증 유해: 3197, 안전: 756)
+
+모델 로딩...
+Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 15% ━╸────────── 98Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 33% ━━━╸──────── 2.Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 51% ━━━━━━────── 3.Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 69% ━━━━━━━━──── 4.Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 87% ━━━━━━━━━━── 5.Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 100% ━━━━━━━━━━━━ 6Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt': 100% ━━━━━━━━━━━━ 6.2MB 10.8MB/s 0.6s
+✓ YOLO 차원: 18
+✓ CLIP 차원: 512
+✓ 총 입력 차원: 530
+
+학습 시작 (Epochs: 5)
+Epoch 1/5:   0%|                                                                        | 4/2800 [00:01<11:02,  4.22it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 1/5:   8%|█████▌                                                                | 221/2800 [00:41<07:59,  5.38it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 1/5: 100%|█████████████████████████████████████████████████████████████████████| 2800/2800 [09:00<00:00,  5.18it/s]
+
+Epoch 1/5
+  Loss: 0.0468
+  Precision: 0.9925
+  Recall: 0.9984
+  F1-Score: 0.9955
+  ✓ 모델 저장 (Best F1: 0.9955)
+Epoch 2/5:  27%|██████████████████▋                                                   | 748/2800 [02:31<09:14,  3.70it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 2/5:  38%|██████████████████████████▍                                          | 1073/2800 [03:32<05:18,  5.43it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 2/5: 100%|█████████████████████████████████████████████████████████████████████| 2800/2800 [09:19<00:00,  5.00it/s]
+
+Epoch 2/5
+  Loss: 0.0287
+  Precision: 0.9938
+  Recall: 0.9987
+  F1-Score: 0.9963
+  ✓ 모델 저장 (Best F1: 0.9963)
+Epoch 3/5:  39%|███████████████████████████                                          | 1098/2800 [03:44<05:29,  5.16it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 3/5:  41%|████████████████████████████▍                                        | 1154/2800 [03:55<05:10,  5.29it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 3/5: 100%|█████████████████████████████████████████████████████████████████████| 2800/2800 [09:31<00:00,  4.90it/s]
+
+Epoch 3/5
+  Loss: 0.0227
+  Precision: 0.9972
+  Recall: 0.9962
+  F1-Score: 0.9967
+  ✓ 모델 저장 (Best F1: 0.9967)
+Epoch 4/5:  18%|████████████▉                                                         | 515/2800 [01:44<07:37,  5.00it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 4/5:  93%|████████████████████████████████████████████████████████████████▍    | 2613/2800 [08:43<00:34,  5.39it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 4/5: 100%|█████████████████████████████████████████████████████████████████████| 2800/2800 [09:21<00:00,  4.99it/s]
+
+Epoch 4/5
+  Loss: 0.0192
+  Precision: 0.9953
+  Recall: 0.9975
+  F1-Score: 0.9964
+Epoch 5/5:  24%|████████████████▌                                                     | 663/2800 [02:03<06:27,  5.51it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 5/5:  68%|███████████████████████████████████████████████                      | 1908/2800 [05:57<02:50,  5.24it/s]libpng warning: iCCP: known incorrect sRGB profile
+Epoch 5/5: 100%|█████████████████████████████████████████████████████████████████████| 2800/2800 [08:44<00:00,  5.34it/s]
+
+Epoch 5/5
+  Loss: 0.0165
+  Precision: 0.9975
+  Recall: 0.9981
+  F1-Score: 0.9978
+  ✓ 모델 저장 (Best F1: 0.9978)
+
+============================================================
+✅ 이미지 모델 학습 완료!
+   Best F1-Score: 0.9978
+   ✅ 필수 목표 달성! (F1 ≥ 0.75)
+   ✓ Confusion Matrix: image_confusion_matrix.png
+============================================================
+
+============================================================
+비디오 모델 학습
+============================================================
+
+비디오 데이터 준비 중...
+✓ 통합 완료 (학습 34, 검증 7)
+  (유해: 21, 안전: 13 / 검증 유해: 4, 안전: 3)
+
+모델 로딩...
+✓ SlowFast 로드 완료
+✓ YOLO 차원: 18
+✓ SlowFast 차원: 2048
+✓ CLIP 차원: 512
+✓ 총 입력 차원: 2578
+
+학습 시작 (Epochs: 3)
+Epoch 1/3:   0%|                                                                                  | 0/17 [00:00<?, ?it/s]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_022_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_032_street_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:   6%|████▎                                                                     | 1/17 [00:04<01:16,  4.81s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_062_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_068_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  12%|████████▋                                                                 | 2/17 [00:05<00:39,  2.65s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_013_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_036_assault_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  18%|█████████████                                                             | 3/17 [00:13<01:08,  4.87s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_027_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_066_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  24%|█████████████████▍                                                        | 4/17 [00:16<00:54,  4.16s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_002_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_020_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  29%|█████████████████████▊                                                    | 5/17 [00:18<00:42,  3.50s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_012_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_097_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  35%|██████████████████████████                                                | 6/17 [00:22<00:37,  3.40s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_056_beating_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_003_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  41%|██████████████████████████████▍                                           | 7/17 [00:22<00:25,  2.55s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_076_dangerous_stunt_acci.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_099_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  47%|██████████████████████████████████▊                                       | 8/17 [00:27<00:28,  3.19s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_100_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_014_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  53%|███████████████████████████████████████▏                                  | 9/17 [00:29<00:22,  2.83s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_067_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_001_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  59%|██████████████████████████████████████████▉                              | 10/17 [00:31<00:18,  2.71s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_004_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_064_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  65%|███████████████████████████████████████████████▏                         | 11/17 [00:33<00:14,  2.35s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_052_brutal_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_031_street_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  71%|███████████████████████████████████████████████████▌                     | 12/17 [00:34<00:09,  1.95s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_098_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_070_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  76%|███████████████████████████████████████████████████████▊                 | 13/17 [00:37<00:09,  2.38s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_081_car_accident_crash.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_025_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  82%|████████████████████████████████████████████████████████████             | 14/17 [00:39<00:06,  2.06s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_017_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_038_assault_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  88%|████████████████████████████████████████████████████████████████▍        | 15/17 [00:40<00:03,  1.74s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_008_knife_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_021_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3:  94%|████████████████████████████████████████████████████████████████████▋    | 16/17 [00:41<00:01,  1.51s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_016_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_018_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 1/3: 100%|█████████████████████████████████████████████████████████████████████████| 17/17 [00:43<00:00,  2.53s/it]
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_069_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_083_car_accident_crash.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_028_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_063_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_015_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_019_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_029_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+
+Epoch 1/3
+  Loss: 0.6962
+  Precision: 0.5714
+  Recall: 1.0000
+  F1-Score: 0.7273
+  ✓ 모델 저장 (Best F1: 0.7273)
+Epoch 2/3:   0%|                                                                                  | 0/17 [00:00<?, ?it/s]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_081_car_accident_crash.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_017_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:   6%|████▎                                                                     | 1/17 [00:01<00:21,  1.32s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_070_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_098_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  12%|████████▋                                                                 | 2/17 [00:04<00:34,  2.30s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_031_street_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_020_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  18%|█████████████                                                             | 3/17 [00:05<00:22,  1.62s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_018_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_076_dangerous_stunt_acci.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  24%|█████████████████▍                                                        | 4/17 [00:06<00:21,  1.69s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_036_assault_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_012_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  29%|█████████████████████▊                                                    | 5/17 [00:11<00:31,  2.58s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_038_assault_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_067_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  35%|██████████████████████████                                                | 6/17 [00:12<00:22,  2.02s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_032_street_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_013_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  41%|██████████████████████████████▍                                           | 7/17 [00:19<00:36,  3.68s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_008_knife_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_100_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  47%|██████████████████████████████████▊                                       | 8/17 [00:21<00:28,  3.11s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_004_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_016_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  53%|███████████████████████████████████████▏                                  | 9/17 [00:21<00:18,  2.37s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_003_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_027_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  59%|██████████████████████████████████████████▉                              | 10/17 [00:22<00:13,  1.87s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_097_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_066_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  65%|███████████████████████████████████████████████▏                         | 11/17 [00:25<00:13,  2.25s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_021_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_099_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  71%|███████████████████████████████████████████████████▌                     | 12/17 [00:30<00:14,  2.94s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_062_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_001_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  76%|███████████████████████████████████████████████████████▊                 | 13/17 [00:32<00:10,  2.73s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_022_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_025_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  82%|████████████████████████████████████████████████████████████             | 14/17 [00:35<00:08,  2.86s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_068_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_052_brutal_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  88%|████████████████████████████████████████████████████████████████▍        | 15/17 [00:36<00:04,  2.35s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_056_beating_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_002_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3:  94%|████████████████████████████████████████████████████████████████████▋    | 16/17 [00:38<00:02,  2.24s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_064_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_014_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 2/3: 100%|█████████████████████████████████████████████████████████████████████████| 17/17 [00:40<00:00,  2.36s/it]
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_069_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_083_car_accident_crash.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_028_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_063_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_015_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_019_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_029_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+
+Epoch 2/3
+  Loss: 0.7188
+  Precision: 0.5714
+  Recall: 1.0000
+  F1-Score: 0.7273
+Epoch 3/3:   0%|                                                                                  | 0/17 [00:00<?, ?it/s]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_017_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_068_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:   6%|████▎                                                                     | 1/17 [00:01<00:20,  1.30s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_020_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_036_assault_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  12%|████████▋                                                                 | 2/17 [00:03<00:27,  1.85s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_076_dangerous_stunt_acci.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_098_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  18%|█████████████                                                             | 3/17 [00:05<00:27,  1.94s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_052_brutal_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_067_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  24%|█████████████████▍                                                        | 4/17 [00:06<00:20,  1.55s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_099_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_021_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  29%|█████████████████████▊                                                    | 5/17 [00:11<00:32,  2.69s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_004_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_001_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  35%|██████████████████████████                                                | 6/17 [00:13<00:28,  2.56s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_064_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_003_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  41%|██████████████████████████████▍                                           | 7/17 [00:15<00:22,  2.25s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_018_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_081_car_accident_crash.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  47%|██████████████████████████████████▊                                       | 8/17 [00:17<00:20,  2.25s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_038_assault_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_016_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  53%|███████████████████████████████████████▏                                  | 9/17 [00:18<00:14,  1.85s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_002_gun_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_027_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  59%|██████████████████████████████████████████▉                              | 10/17 [00:20<00:13,  1.91s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_022_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_013_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  65%|███████████████████████████████████████████████▏                         | 11/17 [00:29<00:23,  3.99s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_097_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_012_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  71%|███████████████████████████████████████████████████▌                     | 12/17 [00:32<00:18,  3.72s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_025_armed_robbery.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_062_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  76%|███████████████████████████████████████████████████████▊                 | 13/17 [00:33<00:11,  2.84s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_032_street_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_070_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  82%|████████████████████████████████████████████████████████████             | 14/17 [00:36<00:09,  3.03s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_008_knife_attack.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_066_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  88%|████████████████████████████████████████████████████████████████▍        | 15/17 [00:39<00:06,  3.06s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_031_street_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_014_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3:  94%|████████████████████████████████████████████████████████████████████▋    | 16/17 [00:40<00:02,  2.37s/it]SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_100_alcohol_abuse.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_056_beating_violence.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+Epoch 3/3: 100%|█████████████████████████████████████████████████████████████████████████| 17/17 [00:42<00:00,  2.48s/it]
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_069_aggression_fight.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_083_car_accident_crash.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_028_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_063_violent_assault.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_015_weapon_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_019_firearm_danger.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+SlowFast error: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 2 for tensor number 1 in the list.
+Error loading ./무하유_유해콘텐츠_데이터/2_실제_수집_데이터/비디오/video_029_gunpoint_threat.mp4: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
+
+Epoch 3/3
+  Loss: 0.6883
+  Precision: 0.5714
+  Recall: 1.0000
+  F1-Score: 0.7273
+
+============================================================
+✅ 비디오 모델 학습 완료!
+   Best F1-Score: 0.7273
+   ⚠️  목표 미달 (F1 < 0.75) - 더 많은 epoch 필요
+============================================================
+
+============================================================
+✅ 전체 학습 완료!
+============================================================
+생성된 파일:
+  - image_model_best.pth
+  - video_model_best.pth
+  - image_confusion_matrix.png
+
+C:\Users\psw20\OneDrive\바탕 화면\PSW\한국항공대학교_3-2\무하유>^A
+
+C:\Users\psw20\OneDrive\바탕 화면\PSW\한국항공대학교_3-2\무하유>  
