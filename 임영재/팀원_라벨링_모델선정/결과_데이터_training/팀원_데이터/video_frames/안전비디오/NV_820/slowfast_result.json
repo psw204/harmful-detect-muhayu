@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_820",
+  "frames_per_clip": 32,
+  "clip_sec": 3.066666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.066666666666667,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.14738255739212036
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.11784185469150543
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.04725543037056923
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.04427453503012657
+        },
+        {
+          "index": 361,
+          "label": "kissing\t361",
+          "prob": 0.036985401064157486
+        }
+      ],
+      "top1_prob": 0.14738255739212036,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.14738255739212036,
+    "max_top1_prob": 0.14738255739212036,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

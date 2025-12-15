@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_500",
+  "frames_per_clip": 32,
+  "clip_sec": 3.066666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.066666666666667,
+      "topk": [
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.8548148274421692
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.06391825526952744
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.022971147671341896
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.017315704375505447
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.014154639095067978
+        }
+      ],
+      "top1_prob": 0.8548148274421692,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.8548148274421692,
+    "max_top1_prob": 0.8548148274421692,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

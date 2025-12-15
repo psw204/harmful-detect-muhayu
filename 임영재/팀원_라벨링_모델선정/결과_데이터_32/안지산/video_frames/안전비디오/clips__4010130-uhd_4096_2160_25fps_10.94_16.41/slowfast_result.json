@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__4010130-uhd_4096_2160_25fps_10.94_16.41",
+  "frames_per_clip": 32,
+  "clip_sec": 5.566666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 5.566666666666666,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.8139798045158386
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.04593055322766304
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.024857046082615852
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.017411023378372192
+        },
+        {
+          "index": 197,
+          "label": "playing volleyball\t197",
+          "prob": 0.005187994800508022
+        }
+      ],
+      "top1_prob": 0.8139798045158386,
+      "violence_hint": 0.04593055322766304
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.8139798045158386,
+    "max_top1_prob": 0.8139798045158386,
+    "avg_violence_hint": 0.04593055322766304,
+    "max_violence_hint": 0.04593055322766304
+  }
+}

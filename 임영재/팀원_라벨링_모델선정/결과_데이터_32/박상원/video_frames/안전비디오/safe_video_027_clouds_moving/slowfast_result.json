@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_027_clouds_moving",
+  "frames_per_clip": 32,
+  "clip_sec": 13.333333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 13.333333333333334,
+      "topk": [
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.9410383701324463
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.018763462081551552
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.013598293997347355
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.007610192988067865
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.003366251941770315
+        }
+      ],
+      "top1_prob": 0.9410383701324463,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9410383701324463,
+    "max_top1_prob": 0.9410383701324463,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/alcohol__clips__6603425-uhd_4096_2160_25fps_0.00_53.50",
+  "frames_per_clip": 32,
+  "clip_sec": 43.333333333333336,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 43.333333333333336,
+      "topk": [
+        {
+          "index": 375,
+          "label": "milking cow\t375",
+          "prob": 0.2755747437477112
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.09047932177782059
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.08550552278757095
+        },
+        {
+          "index": 134,
+          "label": "playing cards\t134",
+          "prob": 0.07558334618806839
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.05643382668495178
+        }
+      ],
+      "top1_prob": 0.2755747437477112,
+      "violence_hint": 0.05643382668495178
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2755747437477112,
+    "max_top1_prob": 0.2755747437477112,
+    "avg_violence_hint": 0.05643382668495178,
+    "max_violence_hint": 0.05643382668495178
+  }
+}

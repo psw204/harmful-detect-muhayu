@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/0NWz-01A2yk_1",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.23489060997962952
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.1308310478925705
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.09007318317890167
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.05039997398853302
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.030463093891739845
+        }
+      ],
+      "top1_prob": 0.23489060997962952,
+      "violence_hint": 0.1308310478925705
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.23489060997962952,
+    "max_top1_prob": 0.23489060997962952,
+    "avg_violence_hint": 0.1308310478925705,
+    "max_violence_hint": 0.1308310478925705
+  }
+}

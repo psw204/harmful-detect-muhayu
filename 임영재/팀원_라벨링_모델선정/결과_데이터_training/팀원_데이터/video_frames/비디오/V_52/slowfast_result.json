@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_52",
+  "frames_per_clip": 32,
+  "clip_sec": 6.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.0,
+      "topk": [
+        {
+          "index": 128,
+          "label": "tai chi\t128",
+          "prob": 0.23897702991962433
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.17717286944389343
+        },
+        {
+          "index": 36,
+          "label": "stretching leg\t36",
+          "prob": 0.12938253581523895
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.0743122398853302
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.0337788388133049
+        }
+      ],
+      "top1_prob": 0.23897702991962433,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.23897702991962433,
+    "max_top1_prob": 0.23897702991962433,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

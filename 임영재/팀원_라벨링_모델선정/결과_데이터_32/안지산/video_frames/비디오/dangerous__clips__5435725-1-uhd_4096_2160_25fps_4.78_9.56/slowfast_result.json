@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/dangerous__clips__5435725-1-uhd_4096_2160_25fps_4.78_9.56",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.2509779632091522
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.15155790746212006
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.09710589796304703
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.07975738495588303
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.061413511633872986
+        }
+      ],
+      "top1_prob": 0.2509779632091522,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2509779632091522,
+    "max_top1_prob": 0.2509779632091522,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

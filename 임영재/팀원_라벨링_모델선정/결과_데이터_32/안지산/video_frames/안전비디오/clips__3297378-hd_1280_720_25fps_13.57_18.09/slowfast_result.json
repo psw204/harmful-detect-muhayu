@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3297378-hd_1280_720_25fps_13.57_18.09",
+  "frames_per_clip": 32,
+  "clip_sec": 8.433333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.433333333333334,
+      "topk": [
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.4016869366168976
+        },
+        {
+          "index": 286,
+          "label": "doing aerobics\t286",
+          "prob": 0.1783636510372162
+        },
+        {
+          "index": 321,
+          "label": "cutting pineapple\t321",
+          "prob": 0.07443854957818985
+        },
+        {
+          "index": 124,
+          "label": "tobogganing\t124",
+          "prob": 0.07278971374034882
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.04194728285074234
+        }
+      ],
+      "top1_prob": 0.4016869366168976,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4016869366168976,
+    "max_top1_prob": 0.4016869366168976,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

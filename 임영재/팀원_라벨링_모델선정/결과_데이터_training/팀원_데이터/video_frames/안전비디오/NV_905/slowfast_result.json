@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_905",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.27278751134872437
+        },
+        {
+          "index": 132,
+          "label": "tossing salad\t132",
+          "prob": 0.16063657402992249
+        },
+        {
+          "index": 110,
+          "label": "crossing river\t110",
+          "prob": 0.1531127691268921
+        },
+        {
+          "index": 353,
+          "label": "playing trombone\t353",
+          "prob": 0.06894839555025101
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.06393241137266159
+        }
+      ],
+      "top1_prob": 0.27278751134872437,
+      "violence_hint": 0.06393241137266159
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.27278751134872437,
+    "max_top1_prob": 0.27278751134872437,
+    "avg_violence_hint": 0.06393241137266159,
+    "max_violence_hint": 0.06393241137266159
+  }
+}

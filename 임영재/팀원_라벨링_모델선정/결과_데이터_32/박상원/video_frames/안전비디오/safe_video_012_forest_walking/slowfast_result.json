@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_012_forest_walking",
+  "frames_per_clip": 32,
+  "clip_sec": 16.666666666666668,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 16.666666666666668,
+      "topk": [
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.9256675839424133
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.05990976095199585
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.009651313535869122
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.0011199621949344873
+        },
+        {
+          "index": 123,
+          "label": "water skiing\t123",
+          "prob": 0.000994281261228025
+        }
+      ],
+      "top1_prob": 0.9256675839424133,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9256675839424133,
+    "max_top1_prob": 0.9256675839424133,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/violence__clips__6269858-uhd_3840_2160_30fps_0.00_6.65",
+  "frames_per_clip": 32,
+  "clip_sec": 6.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.0,
+      "topk": [
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.7415453791618347
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.16226455569267273
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.06848528981208801
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.0097513347864151
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.0045396811328828335
+        }
+      ],
+      "top1_prob": 0.7415453791618347,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7415453791618347,
+    "max_top1_prob": 0.7415453791618347,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

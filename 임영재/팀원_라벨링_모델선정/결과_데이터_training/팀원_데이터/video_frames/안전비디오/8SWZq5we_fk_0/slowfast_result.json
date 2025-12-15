@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/8SWZq5we_fk_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.1644538938999176
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.05592472106218338
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.04796036332845688
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.03832922875881195
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.03606694936752319
+        }
+      ],
+      "top1_prob": 0.1644538938999176,
+      "violence_hint": 0.05592472106218338
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.1644538938999176,
+    "max_top1_prob": 0.1644538938999176,
+    "avg_violence_hint": 0.05592472106218338,
+    "max_violence_hint": 0.05592472106218338
+  }
+}

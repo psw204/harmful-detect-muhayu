@@ -1,0 +1,331 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/무하유_유해콘텐츠_데이터_모델선정/2_실제_수집_데이터/안지산/safe_image",
+  "num_frames_total": 100,
+  "num_frames_used": 100,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "pexels-2152765384-34913001.jpg": {
+      "violence_prob": 0.3734419047832489
+    },
+    "pexels-236636281-34867292.jpg": {
+      "violence_prob": 0.535820484161377
+    },
+    "pexels-adonyi-foto-1479710.jpg": {
+      "violence_prob": 0.30699342489242554
+    },
+    "pexels-airwanderers-3130392.jpg": {
+      "violence_prob": 0.49573183059692383
+    },
+    "pexels-aishdreamer-2163751.jpg": {
+      "violence_prob": 0.27957189083099365
+    },
+    "pexels-alla-dokova-485485010-34905034.jpg": {
+      "violence_prob": 0.27900126576423645
+    },
+    "pexels-alyona-nagel-1468385055-34910776.jpg": {
+      "violence_prob": 0.19420187175273895
+    },
+    "pexels-andrey-du-2157697052-34906762.jpg": {
+      "violence_prob": 0.34660604596138
+    },
+    "pexels-andrey-du-2157697052-34906797.jpg": {
+      "violence_prob": 0.45843422412872314
+    },
+    "pexels-aziz-el-gasmi-2157218777-34910107.jpg": {
+      "violence_prob": 0.14724484086036682
+    },
+    "pexels-belle-co-99483-847393.jpg": {
+      "violence_prob": 0.3513021767139435
+    },
+    "pexels-blackboy-joy-338723713-34913142.jpg": {
+      "violence_prob": 0.429499089717865
+    },
+    "pexels-brigitte-tohm-36757-378007.jpg": {
+      "violence_prob": 0.3522656261920929
+    },
+    "pexels-coralbellestudios-811575.jpg": {
+      "violence_prob": 0.31239134073257446
+    },
+    "pexels-d123x-946290.jpg": {
+      "violence_prob": 0.40959838032722473
+    },
+    "pexels-david-alberto-carmona-coto-434794-1151418.jpg": {
+      "violence_prob": 0.39707934856414795
+    },
+    "pexels-ella-olsson-572949-1640773.jpg": {
+      "violence_prob": 0.30089813470840454
+    },
+    "pexels-ella-wimer-1986760150-34916145.jpg": {
+      "violence_prob": 0.19110871851444244
+    },
+    "pexels-elletakesphotos-1660041.jpg": {
+      "violence_prob": 0.30118122696876526
+    },
+    "pexels-elly-fairytale-3811074.jpg": {
+      "violence_prob": 0.24150723218917847
+    },
+    "pexels-emptymirror-34912040.jpg": {
+      "violence_prob": 0.3163949251174927
+    },
+    "pexels-enginakyurt-1435833.jpg": {
+      "violence_prob": 0.4551631808280945
+    },
+    "pexels-enginakyurt-1677275.jpg": {
+      "violence_prob": 0.41251420974731445
+    },
+    "pexels-erwin-bosman-118283-34910008.jpg": {
+      "violence_prob": 0.3470001220703125
+    },
+    "pexels-evie-shaffer-1259279-2395255.jpg": {
+      "violence_prob": 0.4195513129234314
+    },
+    "pexels-fecundap6-359989.jpg": {
+      "violence_prob": 0.4052007794380188
+    },
+    "pexels-fotios-photos-1036372.jpg": {
+      "violence_prob": 0.37955260276794434
+    },
+    "pexels-freddy-1663967361-34908788.jpg": {
+      "violence_prob": 0.2007966786623001
+    },
+    "pexels-freestockpro-322483.jpg": {
+      "violence_prob": 0.28331080079078674
+    },
+    "pexels-freestocks-127713.jpg": {
+      "violence_prob": 0.4261399507522583
+    },
+    "pexels-good-lock-322733055-13715892.jpg": {
+      "violence_prob": 0.3675554692745209
+    },
+    "pexels-good-lock-322733055-14103507.jpg": {
+      "violence_prob": 0.2292277067899704
+    },
+    "pexels-ira-2300811-34910010.jpg": {
+      "violence_prob": 0.32647255063056946
+    },
+    "pexels-jedeson-faveri-2157629805-34845183.jpg": {
+      "violence_prob": 0.4798135459423065
+    },
+    "pexels-jolanta-krawczyk-2157630176-34848161.jpg": {
+      "violence_prob": 0.34221547842025757
+    },
+    "pexels-jonnylew-1236523.jpg": {
+      "violence_prob": 0.27889785170555115
+    },
+    "pexels-karola-g-4210905.jpg": {
+      "violence_prob": 0.42413759231567383
+    },
+    "pexels-karola-g-4210914.jpg": {
+      "violence_prob": 0.3788258135318756
+    },
+    "pexels-karola-g-4210919.jpg": {
+      "violence_prob": 0.3037789762020111
+    },
+    "pexels-kizhakke-vdu-2148428619-34905616.jpg": {
+      "violence_prob": 0.4303140342235565
+    },
+    "pexels-kowalievska-3993178.jpg": {
+      "violence_prob": 0.1238764151930809
+    },
+    "pexels-lastly-1671643.jpg": {
+      "violence_prob": 0.5990362167358398
+    },
+    "pexels-leah-newhouse-50725-185933.jpg": {
+      "violence_prob": 0.2960534691810608
+    },
+    "pexels-lukas-rodriguez-1845331-3680219.jpg": {
+      "violence_prob": 0.2688656151294708
+    },
+    "pexels-marleneleppanen-1426620.jpg": {
+      "violence_prob": 0.4652235507965088
+    },
+    "pexels-matvalina-34912353.jpg": {
+      "violence_prob": 0.23663106560707092
+    },
+    "pexels-matvalina-34912447.jpg": {
+      "violence_prob": 0.40916693210601807
+    },
+    "pexels-mesut-devrisoglu-2997032-34840762.jpg": {
+      "violence_prob": 0.3060348927974701
+    },
+    "pexels-miguel-rivera-2150485053-34913032.jpg": {
+      "violence_prob": 0.628108024597168
+    },
+    "pexels-mike-chai-285623-842339.jpg": {
+      "violence_prob": 0.2768241763114929
+    },
+    "pexels-mk-photos-2155585436-34908881.jpg": {
+      "violence_prob": 0.1523037701845169
+    },
+    "pexels-monurblc-34909331.jpg": {
+      "violence_prob": 0.3448811173439026
+    },
+    "pexels-moose-photos-170195-1029894.jpg": {
+      "violence_prob": 0.40357163548469543
+    },
+    "pexels-muberra-2152489083-34908330.jpg": {
+      "violence_prob": 0.3430660367012024
+    },
+    "pexels-muberra-2152489083-34908346.jpg": {
+      "violence_prob": 0.3095816969871521
+    },
+    "pexels-muffinsaurs-993626.jpg": {
+      "violence_prob": 0.3456677794456482
+    },
+    "pexels-nacho-juarez-386052-1028930.jpg": {
+      "violence_prob": 0.33082446455955505
+    },
+    "pexels-nature-ditsa-tholego-discoveries-2151276636-31681246.jpg": {
+      "violence_prob": 0.43196290731430054
+    },
+    "pexels-neosiam-618116.jpg": {
+      "violence_prob": 0.262813001871109
+    },
+    "pexels-nguyendesigner-34909150.jpg": {
+      "violence_prob": 0.2151208221912384
+    },
+    "pexels-nguyendesigner-34909196.jpg": {
+      "violence_prob": 0.48393410444259644
+    },
+    "pexels-nibretshmurda-1445320.jpg": {
+      "violence_prob": 0.41186484694480896
+    },
+    "pexels-nikita-grishin-128711293-34908326.jpg": {
+      "violence_prob": 0.22522187232971191
+    },
+    "pexels-ninauhlikova-725255.jpg": {
+      "violence_prob": 0.3215651214122772
+    },
+    "pexels-noe-garde-2150865147-34442260.jpg": {
+      "violence_prob": 0.3768400549888611
+    },
+    "pexels-noe-garde-2150865147-34442264.jpg": {
+      "violence_prob": 0.3391619622707367
+    },
+    "pexels-nubikini-1522186.jpg": {
+      "violence_prob": 0.5080417394638062
+    },
+    "pexels-nunzdy-34907996.jpg": {
+      "violence_prob": 0.40945369005203247
+    },
+    "pexels-okan-demi-rcan-694014155-34909811.jpg": {
+      "violence_prob": 0.11593251675367355
+    },
+    "pexels-padrinan-932261.jpg": {
+      "violence_prob": 0.34564775228500366
+    },
+    "pexels-patricialazaro-424184.jpg": {
+      "violence_prob": 0.3433205187320709
+    },
+    "pexels-peterfazekas-905690.jpg": {
+      "violence_prob": 0.4839298725128174
+    },
+    "pexels-pixabay-161571.jpg": {
+      "violence_prob": 0.3369901478290558
+    },
+    "pexels-pixabay-269129.jpg": {
+      "violence_prob": 0.18444344401359558
+    },
+    "pexels-pixabay-269155.jpg": {
+      "violence_prob": 0.27914249897003174
+    },
+    "pexels-pixabay-289368.jpg": {
+      "violence_prob": 0.2436176836490631
+    },
+    "pexels-pixabay-39396.jpg": {
+      "violence_prob": 0.40180933475494385
+    },
+    "pexels-ron-lach-8089667.jpg": {
+      "violence_prob": 0.21078996360301971
+    },
+    "pexels-scottwebb-1048041.jpg": {
+      "violence_prob": 0.3320756256580353
+    },
+    "pexels-secret-garden-333350-931174.jpg": {
+      "violence_prob": 0.4657137095928192
+    },
+    "pexels-simplyogo-1764564.jpg": {
+      "violence_prob": 0.3649066388607025
+    },
+    "pexels-slaytinaaaa-2725458.jpg": {
+      "violence_prob": 0.5156124830245972
+    },
+    "pexels-snow-white-304718-1440927.jpg": {
+      "violence_prob": 0.4104191064834595
+    },
+    "pexels-strannik-sk-34920996.jpg": {
+      "violence_prob": 0.3991164267063141
+    },
+    "pexels-talhariaz-2397757.jpg": {
+      "violence_prob": 0.31005361676216125
+    },
+    "pexels-taufiq-klinkenborg-93250-384553.jpg": {
+      "violence_prob": 0.38883504271507263
+    },
+    "pexels-the-karimunjawa-2157624059-34840017.jpg": {
+      "violence_prob": 0.37288138270378113
+    },
+    "pexels-thepaintedsquare-583848.jpg": {
+      "violence_prob": 0.39128485321998596
+    },
+    "pexels-tieugiang007-34907748.jpg": {
+      "violence_prob": 0.467196524143219
+    },
+    "pexels-tieugiang007-34908634.jpg": {
+      "violence_prob": 0.36619043350219727
+    },
+    "pexels-truongbanreview-34911483.jpg": {
+      "violence_prob": 0.19577641785144806
+    },
+    "pexels-truongbanreview-34911486.jpg": {
+      "violence_prob": 0.25179991126060486
+    },
+    "pexels-truongbanreview-34911587.jpg": {
+      "violence_prob": 0.24983501434326172
+    },
+    "pexels-truongbanreview-34911589.jpg": {
+      "violence_prob": 0.27975142002105713
+    },
+    "pexels-valentin-cvetanoski-2147958923-34911415.jpg": {
+      "violence_prob": 0.2973151206970215
+    },
+    "pexels-valeriiamiller-2506220.jpg": {
+      "violence_prob": 0.20921798050403595
+    },
+    "pexels-valeriiamiller-2560510.jpg": {
+      "violence_prob": 0.39908966422080994
+    },
+    "pexels-valeriiamiller-3680186.jpg": {
+      "violence_prob": 0.2880688011646271
+    },
+    "pexels-vijay-meena-211352868-34860315.jpg": {
+      "violence_prob": 0.2851710617542267
+    },
+    "pexels-vitoriasantos-2087954.jpg": {
+      "violence_prob": 0.3473605215549469
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.3426973511278629,
+    "max_violence_prob": 0.628108024597168,
+    "p95_violence_prob": 0.49634732604026793
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/ThiaJUQ8_3",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.7059301137924194
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.28369399905204773
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.004282270558178425
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.003005741164088249
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0005185195477679372
+        }
+      ],
+      "top1_prob": 0.7059301137924194,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7059301137924194,
+    "max_top1_prob": 0.7059301137924194,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

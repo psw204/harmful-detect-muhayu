@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_051_dog_running",
+  "frames_per_clip": 32,
+  "clip_sec": 8.333333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.333333333333334,
+      "topk": [
+        {
+          "index": 363,
+          "label": "counting money\t363",
+          "prob": 0.6111035943031311
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.29981350898742676
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.04296967759728432
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.008516456000506878
+        },
+        {
+          "index": 338,
+          "label": "bending metal\t338",
+          "prob": 0.005541319493204355
+        }
+      ],
+      "top1_prob": 0.6111035943031311,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6111035943031311,
+    "max_top1_prob": 0.6111035943031311,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

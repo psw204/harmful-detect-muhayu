@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_982",
+  "frames_per_clip": 32,
+  "clip_sec": 3.8666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.8666666666666667,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.9304211139678955
+        },
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.033608607947826385
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.026180550456047058
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.0016147276619449258
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.0014346707612276077
+        }
+      ],
+      "top1_prob": 0.9304211139678955,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9304211139678955,
+    "max_top1_prob": 0.9304211139678955,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

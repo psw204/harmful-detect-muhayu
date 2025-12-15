@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/EckGCByW_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.2732241153717041
+        },
+        {
+          "index": 264,
+          "label": "eating ice cream\t264",
+          "prob": 0.2601509690284729
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.11694241315126419
+        },
+        {
+          "index": 2,
+          "label": "dodgeball\t2",
+          "prob": 0.04515272006392479
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.02382163517177105
+        }
+      ],
+      "top1_prob": 0.2732241153717041,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2732241153717041,
+    "max_top1_prob": 0.2732241153717041,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

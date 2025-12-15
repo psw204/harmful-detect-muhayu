@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_081_running_exercis",
+  "frames_per_clip": 32,
+  "clip_sec": 10.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 10.0,
+      "topk": [
+        {
+          "index": 375,
+          "label": "milking cow\t375",
+          "prob": 0.27492257952690125
+        },
+        {
+          "index": 196,
+          "label": "making pizza\t196",
+          "prob": 0.2555958032608032
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.09079689532518387
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.06450805068016052
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.054234836250543594
+        }
+      ],
+      "top1_prob": 0.27492257952690125,
+      "violence_hint": 0.054234836250543594
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.27492257952690125,
+    "max_top1_prob": 0.27492257952690125,
+    "avg_violence_hint": 0.054234836250543594,
+    "max_violence_hint": 0.054234836250543594
+  }
+}

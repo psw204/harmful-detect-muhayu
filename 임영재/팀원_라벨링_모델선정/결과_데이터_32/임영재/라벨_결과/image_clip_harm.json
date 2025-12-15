@@ -1,0 +1,331 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/무하유_유해콘텐츠_데이터_모델선정/2_실제_수집_데이터/임영재/이미지",
+  "num_frames_total": 100,
+  "num_frames_used": 100,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "img_hod_000002.jpg": {
+      "violence_prob": 0.8612903952598572
+    },
+    "img_hod_000053.jpg": {
+      "violence_prob": 0.8983285427093506
+    },
+    "img_hod_000075.jpg": {
+      "violence_prob": 0.8489760160446167
+    },
+    "img_hod_000092.jpg": {
+      "violence_prob": 0.9037131071090698
+    },
+    "img_hod_000199.jpg": {
+      "violence_prob": 0.7611057758331299
+    },
+    "img_hod_000208.jpg": {
+      "violence_prob": 0.9103939533233643
+    },
+    "img_hod_000287.jpg": {
+      "violence_prob": 0.3369493782520294
+    },
+    "img_hod_000324.jpg": {
+      "violence_prob": 0.8650692105293274
+    },
+    "img_hod_000371.jpg": {
+      "violence_prob": 0.6977750062942505
+    },
+    "img_hod_000394.jpg": {
+      "violence_prob": 0.7344202995300293
+    },
+    "img_hod_000405.jpg": {
+      "violence_prob": 0.7575856447219849
+    },
+    "img_hod_000726.jpg": {
+      "violence_prob": 0.7643157243728638
+    },
+    "img_hod_001083.jpg": {
+      "violence_prob": 0.7926352620124817
+    },
+    "img_hod_001256.jpg": {
+      "violence_prob": 0.6775051951408386
+    },
+    "img_hod_001404.jpg": {
+      "violence_prob": 0.4069859981536865
+    },
+    "img_hod_001431.jpg": {
+      "violence_prob": 0.8436468839645386
+    },
+    "img_hod_001519.jpg": {
+      "violence_prob": 0.4166058897972107
+    },
+    "img_hod_001592.jpg": {
+      "violence_prob": 0.5207914710044861
+    },
+    "img_hod_001752.jpg": {
+      "violence_prob": 0.5318751335144043
+    },
+    "img_hod_001793.jpg": {
+      "violence_prob": 0.4163561761379242
+    },
+    "img_hod_001833.jpg": {
+      "violence_prob": 0.5687219500541687
+    },
+    "img_hod_001851.jpg": {
+      "violence_prob": 0.4063739776611328
+    },
+    "img_hod_002023.jpg": {
+      "violence_prob": 0.4752848744392395
+    },
+    "img_hod_002077.jpg": {
+      "violence_prob": 0.5978811979293823
+    },
+    "img_hod_002112.jpg": {
+      "violence_prob": 0.7364321351051331
+    },
+    "img_hod_002177.jpg": {
+      "violence_prob": 0.6120770573616028
+    },
+    "img_hod_002352.jpg": {
+      "violence_prob": 0.1020747721195221
+    },
+    "img_hod_002442.jpg": {
+      "violence_prob": 0.4963126480579376
+    },
+    "img_hod_002531.jpg": {
+      "violence_prob": 0.5829756259918213
+    },
+    "img_hod_002532.jpg": {
+      "violence_prob": 0.6534737348556519
+    },
+    "img_hod_002546.jpg": {
+      "violence_prob": 0.4331566095352173
+    },
+    "img_hod_002675.jpg": {
+      "violence_prob": 0.4120391309261322
+    },
+    "img_hod_002773.jpg": {
+      "violence_prob": 0.48571527004241943
+    },
+    "img_hod_003283.jpg": {
+      "violence_prob": 0.345902681350708
+    },
+    "img_hod_003357.jpg": {
+      "violence_prob": 0.24798592925071716
+    },
+    "img_hod_003390.jpg": {
+      "violence_prob": 0.2544570565223694
+    },
+    "img_hod_003443.jpg": {
+      "violence_prob": 0.2727896571159363
+    },
+    "img_hod_003534.jpg": {
+      "violence_prob": 0.1370663344860077
+    },
+    "img_hod_003538.jpg": {
+      "violence_prob": 0.17834573984146118
+    },
+    "img_hod_003547.jpg": {
+      "violence_prob": 0.15090765058994293
+    },
+    "img_hod_003765.jpg": {
+      "violence_prob": 0.2572205662727356
+    },
+    "img_hod_003787.jpg": {
+      "violence_prob": 0.28875434398651123
+    },
+    "img_hod_004519.jpg": {
+      "violence_prob": 0.535780668258667
+    },
+    "img_hod_004641.jpg": {
+      "violence_prob": 0.39367541670799255
+    },
+    "img_hod_004670.jpg": {
+      "violence_prob": 0.36474373936653137
+    },
+    "img_hod_004746.jpg": {
+      "violence_prob": 0.5527629256248474
+    },
+    "img_hod_005222.jpg": {
+      "violence_prob": 0.8459197282791138
+    },
+    "img_hod_005356.jpg": {
+      "violence_prob": 0.35345563292503357
+    },
+    "img_hod_005608.jpg": {
+      "violence_prob": 0.31329745054244995
+    },
+    "img_hod_005682.jpg": {
+      "violence_prob": 0.2838442325592041
+    },
+    "img_hod_005755.jpg": {
+      "violence_prob": 0.3536946773529053
+    },
+    "img_hod_005892.jpg": {
+      "violence_prob": 0.8362053632736206
+    },
+    "img_hod_006177.jpg": {
+      "violence_prob": 0.6857768893241882
+    },
+    "img_hod_006269.jpg": {
+      "violence_prob": 0.27973687648773193
+    },
+    "img_hod_006279.jpg": {
+      "violence_prob": 0.32010549306869507
+    },
+    "img_hod_006346.jpg": {
+      "violence_prob": 0.4606970548629761
+    },
+    "img_hod_006383.jpg": {
+      "violence_prob": 0.4196741580963135
+    },
+    "img_hod_006404.jpg": {
+      "violence_prob": 0.4963553547859192
+    },
+    "img_hod_006415.jpg": {
+      "violence_prob": 0.3056136667728424
+    },
+    "img_hod_006553.jpg": {
+      "violence_prob": 0.41097697615623474
+    },
+    "img_hod_006722.jpg": {
+      "violence_prob": 0.25747084617614746
+    },
+    "img_hod_006851.jpg": {
+      "violence_prob": 0.4247530698776245
+    },
+    "img_hod_006882.jpg": {
+      "violence_prob": 0.24920566380023956
+    },
+    "img_hod_007219.jpg": {
+      "violence_prob": 0.493688702583313
+    },
+    "img_hod_007311.jpg": {
+      "violence_prob": 0.6218152642250061
+    },
+    "img_hod_007345.jpg": {
+      "violence_prob": 0.622963547706604
+    },
+    "img_hod_007395.jpg": {
+      "violence_prob": 0.813816487789154
+    },
+    "img_hod_007482.jpg": {
+      "violence_prob": 0.6972552537918091
+    },
+    "img_hod_007520.jpg": {
+      "violence_prob": 0.6839290857315063
+    },
+    "img_hod_007584.jpg": {
+      "violence_prob": 0.2081729620695114
+    },
+    "img_hod_007602.jpg": {
+      "violence_prob": 0.4877956807613373
+    },
+    "img_hod_008003.jpg": {
+      "violence_prob": 0.6383400559425354
+    },
+    "img_hod_008077.jpg": {
+      "violence_prob": 0.3129678964614868
+    },
+    "img_hod_008195.jpg": {
+      "violence_prob": 0.31596365571022034
+    },
+    "img_hod_008319.jpg": {
+      "violence_prob": 0.19176582992076874
+    },
+    "img_hod_008450.jpg": {
+      "violence_prob": 0.39947831630706787
+    },
+    "img_hod_008457.jpg": {
+      "violence_prob": 0.24234583973884583
+    },
+    "img_hod_008472.jpg": {
+      "violence_prob": 0.6315380334854126
+    },
+    "img_hod_008533.jpg": {
+      "violence_prob": 0.5137915015220642
+    },
+    "img_hod_008655.jpg": {
+      "violence_prob": 0.4086431562900543
+    },
+    "img_hod_008698.jpg": {
+      "violence_prob": 0.3745077848434448
+    },
+    "img_hod_008878.jpg": {
+      "violence_prob": 0.4278951585292816
+    },
+    "img_hod_009120.jpg": {
+      "violence_prob": 0.2040245532989502
+    },
+    "img_hod_009191.jpg": {
+      "violence_prob": 0.461849570274353
+    },
+    "img_hod_009399.jpg": {
+      "violence_prob": 0.40469634532928467
+    },
+    "img_hod_009457.jpg": {
+      "violence_prob": 0.1694626659154892
+    },
+    "img_hod_009518.jpg": {
+      "violence_prob": 0.36838099360466003
+    },
+    "img_hod_009541.jpg": {
+      "violence_prob": 0.25608718395233154
+    },
+    "img_hod_009639.jpg": {
+      "violence_prob": 0.5857584476470947
+    },
+    "img_hod_009724.jpg": {
+      "violence_prob": 0.622353196144104
+    },
+    "img_hod_009825.jpg": {
+      "violence_prob": 0.8206839561462402
+    },
+    "img_hod_010023.jpg": {
+      "violence_prob": 0.8355675339698792
+    },
+    "img_hod_010038.jpg": {
+      "violence_prob": 0.6911315321922302
+    },
+    "img_hod_010148.jpg": {
+      "violence_prob": 0.6471895575523376
+    },
+    "img_hod_010149.jpg": {
+      "violence_prob": 0.3859594464302063
+    },
+    "img_hod_010188.jpg": {
+      "violence_prob": 0.843163788318634
+    },
+    "img_hod_010196.jpg": {
+      "violence_prob": 0.879970371723175
+    },
+    "img_hod_010415.jpg": {
+      "violence_prob": 0.19379743933677673
+    },
+    "img_hod_010578.jpg": {
+      "violence_prob": 0.834041953086853
+    },
+    "img_hod_010610.jpg": {
+      "violence_prob": 0.6487042903900146
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.5072551693022251,
+    "max_violence_prob": 0.9103939533233643,
+    "p95_violence_prob": 0.8614793360233307
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_013_forest_walking",
+  "frames_per_clip": 32,
+  "clip_sec": 19.966666666666665,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 19.966666666666665,
+      "topk": [
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.649034857749939
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.08281004428863525
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.05378938093781471
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.031174834817647934
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.02931222692131996
+        }
+      ],
+      "top1_prob": 0.649034857749939,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.649034857749939,
+    "max_top1_prob": 0.649034857749939,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

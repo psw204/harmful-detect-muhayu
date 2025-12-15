@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/threat__clips__5378130-uhd_3840_2160_25fps_8.88_17.76",
+  "frames_per_clip": 32,
+  "clip_sec": 6.666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.666666666666667,
+      "topk": [
+        {
+          "index": 371,
+          "label": "sharpening pencil\t371",
+          "prob": 0.15513622760772705
+        },
+        {
+          "index": 101,
+          "label": "catching or throwing frisbee\t101",
+          "prob": 0.07131068408489227
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.052721742540597916
+        },
+        {
+          "index": 352,
+          "label": "blasting sand\t352",
+          "prob": 0.04774031415581703
+        },
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.041600726544857025
+        }
+      ],
+      "top1_prob": 0.15513622760772705,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.15513622760772705,
+    "max_top1_prob": 0.15513622760772705,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

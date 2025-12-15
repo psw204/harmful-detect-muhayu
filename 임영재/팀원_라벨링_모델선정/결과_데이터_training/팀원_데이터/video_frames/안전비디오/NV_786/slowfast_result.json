@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_786",
+  "frames_per_clip": 32,
+  "clip_sec": 3.066666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.066666666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.284074604511261
+        },
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.1738315224647522
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.060199931263923645
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.059118520468473434
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.03730030730366707
+        }
+      ],
+      "top1_prob": 0.284074604511261,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.284074604511261,
+    "max_top1_prob": 0.284074604511261,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

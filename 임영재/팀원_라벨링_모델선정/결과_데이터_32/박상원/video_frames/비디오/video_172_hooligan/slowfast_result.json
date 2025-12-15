@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_172_hooligan",
+  "frames_per_clip": 32,
+  "clip_sec": 6.4,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.4,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.32276833057403564
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.08913742005825043
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.0675734430551529
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.06123419478535652
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.05123981833457947
+        }
+      ],
+      "top1_prob": 0.32276833057403564,
+      "violence_hint": 0.0675734430551529
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.32276833057403564,
+    "max_top1_prob": 0.32276833057403564,
+    "avg_violence_hint": 0.0675734430551529,
+    "max_violence_hint": 0.0675734430551529
+  }
+}

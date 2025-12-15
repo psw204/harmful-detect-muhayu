@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/ndNHBJbS_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.36901843547821045
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.058731064200401306
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.05528239160776138
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.031154537573456764
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.019794868305325508
+        }
+      ],
+      "top1_prob": 0.36901843547821045,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.36901843547821045,
+    "max_top1_prob": 0.36901843547821045,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

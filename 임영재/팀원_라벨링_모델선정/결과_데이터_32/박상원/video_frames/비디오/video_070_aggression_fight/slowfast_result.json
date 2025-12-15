@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_070_aggression_fight",
+  "frames_per_clip": 32,
+  "clip_sec": 14.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 14.0,
+      "topk": [
+        {
+          "index": 284,
+          "label": "playing poker\t284",
+          "prob": 0.7865517139434814
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.09796512871980667
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.08001729846000671
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.010762735269963741
+        },
+        {
+          "index": 62,
+          "label": "digging\t62",
+          "prob": 0.00918587762862444
+        }
+      ],
+      "top1_prob": 0.7865517139434814,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7865517139434814,
+    "max_top1_prob": 0.7865517139434814,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

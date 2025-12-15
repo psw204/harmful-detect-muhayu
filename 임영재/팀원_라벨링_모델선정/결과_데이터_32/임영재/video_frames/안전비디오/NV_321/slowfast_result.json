@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_321",
+  "frames_per_clip": 32,
+  "clip_sec": 1.6666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.6666666666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.4368966519832611
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.08622611314058304
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.0658661425113678
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.04478049278259277
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.03840240091085434
+        }
+      ],
+      "top1_prob": 0.4368966519832611,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4368966519832611,
+    "max_top1_prob": 0.4368966519832611,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/r8PX3ZJ1_II_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.17207683622837067
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.07436981052160263
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.044845644384622574
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.04397418349981308
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.03850526362657547
+        }
+      ],
+      "top1_prob": 0.17207683622837067,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.17207683622837067,
+    "max_top1_prob": 0.17207683622837067,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

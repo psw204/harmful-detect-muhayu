@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/Fc45rUKM_1",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.6562401652336121
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.22307269275188446
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.04232762008905411
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.03378435969352722
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.008184298872947693
+        }
+      ],
+      "top1_prob": 0.6562401652336121,
+      "violence_hint": 0.22307269275188446
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6562401652336121,
+    "max_top1_prob": 0.6562401652336121,
+    "avg_violence_hint": 0.22307269275188446,
+    "max_violence_hint": 0.22307269275188446
+  }
+}

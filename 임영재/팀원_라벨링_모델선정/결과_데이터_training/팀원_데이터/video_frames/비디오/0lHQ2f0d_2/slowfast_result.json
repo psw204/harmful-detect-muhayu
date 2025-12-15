@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/0lHQ2f0d_2",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.4213942587375641
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.08868252485990524
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.07708490639925003
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06404224038124084
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.048853762447834015
+        }
+      ],
+      "top1_prob": 0.4213942587375641,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4213942587375641,
+    "max_top1_prob": 0.4213942587375641,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

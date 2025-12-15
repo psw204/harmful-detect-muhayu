@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_014_weapon_threat",
+  "frames_per_clip": 32,
+  "clip_sec": 16.666666666666668,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 16.666666666666668,
+      "topk": [
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.36532413959503174
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.11534292250871658
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.09293603152036667
+        },
+        {
+          "index": 101,
+          "label": "catching or throwing frisbee\t101",
+          "prob": 0.03900093585252762
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.03414100036025047
+        }
+      ],
+      "top1_prob": 0.36532413959503174,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.36532413959503174,
+    "max_top1_prob": 0.36532413959503174,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

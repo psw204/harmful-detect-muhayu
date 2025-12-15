@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_154",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.14958088099956512
+        },
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.07153049856424332
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.04356237128376961
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.03835454210639
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.034187983721494675
+        }
+      ],
+      "top1_prob": 0.14958088099956512,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.14958088099956512,
+    "max_top1_prob": 0.14958088099956512,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3297378-hd_1280_720_25fps_4.52_9.04",
+  "frames_per_clip": 32,
+  "clip_sec": 9.1,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 9.1,
+      "topk": [
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.5125237107276917
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.15242372453212738
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.15185439586639404
+        },
+        {
+          "index": 321,
+          "label": "cutting pineapple\t321",
+          "prob": 0.047828033566474915
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.020064420998096466
+        }
+      ],
+      "top1_prob": 0.5125237107276917,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5125237107276917,
+    "max_top1_prob": 0.5125237107276917,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

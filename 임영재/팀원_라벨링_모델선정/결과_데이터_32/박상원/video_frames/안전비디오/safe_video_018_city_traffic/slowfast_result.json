@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_018_city_traffic",
+  "frames_per_clip": 32,
+  "clip_sec": 12.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 12.0,
+      "topk": [
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.14066019654273987
+        },
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.05110422894358635
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.04713503643870354
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.04649508371949196
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.03317384421825409
+        }
+      ],
+      "top1_prob": 0.14066019654273987,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.14066019654273987,
+    "max_top1_prob": 0.14066019654273987,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

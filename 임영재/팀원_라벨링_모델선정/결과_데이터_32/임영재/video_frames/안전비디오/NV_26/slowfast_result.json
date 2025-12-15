@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_26",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.44282829761505127
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.42513948678970337
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.06335286796092987
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.026884622871875763
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.01923956349492073
+        }
+      ],
+      "top1_prob": 0.44282829761505127,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.44282829761505127,
+    "max_top1_prob": 0.44282829761505127,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

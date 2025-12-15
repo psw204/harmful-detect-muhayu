@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_121_substance_abuse",
+  "frames_per_clip": 32,
+  "clip_sec": 18.333333333333332,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 18.333333333333332,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.5745247006416321
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.21340249478816986
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.06137562543153763
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.020318971946835518
+        },
+        {
+          "index": 98,
+          "label": "snowmobiling\t98",
+          "prob": 0.014349324628710747
+        }
+      ],
+      "top1_prob": 0.5745247006416321,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5745247006416321,
+    "max_top1_prob": 0.5745247006416321,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

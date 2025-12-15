@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/umOs1WLBkuo_2",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.44930899143218994
+        },
+        {
+          "index": 221,
+          "label": "shot put\t221",
+          "prob": 0.26204612851142883
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.04858934134244919
+        },
+        {
+          "index": 350,
+          "label": "running on treadmill\t350",
+          "prob": 0.03692696616053581
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.0274698194116354
+        }
+      ],
+      "top1_prob": 0.44930899143218994,
+      "violence_hint": 0.04858934134244919
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.44930899143218994,
+    "max_top1_prob": 0.44930899143218994,
+    "avg_violence_hint": 0.04858934134244919,
+    "max_violence_hint": 0.04858934134244919
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_775",
+  "frames_per_clip": 32,
+  "clip_sec": 3.066666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.066666666666667,
+      "topk": [
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 0.2523718476295471
+        },
+        {
+          "index": 112,
+          "label": "sanding floor\t112",
+          "prob": 0.13984768092632294
+        },
+        {
+          "index": 353,
+          "label": "playing trombone\t353",
+          "prob": 0.09325642138719559
+        },
+        {
+          "index": 7,
+          "label": "clapping\t7",
+          "prob": 0.07493128627538681
+        },
+        {
+          "index": 276,
+          "label": "passing american football (not in game)\t276",
+          "prob": 0.04646687209606171
+        }
+      ],
+      "top1_prob": 0.2523718476295471,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2523718476295471,
+    "max_top1_prob": 0.2523718476295471,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/Vd27cYFthms_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.4366092383861542
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.11315318942070007
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.08862563967704773
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.021153591573238373
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.016491113230586052
+        }
+      ],
+      "top1_prob": 0.4366092383861542,
+      "violence_hint": 0.4366092383861542
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4366092383861542,
+    "max_top1_prob": 0.4366092383861542,
+    "avg_violence_hint": 0.4366092383861542,
+    "max_violence_hint": 0.4366092383861542
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/0H2s9UJcNJ0_2",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.08382615447044373
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.06891187280416489
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.04560203477740288
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.04554583504796028
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.041065338999032974
+        }
+      ],
+      "top1_prob": 0.08382615447044373,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.08382615447044373,
+    "max_top1_prob": 0.08382615447044373,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

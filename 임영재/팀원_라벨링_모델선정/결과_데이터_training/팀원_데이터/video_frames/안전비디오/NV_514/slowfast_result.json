@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_514",
+  "frames_per_clip": 32,
+  "clip_sec": 3.8666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.8666666666666667,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.9981564879417419
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.001345844124443829
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 0.00015993905253708363
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 0.0001233779184985906
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 4.865382288699038e-05
+        }
+      ],
+      "top1_prob": 0.9981564879417419,
+      "violence_hint": 0.9981564879417419
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9981564879417419,
+    "max_top1_prob": 0.9981564879417419,
+    "avg_violence_hint": 0.9981564879417419,
+    "max_violence_hint": 0.9981564879417419
+  }
+}

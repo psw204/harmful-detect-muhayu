@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_072_family_together",
+  "frames_per_clip": 32,
+  "clip_sec": 9.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 9.966666666666667,
+      "topk": [
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 0.3822386562824249
+        },
+        {
+          "index": 115,
+          "label": "clean and jerk\t115",
+          "prob": 0.08106943219900131
+        },
+        {
+          "index": 114,
+          "label": "sneezing\t114",
+          "prob": 0.05016166344285011
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.04953585937619209
+        },
+        {
+          "index": 110,
+          "label": "crossing river\t110",
+          "prob": 0.04083097353577614
+        }
+      ],
+      "top1_prob": 0.3822386562824249,
+      "violence_hint": 0.3822386562824249
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3822386562824249,
+    "max_top1_prob": 0.3822386562824249,
+    "avg_violence_hint": 0.3822386562824249,
+    "max_violence_hint": 0.3822386562824249
+  }
+}

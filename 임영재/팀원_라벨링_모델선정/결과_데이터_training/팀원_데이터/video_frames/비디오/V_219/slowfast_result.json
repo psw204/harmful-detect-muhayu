@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_219",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.7321956753730774
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.027201099321246147
+        },
+        {
+          "index": 363,
+          "label": "counting money\t363",
+          "prob": 0.024179045110940933
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.023670664057135582
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.019579535350203514
+        }
+      ],
+      "top1_prob": 0.7321956753730774,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7321956753730774,
+    "max_top1_prob": 0.7321956753730774,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

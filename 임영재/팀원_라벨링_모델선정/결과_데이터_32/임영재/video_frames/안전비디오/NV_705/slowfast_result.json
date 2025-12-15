@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_705",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.2814973294734955
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.21527409553527832
+        },
+        {
+          "index": 266,
+          "label": "hammer throw\t266",
+          "prob": 0.08243335783481598
+        },
+        {
+          "index": 232,
+          "label": "cleaning pool\t232",
+          "prob": 0.059938326478004456
+        },
+        {
+          "index": 233,
+          "label": "jogging\t233",
+          "prob": 0.044311683624982834
+        }
+      ],
+      "top1_prob": 0.2814973294734955,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2814973294734955,
+    "max_top1_prob": 0.2814973294734955,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

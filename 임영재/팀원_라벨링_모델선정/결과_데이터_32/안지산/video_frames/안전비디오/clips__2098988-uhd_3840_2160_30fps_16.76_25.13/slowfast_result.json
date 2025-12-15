@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__2098988-uhd_3840_2160_30fps_16.76_25.13",
+  "frames_per_clip": 32,
+  "clip_sec": 12.766666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 12.766666666666667,
+      "topk": [
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.37592142820358276
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.16545654833316803
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.06804273277521133
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.03156101703643799
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.01826162077486515
+        }
+      ],
+      "top1_prob": 0.37592142820358276,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.37592142820358276,
+    "max_top1_prob": 0.37592142820358276,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_445",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.28729143738746643
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.14948898553848267
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.14266596734523773
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.09653492271900177
+        },
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.07390895485877991
+        }
+      ],
+      "top1_prob": 0.28729143738746643,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.28729143738746643,
+    "max_top1_prob": 0.28729143738746643,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

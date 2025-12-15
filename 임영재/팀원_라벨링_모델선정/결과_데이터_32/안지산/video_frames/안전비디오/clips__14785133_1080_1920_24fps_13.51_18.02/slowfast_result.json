@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__14785133_1080_1920_24fps_13.51_18.02",
+  "frames_per_clip": 32,
+  "clip_sec": 14.566666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 14.566666666666666,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.4715223014354706
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.1403171867132187
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.050261758267879486
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.03710504621267319
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.031526487320661545
+        }
+      ],
+      "top1_prob": 0.4715223014354706,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4715223014354706,
+    "max_top1_prob": 0.4715223014354706,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

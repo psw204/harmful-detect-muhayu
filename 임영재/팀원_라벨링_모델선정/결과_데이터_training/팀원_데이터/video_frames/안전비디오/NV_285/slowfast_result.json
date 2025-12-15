@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_285",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.9999852180480957
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 6.268219749472337e-06
+        },
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 3.1590273010806413e-06
+        },
+        {
+          "index": 311,
+          "label": "golf driving\t311",
+          "prob": 2.0740988020406803e-06
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 8.558016588722239e-07
+        }
+      ],
+      "top1_prob": 0.9999852180480957,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9999852180480957,
+    "max_top1_prob": 0.9999852180480957,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

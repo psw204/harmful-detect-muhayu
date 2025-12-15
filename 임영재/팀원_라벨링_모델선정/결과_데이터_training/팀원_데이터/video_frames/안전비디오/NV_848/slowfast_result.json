@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_848",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.0737510547041893
+        },
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.042816706001758575
+        },
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.041801728308200836
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.035540156066417694
+        },
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.035537976771593094
+        }
+      ],
+      "top1_prob": 0.0737510547041893,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.0737510547041893,
+    "max_top1_prob": 0.0737510547041893,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

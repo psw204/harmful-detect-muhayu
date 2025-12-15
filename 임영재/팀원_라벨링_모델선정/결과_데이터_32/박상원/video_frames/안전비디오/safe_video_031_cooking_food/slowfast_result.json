@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_031_cooking_food",
+  "frames_per_clip": 32,
+  "clip_sec": 11.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 11.966666666666667,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.35446712374687195
+        },
+        {
+          "index": 11,
+          "label": "petting animal (not cat)\t11",
+          "prob": 0.1645086407661438
+        },
+        {
+          "index": 184,
+          "label": "hula hooping\t184",
+          "prob": 0.13982388377189636
+        },
+        {
+          "index": 185,
+          "label": "braiding hair\t185",
+          "prob": 0.09082631021738052
+        },
+        {
+          "index": 71,
+          "label": "brushing hair\t71",
+          "prob": 0.04791713133454323
+        }
+      ],
+      "top1_prob": 0.35446712374687195,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.35446712374687195,
+    "max_top1_prob": 0.35446712374687195,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

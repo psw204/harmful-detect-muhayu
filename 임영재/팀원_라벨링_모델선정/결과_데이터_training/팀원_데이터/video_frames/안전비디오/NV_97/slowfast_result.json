@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_97",
+  "frames_per_clip": 32,
+  "clip_sec": 1.6666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.6666666666666667,
+      "topk": [
+        {
+          "index": 307,
+          "label": "massaging back\t307",
+          "prob": 0.6429209113121033
+        },
+        {
+          "index": 308,
+          "label": "blowing glass\t308",
+          "prob": 0.25285619497299194
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.045443955808877945
+        },
+        {
+          "index": 310,
+          "label": "playing chess\t310",
+          "prob": 0.03807101026177406
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.0029101374093443155
+        }
+      ],
+      "top1_prob": 0.6429209113121033,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6429209113121033,
+    "max_top1_prob": 0.6429209113121033,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

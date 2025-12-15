@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_418",
+  "frames_per_clip": 32,
+  "clip_sec": 1.4666666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.4666666666666666,
+      "topk": [
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.25882086157798767
+        },
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.21075597405433655
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.137832373380661
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.07116993516683578
+        },
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.05729962885379791
+        }
+      ],
+      "top1_prob": 0.25882086157798767,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.25882086157798767,
+    "max_top1_prob": 0.25882086157798767,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

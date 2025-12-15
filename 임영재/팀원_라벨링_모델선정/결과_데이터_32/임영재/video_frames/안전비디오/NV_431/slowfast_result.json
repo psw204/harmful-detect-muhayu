@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_431",
+  "frames_per_clip": 32,
+  "clip_sec": 1.4666666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.4666666666666666,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.32794031500816345
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.2976326644420624
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.11169466376304626
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.09709320217370987
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.052537765353918076
+        }
+      ],
+      "top1_prob": 0.32794031500816345,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.32794031500816345,
+    "max_top1_prob": 0.32794031500816345,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

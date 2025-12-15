@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_001_nature_landscap",
+  "frames_per_clip": 32,
+  "clip_sec": 6.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.0,
+      "topk": [
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.4954080581665039
+        },
+        {
+          "index": 47,
+          "label": "riding unicycle\t47",
+          "prob": 0.20039252936840057
+        },
+        {
+          "index": 42,
+          "label": "shooting goal (soccer)\t42",
+          "prob": 0.1659768521785736
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.03971245512366295
+        },
+        {
+          "index": 229,
+          "label": "swinging on something\t229",
+          "prob": 0.03588450327515602
+        }
+      ],
+      "top1_prob": 0.4954080581665039,
+      "violence_hint": 0.1659768521785736
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4954080581665039,
+    "max_top1_prob": 0.4954080581665039,
+    "avg_violence_hint": 0.1659768521785736,
+    "max_violence_hint": 0.1659768521785736
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__14785133_1080_1920_24fps_0.00_4.50",
+  "frames_per_clip": 32,
+  "clip_sec": 7.733333333333333,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 7.733333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.24194300174713135
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.102363221347332
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.052797555923461914
+        },
+        {
+          "index": 69,
+          "label": "washing hair\t69",
+          "prob": 0.048753976821899414
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.04808913543820381
+        }
+      ],
+      "top1_prob": 0.24194300174713135,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.24194300174713135,
+    "max_top1_prob": 0.24194300174713135,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

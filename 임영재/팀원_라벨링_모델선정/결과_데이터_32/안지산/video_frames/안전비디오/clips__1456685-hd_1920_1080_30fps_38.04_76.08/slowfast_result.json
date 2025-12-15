@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__1456685-hd_1920_1080_30fps_38.04_76.08",
+  "frames_per_clip": 32,
+  "clip_sec": 42.13333333333333,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 42.13333333333333,
+      "topk": [
+        {
+          "index": 321,
+          "label": "cutting pineapple\t321",
+          "prob": 0.2567150294780731
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.07301102578639984
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.06522499024868011
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.06387181580066681
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.05742734670639038
+        }
+      ],
+      "top1_prob": 0.2567150294780731,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2567150294780731,
+    "max_top1_prob": 0.2567150294780731,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

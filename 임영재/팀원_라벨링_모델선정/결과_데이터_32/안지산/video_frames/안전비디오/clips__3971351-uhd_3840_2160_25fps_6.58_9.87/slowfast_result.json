@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3971351-uhd_3840_2160_25fps_6.58_9.87",
+  "frames_per_clip": 32,
+  "clip_sec": 5.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 5.966666666666667,
+      "topk": [
+        {
+          "index": 383,
+          "label": "breakdancing\t383",
+          "prob": 0.28784802556037903
+        },
+        {
+          "index": 228,
+          "label": "tying bow tie\t228",
+          "prob": 0.11600282043218613
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.10346483439207077
+        },
+        {
+          "index": 309,
+          "label": "playing guitar\t309",
+          "prob": 0.10269501805305481
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.09861061722040176
+        }
+      ],
+      "top1_prob": 0.28784802556037903,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.28784802556037903,
+    "max_top1_prob": 0.28784802556037903,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

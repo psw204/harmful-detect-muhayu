@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_066_children_playgr",
+  "frames_per_clip": 32,
+  "clip_sec": 16.666666666666668,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 16.666666666666668,
+      "topk": [
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.26654645800590515
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.1662401705980301
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.11747650802135468
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.08963286131620407
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.029738610610365868
+        }
+      ],
+      "top1_prob": 0.26654645800590515,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.26654645800590515,
+    "max_top1_prob": 0.26654645800590515,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

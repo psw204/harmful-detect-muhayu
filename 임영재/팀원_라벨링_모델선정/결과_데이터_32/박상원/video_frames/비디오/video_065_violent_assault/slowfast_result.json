@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_065_violent_assault",
+  "frames_per_clip": 32,
+  "clip_sec": 13.333333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 13.333333333333334,
+      "topk": [
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.4629164934158325
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.195171058177948
+        },
+        {
+          "index": 4,
+          "label": "checking tires\t4",
+          "prob": 0.17318607866764069
+        },
+        {
+          "index": 128,
+          "label": "tai chi\t128",
+          "prob": 0.02293265424668789
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.018614960834383965
+        }
+      ],
+      "top1_prob": 0.4629164934158325,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4629164934158325,
+    "max_top1_prob": 0.4629164934158325,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

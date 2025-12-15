@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/0_DzLlklZa0_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.28039348125457764
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.20311839878559113
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.17404401302337646
+        },
+        {
+          "index": 136,
+          "label": "playing violin\t136",
+          "prob": 0.12403270602226257
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.026860151439905167
+        }
+      ],
+      "top1_prob": 0.28039348125457764,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.28039348125457764,
+    "max_top1_prob": 0.28039348125457764,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

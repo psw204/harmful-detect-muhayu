@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/threat__clips__13193862_1080_1920_30fps_5.19_10.38",
+  "frames_per_clip": 32,
+  "clip_sec": 3.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.966666666666667,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.4927590489387512
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.23885537683963776
+        },
+        {
+          "index": 62,
+          "label": "digging\t62",
+          "prob": 0.10608810931444168
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.049820367246866226
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.025404350832104683
+        }
+      ],
+      "top1_prob": 0.4927590489387512,
+      "violence_hint": 0.025404350832104683
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4927590489387512,
+    "max_top1_prob": 0.4927590489387512,
+    "avg_violence_hint": 0.025404350832104683,
+    "max_violence_hint": 0.025404350832104683
+  }
+}

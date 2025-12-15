@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_638",
+  "frames_per_clip": 32,
+  "clip_sec": 3.8666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.8666666666666667,
+      "topk": [
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.10202523320913315
+        },
+        {
+          "index": 286,
+          "label": "doing aerobics\t286",
+          "prob": 0.07294618338346481
+        },
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.04275631532073021
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.04213864728808403
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.03784731775522232
+        }
+      ],
+      "top1_prob": 0.10202523320913315,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.10202523320913315,
+    "max_top1_prob": 0.10202523320913315,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

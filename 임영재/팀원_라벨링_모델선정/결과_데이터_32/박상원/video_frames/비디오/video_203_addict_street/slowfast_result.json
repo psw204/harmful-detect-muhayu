@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_203_addict_street",
+  "frames_per_clip": 32,
+  "clip_sec": 20.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 20.0,
+      "topk": [
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.1882893145084381
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.1554078906774521
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.10663149505853653
+        },
+        {
+          "index": 240,
+          "label": "weaving basket\t240",
+          "prob": 0.05768453702330589
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.04879874736070633
+        }
+      ],
+      "top1_prob": 0.1882893145084381,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.1882893145084381,
+    "max_top1_prob": 0.1882893145084381,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

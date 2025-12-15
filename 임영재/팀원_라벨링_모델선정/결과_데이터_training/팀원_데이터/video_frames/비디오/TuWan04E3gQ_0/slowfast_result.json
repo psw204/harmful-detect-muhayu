@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/TuWan04E3gQ_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.12626488506793976
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.07992933690547943
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.07891984283924103
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06747598946094513
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.038848523050546646
+        }
+      ],
+      "top1_prob": 0.12626488506793976,
+      "violence_hint": 0.07891984283924103
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.12626488506793976,
+    "max_top1_prob": 0.12626488506793976,
+    "avg_violence_hint": 0.07891984283924103,
+    "max_violence_hint": 0.07891984283924103
+  }
+}

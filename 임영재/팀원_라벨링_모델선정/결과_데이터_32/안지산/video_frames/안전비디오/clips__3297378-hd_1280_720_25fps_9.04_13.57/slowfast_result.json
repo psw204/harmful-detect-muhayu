@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3297378-hd_1280_720_25fps_9.04_13.57",
+  "frames_per_clip": 32,
+  "clip_sec": 7.133333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 7.133333333333334,
+      "topk": [
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.34498849511146545
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.25731512904167175
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.0666055977344513
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.05218382179737091
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.036112185567617416
+        }
+      ],
+      "top1_prob": 0.34498849511146545,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.34498849511146545,
+    "max_top1_prob": 0.34498849511146545,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

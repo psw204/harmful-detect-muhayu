@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_876",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.45267030596733093
+        },
+        {
+          "index": 397,
+          "label": "contact juggling\t397",
+          "prob": 0.1256657987833023
+        },
+        {
+          "index": 319,
+          "label": "playing bass guitar\t319",
+          "prob": 0.09337113052606583
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.06115753948688507
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.05974213778972626
+        }
+      ],
+      "top1_prob": 0.45267030596733093,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.45267030596733093,
+    "max_top1_prob": 0.45267030596733093,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

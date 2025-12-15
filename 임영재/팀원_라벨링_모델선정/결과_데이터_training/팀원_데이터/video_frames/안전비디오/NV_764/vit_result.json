@@ -1,0 +1,109 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_764",
+  "num_frames_total": 92,
+  "num_frames_used": 32,
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.10969441384077072
+    },
+    "clip_000_frame_002.jpg": {
+      "violence_prob": 0.10215208679437637
+    },
+    "clip_000_frame_005.jpg": {
+      "violence_prob": 0.10704440623521805
+    },
+    "clip_000_frame_008.jpg": {
+      "violence_prob": 0.09894135594367981
+    },
+    "clip_000_frame_011.jpg": {
+      "violence_prob": 0.11279330402612686
+    },
+    "clip_000_frame_014.jpg": {
+      "violence_prob": 0.1002117469906807
+    },
+    "clip_000_frame_017.jpg": {
+      "violence_prob": 0.12107239663600922
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.13870927691459656
+    },
+    "clip_000_frame_023.jpg": {
+      "violence_prob": 0.13532885909080505
+    },
+    "clip_000_frame_026.jpg": {
+      "violence_prob": 0.10961388796567917
+    },
+    "clip_000_frame_029.jpg": {
+      "violence_prob": 0.11849304288625717
+    },
+    "clip_000_frame_032.jpg": {
+      "violence_prob": 0.1231817752122879
+    },
+    "clip_000_frame_035.jpg": {
+      "violence_prob": 0.12030740082263947
+    },
+    "clip_000_frame_038.jpg": {
+      "violence_prob": 0.12005121260881424
+    },
+    "clip_000_frame_041.jpg": {
+      "violence_prob": 0.11334168910980225
+    },
+    "clip_000_frame_044.jpg": {
+      "violence_prob": 0.11464519798755646
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.12995600700378418
+    },
+    "clip_001_frame_003.jpg": {
+      "violence_prob": 0.16730597615242004
+    },
+    "clip_001_frame_006.jpg": {
+      "violence_prob": 0.13470910489559174
+    },
+    "clip_001_frame_009.jpg": {
+      "violence_prob": 0.1477874219417572
+    },
+    "clip_001_frame_012.jpg": {
+      "violence_prob": 0.16097863018512726
+    },
+    "clip_001_frame_015.jpg": {
+      "violence_prob": 0.15391826629638672
+    },
+    "clip_001_frame_018.jpg": {
+      "violence_prob": 0.14418067038059235
+    },
+    "clip_001_frame_021.jpg": {
+      "violence_prob": 0.12997184693813324
+    },
+    "clip_001_frame_024.jpg": {
+      "violence_prob": 0.13118445873260498
+    },
+    "clip_001_frame_027.jpg": {
+      "violence_prob": 0.13391444087028503
+    },
+    "clip_001_frame_030.jpg": {
+      "violence_prob": 0.1508854180574417
+    },
+    "clip_001_frame_033.jpg": {
+      "violence_prob": 0.14228110015392303
+    },
+    "clip_001_frame_036.jpg": {
+      "violence_prob": 0.13915227353572845
+    },
+    "clip_001_frame_039.jpg": {
+      "violence_prob": 0.12832288444042206
+    },
+    "clip_001_frame_042.jpg": {
+      "violence_prob": 0.13577638566493988
+    },
+    "clip_001_frame_045.jpg": {
+      "violence_prob": 0.13293342292308807
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.12840126128867269,
+    "max_violence_prob": 0.16730597615242004,
+    "p95_violence_prob": 0.15709543004631996
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__4010191-uhd_4096_2160_25fps_23.67_31.56",
+  "frames_per_clip": 32,
+  "clip_sec": 9.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 9.0,
+      "topk": [
+        {
+          "index": 234,
+          "label": "ice climbing\t234",
+          "prob": 0.29307153820991516
+        },
+        {
+          "index": 238,
+          "label": "washing dishes\t238",
+          "prob": 0.09622558951377869
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 0.06602831929922104
+        },
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.03854215890169144
+        },
+        {
+          "index": 279,
+          "label": "flipping pancake\t279",
+          "prob": 0.037800420075654984
+        }
+      ],
+      "top1_prob": 0.29307153820991516,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.29307153820991516,
+    "max_top1_prob": 0.29307153820991516,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_844",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.5501710772514343
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.11751032620668411
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.08892437815666199
+        },
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.08174218982458115
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.03186076134443283
+        }
+      ],
+      "top1_prob": 0.5501710772514343,
+      "violence_hint": 0.08892437815666199
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5501710772514343,
+    "max_top1_prob": 0.5501710772514343,
+    "avg_violence_hint": 0.08892437815666199,
+    "max_violence_hint": 0.08892437815666199
+  }
+}

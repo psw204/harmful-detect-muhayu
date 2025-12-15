@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_006_ocean_waves",
+  "frames_per_clip": 32,
+  "clip_sec": 38.333333333333336,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 38.333333333333336,
+      "topk": [
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.9255776405334473
+        },
+        {
+          "index": 383,
+          "label": "breakdancing\t383",
+          "prob": 0.012632230296730995
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.009814688935875893
+        },
+        {
+          "index": 167,
+          "label": "high kick\t167",
+          "prob": 0.008180818520486355
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.007662130519747734
+        }
+      ],
+      "top1_prob": 0.9255776405334473,
+      "violence_hint": 0.008180818520486355
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9255776405334473,
+    "max_top1_prob": 0.9255776405334473,
+    "avg_violence_hint": 0.008180818520486355,
+    "max_violence_hint": 0.008180818520486355
+  }
+}

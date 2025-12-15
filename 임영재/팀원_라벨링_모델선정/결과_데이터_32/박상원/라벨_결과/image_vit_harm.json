@@ -1,0 +1,346 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/무하유_유해콘텐츠_데이터_모델선정/2_실제_수집_데이터/박상원/이미지",
+  "num_frames_total": 111,
+  "num_frames_used": 111,
+  "per_frame": {
+    "alcohol_abuse_drunk_045.jpg": {
+      "violence_prob": 0.1431586593389511
+    },
+    "alcohol_abuse_drunk_046.jpg": {
+      "violence_prob": 0.1367773711681366
+    },
+    "alcohol_abuse_drunk_047.jpg": {
+      "violence_prob": 0.09632278233766556
+    },
+    "alcohol_abuse_drunk_048.jpg": {
+      "violence_prob": 0.13313250243663788
+    },
+    "alcohol_abuse_drunk_049.jpg": {
+      "violence_prob": 0.22204214334487915
+    },
+    "alcohol_poisoning_065.jpg": {
+      "violence_prob": 0.10713522881269455
+    },
+    "alcohol_poisoning_066.jpg": {
+      "violence_prob": 0.14528191089630127
+    },
+    "alcohol_poisoning_067.jpg": {
+      "violence_prob": 0.16824664175510406
+    },
+    "alcohol_poisoning_068.jpg": {
+      "violence_prob": 0.1242581158876419
+    },
+    "alcohol_poisoning_069.jpg": {
+      "violence_prob": 0.10041484981775284
+    },
+    "alcoholism_addiction_050.jpg": {
+      "violence_prob": 0.08899178355932236
+    },
+    "alcoholism_addiction_051.jpg": {
+      "violence_prob": 0.10056229680776596
+    },
+    "alcoholism_addiction_052.jpg": {
+      "violence_prob": 0.1162814199924469
+    },
+    "alcoholism_addiction_053.jpg": {
+      "violence_prob": 0.4397071897983551
+    },
+    "alcoholism_addiction_054.jpg": {
+      "violence_prob": 0.16824664175510406
+    },
+    "axe_weapon_040.jpg": {
+      "violence_prob": 0.14308305084705353
+    },
+    "axe_weapon_041.jpg": {
+      "violence_prob": 0.14750953018665314
+    },
+    "axe_weapon_042.jpg": {
+      "violence_prob": 0.13987338542938232
+    },
+    "axe_weapon_043.jpg": {
+      "violence_prob": 0.0997009426355362
+    },
+    "axe_weapon_044.jpg": {
+      "violence_prob": 0.15392057597637177
+    },
+    "binge_drinking_070.jpg": {
+      "violence_prob": 0.09680014103651047
+    },
+    "binge_drinking_071.jpg": {
+      "violence_prob": 0.10961714386940002
+    },
+    "binge_drinking_072.jpg": {
+      "violence_prob": 0.4526793360710144
+    },
+    "binge_drinking_073.jpg": {
+      "violence_prob": 0.26523688435554504
+    },
+    "binge_drinking_074.jpg": {
+      "violence_prob": 0.255787193775177
+    },
+    "cigarette_addiction_085.jpg": {
+      "violence_prob": 0.1122470274567604
+    },
+    "cigarette_addiction_086.jpg": {
+      "violence_prob": 0.1290588676929474
+    },
+    "cigarette_addiction_087.jpg": {
+      "violence_prob": 0.327810138463974
+    },
+    "cigarette_addiction_088.jpg": {
+      "violence_prob": 0.14301641285419464
+    },
+    "cigarette_addiction_089.jpg": {
+      "violence_prob": 0.1436038613319397
+    },
+    "dagger_weapon_030.jpg": {
+      "violence_prob": 0.47010958194732666
+    },
+    "dagger_weapon_031.jpg": {
+      "violence_prob": 0.1454969197511673
+    },
+    "dagger_weapon_032.jpg": {
+      "violence_prob": 0.12020163238048553
+    },
+    "dagger_weapon_033.jpg": {
+      "violence_prob": 0.14532750844955444
+    },
+    "dagger_weapon_034.jpg": {
+      "violence_prob": 0.38510414958000183
+    },
+    "drinking_problem_055.jpg": {
+      "violence_prob": 0.3246769607067108
+    },
+    "drinking_problem_056.jpg": {
+      "violence_prob": 0.15500549972057343
+    },
+    "drinking_problem_057.jpg": {
+      "violence_prob": 0.14888371527194977
+    },
+    "drinking_problem_058.jpg": {
+      "violence_prob": 0.3535655438899994
+    },
+    "drinking_problem_059.jpg": {
+      "violence_prob": 0.1500762552022934
+    },
+    "drunk_person_alcohol_060.jpg": {
+      "violence_prob": 0.1431586593389511
+    },
+    "drunk_person_alcohol_061.jpg": {
+      "violence_prob": 0.1367773711681366
+    },
+    "drunk_person_alcohol_062.jpg": {
+      "violence_prob": 0.09632278233766556
+    },
+    "drunk_person_alcohol_063.jpg": {
+      "violence_prob": 0.13313250243663788
+    },
+    "drunk_person_alcohol_064.jpg": {
+      "violence_prob": 0.22204214334487915
+    },
+    "firearm_danger_010.jpg": {
+      "violence_prob": 0.15242549777030945
+    },
+    "firearm_danger_011.jpg": {
+      "violence_prob": 0.1482313722372055
+    },
+    "firearm_danger_012.jpg": {
+      "violence_prob": 0.3744840919971466
+    },
+    "firearm_danger_013.jpg": {
+      "violence_prob": 0.14814883470535278
+    },
+    "firearm_danger_014.jpg": {
+      "violence_prob": 0.16907329857349396
+    },
+    "firearm_danger_109.jpg": {
+      "violence_prob": 0.15242549777030945
+    },
+    "firearm_danger_111.jpg": {
+      "violence_prob": 0.1482313722372055
+    },
+    "gun_violence_005.jpg": {
+      "violence_prob": 0.3957615792751312
+    },
+    "gun_violence_006.jpg": {
+      "violence_prob": 0.15647102892398834
+    },
+    "gun_violence_007.jpg": {
+      "violence_prob": 0.45552805066108704
+    },
+    "gun_violence_008.jpg": {
+      "violence_prob": 0.44872766733169556
+    },
+    "gun_violence_009.jpg": {
+      "violence_prob": 0.1431230753660202
+    },
+    "gun_violence_114.jpg": {
+      "violence_prob": 0.3957615792751312
+    },
+    "gun_violence_116.jpg": {
+      "violence_prob": 0.13903319835662842
+    },
+    "handgun_pistol_020.jpg": {
+      "violence_prob": 0.1482313722372055
+    },
+    "handgun_pistol_021.jpg": {
+      "violence_prob": 0.10440041124820709
+    },
+    "handgun_pistol_022.jpg": {
+      "violence_prob": 0.46696192026138306
+    },
+    "handgun_pistol_023.jpg": {
+      "violence_prob": 0.45409905910491943
+    },
+    "handgun_pistol_024.jpg": {
+      "violence_prob": 0.2644917666912079
+    },
+    "knife_attack_threat_015.jpg": {
+      "violence_prob": 0.15242549777030945
+    },
+    "knife_attack_threat_016.jpg": {
+      "violence_prob": 0.15365846455097198
+    },
+    "knife_attack_threat_017.jpg": {
+      "violence_prob": 0.15757879614830017
+    },
+    "knife_attack_threat_018.jpg": {
+      "violence_prob": 0.09033501148223877
+    },
+    "knife_attack_threat_019.jpg": {
+      "violence_prob": 0.22646379470825195
+    },
+    "knife_weapon_crime_000.jpg": {
+      "violence_prob": 0.18016928434371948
+    },
+    "knife_weapon_crime_001.jpg": {
+      "violence_prob": 0.09416460245847702
+    },
+    "knife_weapon_crime_002.jpg": {
+      "violence_prob": 0.0996008813381195
+    },
+    "knife_weapon_crime_003.jpg": {
+      "violence_prob": 0.09838774800300598
+    },
+    "knife_weapon_crime_004.jpg": {
+      "violence_prob": 0.10037288069725037
+    },
+    "knife_weapon_crime_100.jpg": {
+      "violence_prob": 0.18016928434371948
+    },
+    "knife_weapon_crime_102.jpg": {
+      "violence_prob": 0.09416460245847702
+    },
+    "knife_weapon_crime_104.jpg": {
+      "violence_prob": 0.0996008813381195
+    },
+    "knife_weapon_crime_106.jpg": {
+      "violence_prob": 0.09838774800300598
+    },
+    "knife_weapon_crime_108.jpg": {
+      "violence_prob": 0.10037288069725037
+    },
+    "knife_weapon_crime_110.jpg": {
+      "violence_prob": 0.10591930150985718
+    },
+    "knife_weapon_crime_112.jpg": {
+      "violence_prob": 0.21148455142974854
+    },
+    "lung_cancer_smoking_095.jpg": {
+      "violence_prob": 0.1122470274567604
+    },
+    "lung_cancer_smoking_096.jpg": {
+      "violence_prob": 0.12403064966201782
+    },
+    "lung_cancer_smoking_097.jpg": {
+      "violence_prob": 0.12375733256340027
+    },
+    "lung_cancer_smoking_098.jpg": {
+      "violence_prob": 0.07035080343484879
+    },
+    "lung_cancer_smoking_099.jpg": {
+      "violence_prob": 0.39730045199394226
+    },
+    "machete_danger_035.jpg": {
+      "violence_prob": 0.10994734615087509
+    },
+    "machete_danger_036.jpg": {
+      "violence_prob": 0.1510871797800064
+    },
+    "machete_danger_037.jpg": {
+      "violence_prob": 0.10341638326644897
+    },
+    "machete_danger_038.jpg": {
+      "violence_prob": 0.09216152876615524
+    },
+    "machete_danger_039.jpg": {
+      "violence_prob": 0.5196704864501953
+    },
+    "rifle_assault_025.jpg": {
+      "violence_prob": 0.14345329999923706
+    },
+    "rifle_assault_026.jpg": {
+      "violence_prob": 0.41442012786865234
+    },
+    "rifle_assault_027.jpg": {
+      "violence_prob": 0.12464945018291473
+    },
+    "rifle_assault_028.jpg": {
+      "violence_prob": 0.12699930369853973
+    },
+    "rifle_assault_029.jpg": {
+      "violence_prob": 0.4185514748096466
+    },
+    "smoking_cigarette_harmful_075.jpg": {
+      "violence_prob": 0.11234228312969208
+    },
+    "smoking_cigarette_harmful_076.jpg": {
+      "violence_prob": 0.4678135812282562
+    },
+    "smoking_cigarette_harmful_077.jpg": {
+      "violence_prob": 0.16103863716125488
+    },
+    "smoking_cigarette_harmful_078.jpg": {
+      "violence_prob": 0.14544285833835602
+    },
+    "smoking_cigarette_harmful_079.jpg": {
+      "violence_prob": 0.1122470274567604
+    },
+    "smoking_health_damage_090.jpg": {
+      "violence_prob": 0.1290588676929474
+    },
+    "smoking_health_damage_091.jpg": {
+      "violence_prob": 0.327810138463974
+    },
+    "smoking_health_damage_092.jpg": {
+      "violence_prob": 0.1122470274567604
+    },
+    "smoking_health_damage_093.jpg": {
+      "violence_prob": 0.15055474638938904
+    },
+    "smoking_health_damage_094.jpg": {
+      "violence_prob": 0.15791407227516174
+    },
+    "tobacco_disease_080.jpg": {
+      "violence_prob": 0.11234228312969208
+    },
+    "tobacco_disease_081.jpg": {
+      "violence_prob": 0.14544285833835602
+    },
+    "tobacco_disease_082.jpg": {
+      "violence_prob": 0.14693640172481537
+    },
+    "tobacco_disease_083.jpg": {
+      "violence_prob": 0.12977123260498047
+    },
+    "tobacco_disease_084.jpg": {
+      "violence_prob": 0.1344771832227707
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.18762823590287217,
+    "max_violence_prob": 0.5196704864501953,
+    "p95_violence_prob": 0.4533891975879669
+  }
+}

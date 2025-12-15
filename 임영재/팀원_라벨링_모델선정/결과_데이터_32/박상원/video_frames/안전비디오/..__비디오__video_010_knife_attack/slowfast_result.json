@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/..__비디오__video_010_knife_attack",
+  "frames_per_clip": 32,
+  "clip_sec": 23.333333333333332,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 23.333333333333332,
+      "topk": [
+        {
+          "index": 264,
+          "label": "eating ice cream\t264",
+          "prob": 0.19522421061992645
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.16970111429691315
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.1521330177783966
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.1375041902065277
+        },
+        {
+          "index": 187,
+          "label": "texting\t187",
+          "prob": 0.046590499579906464
+        }
+      ],
+      "top1_prob": 0.19522421061992645,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.19522421061992645,
+    "max_top1_prob": 0.19522421061992645,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

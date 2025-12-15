@@ -1,0 +1,127 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_056_pets_animals",
+  "num_frames_total": 239,
+  "num_frames_used": 32,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.39293038845062256
+    },
+    "clip_000_frame_007.jpg": {
+      "violence_prob": 0.422025203704834
+    },
+    "clip_000_frame_015.jpg": {
+      "violence_prob": 0.421609491109848
+    },
+    "clip_000_frame_023.jpg": {
+      "violence_prob": 0.4309578835964203
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.38396286964416504
+    },
+    "clip_000_frame_038.jpg": {
+      "violence_prob": 0.37825918197631836
+    },
+    "clip_000_frame_046.jpg": {
+      "violence_prob": 0.402434766292572
+    },
+    "clip_000_frame_053.jpg": {
+      "violence_prob": 0.3854542374610901
+    },
+    "clip_001_frame_002.jpg": {
+      "violence_prob": 0.41675692796707153
+    },
+    "clip_001_frame_010.jpg": {
+      "violence_prob": 0.40770846605300903
+    },
+    "clip_001_frame_017.jpg": {
+      "violence_prob": 0.393230140209198
+    },
+    "clip_001_frame_025.jpg": {
+      "violence_prob": 0.3927552103996277
+    },
+    "clip_001_frame_033.jpg": {
+      "violence_prob": 0.407671719789505
+    },
+    "clip_001_frame_040.jpg": {
+      "violence_prob": 0.4061267375946045
+    },
+    "clip_001_frame_048.jpg": {
+      "violence_prob": 0.43232986330986023
+    },
+    "clip_001_frame_056.jpg": {
+      "violence_prob": 0.44366300106048584
+    },
+    "clip_002_frame_003.jpg": {
+      "violence_prob": 0.4073995053768158
+    },
+    "clip_002_frame_011.jpg": {
+      "violence_prob": 0.42402470111846924
+    },
+    "clip_002_frame_019.jpg": {
+      "violence_prob": 0.4402795433998108
+    },
+    "clip_002_frame_026.jpg": {
+      "violence_prob": 0.43761199712753296
+    },
+    "clip_002_frame_034.jpg": {
+      "violence_prob": 0.40361618995666504
+    },
+    "clip_002_frame_042.jpg": {
+      "violence_prob": 0.4322972893714905
+    },
+    "clip_002_frame_049.jpg": {
+      "violence_prob": 0.4181367754936218
+    },
+    "clip_002_frame_057.jpg": {
+      "violence_prob": 0.40095147490501404
+    },
+    "clip_003_frame_005.jpg": {
+      "violence_prob": 0.3976365923881531
+    },
+    "clip_003_frame_012.jpg": {
+      "violence_prob": 0.38733041286468506
+    },
+    "clip_003_frame_020.jpg": {
+      "violence_prob": 0.3912816643714905
+    },
+    "clip_003_frame_028.jpg": {
+      "violence_prob": 0.4077898859977722
+    },
+    "clip_003_frame_035.jpg": {
+      "violence_prob": 0.4307909309864044
+    },
+    "clip_003_frame_043.jpg": {
+      "violence_prob": 0.43689846992492676
+    },
+    "clip_003_frame_051.jpg": {
+      "violence_prob": 0.4199926257133484
+    },
+    "clip_003_frame_059.jpg": {
+      "violence_prob": 0.4023398160934448
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.4111329363659024,
+    "max_violence_prob": 0.44366300106048584,
+    "p95_violence_prob": 0.438812392950058
+  }
+}

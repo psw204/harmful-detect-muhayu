@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_044_preparing_meal",
+  "frames_per_clip": 32,
+  "clip_sec": 7.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 7.966666666666667,
+      "topk": [
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.926569402217865
+        },
+        {
+          "index": 132,
+          "label": "tossing salad\t132",
+          "prob": 0.018575383350253105
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.016643213108181953
+        },
+        {
+          "index": 191,
+          "label": "writing\t191",
+          "prob": 0.01331024058163166
+        },
+        {
+          "index": 71,
+          "label": "brushing hair\t71",
+          "prob": 0.0030563203617930412
+        }
+      ],
+      "top1_prob": 0.926569402217865,
+      "violence_hint": 0.016643213108181953
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.926569402217865,
+    "max_top1_prob": 0.926569402217865,
+    "avg_violence_hint": 0.016643213108181953,
+    "max_violence_hint": 0.016643213108181953
+  }
+}

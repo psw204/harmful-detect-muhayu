@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_956",
+  "frames_per_clip": 32,
+  "clip_sec": 3.8666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.8666666666666667,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.9866466522216797
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.0043717799708247185
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.001208468689583242
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.001182756619527936
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.0006720806122757494
+        }
+      ],
+      "top1_prob": 0.9866466522216797,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9866466522216797,
+    "max_top1_prob": 0.9866466522216797,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

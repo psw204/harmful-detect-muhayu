@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_588",
+  "frames_per_clip": 32,
+  "clip_sec": 3.066666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.066666666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.04452931880950928
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.04363829642534256
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.03429698571562767
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.03369942680001259
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.03355434536933899
+        }
+      ],
+      "top1_prob": 0.04452931880950928,
+      "violence_hint": 0.03355434536933899
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.04452931880950928,
+    "max_top1_prob": 0.04452931880950928,
+    "avg_violence_hint": 0.03355434536933899,
+    "max_violence_hint": 0.03355434536933899
+  }
+}

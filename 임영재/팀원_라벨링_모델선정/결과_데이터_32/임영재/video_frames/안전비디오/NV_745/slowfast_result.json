@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_745",
+  "frames_per_clip": 32,
+  "clip_sec": 3.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.966666666666667,
+      "topk": [
+        {
+          "index": 352,
+          "label": "blasting sand\t352",
+          "prob": 0.22419916093349457
+        },
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.14059840142726898
+        },
+        {
+          "index": 101,
+          "label": "catching or throwing frisbee\t101",
+          "prob": 0.1350182294845581
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.11993617564439774
+        },
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.07900165021419525
+        }
+      ],
+      "top1_prob": 0.22419916093349457,
+      "violence_hint": 0.11993617564439774
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.22419916093349457,
+    "max_top1_prob": 0.22419916093349457,
+    "avg_violence_hint": 0.11993617564439774,
+    "max_violence_hint": 0.11993617564439774
+  }
+}

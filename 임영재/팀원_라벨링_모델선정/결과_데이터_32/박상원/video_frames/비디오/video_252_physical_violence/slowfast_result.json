@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_252_physical_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 8.333333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.333333333333334,
+      "topk": [
+        {
+          "index": 58,
+          "label": "canoeing or kayaking\t58",
+          "prob": 0.16209106147289276
+        },
+        {
+          "index": 264,
+          "label": "eating ice cream\t264",
+          "prob": 0.15281839668750763
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.12804965674877167
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.0614892803132534
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.06138363853096962
+        }
+      ],
+      "top1_prob": 0.16209106147289276,
+      "violence_hint": 0.06138363853096962
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.16209106147289276,
+    "max_top1_prob": 0.16209106147289276,
+    "avg_violence_hint": 0.06138363853096962,
+    "max_violence_hint": 0.06138363853096962
+  }
+}

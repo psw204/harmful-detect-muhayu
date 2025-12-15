@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__5511820-hd_1920_1080_25fps_0.00_5.59",
+  "frames_per_clip": 32,
+  "clip_sec": 6.4,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.4,
+      "topk": [
+        {
+          "index": 243,
+          "label": "moving furniture\t243",
+          "prob": 0.3210445046424866
+        },
+        {
+          "index": 231,
+          "label": "unloading truck\t231",
+          "prob": 0.15144936740398407
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.08188208192586899
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.056087326258420944
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.05419589951634407
+        }
+      ],
+      "top1_prob": 0.3210445046424866,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3210445046424866,
+    "max_top1_prob": 0.3210445046424866,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

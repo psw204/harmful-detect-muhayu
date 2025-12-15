@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_064_people_walking",
+  "frames_per_clip": 32,
+  "clip_sec": 35.93333333333333,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 35.93333333333333,
+      "topk": [
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.34923261404037476
+        },
+        {
+          "index": 349,
+          "label": "getting a haircut\t349",
+          "prob": 0.23069804906845093
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.04994608089327812
+        },
+        {
+          "index": 280,
+          "label": "catching fish\t280",
+          "prob": 0.03534705936908722
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.028077663853764534
+        }
+      ],
+      "top1_prob": 0.34923261404037476,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.34923261404037476,
+    "max_top1_prob": 0.34923261404037476,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_072_reckless_driving_cra",
+  "frames_per_clip": 32,
+  "clip_sec": 54.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 54.0,
+      "topk": [
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.6119183301925659
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.2705215811729431
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.07631022483110428
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.015197587199509144
+        },
+        {
+          "index": 167,
+          "label": "high kick\t167",
+          "prob": 0.009232142008841038
+        }
+      ],
+      "top1_prob": 0.6119183301925659,
+      "violence_hint": 0.009232142008841038
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6119183301925659,
+    "max_top1_prob": 0.6119183301925659,
+    "avg_violence_hint": 0.009232142008841038,
+    "max_violence_hint": 0.009232142008841038
+  }
+}

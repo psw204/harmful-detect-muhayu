@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_389",
+  "frames_per_clip": 32,
+  "clip_sec": 3.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.966666666666667,
+      "topk": [
+        {
+          "index": 94,
+          "label": "singing\t94",
+          "prob": 0.7642905712127686
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.13007959723472595
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.0622444748878479
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.007380813360214233
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.004530705511569977
+        }
+      ],
+      "top1_prob": 0.7642905712127686,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7642905712127686,
+    "max_top1_prob": 0.7642905712127686,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

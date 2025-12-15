@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_089_yoga_fitness",
+  "frames_per_clip": 32,
+  "clip_sec": 13.333333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 13.333333333333334,
+      "topk": [
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.6653379797935486
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.15883862972259521
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.08357053995132446
+        },
+        {
+          "index": 20,
+          "label": "wrestling\t20",
+          "prob": 0.051921915262937546
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.010273153893649578
+        }
+      ],
+      "top1_prob": 0.6653379797935486,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6653379797935486,
+    "max_top1_prob": 0.6653379797935486,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

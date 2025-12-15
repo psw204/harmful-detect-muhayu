@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_230_dangerous_stunt_acci",
+  "frames_per_clip": 32,
+  "clip_sec": 45.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 45.0,
+      "topk": [
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.17871952056884766
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.10623176395893097
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.09530307352542877
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.07391544431447983
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.06276693940162659
+        }
+      ],
+      "top1_prob": 0.17871952056884766,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.17871952056884766,
+    "max_top1_prob": 0.17871952056884766,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

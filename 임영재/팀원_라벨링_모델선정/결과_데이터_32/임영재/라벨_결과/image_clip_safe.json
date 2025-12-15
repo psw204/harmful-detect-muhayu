@@ -1,0 +1,331 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/무하유_유해콘텐츠_데이터_모델선정/2_실제_수집_데이터/임영재/안전_이미지",
+  "num_frames_total": 100,
+  "num_frames_used": 100,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "000000001425.jpg": {
+      "violence_prob": 0.5177440643310547
+    },
+    "000000001993.jpg": {
+      "violence_prob": 0.3038259446620941
+    },
+    "000000015278.jpg": {
+      "violence_prob": 0.3466704785823822
+    },
+    "000000019924.jpg": {
+      "violence_prob": 0.2989155352115631
+    },
+    "000000028449.jpg": {
+      "violence_prob": 0.2937996983528137
+    },
+    "000000032285.jpg": {
+      "violence_prob": 0.274602472782135
+    },
+    "000000032887.jpg": {
+      "violence_prob": 0.2076156735420227
+    },
+    "000000045472.jpg": {
+      "violence_prob": 0.40331897139549255
+    },
+    "000000063552.jpg": {
+      "violence_prob": 0.41008150577545166
+    },
+    "000000067180.jpg": {
+      "violence_prob": 0.2565341591835022
+    },
+    "000000070739.jpg": {
+      "violence_prob": 0.40547433495521545
+    },
+    "000000085665.jpg": {
+      "violence_prob": 0.5243109464645386
+    },
+    "000000085772.jpg": {
+      "violence_prob": 0.6795294284820557
+    },
+    "000000088040.jpg": {
+      "violence_prob": 0.37557393312454224
+    },
+    "000000089697.jpg": {
+      "violence_prob": 0.43290141224861145
+    },
+    "000000092091.jpg": {
+      "violence_prob": 0.44588106870651245
+    },
+    "000000100489.jpg": {
+      "violence_prob": 0.4189927279949188
+    },
+    "000000105912.jpg": {
+      "violence_prob": 0.21831509470939636
+    },
+    "000000113354.jpg": {
+      "violence_prob": 0.29066723585128784
+    },
+    "000000115870.jpg": {
+      "violence_prob": 0.24735800921916962
+    },
+    "000000117374.jpg": {
+      "violence_prob": 0.2411152720451355
+    },
+    "000000123131.jpg": {
+      "violence_prob": 0.51055908203125
+    },
+    "000000123585.jpg": {
+      "violence_prob": 0.4842904806137085
+    },
+    "000000125806.jpg": {
+      "violence_prob": 0.5699212551116943
+    },
+    "000000127530.jpg": {
+      "violence_prob": 0.6243863105773926
+    },
+    "000000133969.jpg": {
+      "violence_prob": 0.7020220756530762
+    },
+    "000000141821.jpg": {
+      "violence_prob": 0.4692060947418213
+    },
+    "000000144114.jpg": {
+      "violence_prob": 0.5787832736968994
+    },
+    "000000151938.jpg": {
+      "violence_prob": 0.3179713487625122
+    },
+    "000000152870.jpg": {
+      "violence_prob": 0.39731836318969727
+    },
+    "000000153529.jpg": {
+      "violence_prob": 0.2147921472787857
+    },
+    "000000155341.jpg": {
+      "violence_prob": 0.2707946002483368
+    },
+    "000000157601.jpg": {
+      "violence_prob": 0.3070829510688782
+    },
+    "000000157847.jpg": {
+      "violence_prob": 0.2876853942871094
+    },
+    "000000158945.jpg": {
+      "violence_prob": 0.3520829677581787
+    },
+    "000000165518.jpg": {
+      "violence_prob": 0.46809887886047363
+    },
+    "000000166259.jpg": {
+      "violence_prob": 0.12067955732345581
+    },
+    "000000167572.jpg": {
+      "violence_prob": 0.27046269178390503
+    },
+    "000000170191.jpg": {
+      "violence_prob": 0.257835328578949
+    },
+    "000000170739.jpg": {
+      "violence_prob": 0.30096232891082764
+    },
+    "000000177861.jpg": {
+      "violence_prob": 0.0799078494310379
+    },
+    "000000181303.jpg": {
+      "violence_prob": 0.465052992105484
+    },
+    "000000183246.jpg": {
+      "violence_prob": 0.38826584815979004
+    },
+    "000000185157.jpg": {
+      "violence_prob": 0.21323467791080475
+    },
+    "000000185472.jpg": {
+      "violence_prob": 0.22731603682041168
+    },
+    "000000189806.jpg": {
+      "violence_prob": 0.4465276002883911
+    },
+    "000000193884.jpg": {
+      "violence_prob": 0.27649614214897156
+    },
+    "000000195918.jpg": {
+      "violence_prob": 0.47061747312545776
+    },
+    "000000201676.jpg": {
+      "violence_prob": 0.28661808371543884
+    },
+    "000000206411.jpg": {
+      "violence_prob": 0.406463086605072
+    },
+    "000000209829.jpg": {
+      "violence_prob": 0.4148925542831421
+    },
+    "000000213033.jpg": {
+      "violence_prob": 0.2752743363380432
+    },
+    "000000213422.jpg": {
+      "violence_prob": 0.3882952928543091
+    },
+    "000000217425.jpg": {
+      "violence_prob": 0.3655802309513092
+    },
+    "000000224119.jpg": {
+      "violence_prob": 0.3251722753047943
+    },
+    "000000252219.jpg": {
+      "violence_prob": 0.24665305018424988
+    },
+    "000000253695.jpg": {
+      "violence_prob": 0.5772703289985657
+    },
+    "000000258793.jpg": {
+      "violence_prob": 0.16812251508235931
+    },
+    "000000260105.jpg": {
+      "violence_prob": 0.4545997679233551
+    },
+    "000000265108.jpg": {
+      "violence_prob": 0.11807934939861298
+    },
+    "000000269632.jpg": {
+      "violence_prob": 0.34749746322631836
+    },
+    "000000278973.jpg": {
+      "violence_prob": 0.3417869210243225
+    },
+    "000000284445.jpg": {
+      "violence_prob": 0.19727234542369843
+    },
+    "000000286708.jpg": {
+      "violence_prob": 0.2883109450340271
+    },
+    "000000288042.jpg": {
+      "violence_prob": 0.15140584111213684
+    },
+    "000000290163.jpg": {
+      "violence_prob": 0.36365190148353577
+    },
+    "000000292155.jpg": {
+      "violence_prob": 0.24440976977348328
+    },
+    "000000326541.jpg": {
+      "violence_prob": 0.47144779562950134
+    },
+    "000000343524.jpg": {
+      "violence_prob": 0.4976157248020172
+    },
+    "000000349184.jpg": {
+      "violence_prob": 0.1620171070098877
+    },
+    "000000350003.jpg": {
+      "violence_prob": 0.3537169098854065
+    },
+    "000000355677.jpg": {
+      "violence_prob": 0.31529566645622253
+    },
+    "000000364297.jpg": {
+      "violence_prob": 0.3370075225830078
+    },
+    "000000368940.jpg": {
+      "violence_prob": 0.2774595022201538
+    },
+    "000000370813.jpg": {
+      "violence_prob": 0.3993649482727051
+    },
+    "000000398905.jpg": {
+      "violence_prob": 0.47708365321159363
+    },
+    "000000399560.jpg": {
+      "violence_prob": 0.360423743724823
+    },
+    "000000407868.jpg": {
+      "violence_prob": 0.4262864589691162
+    },
+    "000000412240.jpg": {
+      "violence_prob": 0.43355968594551086
+    },
+    "000000415194.jpg": {
+      "violence_prob": 0.2716089189052582
+    },
+    "000000425906.jpg": {
+      "violence_prob": 0.46921759843826294
+    },
+    "000000441442.jpg": {
+      "violence_prob": 0.32750073075294495
+    },
+    "000000452515.jpg": {
+      "violence_prob": 0.5396937727928162
+    },
+    "000000459153.jpg": {
+      "violence_prob": 0.1856859028339386
+    },
+    "000000464872.jpg": {
+      "violence_prob": 0.35694727301597595
+    },
+    "000000465179.jpg": {
+      "violence_prob": 0.5327313542366028
+    },
+    "000000476258.jpg": {
+      "violence_prob": 0.5551878809928894
+    },
+    "000000478721.jpg": {
+      "violence_prob": 0.16220813989639282
+    },
+    "000000493334.jpg": {
+      "violence_prob": 0.32328787446022034
+    },
+    "000000493864.jpg": {
+      "violence_prob": 0.23319610953330994
+    },
+    "000000499266.jpg": {
+      "violence_prob": 0.45451653003692627
+    },
+    "000000499313.jpg": {
+      "violence_prob": 0.4713840186595917
+    },
+    "000000500257.jpg": {
+      "violence_prob": 0.22904591262340546
+    },
+    "000000509719.jpg": {
+      "violence_prob": 0.3636139929294586
+    },
+    "000000527528.jpg": {
+      "violence_prob": 0.45649489760398865
+    },
+    "000000546659.jpg": {
+      "violence_prob": 0.31614404916763306
+    },
+    "000000551794.jpg": {
+      "violence_prob": 0.26294782757759094
+    },
+    "000000552883.jpg": {
+      "violence_prob": 0.311360627412796
+    },
+    "000000573008.jpg": {
+      "violence_prob": 0.34043586254119873
+    },
+    "000000579091.jpg": {
+      "violence_prob": 0.5421756505966187
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.35843601420521737,
+    "max_violence_prob": 0.7020220756530762,
+    "p95_violence_prob": 0.5702887088060379
+  }
+}

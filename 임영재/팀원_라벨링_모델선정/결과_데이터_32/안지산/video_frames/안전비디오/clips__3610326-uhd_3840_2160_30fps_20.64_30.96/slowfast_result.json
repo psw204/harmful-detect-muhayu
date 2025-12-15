@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3610326-uhd_3840_2160_30fps_20.64_30.96",
+  "frames_per_clip": 32,
+  "clip_sec": 15.133333333333333,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 15.133333333333333,
+      "topk": [
+        {
+          "index": 286,
+          "label": "doing aerobics\t286",
+          "prob": 0.4774872064590454
+        },
+        {
+          "index": 321,
+          "label": "cutting pineapple\t321",
+          "prob": 0.32303380966186523
+        },
+        {
+          "index": 124,
+          "label": "tobogganing\t124",
+          "prob": 0.16875110566616058
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.014740330167114735
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.00624932860955596
+        }
+      ],
+      "top1_prob": 0.4774872064590454,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4774872064590454,
+    "max_top1_prob": 0.4774872064590454,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

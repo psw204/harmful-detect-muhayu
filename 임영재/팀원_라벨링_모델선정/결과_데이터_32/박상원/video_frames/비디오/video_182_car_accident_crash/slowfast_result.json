@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_182_car_accident_crash",
+  "frames_per_clip": 32,
+  "clip_sec": 19.166666666666668,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 19.166666666666668,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.3054388165473938
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.15287919342517853
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.04544326290488243
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.0378396175801754
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.03550295531749725
+        }
+      ],
+      "top1_prob": 0.3054388165473938,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3054388165473938,
+    "max_top1_prob": 0.3054388165473938,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

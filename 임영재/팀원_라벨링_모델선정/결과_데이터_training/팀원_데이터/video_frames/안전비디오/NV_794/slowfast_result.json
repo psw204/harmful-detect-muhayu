@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_794",
+  "frames_per_clip": 32,
+  "clip_sec": 3.066666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.066666666666667,
+      "topk": [
+        {
+          "index": 113,
+          "label": "belly dancing\t113",
+          "prob": 0.6351842880249023
+        },
+        {
+          "index": 112,
+          "label": "sanding floor\t112",
+          "prob": 0.20954665541648865
+        },
+        {
+          "index": 114,
+          "label": "sneezing\t114",
+          "prob": 0.1150830090045929
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 0.018049318343400955
+        },
+        {
+          "index": 353,
+          "label": "playing trombone\t353",
+          "prob": 0.013781665824353695
+        }
+      ],
+      "top1_prob": 0.6351842880249023,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6351842880249023,
+    "max_top1_prob": 0.6351842880249023,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

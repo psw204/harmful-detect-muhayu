@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3099938-hd_1920_1080_30fps_15.64_23.45",
+  "frames_per_clip": 32,
+  "clip_sec": 11.833333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 11.833333333333334,
+      "topk": [
+        {
+          "index": 371,
+          "label": "sharpening pencil\t371",
+          "prob": 0.06639882922172546
+        },
+        {
+          "index": 191,
+          "label": "writing\t191",
+          "prob": 0.039276059716939926
+        },
+        {
+          "index": 132,
+          "label": "tossing salad\t132",
+          "prob": 0.03809606283903122
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.036014657467603683
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.02942235954105854
+        }
+      ],
+      "top1_prob": 0.06639882922172546,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.06639882922172546,
+    "max_top1_prob": 0.06639882922172546,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

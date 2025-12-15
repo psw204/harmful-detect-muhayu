@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_373",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.6690026521682739
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.09838255494832993
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.08416928350925446
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.05005728825926781
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.020726650953292847
+        }
+      ],
+      "top1_prob": 0.6690026521682739,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6690026521682739,
+    "max_top1_prob": 0.6690026521682739,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

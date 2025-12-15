@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_110_weapon_threat",
+  "frames_per_clip": 32,
+  "clip_sec": 11.666666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 11.666666666666666,
+      "topk": [
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.09845863282680511
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.09660115092992783
+        },
+        {
+          "index": 396,
+          "label": "bowling\t396",
+          "prob": 0.06465994566679001
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.0545116625726223
+        },
+        {
+          "index": 264,
+          "label": "eating ice cream\t264",
+          "prob": 0.03297097235918045
+        }
+      ],
+      "top1_prob": 0.09845863282680511,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.09845863282680511,
+    "max_top1_prob": 0.09845863282680511,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

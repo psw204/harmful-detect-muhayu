@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_231_dangerous_stunt_acci",
+  "frames_per_clip": 32,
+  "clip_sec": 19.966666666666665,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 19.966666666666665,
+      "topk": [
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.364133358001709
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.2722015082836151
+        },
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.12858319282531738
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.07469076663255692
+        },
+        {
+          "index": 42,
+          "label": "shooting goal (soccer)\t42",
+          "prob": 0.041731275618076324
+        }
+      ],
+      "top1_prob": 0.364133358001709,
+      "violence_hint": 0.041731275618076324
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.364133358001709,
+    "max_top1_prob": 0.364133358001709,
+    "avg_violence_hint": 0.041731275618076324,
+    "max_violence_hint": 0.041731275618076324
+  }
+}

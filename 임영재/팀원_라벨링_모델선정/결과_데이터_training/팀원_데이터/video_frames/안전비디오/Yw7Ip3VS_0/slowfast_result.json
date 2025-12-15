@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/Yw7Ip3VS_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.4749879240989685
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.04549608752131462
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.032519128173589706
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.030075348913669586
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.024031534790992737
+        }
+      ],
+      "top1_prob": 0.4749879240989685,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4749879240989685,
+    "max_top1_prob": 0.4749879240989685,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_174",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 297,
+          "label": "plastering\t297",
+          "prob": 0.5502198934555054
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.19737675786018372
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.05916371941566467
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.026967152953147888
+        },
+        {
+          "index": 174,
+          "label": "sharpening knives\t174",
+          "prob": 0.024002805352211
+        }
+      ],
+      "top1_prob": 0.5502198934555054,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5502198934555054,
+    "max_top1_prob": 0.5502198934555054,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

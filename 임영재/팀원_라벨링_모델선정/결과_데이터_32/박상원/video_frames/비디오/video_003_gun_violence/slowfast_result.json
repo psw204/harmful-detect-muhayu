@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_003_gun_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 11.666666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 11.666666666666666,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.144749253988266
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.07506287842988968
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.06694723665714264
+        },
+        {
+          "index": 2,
+          "label": "dodgeball\t2",
+          "prob": 0.05790676549077034
+        },
+        {
+          "index": 4,
+          "label": "checking tires\t4",
+          "prob": 0.055397193878889084
+        }
+      ],
+      "top1_prob": 0.144749253988266,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.144749253988266,
+    "max_top1_prob": 0.144749253988266,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

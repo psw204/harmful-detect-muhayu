@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_075_reckless_driving_cra",
+  "frames_per_clip": 32,
+  "clip_sec": 7.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 7.966666666666667,
+      "topk": [
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.33584848046302795
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.0725187212228775
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.06290697306394577
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.04800046980381012
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.038651444017887115
+        }
+      ],
+      "top1_prob": 0.33584848046302795,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.33584848046302795,
+    "max_top1_prob": 0.33584848046302795,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

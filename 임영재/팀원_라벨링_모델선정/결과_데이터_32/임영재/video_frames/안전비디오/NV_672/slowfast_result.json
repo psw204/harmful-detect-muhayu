@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_672",
+  "frames_per_clip": 32,
+  "clip_sec": 3.2,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.35136178135871887
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.19370980560779572
+        },
+        {
+          "index": 292,
+          "label": "skiing slalom\t292",
+          "prob": 0.06193026527762413
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.04465845599770546
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.039937831461429596
+        }
+      ],
+      "top1_prob": 0.35136178135871887,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.35136178135871887,
+    "max_top1_prob": 0.35136178135871887,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

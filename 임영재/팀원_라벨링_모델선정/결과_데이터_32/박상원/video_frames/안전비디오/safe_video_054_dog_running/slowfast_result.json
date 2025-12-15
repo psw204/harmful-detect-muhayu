@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_054_dog_running",
+  "frames_per_clip": 32,
+  "clip_sec": 3.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.966666666666667,
+      "topk": [
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.34613075852394104
+        },
+        {
+          "index": 307,
+          "label": "massaging back\t307",
+          "prob": 0.13378053903579712
+        },
+        {
+          "index": 308,
+          "label": "blowing glass\t308",
+          "prob": 0.12366048991680145
+        },
+        {
+          "index": 310,
+          "label": "playing chess\t310",
+          "prob": 0.11532185971736908
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.0536733977496624
+        }
+      ],
+      "top1_prob": 0.34613075852394104,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.34613075852394104,
+    "max_top1_prob": 0.34613075852394104,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/..__비디오__video_155_road_rage",
+  "frames_per_clip": 32,
+  "clip_sec": 66.1,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 66.1,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.3169620633125305
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.15573866665363312
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.13674531877040863
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.1325690597295761
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.045457158237695694
+        }
+      ],
+      "top1_prob": 0.3169620633125305,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3169620633125305,
+    "max_top1_prob": 0.3169620633125305,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

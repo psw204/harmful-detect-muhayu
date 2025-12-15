@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/alcohol__clips__98144-647000976_small_17.75_35.50",
+  "frames_per_clip": 32,
+  "clip_sec": 15.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 15.966666666666667,
+      "topk": [
+        {
+          "index": 100,
+          "label": "headbanging\t100",
+          "prob": 0.5139484405517578
+        },
+        {
+          "index": 101,
+          "label": "catching or throwing frisbee\t101",
+          "prob": 0.3130527138710022
+        },
+        {
+          "index": 137,
+          "label": "playing drums\t137",
+          "prob": 0.13156796991825104
+        },
+        {
+          "index": 203,
+          "label": "changing oil\t203",
+          "prob": 0.023516375571489334
+        },
+        {
+          "index": 352,
+          "label": "blasting sand\t352",
+          "prob": 0.010609248653054237
+        }
+      ],
+      "top1_prob": 0.5139484405517578,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5139484405517578,
+    "max_top1_prob": 0.5139484405517578,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

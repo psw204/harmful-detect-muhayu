@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_235_gun_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 8.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.0,
+      "topk": [
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.20287221670150757
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.17588993906974792
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.1134532019495964
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.05755675584077835
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.043483659625053406
+        }
+      ],
+      "top1_prob": 0.20287221670150757,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.20287221670150757,
+    "max_top1_prob": 0.20287221670150757,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

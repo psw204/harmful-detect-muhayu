@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3971351-uhd_3840_2160_25fps_9.87_13.16",
+  "frames_per_clip": 32,
+  "clip_sec": 6.433333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.433333333333334,
+      "topk": [
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.4737952947616577
+        },
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.08546443283557892
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.084781713783741
+        },
+        {
+          "index": 309,
+          "label": "playing guitar\t309",
+          "prob": 0.05741460993885994
+        },
+        {
+          "index": 383,
+          "label": "breakdancing\t383",
+          "prob": 0.047684844583272934
+        }
+      ],
+      "top1_prob": 0.4737952947616577,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4737952947616577,
+    "max_top1_prob": 0.4737952947616577,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

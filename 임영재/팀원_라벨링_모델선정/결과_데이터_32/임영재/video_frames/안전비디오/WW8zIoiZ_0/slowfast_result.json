@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/WW8zIoiZ_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.24451373517513275
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.14171633124351501
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.12557747960090637
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.10164348781108856
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.07106711715459824
+        }
+      ],
+      "top1_prob": 0.24451373517513275,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.24451373517513275,
+    "max_top1_prob": 0.24451373517513275,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

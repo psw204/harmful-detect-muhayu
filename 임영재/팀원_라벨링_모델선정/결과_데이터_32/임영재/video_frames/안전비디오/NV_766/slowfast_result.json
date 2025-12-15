@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_766",
+  "frames_per_clip": 32,
+  "clip_sec": 3.066666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.066666666666667,
+      "topk": [
+        {
+          "index": 33,
+          "label": "making sushi\t33",
+          "prob": 0.3868521749973297
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.15205858647823334
+        },
+        {
+          "index": 71,
+          "label": "brushing hair\t71",
+          "prob": 0.1387476623058319
+        },
+        {
+          "index": 62,
+          "label": "digging\t62",
+          "prob": 0.10038110613822937
+        },
+        {
+          "index": 285,
+          "label": "cooking on campfire\t285",
+          "prob": 0.034469667822122574
+        }
+      ],
+      "top1_prob": 0.3868521749973297,
+      "violence_hint": 0.15205858647823334
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3868521749973297,
+    "max_top1_prob": 0.3868521749973297,
+    "avg_violence_hint": 0.15205858647823334,
+    "max_violence_hint": 0.15205858647823334
+  }
+}

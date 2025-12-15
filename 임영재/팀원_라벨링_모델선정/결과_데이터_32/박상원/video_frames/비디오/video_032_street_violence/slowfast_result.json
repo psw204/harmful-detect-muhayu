@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_032_street_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 28.766666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 28.766666666666666,
+      "topk": [
+        {
+          "index": 336,
+          "label": "making jewelry\t336",
+          "prob": 0.29433804750442505
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.1903449147939682
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.06934984028339386
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.048965148627758026
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.03774784877896309
+        }
+      ],
+      "top1_prob": 0.29433804750442505,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.29433804750442505,
+    "max_top1_prob": 0.29433804750442505,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_224_gang_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 14.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 14.0,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.3513898551464081
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.16355973482131958
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.1077437773346901
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.044723208993673325
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.02536429464817047
+        }
+      ],
+      "top1_prob": 0.3513898551464081,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3513898551464081,
+    "max_top1_prob": 0.3513898551464081,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

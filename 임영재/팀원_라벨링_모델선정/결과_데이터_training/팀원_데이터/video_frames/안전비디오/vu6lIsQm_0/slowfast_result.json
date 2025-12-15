@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/vu6lIsQm_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.11062181740999222
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.08092527836561203
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.07852569967508316
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.0633685290813446
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03818698599934578
+        }
+      ],
+      "top1_prob": 0.11062181740999222,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.11062181740999222,
+    "max_top1_prob": 0.11062181740999222,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

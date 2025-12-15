@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/smoking__clips__4496267-hd_1920_1080_25fps_2.00_4.01",
+  "frames_per_clip": 32,
+  "clip_sec": 1.6666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.6666666666666667,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.37746304273605347
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.3219262659549713
+        },
+        {
+          "index": 35,
+          "label": "picking fruit\t35",
+          "prob": 0.08327606320381165
+        },
+        {
+          "index": 191,
+          "label": "writing\t191",
+          "prob": 0.020717745646834373
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.0162404365837574
+        }
+      ],
+      "top1_prob": 0.37746304273605347,
+      "violence_hint": 0.0162404365837574
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.37746304273605347,
+    "max_top1_prob": 0.37746304273605347,
+    "avg_violence_hint": 0.0162404365837574,
+    "max_violence_hint": 0.0162404365837574
+  }
+}

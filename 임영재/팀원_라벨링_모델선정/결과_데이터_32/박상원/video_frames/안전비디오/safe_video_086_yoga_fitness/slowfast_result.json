@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_086_yoga_fitness",
+  "frames_per_clip": 32,
+  "clip_sec": 21.666666666666668,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 21.666666666666668,
+      "topk": [
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.5978510975837708
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.3240182101726532
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.014289850369095802
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.008124634623527527
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.006467721424996853
+        }
+      ],
+      "top1_prob": 0.5978510975837708,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5978510975837708,
+    "max_top1_prob": 0.5978510975837708,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

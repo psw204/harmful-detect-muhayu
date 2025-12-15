@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__8794895-uhd_2160_4096_24fps_8.04_12.06",
+  "frames_per_clip": 32,
+  "clip_sec": 7.466666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 7.466666666666667,
+      "topk": [
+        {
+          "index": 360,
+          "label": "shaving legs\t360",
+          "prob": 0.3590584695339203
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.11485043913125992
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.08251888304948807
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.062123723328113556
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.059979572892189026
+        }
+      ],
+      "top1_prob": 0.3590584695339203,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3590584695339203,
+    "max_top1_prob": 0.3590584695339203,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

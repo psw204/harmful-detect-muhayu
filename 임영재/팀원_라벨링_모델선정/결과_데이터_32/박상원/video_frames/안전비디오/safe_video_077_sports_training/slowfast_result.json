@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_077_sports_training",
+  "frames_per_clip": 32,
+  "clip_sec": 12.766666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 12.766666666666667,
+      "topk": [
+        {
+          "index": 47,
+          "label": "riding unicycle\t47",
+          "prob": 0.47579801082611084
+        },
+        {
+          "index": 42,
+          "label": "shooting goal (soccer)\t42",
+          "prob": 0.23215162754058838
+        },
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.1386745721101761
+        },
+        {
+          "index": 78,
+          "label": "folding paper\t78",
+          "prob": 0.03328627347946167
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.03032863326370716
+        }
+      ],
+      "top1_prob": 0.47579801082611084,
+      "violence_hint": 0.23215162754058838
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.47579801082611084,
+    "max_top1_prob": 0.47579801082611084,
+    "avg_violence_hint": 0.23215162754058838,
+    "max_violence_hint": 0.23215162754058838
+  }
+}

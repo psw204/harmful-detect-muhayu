@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_222_gang_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 10.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 10.0,
+      "topk": [
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.16181513667106628
+        },
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.12853580713272095
+        },
+        {
+          "index": 127,
+          "label": "unboxing\t127",
+          "prob": 0.10175081342458725
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.055756811052560806
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.04139205440878868
+        }
+      ],
+      "top1_prob": 0.16181513667106628,
+      "violence_hint": 0.04139205440878868
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.16181513667106628,
+    "max_top1_prob": 0.16181513667106628,
+    "avg_violence_hint": 0.04139205440878868,
+    "max_violence_hint": 0.04139205440878868
+  }
+}

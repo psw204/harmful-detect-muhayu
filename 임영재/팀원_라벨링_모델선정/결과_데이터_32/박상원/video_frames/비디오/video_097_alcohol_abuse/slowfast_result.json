@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_097_alcohol_abuse",
+  "frames_per_clip": 32,
+  "clip_sec": 20.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 20.0,
+      "topk": [
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.27697309851646423
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.14248451590538025
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.09685457497835159
+        },
+        {
+          "index": 205,
+          "label": "tossing coin\t205",
+          "prob": 0.05716107413172722
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.05414508655667305
+        }
+      ],
+      "top1_prob": 0.27697309851646423,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.27697309851646423,
+    "max_top1_prob": 0.27697309851646423,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

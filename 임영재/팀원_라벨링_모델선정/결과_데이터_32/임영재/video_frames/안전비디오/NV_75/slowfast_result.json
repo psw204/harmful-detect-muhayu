@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_75",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 297,
+          "label": "plastering\t297",
+          "prob": 0.27586060762405396
+        },
+        {
+          "index": 174,
+          "label": "sharpening knives\t174",
+          "prob": 0.26636138558387756
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.11477246880531311
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.07412929087877274
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.0519869290292263
+        }
+      ],
+      "top1_prob": 0.27586060762405396,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.27586060762405396,
+    "max_top1_prob": 0.27586060762405396,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

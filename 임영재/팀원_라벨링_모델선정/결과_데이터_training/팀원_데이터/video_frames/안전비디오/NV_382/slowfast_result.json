@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_382",
+  "frames_per_clip": 32,
+  "clip_sec": 1.4666666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.4666666666666666,
+      "topk": [
+        {
+          "index": 57,
+          "label": "peeling potatoes\t57",
+          "prob": 0.21202856302261353
+        },
+        {
+          "index": 303,
+          "label": "cleaning toilet\t303",
+          "prob": 0.18068091571331024
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.1440495252609253
+        },
+        {
+          "index": 279,
+          "label": "flipping pancake\t279",
+          "prob": 0.09744671732187271
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.04514714702963829
+        }
+      ],
+      "top1_prob": 0.21202856302261353,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.21202856302261353,
+    "max_top1_prob": 0.21202856302261353,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/3qsou7p57Nk_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.2860589623451233
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.1907619833946228
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.0751269981265068
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.040399856865406036
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.0306592658162117
+        }
+      ],
+      "top1_prob": 0.2860589623451233,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2860589623451233,
+    "max_top1_prob": 0.2860589623451233,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

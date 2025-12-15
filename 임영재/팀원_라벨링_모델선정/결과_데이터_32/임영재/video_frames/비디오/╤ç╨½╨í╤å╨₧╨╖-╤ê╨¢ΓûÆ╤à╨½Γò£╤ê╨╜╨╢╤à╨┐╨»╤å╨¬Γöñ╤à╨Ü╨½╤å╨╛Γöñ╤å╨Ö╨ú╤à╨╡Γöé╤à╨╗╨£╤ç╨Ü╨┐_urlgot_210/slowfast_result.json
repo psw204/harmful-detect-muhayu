@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/╤ç╨½╨í╤å╨₧╨╖-╤ê╨¢ΓûÆ╤à╨½Γò£╤ê╨╜╨╢╤à╨┐╨»╤å╨¬Γöñ╤à╨Ü╨½╤å╨╛Γöñ╤å╨Ö╨ú╤à╨╡Γöé╤à╨╗╨£╤ç╨Ü╨┐_urlgot_210",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.7379578948020935
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.052548665553331375
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.026118291541934013
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.016111841425299644
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.014895101077854633
+        }
+      ],
+      "top1_prob": 0.7379578948020935,
+      "violence_hint": 0.052548665553331375
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7379578948020935,
+    "max_top1_prob": 0.7379578948020935,
+    "avg_violence_hint": 0.052548665553331375,
+    "max_violence_hint": 0.052548665553331375
+  }
+}

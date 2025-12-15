@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/1O4KGHbRt3M_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.2823708653450012
+        },
+        {
+          "index": 363,
+          "label": "counting money\t363",
+          "prob": 0.05790998786687851
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.04845133796334267
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.037417877465486526
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.03382088616490364
+        }
+      ],
+      "top1_prob": 0.2823708653450012,
+      "violence_hint": 0.2823708653450012
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2823708653450012,
+    "max_top1_prob": 0.2823708653450012,
+    "avg_violence_hint": 0.2823708653450012,
+    "max_violence_hint": 0.2823708653450012
+  }
+}

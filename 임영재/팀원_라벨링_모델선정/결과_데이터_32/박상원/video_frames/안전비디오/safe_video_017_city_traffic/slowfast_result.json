@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_017_city_traffic",
+  "frames_per_clip": 32,
+  "clip_sec": 8.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.0,
+      "topk": [
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.2905207872390747
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.09330212324857712
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.08503733575344086
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.05073055624961853
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.04724602773785591
+        }
+      ],
+      "top1_prob": 0.2905207872390747,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2905207872390747,
+    "max_top1_prob": 0.2905207872390747,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

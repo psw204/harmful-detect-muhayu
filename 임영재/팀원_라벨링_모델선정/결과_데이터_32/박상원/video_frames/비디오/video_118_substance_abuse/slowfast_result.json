@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_118_substance_abuse",
+  "frames_per_clip": 32,
+  "clip_sec": 11.666666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 11.666666666666666,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.9101807475090027
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.02038281410932541
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.01607942394912243
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.010108336806297302
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.007071664556860924
+        }
+      ],
+      "top1_prob": 0.9101807475090027,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9101807475090027,
+    "max_top1_prob": 0.9101807475090027,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

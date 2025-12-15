@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_142_home_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 15.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 15.0,
+      "topk": [
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.8534442186355591
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.02592734806239605
+        },
+        {
+          "index": 95,
+          "label": "cleaning floor\t95",
+          "prob": 0.01189354993402958
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.009433095343410969
+        },
+        {
+          "index": 196,
+          "label": "making pizza\t196",
+          "prob": 0.00886288657784462
+        }
+      ],
+      "top1_prob": 0.8534442186355591,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.8534442186355591,
+    "max_top1_prob": 0.8534442186355591,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

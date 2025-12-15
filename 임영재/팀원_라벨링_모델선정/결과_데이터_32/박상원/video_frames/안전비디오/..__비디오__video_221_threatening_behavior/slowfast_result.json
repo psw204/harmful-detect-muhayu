@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/..__비디오__video_221_threatening_behavior",
+  "frames_per_clip": 32,
+  "clip_sec": 35.93333333333333,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 35.93333333333333,
+      "topk": [
+        {
+          "index": 321,
+          "label": "cutting pineapple\t321",
+          "prob": 0.6820475459098816
+        },
+        {
+          "index": 286,
+          "label": "doing aerobics\t286",
+          "prob": 0.14576686918735504
+        },
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.025546079501509666
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.016746388748288155
+        },
+        {
+          "index": 384,
+          "label": "testifying\t384",
+          "prob": 0.012313966639339924
+        }
+      ],
+      "top1_prob": 0.6820475459098816,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6820475459098816,
+    "max_top1_prob": 0.6820475459098816,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

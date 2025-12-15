@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/..__비디오__video_071_reckless_driving_cra",
+  "frames_per_clip": 32,
+  "clip_sec": 5.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 5.966666666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.2537713050842285
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.18280397355556488
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.13849760591983795
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.07534115016460419
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.05306392163038254
+        }
+      ],
+      "top1_prob": 0.2537713050842285,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2537713050842285,
+    "max_top1_prob": 0.2537713050842285,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

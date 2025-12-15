@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__854100-hd_1920_1080_25fps_11.79_15.72",
+  "frames_per_clip": 32,
+  "clip_sec": 5.8,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 5.8,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.540336549282074
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.44938212633132935
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.005743196699768305
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.0044308435171842575
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 2.6849444111576304e-05
+        }
+      ],
+      "top1_prob": 0.540336549282074,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.540336549282074,
+    "max_top1_prob": 0.540336549282074,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

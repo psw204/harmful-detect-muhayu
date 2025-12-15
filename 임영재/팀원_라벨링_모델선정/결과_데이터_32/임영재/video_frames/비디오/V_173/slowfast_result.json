@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/V_173",
+  "frames_per_clip": 32,
+  "clip_sec": 2.6666666666666665,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 2.6666666666666665,
+      "topk": [
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.6826085448265076
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.2759056091308594
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.016370726749300957
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.01444684062153101
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.004828284494578838
+        }
+      ],
+      "top1_prob": 0.6826085448265076,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6826085448265076,
+    "max_top1_prob": 0.6826085448265076,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

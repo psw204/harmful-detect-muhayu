@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/violence__clips__4761711-uhd_4096_2160_25fps_0.00_10.10",
+  "frames_per_clip": 32,
+  "clip_sec": 8.333333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.333333333333334,
+      "topk": [
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.15947987139225006
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.13516074419021606
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.06553519517183304
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.054208751767873764
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.0354214571416378
+        }
+      ],
+      "top1_prob": 0.15947987139225006,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.15947987139225006,
+    "max_top1_prob": 0.15947987139225006,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

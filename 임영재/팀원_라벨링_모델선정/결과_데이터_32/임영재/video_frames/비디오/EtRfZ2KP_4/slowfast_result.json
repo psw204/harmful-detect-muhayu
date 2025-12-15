@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/EtRfZ2KP_4",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 363,
+          "label": "counting money\t363",
+          "prob": 0.7409454584121704
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.20427541434764862
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.03638022392988205
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.006513036321848631
+        },
+        {
+          "index": 198,
+          "label": "tasting food\t198",
+          "prob": 0.002700661076232791
+        }
+      ],
+      "top1_prob": 0.7409454584121704,
+      "violence_hint": 0.03638022392988205
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7409454584121704,
+    "max_top1_prob": 0.7409454584121704,
+    "avg_violence_hint": 0.03638022392988205,
+    "max_violence_hint": 0.03638022392988205
+  }
+}

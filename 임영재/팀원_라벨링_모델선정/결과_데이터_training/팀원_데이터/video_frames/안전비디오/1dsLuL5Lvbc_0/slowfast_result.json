@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/1dsLuL5Lvbc_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.7583486437797546
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.048834286630153656
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.033636003732681274
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.020515864714980125
+        },
+        {
+          "index": 167,
+          "label": "high kick\t167",
+          "prob": 0.010861593298614025
+        }
+      ],
+      "top1_prob": 0.7583486437797546,
+      "violence_hint": 0.010861593298614025
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.7583486437797546,
+    "max_top1_prob": 0.7583486437797546,
+    "avg_violence_hint": 0.010861593298614025,
+    "max_violence_hint": 0.010861593298614025
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_095_office_work",
+  "frames_per_clip": 32,
+  "clip_sec": 10.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 10.0,
+      "topk": [
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.236693874001503
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.17412588000297546
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.08065254986286163
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.07673944532871246
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.031258001923561096
+        }
+      ],
+      "top1_prob": 0.236693874001503,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.236693874001503,
+    "max_top1_prob": 0.236693874001503,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

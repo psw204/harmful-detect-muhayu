@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__3610326-uhd_3840_2160_30fps_30.96_41.28",
+  "frames_per_clip": 32,
+  "clip_sec": 12.733333333333333,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 12.733333333333333,
+      "topk": [
+        {
+          "index": 286,
+          "label": "doing aerobics\t286",
+          "prob": 0.3214537799358368
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.20988914370536804
+        },
+        {
+          "index": 124,
+          "label": "tobogganing\t124",
+          "prob": 0.16742217540740967
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.1251162886619568
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.06294722855091095
+        }
+      ],
+      "top1_prob": 0.3214537799358368,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3214537799358368,
+    "max_top1_prob": 0.3214537799358368,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

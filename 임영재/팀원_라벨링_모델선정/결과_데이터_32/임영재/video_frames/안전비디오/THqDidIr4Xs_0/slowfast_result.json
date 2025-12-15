@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/THqDidIr4Xs_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.30379727482795715
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.2738182544708252
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.08899696171283722
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.0412137545645237
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0324624627828598
+        }
+      ],
+      "top1_prob": 0.30379727482795715,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.30379727482795715,
+    "max_top1_prob": 0.30379727482795715,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

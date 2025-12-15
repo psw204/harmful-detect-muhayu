@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/QaIY5Au8yOc_2",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.8801189064979553
+        },
+        {
+          "index": 382,
+          "label": "playing basketball\t382",
+          "prob": 0.03735591098666191
+        },
+        {
+          "index": 96,
+          "label": "krumping\t96",
+          "prob": 0.022680485621094704
+        },
+        {
+          "index": 276,
+          "label": "passing american football (not in game)\t276",
+          "prob": 0.0085113774985075
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.00668196240440011
+        }
+      ],
+      "top1_prob": 0.8801189064979553,
+      "violence_hint": 0.8801189064979553
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.8801189064979553,
+    "max_top1_prob": 0.8801189064979553,
+    "avg_violence_hint": 0.8801189064979553,
+    "max_violence_hint": 0.8801189064979553
+  }
+}

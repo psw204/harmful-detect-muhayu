@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/비디오/weapons__clips__138115-768324070_tiny_8.40_16.81",
+  "frames_per_clip": 32,
+  "clip_sec": 6.4,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 6.4,
+      "topk": [
+        {
+          "index": 121,
+          "label": "feeding fish\t121",
+          "prob": 0.2142762392759323
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.08074706047773361
+        },
+        {
+          "index": 170,
+          "label": "tango dancing\t170",
+          "prob": 0.06488297879695892
+        },
+        {
+          "index": 326,
+          "label": "busking\t326",
+          "prob": 0.04889786243438721
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.029403770342469215
+        }
+      ],
+      "top1_prob": 0.2142762392759323,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2142762392759323,
+    "max_top1_prob": 0.2142762392759323,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

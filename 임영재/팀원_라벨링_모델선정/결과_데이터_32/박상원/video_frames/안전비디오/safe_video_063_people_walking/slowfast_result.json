@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_063_people_walking",
+  "frames_per_clip": 32,
+  "clip_sec": 15.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 15.0,
+      "topk": [
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.22134147584438324
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.18085135519504547
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.14769458770751953
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.12914156913757324
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.04324496164917946
+        }
+      ],
+      "top1_prob": 0.22134147584438324,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.22134147584438324,
+    "max_top1_prob": 0.22134147584438324,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

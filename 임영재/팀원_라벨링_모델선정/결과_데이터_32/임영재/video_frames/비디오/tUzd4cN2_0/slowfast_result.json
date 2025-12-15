@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/tUzd4cN2_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.2965327501296997
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.23409008979797363
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.11844167858362198
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.056503232568502426
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.021618269383907318
+        }
+      ],
+      "top1_prob": 0.2965327501296997,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2965327501296997,
+    "max_top1_prob": 0.2965327501296997,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

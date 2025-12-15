@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_669",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.4758336842060089
+        },
+        {
+          "index": 251,
+          "label": "surfing crowd\t251",
+          "prob": 0.12144182622432709
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.0814053863286972
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.06973039358854294
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.04684139043092728
+        }
+      ],
+      "top1_prob": 0.4758336842060089,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4758336842060089,
+    "max_top1_prob": 0.4758336842060089,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

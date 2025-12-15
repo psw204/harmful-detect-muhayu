@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/_2RYnSFPD_U_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.22405536472797394
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.1665165275335312
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.16537249088287354
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.04652756080031395
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.024103065952658653
+        }
+      ],
+      "top1_prob": 0.22405536472797394,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.22405536472797394,
+    "max_top1_prob": 0.22405536472797394,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

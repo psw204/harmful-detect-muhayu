@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_078_dangerous_stunt_acci",
+  "frames_per_clip": 32,
+  "clip_sec": 9.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 9.966666666666667,
+      "topk": [
+        {
+          "index": 297,
+          "label": "plastering\t297",
+          "prob": 0.5016101002693176
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.10519403219223022
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.05034981667995453
+        },
+        {
+          "index": 123,
+          "label": "water skiing\t123",
+          "prob": 0.038450904190540314
+        },
+        {
+          "index": 39,
+          "label": "skydiving\t39",
+          "prob": 0.03415360674262047
+        }
+      ],
+      "top1_prob": 0.5016101002693176,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5016101002693176,
+    "max_top1_prob": 0.5016101002693176,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

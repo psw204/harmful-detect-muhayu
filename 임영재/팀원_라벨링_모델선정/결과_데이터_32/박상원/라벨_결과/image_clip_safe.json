@@ -1,0 +1,331 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/무하유_유해콘텐츠_데이터_모델선정/2_실제_수집_데이터/박상원/안전_이미지",
+  "num_frames_total": 100,
+  "num_frames_used": 100,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "safe_books_library_075.jpg": {
+      "violence_prob": 0.32394880056381226
+    },
+    "safe_books_library_076.jpg": {
+      "violence_prob": 0.41927972435951233
+    },
+    "safe_books_library_077.jpg": {
+      "violence_prob": 0.3148268163204193
+    },
+    "safe_books_library_078.jpg": {
+      "violence_prob": 0.3529374599456787
+    },
+    "safe_books_library_079.jpg": {
+      "violence_prob": 0.40033310651779175
+    },
+    "safe_breakfast_meal_030.jpg": {
+      "violence_prob": 0.3132002055644989
+    },
+    "safe_breakfast_meal_031.jpg": {
+      "violence_prob": 0.31266433000564575
+    },
+    "safe_breakfast_meal_032.jpg": {
+      "violence_prob": 0.39555323123931885
+    },
+    "safe_breakfast_meal_033.jpg": {
+      "violence_prob": 0.24899181723594666
+    },
+    "safe_breakfast_meal_034.jpg": {
+      "violence_prob": 0.2864171266555786
+    },
+    "safe_cat_pet_055.jpg": {
+      "violence_prob": 0.3762262761592865
+    },
+    "safe_cat_pet_056.jpg": {
+      "violence_prob": 0.4052248001098633
+    },
+    "safe_cat_pet_057.jpg": {
+      "violence_prob": 0.42050260305404663
+    },
+    "safe_cat_pet_058.jpg": {
+      "violence_prob": 0.5014134645462036
+    },
+    "safe_cat_pet_059.jpg": {
+      "violence_prob": 0.5655802488327026
+    },
+    "safe_coffee_cup_025.jpg": {
+      "violence_prob": 0.43559861183166504
+    },
+    "safe_coffee_cup_026.jpg": {
+      "violence_prob": 0.29118430614471436
+    },
+    "safe_coffee_cup_027.jpg": {
+      "violence_prob": 0.44292688369750977
+    },
+    "safe_coffee_cup_028.jpg": {
+      "violence_prob": 0.28230544924736023
+    },
+    "safe_coffee_cup_029.jpg": {
+      "violence_prob": 0.3860177993774414
+    },
+    "safe_computer_desk_095.jpg": {
+      "violence_prob": 0.3646038770675659
+    },
+    "safe_computer_desk_096.jpg": {
+      "violence_prob": 0.5080030560493469
+    },
+    "safe_computer_desk_097.jpg": {
+      "violence_prob": 0.2992938160896301
+    },
+    "safe_computer_desk_098.jpg": {
+      "violence_prob": 0.5411328077316284
+    },
+    "safe_computer_desk_099.jpg": {
+      "violence_prob": 0.41873395442962646
+    },
+    "safe_dog_animal_060.jpg": {
+      "violence_prob": 0.5497631430625916
+    },
+    "safe_dog_animal_061.jpg": {
+      "violence_prob": 0.3180319368839264
+    },
+    "safe_dog_animal_062.jpg": {
+      "violence_prob": 0.36973926424980164
+    },
+    "safe_dog_animal_063.jpg": {
+      "violence_prob": 0.4118385910987854
+    },
+    "safe_dog_animal_064.jpg": {
+      "violence_prob": 0.4204201102256775
+    },
+    "safe_flowers_garden_040.jpg": {
+      "violence_prob": 0.29800787568092346
+    },
+    "safe_flowers_garden_041.jpg": {
+      "violence_prob": 0.5251976251602173
+    },
+    "safe_flowers_garden_042.jpg": {
+      "violence_prob": 0.4727330803871155
+    },
+    "safe_flowers_garden_043.jpg": {
+      "violence_prob": 0.508346438407898
+    },
+    "safe_flowers_garden_044.jpg": {
+      "violence_prob": 0.3660140037536621
+    },
+    "safe_food_plate_020.jpg": {
+      "violence_prob": 0.39555323123931885
+    },
+    "safe_food_plate_021.jpg": {
+      "violence_prob": 0.3524802625179291
+    },
+    "safe_food_plate_022.jpg": {
+      "violence_prob": 0.3765961527824402
+    },
+    "safe_food_plate_023.jpg": {
+      "violence_prob": 0.43924182653427124
+    },
+    "safe_food_plate_024.jpg": {
+      "violence_prob": 0.45007842779159546
+    },
+    "safe_forest_trees_015.jpg": {
+      "violence_prob": 0.2953391671180725
+    },
+    "safe_forest_trees_016.jpg": {
+      "violence_prob": 0.3486146330833435
+    },
+    "safe_forest_trees_017.jpg": {
+      "violence_prob": 0.4096441864967346
+    },
+    "safe_forest_trees_018.jpg": {
+      "violence_prob": 0.4073447585105896
+    },
+    "safe_forest_trees_019.jpg": {
+      "violence_prob": 0.26118767261505127
+    },
+    "safe_fruit_basket_035.jpg": {
+      "violence_prob": 0.3265995681285858
+    },
+    "safe_fruit_basket_036.jpg": {
+      "violence_prob": 0.3866005539894104
+    },
+    "safe_fruit_basket_037.jpg": {
+      "violence_prob": 0.32285743951797485
+    },
+    "safe_fruit_basket_038.jpg": {
+      "violence_prob": 0.34556955099105835
+    },
+    "safe_fruit_basket_039.jpg": {
+      "violence_prob": 0.3864663243293762
+    },
+    "safe_kitten_playing_070.jpg": {
+      "violence_prob": 0.37849050760269165
+    },
+    "safe_kitten_playing_071.jpg": {
+      "violence_prob": 0.5219906568527222
+    },
+    "safe_kitten_playing_072.jpg": {
+      "violence_prob": 0.3893406093120575
+    },
+    "safe_kitten_playing_073.jpg": {
+      "violence_prob": 0.3722637891769409
+    },
+    "safe_kitten_playing_074.jpg": {
+      "violence_prob": 0.3548201322555542
+    },
+    "safe_mountain_view_005.jpg": {
+      "violence_prob": 0.24756500124931335
+    },
+    "safe_mountain_view_006.jpg": {
+      "violence_prob": 0.2464640587568283
+    },
+    "safe_mountain_view_007.jpg": {
+      "violence_prob": 0.3863716423511505
+    },
+    "safe_mountain_view_008.jpg": {
+      "violence_prob": 0.3540087938308716
+    },
+    "safe_mountain_view_009.jpg": {
+      "violence_prob": 0.44256171584129333
+    },
+    "safe_nature_landscape_000.jpg": {
+      "violence_prob": 0.2061290740966797
+    },
+    "safe_nature_landscape_001.jpg": {
+      "violence_prob": 0.5397672653198242
+    },
+    "safe_nature_landscape_002.jpg": {
+      "violence_prob": 0.23281902074813843
+    },
+    "safe_nature_landscape_003.jpg": {
+      "violence_prob": 0.375377893447876
+    },
+    "safe_nature_landscape_004.jpg": {
+      "violence_prob": 0.12018270790576935
+    },
+    "safe_ocean_beach_010.jpg": {
+      "violence_prob": 0.25980186462402344
+    },
+    "safe_ocean_beach_011.jpg": {
+      "violence_prob": 0.299471378326416
+    },
+    "safe_ocean_beach_012.jpg": {
+      "violence_prob": 0.28370362520217896
+    },
+    "safe_ocean_beach_013.jpg": {
+      "violence_prob": 0.11670396476984024
+    },
+    "safe_ocean_beach_014.jpg": {
+      "violence_prob": 0.36690813302993774
+    },
+    "safe_office_workspace_090.jpg": {
+      "violence_prob": 0.4281032383441925
+    },
+    "safe_office_workspace_091.jpg": {
+      "violence_prob": 0.3411051630973816
+    },
+    "safe_office_workspace_092.jpg": {
+      "violence_prob": 0.3676813244819641
+    },
+    "safe_office_workspace_093.jpg": {
+      "violence_prob": 0.23235385119915009
+    },
+    "safe_office_workspace_094.jpg": {
+      "violence_prob": 0.37961605191230774
+    },
+    "safe_puppy_cute_065.jpg": {
+      "violence_prob": 0.5184803009033203
+    },
+    "safe_puppy_cute_066.jpg": {
+      "violence_prob": 0.394061803817749
+    },
+    "safe_puppy_cute_067.jpg": {
+      "violence_prob": 0.3535878658294678
+    },
+    "safe_puppy_cute_068.jpg": {
+      "violence_prob": 0.37227705121040344
+    },
+    "safe_puppy_cute_069.jpg": {
+      "violence_prob": 0.3545074462890625
+    },
+    "safe_reading_book_080.jpg": {
+      "violence_prob": 0.19449609518051147
+    },
+    "safe_reading_book_081.jpg": {
+      "violence_prob": 0.40033310651779175
+    },
+    "safe_reading_book_082.jpg": {
+      "violence_prob": 0.26885610818862915
+    },
+    "safe_reading_book_083.jpg": {
+      "violence_prob": 0.3802224397659302
+    },
+    "safe_reading_book_084.jpg": {
+      "violence_prob": 0.38904857635498047
+    },
+    "safe_rose_bouquet_045.jpg": {
+      "violence_prob": 0.5781450867652893
+    },
+    "safe_rose_bouquet_046.jpg": {
+      "violence_prob": 0.44474437832832336
+    },
+    "safe_rose_bouquet_047.jpg": {
+      "violence_prob": 0.2770554721355438
+    },
+    "safe_rose_bouquet_048.jpg": {
+      "violence_prob": 0.4880257248878479
+    },
+    "safe_rose_bouquet_049.jpg": {
+      "violence_prob": 0.5089823007583618
+    },
+    "safe_study_desk_085.jpg": {
+      "violence_prob": 0.3233957290649414
+    },
+    "safe_study_desk_086.jpg": {
+      "violence_prob": 0.41873395442962646
+    },
+    "safe_study_desk_087.jpg": {
+      "violence_prob": 0.36297065019607544
+    },
+    "safe_study_desk_088.jpg": {
+      "violence_prob": 0.27914315462112427
+    },
+    "safe_study_desk_089.jpg": {
+      "violence_prob": 0.3797440230846405
+    },
+    "safe_tulip_field_050.jpg": {
+      "violence_prob": 0.29441067576408386
+    },
+    "safe_tulip_field_051.jpg": {
+      "violence_prob": 0.4452488422393799
+    },
+    "safe_tulip_field_052.jpg": {
+      "violence_prob": 0.363542377948761
+    },
+    "safe_tulip_field_053.jpg": {
+      "violence_prob": 0.29546427726745605
+    },
+    "safe_tulip_field_054.jpg": {
+      "violence_prob": 0.3310796320438385
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.3701132493466139,
+    "max_violence_prob": 0.5781450867652893,
+    "p95_violence_prob": 0.5259261071681975
+  }
+}

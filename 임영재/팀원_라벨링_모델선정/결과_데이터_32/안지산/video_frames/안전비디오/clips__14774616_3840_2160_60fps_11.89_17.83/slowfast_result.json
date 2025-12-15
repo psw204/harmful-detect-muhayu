@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__14774616_3840_2160_60fps_11.89_17.83",
+  "frames_per_clip": 32,
+  "clip_sec": 20.7,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 20.7,
+      "topk": [
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.1326536387205124
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.07142599672079086
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.04128357023000717
+        },
+        {
+          "index": 206,
+          "label": "deadlifting\t206",
+          "prob": 0.031457290053367615
+        },
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.027706310153007507
+        }
+      ],
+      "top1_prob": 0.1326536387205124,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.1326536387205124,
+    "max_top1_prob": 0.1326536387205124,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

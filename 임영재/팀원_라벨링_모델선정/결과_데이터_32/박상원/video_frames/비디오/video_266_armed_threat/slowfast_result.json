@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_266_armed_threat",
+  "frames_per_clip": 32,
+  "clip_sec": 7.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 7.966666666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.17776480317115784
+        },
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.13886968791484833
+        },
+        {
+          "index": 313,
+          "label": "rock scissors paper\t313",
+          "prob": 0.09999556094408035
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.09602032601833344
+        },
+        {
+          "index": 69,
+          "label": "washing hair\t69",
+          "prob": 0.05906128138303757
+        }
+      ],
+      "top1_prob": 0.17776480317115784,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.17776480317115784,
+    "max_top1_prob": 0.17776480317115784,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

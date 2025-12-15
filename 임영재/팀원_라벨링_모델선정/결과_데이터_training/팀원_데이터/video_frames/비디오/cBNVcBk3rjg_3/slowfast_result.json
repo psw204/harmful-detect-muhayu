@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/cBNVcBk3rjg_3",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.12731505930423737
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.08358663320541382
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.044990167021751404
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.03804822266101837
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03490292653441429
+        }
+      ],
+      "top1_prob": 0.12731505930423737,
+      "violence_hint": 0.12731505930423737
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.12731505930423737,
+    "max_top1_prob": 0.12731505930423737,
+    "avg_violence_hint": 0.12731505930423737,
+    "max_violence_hint": 0.12731505930423737
+  }
+}

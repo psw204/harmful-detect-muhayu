@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/V_609",
+  "frames_per_clip": 32,
+  "clip_sec": 4.933333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.933333333333334,
+      "topk": [
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.49791109561920166
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.33731919527053833
+        },
+        {
+          "index": 174,
+          "label": "sharpening knives\t174",
+          "prob": 0.0800323635339737
+        },
+        {
+          "index": 343,
+          "label": "crying\t343",
+          "prob": 0.046043165028095245
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.011277908459305763
+        }
+      ],
+      "top1_prob": 0.49791109561920166,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.49791109561920166,
+    "max_top1_prob": 0.49791109561920166,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

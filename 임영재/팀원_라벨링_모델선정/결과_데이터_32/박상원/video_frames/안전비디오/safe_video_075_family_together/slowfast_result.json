@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_075_family_together",
+  "frames_per_clip": 32,
+  "clip_sec": 11.666666666666666,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 11.666666666666666,
+      "topk": [
+        {
+          "index": 390,
+          "label": "jumpstyle dancing\t390",
+          "prob": 0.4971986413002014
+        },
+        {
+          "index": 394,
+          "label": "playing paintball\t394",
+          "prob": 0.10691262036561966
+        },
+        {
+          "index": 29,
+          "label": "disc golfing\t29",
+          "prob": 0.06890656054019928
+        },
+        {
+          "index": 276,
+          "label": "passing american football (not in game)\t276",
+          "prob": 0.055796537548303604
+        },
+        {
+          "index": 369,
+          "label": "peeling apples\t369",
+          "prob": 0.05248311907052994
+        }
+      ],
+      "top1_prob": 0.4971986413002014,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4971986413002014,
+    "max_top1_prob": 0.4971986413002014,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_016_city_traffic",
+  "frames_per_clip": 32,
+  "clip_sec": 8.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.0,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.4714927673339844
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.22289133071899414
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0394076406955719
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03810158371925354
+        },
+        {
+          "index": 121,
+          "label": "feeding fish\t121",
+          "prob": 0.018172698095440865
+        }
+      ],
+      "top1_prob": 0.4714927673339844,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.4714927673339844,
+    "max_top1_prob": 0.4714927673339844,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

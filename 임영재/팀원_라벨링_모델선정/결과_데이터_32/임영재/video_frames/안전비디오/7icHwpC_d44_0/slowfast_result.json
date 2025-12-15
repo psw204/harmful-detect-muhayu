@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/7icHwpC_d44_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.9614003300666809
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.02768556959927082
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.003658614819869399
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.0035480945371091366
+        },
+        {
+          "index": 271,
+          "label": "opening bottle\t271",
+          "prob": 0.0012888036435469985
+        }
+      ],
+      "top1_prob": 0.9614003300666809,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9614003300666809,
+    "max_top1_prob": 0.9614003300666809,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

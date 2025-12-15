@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_620",
+  "frames_per_clip": 32,
+  "clip_sec": 4.933333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.933333333333334,
+      "topk": [
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.6681990027427673
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.26443755626678467
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.06735961139202118
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 1.2898295835839235e-06
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 9.102432727559062e-07
+        }
+      ],
+      "top1_prob": 0.6681990027427673,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6681990027427673,
+    "max_top1_prob": 0.6681990027427673,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

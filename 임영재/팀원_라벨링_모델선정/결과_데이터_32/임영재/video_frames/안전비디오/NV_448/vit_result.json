@@ -1,0 +1,109 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_448",
+  "num_frames_total": 44,
+  "num_frames_used": 32,
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.12690982222557068
+    },
+    "clip_000_frame_001.jpg": {
+      "violence_prob": 0.1250872015953064
+    },
+    "clip_000_frame_002.jpg": {
+      "violence_prob": 0.12448959797620773
+    },
+    "clip_000_frame_004.jpg": {
+      "violence_prob": 0.12623891234397888
+    },
+    "clip_000_frame_005.jpg": {
+      "violence_prob": 0.12622904777526855
+    },
+    "clip_000_frame_006.jpg": {
+      "violence_prob": 0.12718503177165985
+    },
+    "clip_000_frame_008.jpg": {
+      "violence_prob": 0.12697847187519073
+    },
+    "clip_000_frame_009.jpg": {
+      "violence_prob": 0.1276422142982483
+    },
+    "clip_000_frame_011.jpg": {
+      "violence_prob": 0.12824983894824982
+    },
+    "clip_000_frame_012.jpg": {
+      "violence_prob": 0.12901471555233002
+    },
+    "clip_000_frame_013.jpg": {
+      "violence_prob": 0.12972141802310944
+    },
+    "clip_000_frame_015.jpg": {
+      "violence_prob": 0.12894152104854584
+    },
+    "clip_000_frame_016.jpg": {
+      "violence_prob": 0.12787263095378876
+    },
+    "clip_000_frame_018.jpg": {
+      "violence_prob": 0.12640449404716492
+    },
+    "clip_000_frame_019.jpg": {
+      "violence_prob": 0.12715688347816467
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.1258995682001114
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.12649387121200562
+    },
+    "clip_001_frame_001.jpg": {
+      "violence_prob": 0.1271006166934967
+    },
+    "clip_001_frame_002.jpg": {
+      "violence_prob": 0.12726068496704102
+    },
+    "clip_001_frame_004.jpg": {
+      "violence_prob": 0.12728439271450043
+    },
+    "clip_001_frame_005.jpg": {
+      "violence_prob": 0.1267392486333847
+    },
+    "clip_001_frame_007.jpg": {
+      "violence_prob": 0.11310239136219025
+    },
+    "clip_001_frame_008.jpg": {
+      "violence_prob": 0.11324834078550339
+    },
+    "clip_001_frame_009.jpg": {
+      "violence_prob": 0.11359603703022003
+    },
+    "clip_001_frame_011.jpg": {
+      "violence_prob": 0.11333125084638596
+    },
+    "clip_001_frame_012.jpg": {
+      "violence_prob": 0.11381997168064117
+    },
+    "clip_001_frame_014.jpg": {
+      "violence_prob": 0.11045593023300171
+    },
+    "clip_001_frame_015.jpg": {
+      "violence_prob": 0.11024273931980133
+    },
+    "clip_001_frame_016.jpg": {
+      "violence_prob": 0.11046374589204788
+    },
+    "clip_001_frame_018.jpg": {
+      "violence_prob": 0.1099492609500885
+    },
+    "clip_001_frame_019.jpg": {
+      "violence_prob": 0.10854782909154892
+    },
+    "clip_001_frame_021.jpg": {
+      "violence_prob": 0.10857029259204865
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.12169462419115007,
+    "max_violence_prob": 0.12972141802310944,
+    "p95_violence_prob": 0.12897445857524872
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/JwfajujK_0",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.3178112208843231
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.18379315733909607
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.14522773027420044
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.09437809884548187
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.028797559440135956
+        }
+      ],
+      "top1_prob": 0.3178112208843231,
+      "violence_hint": 0.18379315733909607
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.3178112208843231,
+    "max_top1_prob": 0.3178112208843231,
+    "avg_violence_hint": 0.18379315733909607,
+    "max_violence_hint": 0.18379315733909607
+  }
+}

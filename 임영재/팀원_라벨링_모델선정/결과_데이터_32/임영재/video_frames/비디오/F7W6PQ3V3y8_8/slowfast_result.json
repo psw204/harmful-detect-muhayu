@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/F7W6PQ3V3y8_8",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.9999967813491821
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 2.0423854039108846e-06
+        },
+        {
+          "index": 262,
+          "label": "juggling balls\t262",
+          "prob": 8.772368573772837e-07
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 2.8037561605742667e-07
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 7.03410023561446e-08
+        }
+      ],
+      "top1_prob": 0.9999967813491821,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9999967813491821,
+    "max_top1_prob": 0.9999967813491821,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

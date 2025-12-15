@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/비디오/video_272_fight_violence",
+  "frames_per_clip": 32,
+  "clip_sec": 13.333333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 13.333333333333334,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.5859561562538147
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.236467644572258
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.02550293505191803
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.024071648716926575
+        },
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.020184969529509544
+        }
+      ],
+      "top1_prob": 0.5859561562538147,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.5859561562538147,
+    "max_top1_prob": 0.5859561562538147,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

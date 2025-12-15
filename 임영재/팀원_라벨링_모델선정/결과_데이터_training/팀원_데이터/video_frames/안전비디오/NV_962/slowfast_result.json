@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/NV_962",
+  "frames_per_clip": 32,
+  "clip_sec": 3.8666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.8666666666666667,
+      "topk": [
+        {
+          "index": 66,
+          "label": "exercising with an exercise ball\t66",
+          "prob": 0.765205442905426
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.14337158203125
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.020256076008081436
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.015825096517801285
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.007491311524063349
+        }
+      ],
+      "top1_prob": 0.765205442905426,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.765205442905426,
+    "max_top1_prob": 0.765205442905426,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/박상원/video_frames/안전비디오/safe_video_029_clouds_moving",
+  "frames_per_clip": 32,
+  "clip_sec": 19.966666666666665,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 19.966666666666665,
+      "topk": [
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.23442070186138153
+        },
+        {
+          "index": 205,
+          "label": "tossing coin\t205",
+          "prob": 0.16703453660011292
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.13203051686286926
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.0921119675040245
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.09083960950374603
+        }
+      ],
+      "top1_prob": 0.23442070186138153,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.23442070186138153,
+    "max_top1_prob": 0.23442070186138153,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

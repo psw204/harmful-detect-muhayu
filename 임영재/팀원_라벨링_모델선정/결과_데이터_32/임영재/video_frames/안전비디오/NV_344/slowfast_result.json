@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_344",
+  "frames_per_clip": 32,
+  "clip_sec": 3.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.966666666666667,
+      "topk": [
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.033531710505485535
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.02254892885684967
+        },
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.019791129976511
+        },
+        {
+          "index": 297,
+          "label": "plastering\t297",
+          "prob": 0.01934063248336315
+        },
+        {
+          "index": 5,
+          "label": "roller skating\t5",
+          "prob": 0.019179413095116615
+        }
+      ],
+      "top1_prob": 0.033531710505485535,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.033531710505485535,
+    "max_top1_prob": 0.033531710505485535,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/비디오/V_766",
+  "frames_per_clip": 32,
+  "clip_sec": 3.966666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.966666666666667,
+      "topk": [
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.9908030033111572
+        },
+        {
+          "index": 258,
+          "label": "breading or breadcrumbing\t258",
+          "prob": 0.0066937776282429695
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.002076940843835473
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.00011781930516008288
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 8.942301792558283e-05
+        }
+      ],
+      "top1_prob": 0.9908030033111572,
+      "violence_hint": 0.00011781930516008288
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9908030033111572,
+    "max_top1_prob": 0.9908030033111572,
+    "avg_violence_hint": 0.00011781930516008288,
+    "max_violence_hint": 0.00011781930516008288
+  }
+}

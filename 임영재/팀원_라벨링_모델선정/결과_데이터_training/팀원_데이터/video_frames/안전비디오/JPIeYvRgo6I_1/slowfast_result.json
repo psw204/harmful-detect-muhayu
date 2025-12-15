@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_training/팀원_데이터/video_frames/안전비디오/JPIeYvRgo6I_1",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.1301223486661911
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.12019634246826172
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.046541959047317505
+        },
+        {
+          "index": 121,
+          "label": "feeding fish\t121",
+          "prob": 0.03613658249378204
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.03439047187566757
+        }
+      ],
+      "top1_prob": 0.1301223486661911,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.1301223486661911,
+    "max_top1_prob": 0.1301223486661911,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

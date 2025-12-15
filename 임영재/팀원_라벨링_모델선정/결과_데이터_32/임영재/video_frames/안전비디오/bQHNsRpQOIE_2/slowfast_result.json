@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/bQHNsRpQOIE_2",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.6218379139900208
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.04741974174976349
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.03900193050503731
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.03081178478896618
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.02907681092619896
+        }
+      ],
+      "top1_prob": 0.6218379139900208,
+      "violence_hint": 0.03900193050503731
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.6218379139900208,
+    "max_top1_prob": 0.6218379139900208,
+    "avg_violence_hint": 0.03900193050503731,
+    "max_violence_hint": 0.03900193050503731
+  }
+}

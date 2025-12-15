@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/안전비디오/NV_727",
+  "frames_per_clip": 32,
+  "clip_sec": 3.3333333333333335,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 3.3333333333333335,
+      "topk": [
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.9808046221733093
+        },
+        {
+          "index": 223,
+          "label": "playing clarinet\t223",
+          "prob": 0.013531733304262161
+        },
+        {
+          "index": 225,
+          "label": "trimming or shaving beard\t225",
+          "prob": 0.0010912689613178372
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.0007148435688577592
+        },
+        {
+          "index": 217,
+          "label": "playing harmonica\t217",
+          "prob": 0.0006461040466092527
+        }
+      ],
+      "top1_prob": 0.9808046221733093,
+      "violence_hint": 0.9808046221733093
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.9808046221733093,
+    "max_top1_prob": 0.9808046221733093,
+    "avg_violence_hint": 0.9808046221733093,
+    "max_violence_hint": 0.9808046221733093
+  }
+}

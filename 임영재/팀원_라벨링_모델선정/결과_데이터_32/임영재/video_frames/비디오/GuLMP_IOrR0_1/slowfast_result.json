@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/임영재/video_frames/비디오/GuLMP_IOrR0_1",
+  "frames_per_clip": 32,
+  "clip_sec": 4.0,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.2929776608943939
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.11030405014753342
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.04022601619362831
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.03595910593867302
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.02799747884273529
+        }
+      ],
+      "top1_prob": 0.2929776608943939,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.2929776608943939,
+    "max_top1_prob": 0.2929776608943939,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

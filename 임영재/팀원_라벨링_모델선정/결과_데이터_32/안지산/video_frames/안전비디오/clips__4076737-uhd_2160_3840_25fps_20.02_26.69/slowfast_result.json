@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링_모델선정/결과_데이터_32/안지산/video_frames/안전비디오/clips__4076737-uhd_2160_3840_25fps_20.02_26.69",
+  "frames_per_clip": 32,
+  "clip_sec": 8.833333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 8.833333333333334,
+      "topk": [
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.24704483151435852
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.1566602885723114
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.09821457415819168
+        },
+        {
+          "index": 233,
+          "label": "jogging\t233",
+          "prob": 0.0468260683119297
+        },
+        {
+          "index": 397,
+          "label": "contact juggling\t397",
+          "prob": 0.03407154604792595
+        }
+      ],
+      "top1_prob": 0.24704483151435852,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.24704483151435852,
+    "max_top1_prob": 0.24704483151435852,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}
