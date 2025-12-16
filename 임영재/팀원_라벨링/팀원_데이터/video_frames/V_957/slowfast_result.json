@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_957",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.6960806250572205
+        },
+        {
+          "index": 298,
+          "label": "long jump\t298",
+          "prob": 0.20385509729385376
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.05691317096352577
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.024991946294903755
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.004706440959125757
+        }
+      ],
+      "top1_prob": 0.6960806250572205,
+      "violence_hint": 0.004706440959125757
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.66513592004776
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.09503769129514694
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.08707278221845627
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.04709438979625702
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.027507582679390907
+        }
+      ],
+      "top1_prob": 0.66513592004776,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.6164947152137756
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.2776992619037628
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.015034543350338936
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.013191883452236652
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.012756547890603542
+        }
+      ],
+      "top1_prob": 0.6164947152137756,
+      "violence_hint": 0.013191883452236652
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6592370867729187,
+    "max_top1_prob": 0.6960806250572205,
+    "avg_violence_hint": 0.005966108137120803,
+    "max_violence_hint": 0.013191883452236652
+  }
+}

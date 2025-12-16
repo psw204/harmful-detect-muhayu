@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_701",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.15733379125595093
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.13687856495380402
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.10986869037151337
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.0655989944934845
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.04503563791513443
+        }
+      ],
+      "top1_prob": 0.15733379125595093,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.22707599401474
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.07945092767477036
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.06134192273020744
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.058526795357465744
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.057955898344516754
+        }
+      ],
+      "top1_prob": 0.22707599401474,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.5856508016586304
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.07417679578065872
+        },
+        {
+          "index": 348,
+          "label": "throwing ball\t348",
+          "prob": 0.03967161849141121
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.029386386275291443
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.024065358564257622
+        }
+      ],
+      "top1_prob": 0.5856508016586304,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.32335352897644043,
+    "max_top1_prob": 0.5856508016586304,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

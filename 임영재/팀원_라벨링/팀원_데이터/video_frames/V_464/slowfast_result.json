@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.31615468859672546,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.203203203203204,
-      "end_sec": 4.270937604270938,
-      "topk": [
-        {
-          "index": 86,
-          "label": "tap dancing\t86",
-          "prob": 0.11117880791425705
-        },
-        {
-          "index": 355,
-          "label": "country line dancing\t355",
-          "prob": 0.09514176845550537
-        },
-        {
-          "index": 173,
-          "label": "celebrating\t173",
-          "prob": 0.06469279527664185
-        },
-        {
-          "index": 277,
-          "label": "playing kickball\t277",
-          "prob": 0.06008171662688255
-        },
-        {
-          "index": 34,
-          "label": "trapezing\t34",
-          "prob": 0.058680467307567596
-        }
-      ],
-      "top1_prob": 0.11117880791425705,
-      "violence_hint": 0.06008171662688255
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.13810966815799475,
+    "num_clips": 3,
+    "avg_top1_prob": 0.147086621572574,
     "max_top1_prob": 0.31615468859672546,
-    "avg_violence_hint": 0.026919608004391193,
-    "max_violence_hint": 0.06008171662688255
+    "avg_violence_hint": 0.015865571796894073,
+    "max_violence_hint": 0.04759671539068222
   }
 }

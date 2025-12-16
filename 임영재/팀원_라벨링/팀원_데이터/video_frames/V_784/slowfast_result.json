@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_784",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.4870578944683075
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.254293292760849
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.099639393389225
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.028264645487070084
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.02163815125823021
+        }
+      ],
+      "top1_prob": 0.4870578944683075,
+      "violence_hint": 0.4870578944683075
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.4956309199333191
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.25201883912086487
+        },
+        {
+          "index": 348,
+          "label": "throwing ball\t348",
+          "prob": 0.051095664501190186
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.036755334585905075
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.02835882641375065
+        }
+      ],
+      "top1_prob": 0.4956309199333191,
+      "violence_hint": 0.4956309199333191
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.4556940793991089
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.19874736666679382
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.0722208097577095
+        },
+        {
+          "index": 313,
+          "label": "rock scissors paper\t313",
+          "prob": 0.041831813752651215
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.024551525712013245
+        }
+      ],
+      "top1_prob": 0.4556940793991089,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4794609646002452,
+    "max_top1_prob": 0.4956309199333191,
+    "avg_violence_hint": 0.32756293813387555,
+    "max_violence_hint": 0.4956309199333191
+  }
+}

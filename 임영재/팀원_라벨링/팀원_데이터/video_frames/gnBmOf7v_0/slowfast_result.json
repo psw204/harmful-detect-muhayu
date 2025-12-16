@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/gnBmOf7v_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.02194957621395588
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.021272016689181328
+        },
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.01777227409183979
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.015943296253681183
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.014784463681280613
+        }
+      ],
+      "top1_prob": 0.02194957621395588,
+      "violence_hint": 0.014784463681280613
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9711605310440063
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.011493870057165623
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.0026796425227075815
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0018615381559357047
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0015413309447467327
+        }
+      ],
+      "top1_prob": 0.9711605310440063,
+      "violence_hint": 0.9711605310440063
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9628929495811462
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.02069690264761448
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.01048801839351654
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.002139132469892502
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0012706556590273976
+        }
+      ],
+      "top1_prob": 0.9628929495811462,
+      "violence_hint": 0.9628929495811462
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6520010189463695,
+    "max_top1_prob": 0.9711605310440063,
+    "avg_violence_hint": 0.6496126481021444,
+    "max_violence_hint": 0.9711605310440063
+  }
+}

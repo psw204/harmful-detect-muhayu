@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_787",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.4462181329727173
+        },
+        {
+          "index": 348,
+          "label": "throwing ball\t348",
+          "prob": 0.14231811463832855
+        },
+        {
+          "index": 283,
+          "label": "sword fighting\t283",
+          "prob": 0.07838840037584305
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.04756837338209152
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.04477119445800781
+        }
+      ],
+      "top1_prob": 0.4462181329727173,
+      "violence_hint": 0.07838840037584305
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.19946730136871338
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.13810662925243378
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.1301833689212799
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.05310666188597679
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.04816829040646553
+        }
+      ],
+      "top1_prob": 0.19946730136871338,
+      "violence_hint": 0.13810662925243378
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.2976854145526886
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.26429587602615356
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.08473425358533859
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.05627135559916496
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.045557960867881775
+        }
+      ],
+      "top1_prob": 0.2976854145526886,
+      "violence_hint": 0.045557960867881775
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.3144569496313731,
+    "max_top1_prob": 0.4462181329727173,
+    "avg_violence_hint": 0.08735099683205287,
+    "max_violence_hint": 0.13810662925243378
+  }
+}

@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.08444689959287643,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 162,
-          "label": "bench pressing\t162",
-          "prob": 0.07944755256175995
-        },
-        {
-          "index": 65,
-          "label": "clay pottery making\t65",
-          "prob": 0.04613634571433067
-        },
-        {
-          "index": 23,
-          "label": "riding scooter\t23",
-          "prob": 0.04389262944459915
-        },
-        {
-          "index": 322,
-          "label": "waxing chest\t322",
-          "prob": 0.0415208600461483
-        },
-        {
-          "index": 240,
-          "label": "weaving basket\t240",
-          "prob": 0.04136882349848747
-        }
-      ],
-      "top1_prob": 0.07944755256175995,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.08161310665309429,
+    "num_clips": 3,
+    "avg_top1_prob": 0.0823349580168724,
     "max_top1_prob": 0.08517478406429291,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/LLo_TXIz5-g_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.4516712427139282
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.0595335029065609
+        },
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.044904354959726334
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.041569288820028305
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.02798262983560562
+        }
+      ],
+      "top1_prob": 0.4516712427139282,
+      "violence_hint": 0.044904354959726334
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.522560179233551
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.03389635682106018
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.030023131519556046
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.025869492441415787
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.025520404800772667
+        }
+      ],
+      "top1_prob": 0.522560179233551,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.698759138584137
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03551073372364044
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.020195340737700462
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.01619414985179901
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.015981512144207954
+        }
+      ],
+      "top1_prob": 0.698759138584137,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5576635201772054,
+    "max_top1_prob": 0.698759138584137,
+    "avg_violence_hint": 0.014968118319908777,
+    "max_violence_hint": 0.044904354959726334
+  }
+}

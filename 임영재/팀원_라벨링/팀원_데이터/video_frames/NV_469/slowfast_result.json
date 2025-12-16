@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_469",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.7798482179641724
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.2197989523410797
+        },
+        {
+          "index": 20,
+          "label": "wrestling\t20",
+          "prob": 0.00033856648951768875
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 5.042485099693295e-06
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 4.6189470594981685e-06
+        }
+      ],
+      "top1_prob": 0.7798482179641724,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.6743587255477905
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.3254318833351135
+        },
+        {
+          "index": 20,
+          "label": "wrestling\t20",
+          "prob": 0.00020464969566091895
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 3.1564004530082457e-06
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 1.0206457545791636e-06
+        }
+      ],
+      "top1_prob": 0.6743587255477905,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.7271034717559814,
+    "max_top1_prob": 0.7798482179641724,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

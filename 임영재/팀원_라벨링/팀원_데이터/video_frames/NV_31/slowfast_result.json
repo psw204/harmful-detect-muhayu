@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_31",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.1891450583934784
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.10849558562040329
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.078566774725914
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.05441056564450264
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.05426986142992973
+        }
+      ],
+      "top1_prob": 0.1891450583934784,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 134,
+          "label": "playing cards\t134",
+          "prob": 0.3984169363975525
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.17806324362754822
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.024504728615283966
+        },
+        {
+          "index": 95,
+          "label": "cleaning floor\t95",
+          "prob": 0.023959895595908165
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.020865820348262787
+        }
+      ],
+      "top1_prob": 0.3984169363975525,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 160,
+          "label": "hockey stop\t160",
+          "prob": 0.3218819797039032
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.2542750835418701
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.18444973230361938
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.05735313519835472
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.04976190626621246
+        }
+      ],
+      "top1_prob": 0.3218819797039032,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.30314799149831134,
+    "max_top1_prob": 0.3984169363975525,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

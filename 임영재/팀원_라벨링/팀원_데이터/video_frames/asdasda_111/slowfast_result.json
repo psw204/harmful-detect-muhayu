@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.1916542947292328,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 107,
-          "label": "fixing hair\t107",
-          "prob": 0.7459796071052551
-        },
-        {
-          "index": 220,
-          "label": "golf chipping\t220",
-          "prob": 0.09681851416826248
-        },
-        {
-          "index": 296,
-          "label": "riding or walking with horse\t296",
-          "prob": 0.08121529966592789
-        },
-        {
-          "index": 87,
-          "label": "skiing (not slalom or crosscountry)\t87",
-          "prob": 0.01134641095995903
-        },
-        {
-          "index": 255,
-          "label": "swing dancing\t255",
-          "prob": 0.0032166196033358574
-        }
-      ],
-      "top1_prob": 0.7459796071052551,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.2787043917924166,
-    "max_top1_prob": 0.7459796071052551,
-    "avg_violence_hint": 0.0377216562628746,
+    "num_clips": 3,
+    "avg_top1_prob": 0.12294598668813705,
+    "max_top1_prob": 0.1916542947292328,
+    "avg_violence_hint": 0.0502955416838328,
     "max_violence_hint": 0.09922707825899124
   }
 }

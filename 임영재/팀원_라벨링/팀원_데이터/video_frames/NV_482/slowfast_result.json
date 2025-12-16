@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_482",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.5906423926353455
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 0.16442516446113586
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.03873702883720398
+        },
+        {
+          "index": 318,
+          "label": "arranging flowers\t318",
+          "prob": 0.025958538055419922
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.024198351427912712
+        }
+      ],
+      "top1_prob": 0.5906423926353455,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.6974995732307434
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 0.0687948614358902
+        },
+        {
+          "index": 169,
+          "label": "slacklining\t169",
+          "prob": 0.043590061366558075
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.023728622123599052
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.021447118371725082
+        }
+      ],
+      "top1_prob": 0.6974995732307434,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.6440709829330444,
+    "max_top1_prob": 0.6974995732307434,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

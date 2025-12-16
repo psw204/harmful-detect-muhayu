@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_850",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.13178592920303345
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.12641137838363647
+        },
+        {
+          "index": 183,
+          "label": "rock climbing\t183",
+          "prob": 0.11686564981937408
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.07426796853542328
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.07212831825017929
+        }
+      ],
+      "top1_prob": 0.13178592920303345,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.12411986291408539
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.07549937814474106
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.07085834443569183
+        },
+        {
+          "index": 183,
+          "label": "rock climbing\t183",
+          "prob": 0.05386987701058388
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.040108490735292435
+        }
+      ],
+      "top1_prob": 0.12411986291408539,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.16290652751922607
+        },
+        {
+          "index": 183,
+          "label": "rock climbing\t183",
+          "prob": 0.11475173383951187
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.07679072767496109
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.05670243874192238
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.05007147416472435
+        }
+      ],
+      "top1_prob": 0.16290652751922607,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.1396041065454483,
+    "max_top1_prob": 0.16290652751922607,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

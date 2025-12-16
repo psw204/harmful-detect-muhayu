@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_669",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.07805223762989044
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.07260608673095703
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.05630377307534218
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.05497312173247337
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.04882169887423515
+        }
+      ],
+      "top1_prob": 0.07805223762989044,
+      "violence_hint": 0.05630377307534218
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.2813258767127991
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.12846964597702026
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.12542127072811127
+        },
+        {
+          "index": 251,
+          "label": "surfing crowd\t251",
+          "prob": 0.10861480981111526
+        },
+        {
+          "index": 182,
+          "label": "pumping gas\t182",
+          "prob": 0.10452849417924881
+        }
+      ],
+      "top1_prob": 0.2813258767127991,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.22588270902633667
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.19728465378284454
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.060691818594932556
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.0596441812813282
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.05598926544189453
+        }
+      ],
+      "top1_prob": 0.22588270902633667,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.19508694112300873,
+    "max_top1_prob": 0.2813258767127991,
+    "avg_violence_hint": 0.01876792435844739,
+    "max_violence_hint": 0.05630377307534218
+  }
+}

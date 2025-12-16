@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_850",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.8946766257286072
+        },
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.06732111424207687
+        },
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.03568802401423454
+        },
+        {
+          "index": 363,
+          "label": "counting money\t363",
+          "prob": 0.0011418608482927084
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.0003087015065830201
+        }
+      ],
+      "top1_prob": 0.8946766257286072,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.9224069714546204
+        },
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.06619363278150558
+        },
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.010975991375744343
+        },
+        {
+          "index": 363,
+          "label": "counting money\t363",
+          "prob": 0.0001292985543841496
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 5.5384141887770966e-05
+        }
+      ],
+      "top1_prob": 0.9224069714546204,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.8234601020812988
+        },
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.10498315095901489
+        },
+        {
+          "index": 141,
+          "label": "playing tennis\t141",
+          "prob": 0.043178822845220566
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.013787309639155865
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.002450847066938877
+        }
+      ],
+      "top1_prob": 0.8234601020812988,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.8801812330881754,
+    "max_top1_prob": 0.9224069714546204,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_575",
+  "frames_per_clip": 32,
+  "clip_sec": 0.8648648648648649,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 0.8648648648648649,
+      "topk": [
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 0.1671624779701233
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.10407048463821411
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.0843907967209816
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.07970047742128372
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.057282861322164536
+        }
+      ],
+      "top1_prob": 0.1671624779701233,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 0.8648648648648649,
+      "end_sec": 1.7297297297297298,
+      "topk": [
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.6111568808555603
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.06613518297672272
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.053390149027109146
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.03892262279987335
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.02130967192351818
+        }
+      ],
+      "top1_prob": 0.6111568808555603,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 1.7297297297297298,
+      "end_sec": 2.5945945945945947,
+      "topk": [
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.257187157869339
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.19375911355018616
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.08847159892320633
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.0660012885928154
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.05545894429087639
+        }
+      ],
+      "top1_prob": 0.257187157869339,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 2.5945945945945947,
+      "end_sec": 3.4594594594594597,
+      "topk": [
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.18805889785289764
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.11638548225164413
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.09919534623622894
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.054853036999702454
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.044674549251794815
+        }
+      ],
+      "top1_prob": 0.18805889785289764,
+      "violence_hint": 0.044674549251794815
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.30589135363698006,
+    "max_top1_prob": 0.6111568808555603,
+    "avg_violence_hint": 0.011168637312948704,
+    "max_violence_hint": 0.044674549251794815
+  }
+}

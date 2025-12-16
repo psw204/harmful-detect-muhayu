@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/vBwKQfJYG1Q_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.21773865818977356
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.11759098619222641
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.1069900244474411
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.05631508678197861
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.05118313059210777
+        }
+      ],
+      "top1_prob": 0.21773865818977356,
+      "violence_hint": 0.21773865818977356
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.1635870486497879
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.07348616421222687
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.06153792887926102
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.03113161213696003
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.03111911565065384
+        }
+      ],
+      "top1_prob": 0.1635870486497879,
+      "violence_hint": 0.06153792887926102
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.19011017680168152
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.08678122609853745
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.0689806193113327
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.04544639587402344
+        },
+        {
+          "index": 133,
+          "label": "capoeira\t133",
+          "prob": 0.03914357349276543
+        }
+      ],
+      "top1_prob": 0.19011017680168152,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.19047862788041434,
+    "max_top1_prob": 0.21773865818977356,
+    "avg_violence_hint": 0.09309219568967819,
+    "max_violence_hint": 0.21773865818977356
+  }
+}

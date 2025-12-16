@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.6129772067070007,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.357980340719223
-        },
-        {
-          "index": 265,
-          "label": "extinguishing fire\t265",
-          "prob": 0.07830195873975754
-        },
-        {
-          "index": 200,
-          "label": "spinning poi\t200",
-          "prob": 0.04193088412284851
-        },
-        {
-          "index": 328,
-          "label": "salsa dancing\t328",
-          "prob": 0.039553452283144
-        },
-        {
-          "index": 227,
-          "label": "riding mountain bike\t227",
-          "prob": 0.03552214428782463
-        }
-      ],
-      "top1_prob": 0.357980340719223,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6322928592562675,
+    "num_clips": 3,
+    "avg_top1_prob": 0.7237303654352824,
     "max_top1_prob": 0.8001840710639954,
-    "avg_violence_hint": 0.004942331463098526,
+    "avg_violence_hint": 0.006589775284131368,
     "max_violence_hint": 0.019769325852394104
   }
 }

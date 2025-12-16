@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/mx0UXBFc_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.1575918346643448
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.09573403745889664
+        },
+        {
+          "index": 181,
+          "label": "shredding paper\t181",
+          "prob": 0.06717296689748764
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.036531396210193634
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03153666481375694
+        }
+      ],
+      "top1_prob": 0.1575918346643448,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 181,
+          "label": "shredding paper\t181",
+          "prob": 0.12187328189611435
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.12018594145774841
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.07840262353420258
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.047200046479701996
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.03326358273625374
+        }
+      ],
+      "top1_prob": 0.12187328189611435,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.08493345230817795
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.06880137324333191
+        },
+        {
+          "index": 181,
+          "label": "shredding paper\t181",
+          "prob": 0.05243470147252083
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.03937205672264099
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.031757235527038574
+        }
+      ],
+      "top1_prob": 0.08493345230817795,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.12146618962287903,
+    "max_top1_prob": 0.1575918346643448,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

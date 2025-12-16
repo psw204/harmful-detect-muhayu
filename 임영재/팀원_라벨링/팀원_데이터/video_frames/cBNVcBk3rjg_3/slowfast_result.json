@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/cBNVcBk3rjg_3",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.2958904206752777
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.22996200621128082
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.08415290713310242
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.05076425150036812
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.0445573590695858
+        }
+      ],
+      "top1_prob": 0.2958904206752777,
+      "violence_hint": 0.2958904206752777
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9305794835090637
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.025965429842472076
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.007252535317093134
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.006367669906467199
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.006165656726807356
+        }
+      ],
+      "top1_prob": 0.9305794835090637,
+      "violence_hint": 0.9305794835090637
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9524558186531067
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.013989756815135479
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.012241234071552753
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0022253538481891155
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.0019693367648869753
+        }
+      ],
+      "top1_prob": 0.9524558186531067,
+      "violence_hint": 0.9524558186531067
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.7263085742791494,
+    "max_top1_prob": 0.9524558186531067,
+    "avg_violence_hint": 0.7263085742791494,
+    "max_violence_hint": 0.9524558186531067
+  }
+}

@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.14284303784370422,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 265,
-          "label": "extinguishing fire\t265",
-          "prob": 0.1256307065486908
-        },
-        {
-          "index": 373,
-          "label": "petting cat\t373",
-          "prob": 0.0884842574596405
-        },
-        {
-          "index": 281,
-          "label": "eating chips\t281",
-          "prob": 0.07510241121053696
-        },
-        {
-          "index": 255,
-          "label": "swing dancing\t255",
-          "prob": 0.05443341284990311
-        },
-        {
-          "index": 333,
-          "label": "pushing wheelchair\t333",
-          "prob": 0.05299118533730507
-        }
-      ],
-      "top1_prob": 0.1256307065486908,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.10504994168877602,
+    "num_clips": 3,
+    "avg_top1_prob": 0.09818968673547109,
     "max_top1_prob": 0.14284303784370422,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

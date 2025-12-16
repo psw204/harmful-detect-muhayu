@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/1dsLuL5Lvbc_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.6436717510223389
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.05917711555957794
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.045456282794475555
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.030177175998687744
+        },
+        {
+          "index": 167,
+          "label": "high kick\t167",
+          "prob": 0.02113923616707325
+        }
+      ],
+      "top1_prob": 0.6436717510223389,
+      "violence_hint": 0.02113923616707325
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.670209527015686
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.06687165051698685
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.044009219855070114
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.026031380519270897
+        },
+        {
+          "index": 167,
+          "label": "high kick\t167",
+          "prob": 0.01800736039876938
+        }
+      ],
+      "top1_prob": 0.670209527015686,
+      "violence_hint": 0.01800736039876938
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.6621434688568115
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.05703370273113251
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.044530607759952545
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.026232250034809113
+        },
+        {
+          "index": 167,
+          "label": "high kick\t167",
+          "prob": 0.015581012703478336
+        }
+      ],
+      "top1_prob": 0.6621434688568115,
+      "violence_hint": 0.015581012703478336
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6586749156316122,
+    "max_top1_prob": 0.670209527015686,
+    "avg_violence_hint": 0.018242536423106987,
+    "max_violence_hint": 0.02113923616707325
+  }
+}

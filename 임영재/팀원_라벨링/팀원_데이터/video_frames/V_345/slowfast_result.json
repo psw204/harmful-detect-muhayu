@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_345",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.1415570229291916
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.11994555592536926
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.0846550241112709
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.08190730959177017
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.07459694892168045
+        }
+      ],
+      "top1_prob": 0.1415570229291916,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.1415570229291916,
+    "max_top1_prob": 0.1415570229291916,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

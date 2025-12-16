@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.5711148977279663,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.6864554286003113
-        },
-        {
-          "index": 327,
-          "label": "playing monopoly\t327",
-          "prob": 0.03976410999894142
-        },
-        {
-          "index": 277,
-          "label": "playing kickball\t277",
-          "prob": 0.03699275106191635
-        },
-        {
-          "index": 322,
-          "label": "waxing chest\t322",
-          "prob": 0.03491845726966858
-        },
-        {
-          "index": 35,
-          "label": "picking fruit\t35",
-          "prob": 0.019918672740459442
-        }
-      ],
-      "top1_prob": 0.6864554286003113,
-      "violence_hint": 0.03699275106191635
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.7032806575298309,
+    "num_clips": 3,
+    "avg_top1_prob": 0.7088890671730042,
     "max_top1_prob": 0.8915790915489197,
-    "avg_violence_hint": 0.009248187765479088,
-    "max_violence_hint": 0.03699275106191635
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
   }
 }

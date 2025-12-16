@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_123",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.07146736234426498
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.05909449979662895
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.05769238620996475
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.03470391780138016
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.0326332151889801
+        }
+      ],
+      "top1_prob": 0.07146736234426498,
+      "violence_hint": 0.03470391780138016
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.07691854238510132
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.03670099005103111
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.036276012659072876
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.030234256759285927
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.02667105384171009
+        }
+      ],
+      "top1_prob": 0.07691854238510132,
+      "violence_hint": 0.03670099005103111
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.06830088794231415
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.059808678925037384
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.05830421298742294
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.035838183015584946
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.03260338306427002
+        }
+      ],
+      "top1_prob": 0.06830088794231415,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.07222893089056015,
+    "max_top1_prob": 0.07691854238510132,
+    "avg_violence_hint": 0.023801635950803757,
+    "max_violence_hint": 0.03670099005103111
+  }
+}

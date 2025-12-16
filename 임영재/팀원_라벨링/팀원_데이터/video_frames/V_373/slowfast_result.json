@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_373",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 0.5986989736557007
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.040135107934474945
+        },
+        {
+          "index": 69,
+          "label": "washing hair\t69",
+          "prob": 0.03589305281639099
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.021457457914948463
+        },
+        {
+          "index": 313,
+          "label": "rock scissors paper\t313",
+          "prob": 0.019035441800951958
+        }
+      ],
+      "top1_prob": 0.5986989736557007,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.813108503818512
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.07155501842498779
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.015325142070651054
+        },
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.014385639689862728
+        },
+        {
+          "index": 276,
+          "label": "passing american football (not in game)\t276",
+          "prob": 0.008813448250293732
+        }
+      ],
+      "top1_prob": 0.813108503818512,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.1303718239068985
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.1285436451435089
+        },
+        {
+          "index": 313,
+          "label": "rock scissors paper\t313",
+          "prob": 0.07012207061052322
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.06517046689987183
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.050547678023576736
+        }
+      ],
+      "top1_prob": 0.1303718239068985,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.514059767127037,
+    "max_top1_prob": 0.813108503818512,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

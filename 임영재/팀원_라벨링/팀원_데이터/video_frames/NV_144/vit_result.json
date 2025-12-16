@@ -1,49 +1,43 @@
 {
   "model": "jaranohaal/vit-base-violence-detection",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_144",
-  "num_frames_total": 112,
-  "num_frames_used": 12,
+  "num_frames_total": 100,
+  "num_frames_used": 10,
   "per_frame": {
     "clip_000_frame_000.jpg": {
-      "violence_prob": 0.39680057764053345
+      "violence_prob": 0.18677610158920288
     },
     "clip_000_frame_010.jpg": {
-      "violence_prob": 0.4266844689846039
+      "violence_prob": 0.2312900871038437
     },
     "clip_000_frame_020.jpg": {
-      "violence_prob": 0.397641658782959
+      "violence_prob": 0.2756246328353882
     },
     "clip_000_frame_030.jpg": {
-      "violence_prob": 0.38440343737602234
+      "violence_prob": 0.23710528016090393
     },
     "clip_000_frame_040.jpg": {
-      "violence_prob": 0.40336012840270996
+      "violence_prob": 0.2888595163822174
     },
     "clip_001_frame_000.jpg": {
-      "violence_prob": 0.3723570704460144
+      "violence_prob": 0.39580586552619934
     },
     "clip_001_frame_010.jpg": {
-      "violence_prob": 0.370137095451355
+      "violence_prob": 0.4204503893852234
     },
     "clip_001_frame_020.jpg": {
-      "violence_prob": 0.37576574087142944
+      "violence_prob": 0.4314444363117218
     },
     "clip_001_frame_030.jpg": {
-      "violence_prob": 0.34864380955696106
+      "violence_prob": 0.44458213448524475
     },
     "clip_001_frame_040.jpg": {
-      "violence_prob": 0.3481789231300354
-    },
-    "clip_002_frame_000.jpg": {
-      "violence_prob": 0.3378978669643402
-    },
-    "clip_002_frame_010.jpg": {
-      "violence_prob": 0.37989169359207153
+      "violence_prob": 0.541105329990387
     }
   },
   "overall": {
-    "avg_violence_prob": 0.378480205933253,
-    "max_violence_prob": 0.4266844689846039,
-    "p95_violence_prob": 0.4138560816645622
+    "avg_violence_prob": 0.34530437737703323,
+    "max_violence_prob": 0.541105329990387,
+    "p95_violence_prob": 0.4976698920130729
   }
 }

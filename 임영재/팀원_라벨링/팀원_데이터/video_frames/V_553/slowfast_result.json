@@ -139,45 +139,11 @@
       ],
       "top1_prob": 0.6453527808189392,
       "violence_hint": 0.0
-    },
-    {
-      "index": 4,
-      "start_sec": 3.4594594594594597,
-      "end_sec": 4.324324324324325,
-      "topk": [
-        {
-          "index": 246,
-          "label": "dying hair\t246",
-          "prob": 0.5560016632080078
-        },
-        {
-          "index": 161,
-          "label": "taking a shower\t161",
-          "prob": 0.17163360118865967
-        },
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.07514739036560059
-        },
-        {
-          "index": 227,
-          "label": "riding mountain bike\t227",
-          "prob": 0.030550984665751457
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.018041271716356277
-        }
-      ],
-      "top1_prob": 0.5560016632080078,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 5,
-    "avg_top1_prob": 0.3676489174365997,
+    "num_clips": 4,
+    "avg_top1_prob": 0.3205607309937477,
     "max_top1_prob": 0.6453527808189392,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

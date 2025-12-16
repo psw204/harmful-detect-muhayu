@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/BpargJW29Wo_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 318,
+          "label": "arranging flowers\t318",
+          "prob": 0.05505504831671715
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.03226734697818756
+        },
+        {
+          "index": 134,
+          "label": "playing cards\t134",
+          "prob": 0.031211035326123238
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.030351899564266205
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.030115939676761627
+        }
+      ],
+      "top1_prob": 0.05505504831671715,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 318,
+          "label": "arranging flowers\t318",
+          "prob": 0.06231879070401192
+        },
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.05715073645114899
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.044555142521858215
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.04295508563518524
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.031234147027134895
+        }
+      ],
+      "top1_prob": 0.06231879070401192,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 318,
+          "label": "arranging flowers\t318",
+          "prob": 0.09105343371629715
+        },
+        {
+          "index": 48,
+          "label": "shaving head\t48",
+          "prob": 0.0732935220003128
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.06035058572888374
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.0536891333758831
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.03220280632376671
+        }
+      ],
+      "top1_prob": 0.09105343371629715,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.06947575757900874,
+    "max_top1_prob": 0.09105343371629715,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

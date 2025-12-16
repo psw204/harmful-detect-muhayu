@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/ycOdxOJt_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.2487066239118576
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.18053115904331207
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.15426000952720642
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.07097771018743515
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.06016996130347252
+        }
+      ],
+      "top1_prob": 0.2487066239118576,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.20100420713424683
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.18712687492370605
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.1780034452676773
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.06945402920246124
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.06173037737607956
+        }
+      ],
+      "top1_prob": 0.20100420713424683,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.22074384987354279
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.17305608093738556
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.16165344417095184
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.07341144979000092
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.06529203057289124
+        }
+      ],
+      "top1_prob": 0.22074384987354279,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.22348489363988241,
+    "max_top1_prob": 0.2487066239118576,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

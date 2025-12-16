@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.12204798310995102,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 314,
-          "label": "high jump\t314",
-          "prob": 0.39778372645378113
-        },
-        {
-          "index": 150,
-          "label": "kicking soccer ball\t150",
-          "prob": 0.11234460026025772
-        },
-        {
-          "index": 105,
-          "label": "snatch weight lifting\t105",
-          "prob": 0.09070363640785217
-        },
-        {
-          "index": 316,
-          "label": "using computer\t316",
-          "prob": 0.0354318842291832
-        },
-        {
-          "index": 242,
-          "label": "stomping grapes\t242",
-          "prob": 0.03483743220567703
-        }
-      ],
-      "top1_prob": 0.39778372645378113,
-      "violence_hint": 0.11234460026025772
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.18083140812814236,
-    "max_top1_prob": 0.39778372645378113,
-    "avg_violence_hint": 0.02808615006506443,
-    "max_violence_hint": 0.11234460026025772
+    "num_clips": 3,
+    "avg_top1_prob": 0.10851396868626277,
+    "max_top1_prob": 0.12238356471061707,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
   }
 }

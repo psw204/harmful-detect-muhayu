@@ -1,0 +1,61 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_775",
+  "num_frames_total": 92,
+  "num_frames_used": 10,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.29378312826156616
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.2709449827671051
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.21861135959625244
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.3876890540122986
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.4226273000240326
+    },
+    "clip_001_frame_004.jpg": {
+      "violence_prob": 0.4140787124633789
+    },
+    "clip_001_frame_014.jpg": {
+      "violence_prob": 0.4064103662967682
+    },
+    "clip_001_frame_024.jpg": {
+      "violence_prob": 0.29875802993774414
+    },
+    "clip_001_frame_034.jpg": {
+      "violence_prob": 0.4925292134284973
+    },
+    "clip_001_frame_044.jpg": {
+      "violence_prob": 0.43629246950149536
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.36417246162891387,
+    "max_violence_prob": 0.4925292134284973,
+    "p95_violence_prob": 0.46722267866134637
+  }
+}

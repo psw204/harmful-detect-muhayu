@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.3146282434463501,
       "violence_hint": 0.3146282434463501
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 330,
-          "label": "watering plants\t330",
-          "prob": 0.18879124522209167
-        },
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.09205251187086105
-        },
-        {
-          "index": 67,
-          "label": "playing saxophone\t67",
-          "prob": 0.06780904531478882
-        },
-        {
-          "index": 65,
-          "label": "clay pottery making\t65",
-          "prob": 0.06658288091421127
-        },
-        {
-          "index": 333,
-          "label": "pushing wheelchair\t333",
-          "prob": 0.06526009738445282
-        }
-      ],
-      "top1_prob": 0.18879124522209167,
-      "violence_hint": 0.09205251187086105
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.1877712607383728,
+    "num_clips": 3,
+    "avg_top1_prob": 0.18743126591046652,
     "max_top1_prob": 0.3146282434463501,
-    "avg_violence_hint": 0.12137517146766186,
+    "avg_violence_hint": 0.13114939133326212,
     "max_violence_hint": 0.3146282434463501
   }
 }

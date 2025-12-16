@@ -1,8 +1,8 @@
 {
   "model": "openai/clip-vit-base-patch32",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_763",
-  "num_frames_total": 129,
-  "num_frames_used": 13,
+  "num_frames_total": 119,
+  "num_frames_used": 12,
   "prompts": {
     "harmful": [
       "a violent scene with people fighting, punching or kicking",
@@ -23,48 +23,45 @@
   },
   "per_frame": {
     "clip_000_frame_000.jpg": {
-      "violence_prob": 0.6166132092475891
+      "violence_prob": 0.6164976358413696
     },
     "clip_000_frame_010.jpg": {
-      "violence_prob": 0.7175629138946533
+      "violence_prob": 0.7175861597061157
     },
     "clip_000_frame_020.jpg": {
-      "violence_prob": 0.6918339729309082
+      "violence_prob": 0.6919581890106201
     },
     "clip_000_frame_030.jpg": {
-      "violence_prob": 0.6797492504119873
+      "violence_prob": 0.6798940300941467
     },
     "clip_000_frame_040.jpg": {
-      "violence_prob": 0.6905724406242371
+      "violence_prob": 0.6906854510307312
     },
     "clip_000_frame_050.jpg": {
-      "violence_prob": 0.7374060153961182
+      "violence_prob": 0.7374811768531799
     },
     "clip_001_frame_001.jpg": {
-      "violence_prob": 0.765900194644928
+      "violence_prob": 0.7658815979957581
     },
     "clip_001_frame_011.jpg": {
-      "violence_prob": 0.7567538619041443
+      "violence_prob": 0.7566230297088623
     },
     "clip_001_frame_021.jpg": {
-      "violence_prob": 0.7776591777801514
+      "violence_prob": 0.7777414321899414
     },
     "clip_001_frame_031.jpg": {
-      "violence_prob": 0.7806353569030762
+      "violence_prob": 0.7808380126953125
     },
     "clip_001_frame_041.jpg": {
-      "violence_prob": 0.7714964151382446
+      "violence_prob": 0.7714095115661621
     },
     "clip_001_frame_051.jpg": {
-      "violence_prob": 0.7204104065895081
-    },
-    "clip_002_frame_001.jpg": {
-      "violence_prob": 0.7113950252532959
+      "violence_prob": 0.7206123471260071
     }
   },
   "overall": {
-    "avg_violence_prob": 0.7244606339014493,
-    "max_violence_prob": 0.7806353569030762,
-    "p95_violence_prob": 0.7788496494293213
+    "avg_violence_prob": 0.7256007144848505,
+    "max_violence_prob": 0.7808380126953125,
+    "p95_violence_prob": 0.7791348934173584
   }
 }

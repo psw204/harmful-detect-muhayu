@@ -37,81 +37,13 @@
       ],
       "top1_prob": 0.5413310527801514,
       "violence_hint": 0.005496376194059849
-    },
-    {
-      "index": 1,
-      "start_sec": 1.0691970998028668,
-      "end_sec": 2.1383941996057336,
-      "topk": [
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.5892111659049988
-        },
-        {
-          "index": 153,
-          "label": "welding\t153",
-          "prob": 0.11752057820558548
-        },
-        {
-          "index": 48,
-          "label": "shaving head\t48",
-          "prob": 0.09748384356498718
-        },
-        {
-          "index": 50,
-          "label": "playing piano\t50",
-          "prob": 0.09353969991207123
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.04924703761935234
-        }
-      ],
-      "top1_prob": 0.5892111659049988,
-      "violence_hint": 0.0
-    },
-    {
-      "index": 2,
-      "start_sec": 2.1383941996057336,
-      "end_sec": 3.2075912994086004,
-      "topk": [
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.9889121055603027
-        },
-        {
-          "index": 152,
-          "label": "giving or receiving award\t152",
-          "prob": 0.005504712462425232
-        },
-        {
-          "index": 151,
-          "label": "playing controller\t151",
-          "prob": 0.0015756306238472462
-        },
-        {
-          "index": 50,
-          "label": "playing piano\t50",
-          "prob": 0.0012791024055331945
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.0007942082011140883
-        }
-      ],
-      "top1_prob": 0.9889121055603027,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 3,
-    "avg_top1_prob": 0.7064847747484843,
-    "max_top1_prob": 0.9889121055603027,
-    "avg_violence_hint": 0.0018321253980199497,
+    "num_clips": 1,
+    "avg_top1_prob": 0.5413310527801514,
+    "max_top1_prob": 0.5413310527801514,
+    "avg_violence_hint": 0.005496376194059849,
     "max_violence_hint": 0.005496376194059849
   }
 }

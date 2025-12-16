@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/HodGUj8s_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.8749074339866638
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.01978212036192417
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.00699243089184165
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.00681481184437871
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.004648065194487572
+        }
+      ],
+      "top1_prob": 0.8749074339866638,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.8604880571365356
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.035638827830553055
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.00714376475661993
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.005602025892585516
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.004118995741009712
+        }
+      ],
+      "top1_prob": 0.8604880571365356,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.6128128170967102
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.110224649310112
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.02887805923819542
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.007691586390137672
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.0068162851966917515
+        }
+      ],
+      "top1_prob": 0.6128128170967102,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.7827361027399699,
+    "max_top1_prob": 0.8749074339866638,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

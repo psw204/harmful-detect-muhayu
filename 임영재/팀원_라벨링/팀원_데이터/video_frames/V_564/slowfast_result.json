@@ -139,45 +139,11 @@
       ],
       "top1_prob": 0.9544610381126404,
       "violence_hint": 0.0
-    },
-    {
-      "index": 4,
-      "start_sec": 3.4594594594594597,
-      "end_sec": 4.324324324324325,
-      "topk": [
-        {
-          "index": 92,
-          "label": "bouncing on trampoline\t92",
-          "prob": 0.5042973756790161
-        },
-        {
-          "index": 300,
-          "label": "wrapping present\t300",
-          "prob": 0.420921266078949
-        },
-        {
-          "index": 192,
-          "label": "bungee jumping\t192",
-          "prob": 0.0723363608121872
-        },
-        {
-          "index": 49,
-          "label": "hopscotch\t49",
-          "prob": 0.001150349504314363
-        },
-        {
-          "index": 51,
-          "label": "parasailing\t51",
-          "prob": 0.000606751418672502
-        }
-      ],
-      "top1_prob": 0.5042973756790161,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 5,
-    "avg_top1_prob": 0.8856078505516052,
+    "num_clips": 4,
+    "avg_top1_prob": 0.9809354692697525,
     "max_top1_prob": 0.999248206615448,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

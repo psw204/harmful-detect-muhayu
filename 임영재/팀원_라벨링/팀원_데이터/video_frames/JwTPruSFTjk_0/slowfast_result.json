@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.35513758659362793,
       "violence_hint": 0.35513758659362793
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.3089134395122528
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.2492201328277588
-        },
-        {
-          "index": 103,
-          "label": "bee keeping\t103",
-          "prob": 0.027356404811143875
-        },
-        {
-          "index": 199,
-          "label": "pushing cart\t199",
-          "prob": 0.022423190996050835
-        },
-        {
-          "index": 312,
-          "label": "presenting weather forecast\t312",
-          "prob": 0.022107712924480438
-        }
-      ],
-      "top1_prob": 0.3089134395122528,
-      "violence_hint": 0.3089134395122528
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.3928864598274231,
+    "num_clips": 3,
+    "avg_top1_prob": 0.42087746659914654,
     "max_top1_prob": 0.4573203921318054,
-    "avg_violence_hint": 0.3928864598274231,
+    "avg_violence_hint": 0.42087746659914654,
     "max_violence_hint": 0.4573203921318054
   }
 }

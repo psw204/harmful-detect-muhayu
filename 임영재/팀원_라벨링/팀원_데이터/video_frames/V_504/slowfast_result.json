@@ -105,79 +105,11 @@
       ],
       "top1_prob": 0.6704336404800415,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 246,
-          "label": "dying hair\t246",
-          "prob": 0.7224922776222229
-        },
-        {
-          "index": 253,
-          "label": "pushing car\t253",
-          "prob": 0.08198117464780807
-        },
-        {
-          "index": 218,
-          "label": "ironing\t218",
-          "prob": 0.039366014301776886
-        },
-        {
-          "index": 160,
-          "label": "hockey stop\t160",
-          "prob": 0.026888681575655937
-        },
-        {
-          "index": 166,
-          "label": "tickling\t166",
-          "prob": 0.011761602945625782
-        }
-      ],
-      "top1_prob": 0.7224922776222229,
-      "violence_hint": 0.0
-    },
-    {
-      "index": 4,
-      "start_sec": 4.270933333333334,
-      "end_sec": 5.338666666666667,
-      "topk": [
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.4172973036766052
-        },
-        {
-          "index": 246,
-          "label": "dying hair\t246",
-          "prob": 0.3505510687828064
-        },
-        {
-          "index": 311,
-          "label": "golf driving\t311",
-          "prob": 0.057962656021118164
-        },
-        {
-          "index": 151,
-          "label": "playing controller\t151",
-          "prob": 0.038467563688755035
-        },
-        {
-          "index": 166,
-          "label": "tickling\t166",
-          "prob": 0.03793743625283241
-        }
-      ],
-      "top1_prob": 0.4172973036766052,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 5,
-    "avg_top1_prob": 0.6016253173351288,
+    "num_clips": 3,
+    "avg_top1_prob": 0.622779001792272,
     "max_top1_prob": 0.7345231175422668,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

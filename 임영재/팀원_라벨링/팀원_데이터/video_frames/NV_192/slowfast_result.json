@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_192",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.18040938675403595
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.11582622677087784
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.08463427424430847
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.0813494622707367
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.07069341093301773
+        }
+      ],
+      "top1_prob": 0.18040938675403595,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.537621021270752
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.08625885844230652
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.07018780708312988
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.03369462490081787
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.022655388340353966
+        }
+      ],
+      "top1_prob": 0.537621021270752,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.28943634033203125
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.19533655047416687
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.05122669041156769
+        },
+        {
+          "index": 354,
+          "label": "drop kicking\t354",
+          "prob": 0.039526745676994324
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.034890033304691315
+        }
+      ],
+      "top1_prob": 0.28943634033203125,
+      "violence_hint": 0.039526745676994324
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.33582224945227307,
+    "max_top1_prob": 0.537621021270752,
+    "avg_violence_hint": 0.013175581892331442,
+    "max_violence_hint": 0.039526745676994324
+  }
+}

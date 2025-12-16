@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/wetyh_1206",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.9954700469970703
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.004262242000550032
+        },
+        {
+          "index": 343,
+          "label": "crying\t343",
+          "prob": 0.00018250534776598215
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 1.087076361727668e-05
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 9.452665835851803e-06
+        }
+      ],
+      "top1_prob": 0.9954700469970703,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.9251238703727722
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.07190459966659546
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.0005171187222003937
+        },
+        {
+          "index": 343,
+          "label": "crying\t343",
+          "prob": 0.00048068107571452856
+        },
+        {
+          "index": 349,
+          "label": "getting a haircut\t349",
+          "prob": 0.00030328493448905647
+        }
+      ],
+      "top1_prob": 0.9251238703727722,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.6753135919570923
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.1073208600282669
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.025181245058774948
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.019052783027291298
+        },
+        {
+          "index": 343,
+          "label": "crying\t343",
+          "prob": 0.017777971923351288
+        }
+      ],
+      "top1_prob": 0.6753135919570923,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.8653025031089783,
+    "max_top1_prob": 0.9954700469970703,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

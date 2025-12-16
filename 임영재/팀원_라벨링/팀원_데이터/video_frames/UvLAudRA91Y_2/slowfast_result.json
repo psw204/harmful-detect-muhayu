@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.32258209586143494,
       "violence_hint": 0.044070638716220856
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.1699991077184677
-        },
-        {
-          "index": 372,
-          "label": "dribbling basketball\t372",
-          "prob": 0.09437641501426697
-        },
-        {
-          "index": 122,
-          "label": "folding clothes\t122",
-          "prob": 0.0636557787656784
-        },
-        {
-          "index": 263,
-          "label": "massaging person's head\t263",
-          "prob": 0.06034129112958908
-        },
-        {
-          "index": 150,
-          "label": "kicking soccer ball\t150",
-          "prob": 0.0442756712436676
-        }
-      ],
-      "top1_prob": 0.1699991077184677,
-      "violence_hint": 0.1699991077184677
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.25590263307094574,
+    "num_clips": 3,
+    "avg_top1_prob": 0.28453714152177173,
     "max_top1_prob": 0.41673544049263,
-    "avg_violence_hint": 0.06388754677027464,
-    "max_violence_hint": 0.1699991077184677
+    "avg_violence_hint": 0.02851702645421028,
+    "max_violence_hint": 0.044070638716220856
   }
 }

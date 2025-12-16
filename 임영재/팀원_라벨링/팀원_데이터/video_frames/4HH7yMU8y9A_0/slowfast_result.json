@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.19465377926826477,
       "violence_hint": 0.07439804077148438
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.4212610721588135
-        },
-        {
-          "index": 150,
-          "label": "kicking soccer ball\t150",
-          "prob": 0.2064213901758194
-        },
-        {
-          "index": 122,
-          "label": "folding clothes\t122",
-          "prob": 0.09278949350118637
-        },
-        {
-          "index": 393,
-          "label": "massaging feet\t393",
-          "prob": 0.03436601534485817
-        },
-        {
-          "index": 355,
-          "label": "country line dancing\t355",
-          "prob": 0.0289477426558733
-        }
-      ],
-      "top1_prob": 0.4212610721588135,
-      "violence_hint": 0.2064213901758194
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.4440874382853508,
+    "num_clips": 3,
+    "avg_top1_prob": 0.4516962269941966,
     "max_top1_prob": 0.8285019397735596,
-    "avg_violence_hint": 0.09113344922661781,
-    "max_violence_hint": 0.2064213901758194
+    "avg_violence_hint": 0.05270413557688395,
+    "max_violence_hint": 0.07439804077148438
   }
 }

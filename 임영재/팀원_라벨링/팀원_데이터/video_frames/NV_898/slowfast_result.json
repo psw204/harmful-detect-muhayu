@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.5285789966583252,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 397,
-          "label": "contact juggling\t397",
-          "prob": 0.24335069954395294
-        },
-        {
-          "index": 333,
-          "label": "pushing wheelchair\t333",
-          "prob": 0.16721421480178833
-        },
-        {
-          "index": 346,
-          "label": "driving tractor\t346",
-          "prob": 0.146523118019104
-        },
-        {
-          "index": 303,
-          "label": "cleaning toilet\t303",
-          "prob": 0.07144828140735626
-        },
-        {
-          "index": 137,
-          "label": "playing drums\t137",
-          "prob": 0.04492126405239105
-        }
-      ],
-      "top1_prob": 0.24335069954395294,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6163346208631992,
+    "num_clips": 3,
+    "avg_top1_prob": 0.7406625946362814,
     "max_top1_prob": 0.9299681186676025,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

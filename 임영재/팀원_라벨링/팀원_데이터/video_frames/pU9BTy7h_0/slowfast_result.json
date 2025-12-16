@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/pU9BTy7h_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.1707611083984375
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.0640278160572052
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.054316069930791855
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.044700365513563156
+        },
+        {
+          "index": 247,
+          "label": "knitting\t247",
+          "prob": 0.03601614385843277
+        }
+      ],
+      "top1_prob": 0.1707611083984375,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.10825713723897934
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06679563224315643
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.053957968950271606
+        },
+        {
+          "index": 247,
+          "label": "knitting\t247",
+          "prob": 0.044347550719976425
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.03904866799712181
+        }
+      ],
+      "top1_prob": 0.10825713723897934,
+      "violence_hint": 0.053957968950271606
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.10916753113269806
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0932600274682045
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.0747852548956871
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.06205381080508232
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.060736872255802155
+        }
+      ],
+      "top1_prob": 0.10916753113269806,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.12939525892337164,
+    "max_top1_prob": 0.1707611083984375,
+    "avg_violence_hint": 0.017985989650090534,
+    "max_violence_hint": 0.053957968950271606
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/3qsou7p57Nk_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.06132372096180916
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.04894167184829712
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.04384218156337738
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.03649185970425606
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.029676301404833794
+        }
+      ],
+      "top1_prob": 0.06132372096180916,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.5492112636566162
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.06849674135446548
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.03521539643406868
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.03302657604217529
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.028810370713472366
+        }
+      ],
+      "top1_prob": 0.5492112636566162,
+      "violence_hint": 0.06849674135446548
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.37958669662475586
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.058675531297922134
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.0452677458524704
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.03858256712555885
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.036733902990818024
+        }
+      ],
+      "top1_prob": 0.37958669662475586,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.3300405604143937,
+    "max_top1_prob": 0.5492112636566162,
+    "avg_violence_hint": 0.022832247118155163,
+    "max_violence_hint": 0.06849674135446548
+  }
+}

@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.24584156274795532,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 157,
-          "label": "swimming butterfly stroke\t157",
-          "prob": 0.17993512749671936
-        },
-        {
-          "index": 378,
-          "label": "scuba diving\t378",
-          "prob": 0.07300850749015808
-        },
-        {
-          "index": 306,
-          "label": "catching or throwing baseball\t306",
-          "prob": 0.06550174951553345
-        },
-        {
-          "index": 156,
-          "label": "ripping paper\t156",
-          "prob": 0.0513358972966671
-        },
-        {
-          "index": 274,
-          "label": "driving car\t274",
-          "prob": 0.04343700408935547
-        }
-      ],
-      "top1_prob": 0.17993512749671936,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.391578808426857,
+    "num_clips": 3,
+    "avg_top1_prob": 0.4621267020702362,
     "max_top1_prob": 0.7833389639854431,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.42172327637672424,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.84,
-      "end_sec": 5.12,
-      "topk": [
-        {
-          "index": 65,
-          "label": "clay pottery making\t65",
-          "prob": 0.47221267223358154
-        },
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.25111743807792664
-        },
-        {
-          "index": 346,
-          "label": "driving tractor\t346",
-          "prob": 0.10379281640052795
-        },
-        {
-          "index": 398,
-          "label": "applying cream\t398",
-          "prob": 0.024863826110959053
-        },
-        {
-          "index": 42,
-          "label": "shooting goal (soccer)\t42",
-          "prob": 0.016329454258084297
-        }
-      ],
-      "top1_prob": 0.47221267223358154,
-      "violence_hint": 0.016329454258084297
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.4765593111515045,
+    "num_clips": 3,
+    "avg_top1_prob": 0.4780081907908122,
     "max_top1_prob": 0.9033991694450378,
-    "avg_violence_hint": 0.004082363564521074,
-    "max_violence_hint": 0.016329454258084297
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
   }
 }

@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_620",
+  "frames_per_clip": 32,
+  "clip_sec": 0.8648648648648649,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 0.8648648648648649,
+      "topk": [
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.6439176797866821
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.3070833384990692
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.04898926243185997
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 4.587002422340447e-06
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 1.5000272242104984e-06
+        }
+      ],
+      "top1_prob": 0.6439176797866821,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 0.8648648648648649,
+      "end_sec": 1.7297297297297298,
+      "topk": [
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.4011918306350708
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.40108394622802734
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.19761887192726135
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 2.2328791601466946e-05
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 1.6432122720289044e-05
+        }
+      ],
+      "top1_prob": 0.4011918306350708,
+      "violence_hint": 1.6432122720289044e-05
+    },
+    {
+      "index": 2,
+      "start_sec": 1.7297297297297298,
+      "end_sec": 2.5945945945945947,
+      "topk": [
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.6483721733093262
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.2665485739707947
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.08507533371448517
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 1.5274491715899785e-06
+        },
+        {
+          "index": 309,
+          "label": "playing guitar\t309",
+          "prob": 9.15831265047018e-07
+        }
+      ],
+      "top1_prob": 0.6483721733093262,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 2.5945945945945947,
+      "end_sec": 3.4594594594594597,
+      "topk": [
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.6032630205154419
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.32799527049064636
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.06873909384012222
+        },
+        {
+          "index": 309,
+          "label": "playing guitar\t309",
+          "prob": 1.3926820656706695e-06
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 7.184353876255045e-07
+        }
+      ],
+      "top1_prob": 0.6032630205154419,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.5741861760616302,
+    "max_top1_prob": 0.6483721733093262,
+    "avg_violence_hint": 4.108030680072261e-06,
+    "max_violence_hint": 1.6432122720289044e-05
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/WCHYnPMG_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.1313321888446808
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.12800391018390656
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.11559304594993591
+        },
+        {
+          "index": 173,
+          "label": "celebrating\t173",
+          "prob": 0.11331253498792648
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.07906299084424973
+        }
+      ],
+      "top1_prob": 0.1313321888446808,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.3803325891494751
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.1705741435289383
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.12393200397491455
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.061096977442502975
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.0435711108148098
+        }
+      ],
+      "top1_prob": 0.3803325891494751,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.25241032242774963
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.1396133452653885
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.09249843657016754
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.045656703412532806
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.04299391061067581
+        }
+      ],
+      "top1_prob": 0.25241032242774963,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2546917001406352,
+    "max_top1_prob": 0.3803325891494751,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

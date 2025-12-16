@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/4yTlGiDoxBo_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.1863008290529251
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.08273675292730331
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.06969598680734634
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.045457784086465836
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.042434196919202805
+        }
+      ],
+      "top1_prob": 0.1863008290529251,
+      "violence_hint": 0.1863008290529251
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.1603282392024994
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.14452789723873138
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.08465395867824554
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.04989658296108246
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.046679336577653885
+        }
+      ],
+      "top1_prob": 0.1603282392024994,
+      "violence_hint": 0.1603282392024994
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 128,
+          "label": "tai chi\t128",
+          "prob": 0.14530691504478455
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.051902513951063156
+        },
+        {
+          "index": 36,
+          "label": "stretching leg\t36",
+          "prob": 0.0425276979804039
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.035084068775177
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.03168423846364021
+        }
+      ],
+      "top1_prob": 0.14530691504478455,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.16397866110006967,
+    "max_top1_prob": 0.1863008290529251,
+    "avg_violence_hint": 0.11554302275180817,
+    "max_violence_hint": 0.1863008290529251
+  }
+}

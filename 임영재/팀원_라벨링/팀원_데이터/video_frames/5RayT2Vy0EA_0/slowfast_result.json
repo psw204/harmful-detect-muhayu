@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/5RayT2Vy0EA_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.3820071518421173
+        },
+        {
+          "index": 0,
+          "label": "riding a bike\t0",
+          "prob": 0.37771832942962646
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.05280614271759987
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.011941783130168915
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.010299615561962128
+        }
+      ],
+      "top1_prob": 0.3820071518421173,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 0,
+          "label": "riding a bike\t0",
+          "prob": 0.4750475287437439
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.37867408990859985
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.022340483963489532
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.0074435011483728886
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.0061276997439563274
+        }
+      ],
+      "top1_prob": 0.4750475287437439,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 0,
+          "label": "riding a bike\t0",
+          "prob": 0.3961668610572815
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.3835063576698303
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.03960610553622246
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.008646748028695583
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.008536308072507381
+        }
+      ],
+      "top1_prob": 0.3961668610572815,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.41774051388104755,
+    "max_top1_prob": 0.4750475287437439,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

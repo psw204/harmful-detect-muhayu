@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_678",
+  "frames_per_clip": 32,
+  "clip_sec": 1.3333333333333333,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.3333333333333333,
+      "topk": [
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.21994782984256744
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.1923588067293167
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.04555969312787056
+        },
+        {
+          "index": 279,
+          "label": "flipping pancake\t279",
+          "prob": 0.04204418882727623
+        },
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.0379319041967392
+        }
+      ],
+      "top1_prob": 0.21994782984256744,
+      "violence_hint": 0.0379319041967392
+    },
+    {
+      "index": 1,
+      "start_sec": 1.3333333333333333,
+      "end_sec": 2.6666666666666665,
+      "topk": [
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.28747841715812683
+        },
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.057647790759801865
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.03813491016626358
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.03745540603995323
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.034860093146562576
+        }
+      ],
+      "top1_prob": 0.28747841715812683,
+      "violence_hint": 0.057647790759801865
+    },
+    {
+      "index": 2,
+      "start_sec": 2.6666666666666665,
+      "end_sec": 4.0,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.5108147859573364
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.04484149068593979
+        },
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.03826232627034187
+        },
+        {
+          "index": 303,
+          "label": "cleaning toilet\t303",
+          "prob": 0.03614051267504692
+        },
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.028910785913467407
+        }
+      ],
+      "top1_prob": 0.5108147859573364,
+      "violence_hint": 0.03826232627034187
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.3394136776526769,
+    "max_top1_prob": 0.5108147859573364,
+    "avg_violence_hint": 0.04461400707562765,
+    "max_violence_hint": 0.057647790759801865
+  }
+}

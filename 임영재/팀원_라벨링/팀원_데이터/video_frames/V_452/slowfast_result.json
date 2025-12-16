@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_452",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.4192403554916382
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.10814480483531952
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.086403988301754
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.07679937034845352
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.0360049232840538
+        }
+      ],
+      "top1_prob": 0.4192403554916382,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.5495086908340454
+        },
+        {
+          "index": 283,
+          "label": "sword fighting\t283",
+          "prob": 0.12256191670894623
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.045149777084589005
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.02393278479576111
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.020829804241657257
+        }
+      ],
+      "top1_prob": 0.5495086908340454,
+      "violence_hint": 0.12256191670894623
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.13920307159423828
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.09936077892780304
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.06757824867963791
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.051582831889390945
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.042724840342998505
+        }
+      ],
+      "top1_prob": 0.13920307159423828,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.36931737263997394,
+    "max_top1_prob": 0.5495086908340454,
+    "avg_violence_hint": 0.04085397223631541,
+    "max_violence_hint": 0.12256191670894623
+  }
+}

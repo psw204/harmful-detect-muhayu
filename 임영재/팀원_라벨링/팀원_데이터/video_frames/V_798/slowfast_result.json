@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_798",
+  "frames_per_clip": 32,
+  "clip_sec": 1.3184458819166907,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.3184458819166907,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.06626617908477783
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.06052963435649872
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.0481843426823616
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.03179612383246422
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.027790825814008713
+        }
+      ],
+      "top1_prob": 0.06626617908477783,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.3184458819166907,
+      "end_sec": 2.6368917638333813,
+      "topk": [
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.13707265257835388
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.11583083868026733
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.062230926007032394
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.058640655130147934
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.039829596877098083
+        }
+      ],
+      "top1_prob": 0.13707265257835388,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.6368917638333813,
+      "end_sec": 3.955337645750072,
+      "topk": [
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.3101654052734375
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.13579165935516357
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.1091356948018074
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.09514555335044861
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.06275931000709534
+        }
+      ],
+      "top1_prob": 0.3101654052734375,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.1711680789788564,
+    "max_top1_prob": 0.3101654052734375,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

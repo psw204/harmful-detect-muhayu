@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_508",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.9810784459114075
+        },
+        {
+          "index": 116,
+          "label": "side kick\t116",
+          "prob": 0.010686587542295456
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 0.0019364211475476623
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 0.0014537356328219175
+        },
+        {
+          "index": 110,
+          "label": "crossing river\t110",
+          "prob": 0.0007808746886439621
+        }
+      ],
+      "top1_prob": 0.9810784459114075,
+      "violence_hint": 0.9810784459114075
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.5839952230453491
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 0.09029963612556458
+        },
+        {
+          "index": 289,
+          "label": "folding napkins\t289",
+          "prob": 0.06513635814189911
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.05421862378716469
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.034572381526231766
+        }
+      ],
+      "top1_prob": 0.5839952230453491,
+      "violence_hint": 0.5839952230453491
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.264597624540329
+        },
+        {
+          "index": 224,
+          "label": "faceplanting\t224",
+          "prob": 0.12565355002880096
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.11514365673065186
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.046911511570215225
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.029509328305721283
+        }
+      ],
+      "top1_prob": 0.264597624540329,
+      "violence_hint": 0.264597624540329
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6098904311656952,
+    "max_top1_prob": 0.9810784459114075,
+    "avg_violence_hint": 0.6098904311656952,
+    "max_violence_hint": 0.9810784459114075
+  }
+}

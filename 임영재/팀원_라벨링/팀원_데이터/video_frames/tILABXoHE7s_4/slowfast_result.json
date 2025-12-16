@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/tILABXoHE7s_4",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.812021791934967
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.017199749127030373
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.015622532926499844
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.015265550464391708
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.014545571058988571
+        }
+      ],
+      "top1_prob": 0.812021791934967,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.13992533087730408
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.09100722521543503
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.0746745690703392
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.04206141084432602
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.04133735969662666
+        }
+      ],
+      "top1_prob": 0.13992533087730408,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.2499750554561615
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.15925472974777222
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.08970573544502258
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.04996965080499649
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.03207162022590637
+        }
+      ],
+      "top1_prob": 0.2499750554561615,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.40064072608947754,
+    "max_top1_prob": 0.812021791934967,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

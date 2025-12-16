@@ -1,0 +1,151 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_526",
+  "frames_per_clip": 32,
+  "clip_sec": 0.8648648648648649,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 0.8648648648648649,
+      "topk": [
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.3945518136024475
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.18357238173484802
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.07681214064359665
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.04349479824304581
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.039564695209264755
+        }
+      ],
+      "top1_prob": 0.3945518136024475,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 0.8648648648648649,
+      "end_sec": 1.7297297297297298,
+      "topk": [
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.40721243619918823
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.3067706525325775
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.07930105179548264
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.051057495176792145
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.01755843125283718
+        }
+      ],
+      "top1_prob": 0.40721243619918823,
+      "violence_hint": 0.01755843125283718
+    },
+    {
+      "index": 2,
+      "start_sec": 1.7297297297297298,
+      "end_sec": 2.5945945945945947,
+      "topk": [
+        {
+          "index": 55,
+          "label": "dining\t55",
+          "prob": 0.6888655424118042
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.10505814105272293
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.07959898561239243
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.04232104867696762
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.026706626638770103
+        }
+      ],
+      "top1_prob": 0.6888655424118042,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 2.5945945945945947,
+      "end_sec": 3.4594594594594597,
+      "topk": [
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.913016140460968
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.01763210818171501
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.01232372596859932
+        },
+        {
+          "index": 132,
+          "label": "tossing salad\t132",
+          "prob": 0.009820791892707348
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.007050644140690565
+        }
+      ],
+      "top1_prob": 0.913016140460968,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 4,
+    "avg_top1_prob": 0.600911483168602,
+    "max_top1_prob": 0.913016140460968,
+    "avg_violence_hint": 0.004389607813209295,
+    "max_violence_hint": 0.01755843125283718
+  }
+}

@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.2982843220233917,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.84,
-      "end_sec": 5.12,
-      "topk": [
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.3219238221645355
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.03456839174032211
-        },
-        {
-          "index": 355,
-          "label": "country line dancing\t355",
-          "prob": 0.033576466143131256
-        },
-        {
-          "index": 337,
-          "label": "catching or throwing softball\t337",
-          "prob": 0.02091878466308117
-        },
-        {
-          "index": 105,
-          "label": "snatch weight lifting\t105",
-          "prob": 0.01879614032804966
-        }
-      ],
-      "top1_prob": 0.3219238221645355,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6547419130802155,
+    "num_clips": 3,
+    "avg_top1_prob": 0.7656812767187754,
     "max_top1_prob": 0.999998927116394,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

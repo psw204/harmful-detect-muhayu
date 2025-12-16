@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_746",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.5621540546417236
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.09078101813793182
+        },
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.05337896570563316
+        },
+        {
+          "index": 289,
+          "label": "folding napkins\t289",
+          "prob": 0.03719865903258324
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.03433644771575928
+        }
+      ],
+      "top1_prob": 0.5621540546417236,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.3374171853065491
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.23245422542095184
+        },
+        {
+          "index": 111,
+          "label": "swinging legs\t111",
+          "prob": 0.08511187136173248
+        },
+        {
+          "index": 2,
+          "label": "dodgeball\t2",
+          "prob": 0.03375784307718277
+        },
+        {
+          "index": 365,
+          "label": "barbequing\t365",
+          "prob": 0.024007407948374748
+        }
+      ],
+      "top1_prob": 0.3374171853065491,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.5061201453208923
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.1448691487312317
+        },
+        {
+          "index": 289,
+          "label": "folding napkins\t289",
+          "prob": 0.09999427199363708
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.09368131309747696
+        },
+        {
+          "index": 365,
+          "label": "barbequing\t365",
+          "prob": 0.026860401034355164
+        }
+      ],
+      "top1_prob": 0.5061201453208923,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4685637950897217,
+    "max_top1_prob": 0.5621540546417236,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

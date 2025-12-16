@@ -1,0 +1,185 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_52",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.6534638404846191
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.05058353766798973
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.03491892293095589
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.026226069778203964
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.023823730647563934
+        }
+      ],
+      "top1_prob": 0.6534638404846191,
+      "violence_hint": 0.023823730647563934
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.3821570873260498
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.09918371587991714
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.09354687482118607
+        },
+        {
+          "index": 36,
+          "label": "stretching leg\t36",
+          "prob": 0.05366716906428337
+        },
+        {
+          "index": 303,
+          "label": "cleaning toilet\t303",
+          "prob": 0.039763543754816055
+        }
+      ],
+      "top1_prob": 0.3821570873260498,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.7987147569656372
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.07222254574298859
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.0360981710255146
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.022703561931848526
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.010321208275854588
+        }
+      ],
+      "top1_prob": 0.7987147569656372,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 3,
+      "start_sec": 3.2,
+      "end_sec": 4.266666666666667,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.9832895994186401
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.005346751306205988
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.0032140053808689117
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.0021568243391811848
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.0010042388457804918
+        }
+      ],
+      "top1_prob": 0.9832895994186401,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 4,
+      "start_sec": 4.266666666666667,
+      "end_sec": 5.333333333333333,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.9373282790184021
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.025800419971346855
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.006226324010640383
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.005845881067216396
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.0021557509899139404
+        }
+      ],
+      "top1_prob": 0.9373282790184021,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 5,
+    "avg_top1_prob": 0.7509907126426697,
+    "max_top1_prob": 0.9832895994186401,
+    "avg_violence_hint": 0.004764746129512787,
+    "max_violence_hint": 0.023823730647563934
+  }
+}

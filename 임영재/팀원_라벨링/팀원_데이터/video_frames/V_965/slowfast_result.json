@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_965",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.9884329438209534
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.006365627516061068
+        },
+        {
+          "index": 53,
+          "label": "kicking field goal\t53",
+          "prob": 0.0013903643703088164
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.0008644856861792505
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.0006656100740656257
+        }
+      ],
+      "top1_prob": 0.9884329438209534,
+      "violence_hint": 0.0013903643703088164
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.6386994123458862
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.16861456632614136
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.03846091032028198
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.03156154975295067
+        },
+        {
+          "index": 53,
+          "label": "kicking field goal\t53",
+          "prob": 0.028891799971461296
+        }
+      ],
+      "top1_prob": 0.6386994123458862,
+      "violence_hint": 0.028891799971461296
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.6949395537376404
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.09858746081590652
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.04232507199048996
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.01942436583340168
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.017474927008152008
+        }
+      ],
+      "top1_prob": 0.6949395537376404,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.77402396996816,
+    "max_top1_prob": 0.9884329438209534,
+    "avg_violence_hint": 0.010094054780590037,
+    "max_violence_hint": 0.028891799971461296
+  }
+}

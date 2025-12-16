@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/Fk3lg4wG_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.3694644272327423
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.12480805069208145
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.04565303772687912
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.03954256325960159
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.030322091653943062
+        }
+      ],
+      "top1_prob": 0.3694644272327423,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.40143734216690063
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.050116658210754395
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.044707972556352615
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.04257974401116371
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.03136776387691498
+        }
+      ],
+      "top1_prob": 0.40143734216690063,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.46167895197868347
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.05356292426586151
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.04499022662639618
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.04403875768184662
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.024491142481565475
+        }
+      ],
+      "top1_prob": 0.46167895197868347,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.41086024045944214,
+    "max_top1_prob": 0.46167895197868347,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

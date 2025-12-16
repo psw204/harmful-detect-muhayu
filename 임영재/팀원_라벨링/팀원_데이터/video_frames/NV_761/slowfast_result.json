@@ -173,47 +173,13 @@
       ],
       "top1_prob": 0.9638907313346863,
       "violence_hint": 0.011837958358228207
-    },
-    {
-      "index": 5,
-      "start_sec": 5.338666666666667,
-      "end_sec": 6.4064000000000005,
-      "topk": [
-        {
-          "index": 337,
-          "label": "catching or throwing softball\t337",
-          "prob": 0.8532224893569946
-        },
-        {
-          "index": 177,
-          "label": "playing recorder\t177",
-          "prob": 0.04840278625488281
-        },
-        {
-          "index": 42,
-          "label": "shooting goal (soccer)\t42",
-          "prob": 0.029737873002886772
-        },
-        {
-          "index": 393,
-          "label": "massaging feet\t393",
-          "prob": 0.027422267943620682
-        },
-        {
-          "index": 167,
-          "label": "high kick\t167",
-          "prob": 0.01596204750239849
-        }
-      ],
-      "top1_prob": 0.8532224893569946,
-      "violence_hint": 0.029737873002886772
     }
   ],
   "overall": {
-    "num_clips": 6,
-    "avg_top1_prob": 0.7966674566268921,
+    "num_clips": 5,
+    "avg_top1_prob": 0.7853564500808716,
     "max_top1_prob": 0.9828396439552307,
-    "avg_violence_hint": 0.012977053915771345,
-    "max_violence_hint": 0.029737873002886772
+    "avg_violence_hint": 0.00962489009834826,
+    "max_violence_hint": 0.01789640262722969
   }
 }

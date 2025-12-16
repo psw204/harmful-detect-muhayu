@@ -1,8 +1,8 @@
 {
   "model": "openai/clip-vit-base-patch32",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_97",
-  "num_frames_total": 88,
-  "num_frames_used": 9,
+  "num_frames_total": 50,
+  "num_frames_used": 5,
   "prompts": {
     "harmful": [
       "a violent scene with people fighting, punching or kicking",
@@ -23,36 +23,24 @@
   },
   "per_frame": {
     "clip_000_frame_000.jpg": {
-      "violence_prob": 0.5453678965568542
+      "violence_prob": 0.545356035232544
     },
     "clip_000_frame_010.jpg": {
-      "violence_prob": 0.5750903487205505
+      "violence_prob": 0.5750706195831299
     },
     "clip_000_frame_020.jpg": {
-      "violence_prob": 0.5239976048469543
+      "violence_prob": 0.5238196849822998
     },
     "clip_000_frame_030.jpg": {
-      "violence_prob": 0.43815311789512634
+      "violence_prob": 0.43836265802383423
     },
     "clip_000_frame_040.jpg": {
-      "violence_prob": 0.5579809546470642
-    },
-    "clip_001_frame_000.jpg": {
-      "violence_prob": 0.511191725730896
-    },
-    "clip_001_frame_010.jpg": {
-      "violence_prob": 0.43348950147628784
-    },
-    "clip_001_frame_020.jpg": {
-      "violence_prob": 0.4606785476207733
-    },
-    "clip_001_frame_030.jpg": {
-      "violence_prob": 0.4737190306186676
+      "violence_prob": 0.5581937432289124
     }
   },
   "overall": {
-    "avg_violence_prob": 0.5021854142347971,
-    "max_violence_prob": 0.5750903487205505,
-    "p95_violence_prob": 0.568246591091156
+    "avg_violence_prob": 0.528160548210144,
+    "max_violence_prob": 0.5750706195831299,
+    "p95_violence_prob": 0.5716952443122864
   }
 }

@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.4431513547897339,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 85,
-          "label": "windsurfing\t85",
-          "prob": 0.5848150253295898
-        },
-        {
-          "index": 372,
-          "label": "dribbling basketball\t372",
-          "prob": 0.16817152500152588
-        },
-        {
-          "index": 149,
-          "label": "snowkiting\t149",
-          "prob": 0.09931936860084534
-        },
-        {
-          "index": 366,
-          "label": "news anchoring\t366",
-          "prob": 0.03893885761499405
-        },
-        {
-          "index": 342,
-          "label": "climbing a rope\t342",
-          "prob": 0.03868187963962555
-        }
-      ],
-      "top1_prob": 0.5848150253295898,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6377539336681366,
+    "num_clips": 3,
+    "avg_top1_prob": 0.6554002364476522,
     "max_top1_prob": 0.9075123071670532,
-    "avg_violence_hint": 0.004011060111224651,
+    "avg_violence_hint": 0.005348080148299535,
     "max_violence_hint": 0.016044240444898605
   }
 }

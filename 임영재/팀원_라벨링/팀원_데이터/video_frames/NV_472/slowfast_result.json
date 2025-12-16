@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_472",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.8686606287956238
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.026985161006450653
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.026813795790076256
+        },
+        {
+          "index": 177,
+          "label": "playing recorder\t177",
+          "prob": 0.015874594449996948
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.014252942986786366
+        }
+      ],
+      "top1_prob": 0.8686606287956238,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 337,
+          "label": "catching or throwing softball\t337",
+          "prob": 0.6173298954963684
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.10570700466632843
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.07035878300666809
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.03145254775881767
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.018661491572856903
+        }
+      ],
+      "top1_prob": 0.6173298954963684,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.7429952621459961,
+    "max_top1_prob": 0.8686606287956238,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

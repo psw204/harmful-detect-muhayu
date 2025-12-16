@@ -105,46 +105,12 @@
       ],
       "top1_prob": 0.6111932396888733,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 103,
-          "label": "bee keeping\t103",
-          "prob": 0.8721691966056824
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.1273449808359146
-        },
-        {
-          "index": 355,
-          "label": "country line dancing\t355",
-          "prob": 0.00033064981107600033
-        },
-        {
-          "index": 54,
-          "label": "finger snapping\t54",
-          "prob": 4.6584180381614715e-05
-        },
-        {
-          "index": 328,
-          "label": "salsa dancing\t328",
-          "prob": 2.631481947901193e-05
-        }
-      ],
-      "top1_prob": 0.8721691966056824,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.7606033980846405,
-    "max_top1_prob": 0.8721691966056824,
+    "num_clips": 3,
+    "avg_top1_prob": 0.7234147985776266,
+    "max_top1_prob": 0.8087703585624695,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

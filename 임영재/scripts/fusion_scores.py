@@ -158,39 +158,35 @@ def get_text_score(d: Dict[str, Any]) -> float:
 # ======================================================
 def main():
     parser = argparse.ArgumentParser()
-    # 🔻 더 이상 vision(yolo) 안 씀
-    # parser.add_argument("--vision", required=True)
+
     parser.add_argument("--audio", required=True)
     parser.add_argument("--text", required=True)
     parser.add_argument("--clip", required=True)
     parser.add_argument("--vit", required=True)
-    parser.add_argument("--slowfast", required=True)  # 여기에는 slowfast json이 들어올 것
+    parser.add_argument("--slowfast", required=True) 
     parser.add_argument("--out", required=False)
     args = parser.parse_args()
-
-    # vision_json = safe_load(args.vision)  # 🔻 제거
+=
     audio_json  = safe_load(args.audio)
     text_json   = safe_load(args.text)
     clip_json   = safe_load(args.clip)
     vit_json    = safe_load(args.vit)
-    slow_json   = safe_load(args.slowfast)  # r3d 대신 slowfast json
-
+    slow_json   = safe_load(args.slowfast) 
     # 모달 점수
     clip_score  = get_clip_score(clip_json)
     vit_score   = get_vit_score(vit_json)
-    # yolo_score  = get_yolo_score(vision_json)  # 🔻 이제 안 씀
     slow_score  = get_slowfast_score(slow_json)
     audio_score = get_audio_score(audio_json)
     text_score  = get_text_score(text_json)
 
-    # 🔻 폭력 스트림: 지금은 SlowFast만 사용
+    # 🔻 폭력 스트림: 지금은 SlowFast만 사용 yolo 제거
     violence_stream = slow_score
 
     # 최적 튜닝된 가중치
     fusion_weights = {
-        "clip": 0.15,         # clip 과탐 ↓
-        "vit": 0.6, 
-        "violence": 0.25,     # 지금은 slowfast 단독
+        "clip": 0.8,         
+        "vit": 0.1, 
+        "violence": 0.1,    
         "audio": 0.0,
         "text": 0.0,
     }
@@ -208,6 +204,7 @@ def main():
         "review": 0.55,
         "block": 0.78,
     }
+    # 후에 정한 th 기준으로 결과 1 or 0 분리
 
     if final >= thresholds["block"]:
         decision = "BLOCK"
@@ -220,7 +217,6 @@ def main():
         "scores": {
             "clip": clip_score,
             "vit": vit_score,
-            # "yolo": yolo_score,  # 🔻 지금은 사용 안 하므로 제거하거나 0.0 고정
             "slowfast": slow_score,
             "audio": audio_score,
             "text": text_score,

@@ -105,46 +105,12 @@
       ],
       "top1_prob": 0.8306971788406372,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.9116931557655334
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.020081652328372
-        },
-        {
-          "index": 306,
-          "label": "catching or throwing baseball\t306",
-          "prob": 0.00742966216057539
-        },
-        {
-          "index": 31,
-          "label": "playing flute\t31",
-          "prob": 0.006137005519121885
-        },
-        {
-          "index": 355,
-          "label": "country line dancing\t355",
-          "prob": 0.00575972581282258
-        }
-      ],
-      "top1_prob": 0.9116931557655334,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.4825781565159559,
-    "max_top1_prob": 0.9116931557655334,
+    "num_clips": 3,
+    "avg_top1_prob": 0.3395398234327634,
+    "max_top1_prob": 0.8306971788406372,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

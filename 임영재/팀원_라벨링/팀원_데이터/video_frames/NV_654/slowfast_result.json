@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_654",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.7779061794281006
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.13071675598621368
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.03965121507644653
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.009385052137076855
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.0069551668129861355
+        }
+      ],
+      "top1_prob": 0.7779061794281006,
+      "violence_hint": 0.03965121507644653
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.583761990070343
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.17620107531547546
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.04280616715550423
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.02579323761165142
+        },
+        {
+          "index": 289,
+          "label": "folding napkins\t289",
+          "prob": 0.021593766286969185
+        }
+      ],
+      "top1_prob": 0.583761990070343,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.42135077714920044
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.1461406648159027
+        },
+        {
+          "index": 289,
+          "label": "folding napkins\t289",
+          "prob": 0.13092133402824402
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.08722688257694244
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.03388870880007744
+        }
+      ],
+      "top1_prob": 0.42135077714920044,
+      "violence_hint": 0.1461406648159027
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.594339648882548,
+    "max_top1_prob": 0.7779061794281006,
+    "avg_violence_hint": 0.06193062663078308,
+    "max_violence_hint": 0.1461406648159027
+  }
+}

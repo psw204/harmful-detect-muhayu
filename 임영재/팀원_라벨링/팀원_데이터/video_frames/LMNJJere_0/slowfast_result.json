@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/LMNJJere_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 181,
+          "label": "shredding paper\t181",
+          "prob": 0.4855934977531433
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.11802566051483154
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.06395450979471207
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.033650483936071396
+        },
+        {
+          "index": 239,
+          "label": "grooming dog\t239",
+          "prob": 0.017489569261670113
+        }
+      ],
+      "top1_prob": 0.4855934977531433,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 181,
+          "label": "shredding paper\t181",
+          "prob": 0.4488246440887451
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.15197862684726715
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.04428603872656822
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.03478793799877167
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.014864970929920673
+        }
+      ],
+      "top1_prob": 0.4488246440887451,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 181,
+          "label": "shredding paper\t181",
+          "prob": 0.48609796166419983
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.14280319213867188
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.047272246330976486
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.03703231364488602
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.013545114547014236
+        }
+      ],
+      "top1_prob": 0.48609796166419983,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.47350536783536273,
+    "max_top1_prob": 0.48609796166419983,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

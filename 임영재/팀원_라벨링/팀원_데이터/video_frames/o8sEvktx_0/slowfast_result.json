@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.29177024960517883,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 373,
-          "label": "petting cat\t373",
-          "prob": 0.321529358625412
-        },
-        {
-          "index": 300,
-          "label": "wrapping present\t300",
-          "prob": 0.09848085790872574
-        },
-        {
-          "index": 265,
-          "label": "extinguishing fire\t265",
-          "prob": 0.08035413175821304
-        },
-        {
-          "index": 74,
-          "label": "tapping guitar\t74",
-          "prob": 0.07506636530160904
-        },
-        {
-          "index": 281,
-          "label": "eating chips\t281",
-          "prob": 0.07188857346773148
-        }
-      ],
-      "top1_prob": 0.321529358625412,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.3360823690891266,
+    "num_clips": 3,
+    "avg_top1_prob": 0.34093337257703143,
     "max_top1_prob": 0.4210093021392822,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

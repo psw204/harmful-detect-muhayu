@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_982",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.5065403580665588
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.083840012550354
+        },
+        {
+          "index": 318,
+          "label": "arranging flowers\t318",
+          "prob": 0.07799804955720901
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.06205498427152634
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.048803575336933136
+        }
+      ],
+      "top1_prob": 0.5065403580665588,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.7556766867637634
+        },
+        {
+          "index": 318,
+          "label": "arranging flowers\t318",
+          "prob": 0.07448849081993103
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.02177734486758709
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.02007797360420227
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.01948677748441696
+        }
+      ],
+      "top1_prob": 0.7556766867637634,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.7211864590644836
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.0714021548628807
+        },
+        {
+          "index": 318,
+          "label": "arranging flowers\t318",
+          "prob": 0.04615960642695427
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.032821837812662125
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.02069759927690029
+        }
+      ],
+      "top1_prob": 0.7211864590644836,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6611345012982687,
+    "max_top1_prob": 0.7556766867637634,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

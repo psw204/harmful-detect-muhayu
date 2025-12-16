@@ -71,45 +71,11 @@
       ],
       "top1_prob": 0.4082600772380829,
       "violence_hint": 0.0
-    },
-    {
-      "index": 2,
-      "start_sec": 2.782608695652174,
-      "end_sec": 4.173913043478261,
-      "topk": [
-        {
-          "index": 147,
-          "label": "eating doughnuts\t147",
-          "prob": 0.548298716545105
-        },
-        {
-          "index": 325,
-          "label": "drinking\t325",
-          "prob": 0.303535133600235
-        },
-        {
-          "index": 30,
-          "label": "eating spaghetti\t30",
-          "prob": 0.08684617280960083
-        },
-        {
-          "index": 207,
-          "label": "hoverboarding\t207",
-          "prob": 0.023157885298132896
-        },
-        {
-          "index": 122,
-          "label": "folding clothes\t122",
-          "prob": 0.006043440196663141
-        }
-      ],
-      "top1_prob": 0.548298716545105,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 3,
-    "avg_top1_prob": 0.5349249541759491,
+    "num_clips": 2,
+    "avg_top1_prob": 0.5282380729913712,
     "max_top1_prob": 0.6482160687446594,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_426",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.3123098313808441
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.09699375182390213
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.07021836936473846
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.06088874861598015
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.059883277863264084
+        }
+      ],
+      "top1_prob": 0.3123098313808441,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.23840169608592987
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.1577112227678299
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.12829875946044922
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.08409345149993896
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.04945371299982071
+        }
+      ],
+      "top1_prob": 0.23840169608592987,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.27824723720550537
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.10723408311605453
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.0909944549202919
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.027411596849560738
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.022894378751516342
+        }
+      ],
+      "top1_prob": 0.27824723720550537,
+      "violence_hint": 0.027411596849560738
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.27631958822409314,
+    "max_top1_prob": 0.3123098313808441,
+    "avg_violence_hint": 0.009137198949853579,
+    "max_violence_hint": 0.027411596849560738
+  }
+}

@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.40668004751205444,
       "violence_hint": 0.028275586664676666
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 150,
-          "label": "kicking soccer ball\t150",
-          "prob": 0.2641347646713257
-        },
-        {
-          "index": 105,
-          "label": "snatch weight lifting\t105",
-          "prob": 0.1434212476015091
-        },
-        {
-          "index": 107,
-          "label": "fixing hair\t107",
-          "prob": 0.08711407333612442
-        },
-        {
-          "index": 49,
-          "label": "hopscotch\t49",
-          "prob": 0.06964544951915741
-        },
-        {
-          "index": 152,
-          "label": "giving or receiving award\t152",
-          "prob": 0.06538822501897812
-        }
-      ],
-      "top1_prob": 0.2641347646713257,
-      "violence_hint": 0.2641347646713257
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.22471530362963676,
+    "num_clips": 3,
+    "avg_top1_prob": 0.21157548328240713,
     "max_top1_prob": 0.40668004751205444,
-    "avg_violence_hint": 0.11030820943415165,
-    "max_violence_hint": 0.2641347646713257
+    "avg_violence_hint": 0.05903269102176031,
+    "max_violence_hint": 0.1133311316370964
   }
 }

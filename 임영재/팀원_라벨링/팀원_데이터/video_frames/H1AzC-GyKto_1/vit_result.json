@@ -1,0 +1,49 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/H1AzC-GyKto_1",
+  "num_frames_total": 120,
+  "num_frames_used": 12,
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.6166188716888428
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.6158707141876221
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.6169514656066895
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.617403507232666
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.6160874962806702
+    },
+    "clip_000_frame_050.jpg": {
+      "violence_prob": 0.6162492632865906
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.6150163412094116
+    },
+    "clip_001_frame_010.jpg": {
+      "violence_prob": 0.615970253944397
+    },
+    "clip_001_frame_020.jpg": {
+      "violence_prob": 0.6061696410179138
+    },
+    "clip_001_frame_030.jpg": {
+      "violence_prob": 0.6163403391838074
+    },
+    "clip_001_frame_040.jpg": {
+      "violence_prob": 0.615638792514801
+    },
+    "clip_001_frame_050.jpg": {
+      "violence_prob": 0.5922204256057739
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.6133780926465988,
+    "max_violence_prob": 0.617403507232666,
+    "p95_violence_prob": 0.617154884338379
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_732",
+  "num_frames_total": 92,
+  "num_frames_used": 10,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.7534290552139282
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.7923412322998047
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.6688179969787598
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.8694092035293579
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.6896282434463501
+    },
+    "clip_001_frame_004.jpg": {
+      "violence_prob": 0.6871221661567688
+    },
+    "clip_001_frame_014.jpg": {
+      "violence_prob": 0.7464869618415833
+    },
+    "clip_001_frame_024.jpg": {
+      "violence_prob": 0.8000003099441528
+    },
+    "clip_001_frame_034.jpg": {
+      "violence_prob": 0.837162435054779
+    },
+    "clip_001_frame_044.jpg": {
+      "violence_prob": 0.6645370125770569
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.7508934617042542,
+    "max_violence_prob": 0.8694092035293579,
+    "p95_violence_prob": 0.8548981577157974
+  }
+}

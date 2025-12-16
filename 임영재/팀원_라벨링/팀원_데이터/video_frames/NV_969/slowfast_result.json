@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.2597830295562744,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 262,
-          "label": "juggling balls\t262",
-          "prob": 0.518085777759552
-        },
-        {
-          "index": 263,
-          "label": "massaging person's head\t263",
-          "prob": 0.22946305572986603
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.08646991848945618
-        },
-        {
-          "index": 378,
-          "label": "scuba diving\t378",
-          "prob": 0.026531744748353958
-        },
-        {
-          "index": 267,
-          "label": "whistling\t267",
-          "prob": 0.012131488882005215
-        }
-      ],
-      "top1_prob": 0.518085777759552,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.429190456867218,
+    "num_clips": 3,
+    "avg_top1_prob": 0.39955868323644,
     "max_top1_prob": 0.5845437049865723,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

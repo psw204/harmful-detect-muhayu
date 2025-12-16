@@ -105,47 +105,13 @@
       ],
       "top1_prob": 1.0,
       "violence_hint": 2.536582721646141e-09
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 233,
-          "label": "jogging\t233",
-          "prob": 0.9999996423721313
-        },
-        {
-          "index": 392,
-          "label": "grooming horse\t392",
-          "prob": 1.9515888993737462e-07
-        },
-        {
-          "index": 231,
-          "label": "unloading truck\t231",
-          "prob": 4.271368325703406e-08
-        },
-        {
-          "index": 201,
-          "label": "cleaning windows\t201",
-          "prob": 3.8281505965187534e-08
-        },
-        {
-          "index": 262,
-          "label": "juggling balls\t262",
-          "prob": 2.8690287479093968e-08
-        }
-      ],
-      "top1_prob": 0.9999996423721313,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.9999998211860657,
+    "num_clips": 3,
+    "avg_top1_prob": 0.9999998807907104,
     "max_top1_prob": 1.0,
-    "avg_violence_hint": 3.095424055965523e-08,
+    "avg_violence_hint": 4.127232074620698e-08,
     "max_violence_hint": 1.212803795169748e-07
   }
 }

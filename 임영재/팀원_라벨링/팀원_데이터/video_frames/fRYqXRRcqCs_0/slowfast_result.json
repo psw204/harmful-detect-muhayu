@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.5874050259590149,
       "violence_hint": 0.08171450346708298
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 65,
-          "label": "clay pottery making\t65",
-          "prob": 0.35065940022468567
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.14050568640232086
-        },
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.06428859382867813
-        },
-        {
-          "index": 327,
-          "label": "playing monopoly\t327",
-          "prob": 0.04713115096092224
-        },
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.0422370508313179
-        }
-      ],
-      "top1_prob": 0.35065940022468567,
-      "violence_hint": 0.06428859382867813
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.44769685715436935,
+    "num_clips": 3,
+    "avg_top1_prob": 0.4800426761309306,
     "max_top1_prob": 0.6503485441207886,
-    "avg_violence_hint": 0.21743779443204403,
+    "avg_violence_hint": 0.26848752796649933,
     "max_violence_hint": 0.6503485441207886
   }
 }

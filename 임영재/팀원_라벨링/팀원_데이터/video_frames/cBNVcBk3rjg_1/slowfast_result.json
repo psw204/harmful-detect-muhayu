@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/cBNVcBk3rjg_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9962865114212036
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.001531891874037683
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.000596578698605299
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.00019194840569980443
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.0001317078567808494
+        }
+      ],
+      "top1_prob": 0.9962865114212036,
+      "violence_hint": 0.9962865114212036
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9730888605117798
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.007281914819031954
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.003645064076408744
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.002859263913705945
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0008689024252817035
+        }
+      ],
+      "top1_prob": 0.9730888605117798,
+      "violence_hint": 0.9730888605117798
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9235418438911438
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.014813545159995556
+        },
+        {
+          "index": 258,
+          "label": "breading or breadcrumbing\t258",
+          "prob": 0.010256532579660416
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.006162766367197037
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.004440235439687967
+        }
+      ],
+      "top1_prob": 0.9235418438911438,
+      "violence_hint": 0.9235418438911438
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.9643057386080424,
+    "max_top1_prob": 0.9962865114212036,
+    "avg_violence_hint": 0.9643057386080424,
+    "max_violence_hint": 0.9962865114212036
+  }
+}

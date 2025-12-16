@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.8441033363342285,
       "violence_hint": 0.8441033363342285
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.7353853583335876
-        },
-        {
-          "index": 263,
-          "label": "massaging person's head\t263",
-          "prob": 0.2246864289045334
-        },
-        {
-          "index": 262,
-          "label": "juggling balls\t262",
-          "prob": 0.008125191554427147
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.007719556801021099
-        },
-        {
-          "index": 378,
-          "label": "scuba diving\t378",
-          "prob": 0.006999898236244917
-        }
-      ],
-      "top1_prob": 0.7353853583335876,
-      "violence_hint": 0.7353853583335876
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6201300360262394,
+    "num_clips": 3,
+    "avg_top1_prob": 0.5817115952571233,
     "max_top1_prob": 0.8441033363342285,
-    "avg_violence_hint": 0.603533174842596,
+    "avg_violence_hint": 0.5595824470122656,
     "max_violence_hint": 0.8441033363342285
   }
 }

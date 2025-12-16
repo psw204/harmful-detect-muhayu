@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.9482845067977905,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 322,
-          "label": "waxing chest\t322",
-          "prob": 0.507588267326355
-        },
-        {
-          "index": 308,
-          "label": "blowing glass\t308",
-          "prob": 0.29890215396881104
-        },
-        {
-          "index": 235,
-          "label": "mopping floor\t235",
-          "prob": 0.054488975554704666
-        },
-        {
-          "index": 323,
-          "label": "auctioning\t323",
-          "prob": 0.044431399554014206
-        },
-        {
-          "index": 306,
-          "label": "catching or throwing baseball\t306",
-          "prob": 0.03256506845355034
-        }
-      ],
-      "top1_prob": 0.507588267326355,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.695124126970768,
+    "num_clips": 3,
+    "avg_top1_prob": 0.7576360801855723,
     "max_top1_prob": 0.9482845067977905,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

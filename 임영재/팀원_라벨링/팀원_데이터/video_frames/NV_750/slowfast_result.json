@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_750",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.5317720770835876
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.052501462399959564
+        },
+        {
+          "index": 202,
+          "label": "arm wrestling\t202",
+          "prob": 0.03097527287900448
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.02996288426220417
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.01839316450059414
+        }
+      ],
+      "top1_prob": 0.5317720770835876,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.13559043407440186
+        },
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.057823725044727325
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.04527202248573303
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.04093984141945839
+        },
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.031243132427334785
+        }
+      ],
+      "top1_prob": 0.13559043407440186,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.7976641058921814
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.025837363675236702
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.01856003701686859
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.017828548327088356
+        },
+        {
+          "index": 128,
+          "label": "tai chi\t128",
+          "prob": 0.01225287839770317
+        }
+      ],
+      "top1_prob": 0.7976641058921814,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4883422056833903,
+    "max_top1_prob": 0.7976641058921814,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

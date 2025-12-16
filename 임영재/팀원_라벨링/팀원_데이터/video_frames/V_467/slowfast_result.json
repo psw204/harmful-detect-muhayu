@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_467",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677344010677345,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677344010677345,
+      "topk": [
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.33290237188339233
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.13566292822360992
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.11540423333644867
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.07822337001562119
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.041495852172374725
+        }
+      ],
+      "top1_prob": 0.33290237188339233,
+      "violence_hint": 0.041495852172374725
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677344010677345,
+      "end_sec": 2.135468802135469,
+      "topk": [
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.16213171184062958
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.09826600551605225
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.08634956181049347
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.06438906490802765
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.040729034692049026
+        }
+      ],
+      "top1_prob": 0.16213171184062958,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135468802135469,
+      "end_sec": 3.203203203203204,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.6017057299613953
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.280642569065094
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.06560035794973373
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.008139711804687977
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.0058924611657857895
+        }
+      ],
+      "top1_prob": 0.6017057299613953,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.36557993789513904,
+    "max_top1_prob": 0.6017057299613953,
+    "avg_violence_hint": 0.013831950724124908,
+    "max_violence_hint": 0.041495852172374725
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_764",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.2534637749195099
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.09418920427560806
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06724167615175247
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.06514490395784378
+        },
+        {
+          "index": 41,
+          "label": "jumping into pool\t41",
+          "prob": 0.04540363326668739
+        }
+      ],
+      "top1_prob": 0.2534637749195099,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.08929955214262009
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.08134137094020844
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.07447347790002823
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.07002734392881393
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.05690588802099228
+        }
+      ],
+      "top1_prob": 0.08929955214262009,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.171381663531065,
+    "max_top1_prob": 0.2534637749195099,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

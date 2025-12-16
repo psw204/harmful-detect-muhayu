@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_34",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.3275570571422577
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.10061563551425934
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.04609175771474838
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.04161002114415169
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.027106232941150665
+        }
+      ],
+      "top1_prob": 0.3275570571422577,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.3137001097202301
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.1750248521566391
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.1548617035150528
+        },
+        {
+          "index": 56,
+          "label": "yawning\t56",
+          "prob": 0.05959152802824974
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.057711321860551834
+        }
+      ],
+      "top1_prob": 0.3137001097202301,
+      "violence_hint": 0.1750248521566391
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.29221630096435547
+        },
+        {
+          "index": 348,
+          "label": "throwing ball\t348",
+          "prob": 0.29107677936553955
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.09240009635686874
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.05254009738564491
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.045946959406137466
+        }
+      ],
+      "top1_prob": 0.29221630096435547,
+      "violence_hint": 0.05254009738564491
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.31115782260894775,
+    "max_top1_prob": 0.3275570571422577,
+    "avg_violence_hint": 0.07585498318076134,
+    "max_violence_hint": 0.1750248521566391
+  }
+}

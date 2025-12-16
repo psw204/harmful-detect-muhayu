@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_760",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.7269591689109802
+        },
+        {
+          "index": 305,
+          "label": "snowboarding\t305",
+          "prob": 0.037438031286001205
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.030364902690052986
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.021827615797519684
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.016563069075345993
+        }
+      ],
+      "top1_prob": 0.7269591689109802,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.33068668842315674
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.11427266895771027
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.10172794759273529
+        },
+        {
+          "index": 53,
+          "label": "kicking field goal\t53",
+          "prob": 0.057943329215049744
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.04443535581231117
+        }
+      ],
+      "top1_prob": 0.33068668842315674,
+      "violence_hint": 0.057943329215049744
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.2753574848175049
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.13158607482910156
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.09513228386640549
+        },
+        {
+          "index": 68,
+          "label": "shooting basketball\t68",
+          "prob": 0.094331294298172
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.02857602760195732
+        }
+      ],
+      "top1_prob": 0.2753574848175049,
+      "violence_hint": 0.094331294298172
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4443344473838806,
+    "max_top1_prob": 0.7269591689109802,
+    "avg_violence_hint": 0.05075820783774058,
+    "max_violence_hint": 0.094331294298172
+  }
+}

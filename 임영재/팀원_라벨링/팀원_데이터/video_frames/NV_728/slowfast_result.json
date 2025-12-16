@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_728",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.9979416728019714
+        },
+        {
+          "index": 223,
+          "label": "playing clarinet\t223",
+          "prob": 0.0020012904424220324
+        },
+        {
+          "index": 217,
+          "label": "playing harmonica\t217",
+          "prob": 1.5041138794913422e-05
+        },
+        {
+          "index": 234,
+          "label": "ice climbing\t234",
+          "prob": 9.489574949839152e-06
+        },
+        {
+          "index": 225,
+          "label": "trimming or shaving beard\t225",
+          "prob": 7.718532287981361e-06
+        }
+      ],
+      "top1_prob": 0.9979416728019714,
+      "violence_hint": 0.9979416728019714
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.9891210198402405
+        },
+        {
+          "index": 223,
+          "label": "playing clarinet\t223",
+          "prob": 0.007686535362154245
+        },
+        {
+          "index": 225,
+          "label": "trimming or shaving beard\t225",
+          "prob": 0.0007795175188221037
+        },
+        {
+          "index": 217,
+          "label": "playing harmonica\t217",
+          "prob": 0.0006329060415737331
+        },
+        {
+          "index": 234,
+          "label": "ice climbing\t234",
+          "prob": 0.0004289153730496764
+        }
+      ],
+      "top1_prob": 0.9891210198402405,
+      "violence_hint": 0.9891210198402405
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.996620774269104
+        },
+        {
+          "index": 223,
+          "label": "playing clarinet\t223",
+          "prob": 0.0032728693913668394
+        },
+        {
+          "index": 217,
+          "label": "playing harmonica\t217",
+          "prob": 2.580120235506911e-05
+        },
+        {
+          "index": 225,
+          "label": "trimming or shaving beard\t225",
+          "prob": 2.037621925410349e-05
+        },
+        {
+          "index": 231,
+          "label": "unloading truck\t231",
+          "prob": 1.7873144315672107e-05
+        }
+      ],
+      "top1_prob": 0.996620774269104,
+      "violence_hint": 0.996620774269104
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.9945611556371053,
+    "max_top1_prob": 0.9979416728019714,
+    "avg_violence_hint": 0.9945611556371053,
+    "max_violence_hint": 0.9979416728019714
+  }
+}

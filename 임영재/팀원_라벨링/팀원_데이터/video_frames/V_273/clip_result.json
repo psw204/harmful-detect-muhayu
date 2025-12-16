@@ -1,0 +1,55 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_273",
+  "num_frames_total": 72,
+  "num_frames_used": 8,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.8076736927032471
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.7716631293296814
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.7695731520652771
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.8035561442375183
+    },
+    "clip_001_frame_004.jpg": {
+      "violence_prob": 0.768502950668335
+    },
+    "clip_001_frame_014.jpg": {
+      "violence_prob": 0.7183326482772827
+    },
+    "clip_001_frame_024.jpg": {
+      "violence_prob": 0.7467215657234192
+    },
+    "clip_001_frame_034.jpg": {
+      "violence_prob": 0.7935479879379272
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.772446408867836,
+    "max_violence_prob": 0.8076736927032471,
+    "p95_violence_prob": 0.806232550740242
+  }
+}

@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.9090254902839661,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 164,
-          "label": "pumping fist\t164",
-          "prob": 0.9648544788360596
-        },
-        {
-          "index": 235,
-          "label": "mopping floor\t235",
-          "prob": 0.020634779706597328
-        },
-        {
-          "index": 154,
-          "label": "throwing discus\t154",
-          "prob": 0.014442648738622665
-        },
-        {
-          "index": 288,
-          "label": "using segway\t288",
-          "prob": 4.348665606812574e-05
-        },
-        {
-          "index": 176,
-          "label": "headbutting\t176",
-          "prob": 3.4691340715653496e-06
-        }
-      ],
-      "top1_prob": 0.9648544788360596,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.8583317548036575,
-    "max_top1_prob": 0.9648544788360596,
-    "avg_violence_hint": 1.6728422735923232e-07,
+    "num_clips": 3,
+    "avg_top1_prob": 0.8228241801261902,
+    "max_top1_prob": 0.9090254902839661,
+    "avg_violence_hint": 2.2304563647897643e-07,
     "max_violence_hint": 6.691369094369293e-07
   }
 }

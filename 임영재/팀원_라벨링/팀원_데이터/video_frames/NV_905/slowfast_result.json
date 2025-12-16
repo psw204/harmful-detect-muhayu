@@ -105,46 +105,12 @@
       ],
       "top1_prob": 0.5787569284439087,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 398,
-          "label": "applying cream\t398",
-          "prob": 0.7860563397407532
-        },
-        {
-          "index": 132,
-          "label": "tossing salad\t132",
-          "prob": 0.052235882729291916
-        },
-        {
-          "index": 346,
-          "label": "driving tractor\t346",
-          "prob": 0.039617493748664856
-        },
-        {
-          "index": 287,
-          "label": "paragliding\t287",
-          "prob": 0.025839926674962044
-        },
-        {
-          "index": 304,
-          "label": "swimming backstroke\t304",
-          "prob": 0.020492924377322197
-        }
-      ],
-      "top1_prob": 0.7860563397407532,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.548746183514595,
-    "max_top1_prob": 0.7860563397407532,
+    "num_clips": 3,
+    "avg_top1_prob": 0.46964279810587567,
+    "max_top1_prob": 0.6413432359695435,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

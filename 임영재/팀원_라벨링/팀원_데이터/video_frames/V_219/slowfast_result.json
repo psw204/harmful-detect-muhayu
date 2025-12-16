@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_219",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.7884445190429688
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.1515801101922989
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.04023235663771629
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.005648235324770212
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.004258834756910801
+        }
+      ],
+      "top1_prob": 0.7884445190429688,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.6224080920219421
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.10715217888355255
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.03442415967583656
+        },
+        {
+          "index": 22,
+          "label": "hurling (sport)\t22",
+          "prob": 0.028086243197321892
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.02715633437037468
+        }
+      ],
+      "top1_prob": 0.6224080920219421,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.43535345792770386
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.2358103096485138
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.1251986175775528
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.04767691716551781
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.028310367837548256
+        }
+      ],
+      "top1_prob": 0.43535345792770386,
+      "violence_hint": 0.2358103096485138
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6154020229975382,
+    "max_top1_prob": 0.7884445190429688,
+    "avg_violence_hint": 0.0786034365495046,
+    "max_violence_hint": 0.2358103096485138
+  }
+}

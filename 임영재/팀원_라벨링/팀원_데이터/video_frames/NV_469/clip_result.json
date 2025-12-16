@@ -1,0 +1,61 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_469",
+  "num_frames_total": 92,
+  "num_frames_used": 10,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.5462515354156494
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.44995787739753723
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.4998566210269928
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.40474578738212585
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.4529379606246948
+    },
+    "clip_001_frame_004.jpg": {
+      "violence_prob": 0.49340617656707764
+    },
+    "clip_001_frame_014.jpg": {
+      "violence_prob": 0.47074925899505615
+    },
+    "clip_001_frame_024.jpg": {
+      "violence_prob": 0.7105566263198853
+    },
+    "clip_001_frame_034.jpg": {
+      "violence_prob": 0.5251370668411255
+    },
+    "clip_001_frame_044.jpg": {
+      "violence_prob": 0.45832952857017517
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.501192843914032,
+    "max_violence_prob": 0.7105566263198853,
+    "p95_violence_prob": 0.636619335412979
+  }
+}

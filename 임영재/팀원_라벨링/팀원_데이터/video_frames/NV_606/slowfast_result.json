@@ -71,45 +71,11 @@
       ],
       "top1_prob": 0.33256635069847107,
       "violence_hint": 0.0
-    },
-    {
-      "index": 2,
-      "start_sec": 3.0476190476190474,
-      "end_sec": 4.571428571428571,
-      "topk": [
-        {
-          "index": 93,
-          "label": "scrambling eggs\t93",
-          "prob": 0.06669944524765015
-        },
-        {
-          "index": 378,
-          "label": "scuba diving\t378",
-          "prob": 0.05587856471538544
-        },
-        {
-          "index": 219,
-          "label": "cutting nails\t219",
-          "prob": 0.05128934979438782
-        },
-        {
-          "index": 393,
-          "label": "massaging feet\t393",
-          "prob": 0.035869721323251724
-        },
-        {
-          "index": 49,
-          "label": "hopscotch\t49",
-          "prob": 0.03546007350087166
-        }
-      ],
-      "top1_prob": 0.06669944524765015,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 3,
-    "avg_top1_prob": 0.15950071066617966,
+    "num_clips": 2,
+    "avg_top1_prob": 0.2059013433754444,
     "max_top1_prob": 0.33256635069847107,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

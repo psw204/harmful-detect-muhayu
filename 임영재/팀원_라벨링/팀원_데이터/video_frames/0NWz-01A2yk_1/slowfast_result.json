@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/0NWz-01A2yk_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.2837214767932892
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.1868845820426941
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.10246779024600983
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.03563782572746277
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.024471385404467583
+        }
+      ],
+      "top1_prob": 0.2837214767932892,
+      "violence_hint": 0.1868845820426941
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.22083191573619843
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.20593911409378052
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.11966175585985184
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.0522087886929512
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.033471573144197464
+        }
+      ],
+      "top1_prob": 0.22083191573619843,
+      "violence_hint": 0.22083191573619843
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.243412047624588
+        },
+        {
+          "index": 64,
+          "label": "hitting baseball\t64",
+          "prob": 0.07999835163354874
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.06183530017733574
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.03783952444791794
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.037626203149557114
+        }
+      ],
+      "top1_prob": 0.243412047624588,
+      "violence_hint": 0.07999835163354874
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.24932181338469186,
+    "max_top1_prob": 0.2837214767932892,
+    "avg_violence_hint": 0.16257161647081375,
+    "max_violence_hint": 0.22083191573619843
+  }
+}

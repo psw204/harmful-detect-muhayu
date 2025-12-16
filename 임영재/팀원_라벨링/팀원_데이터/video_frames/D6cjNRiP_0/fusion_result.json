@@ -1,12 +1,12 @@
 {
   "scores": {
-    "clip": 0.7346308767795562,
-    "vit": 0.827467393875122,
+    "clip": 0.7399441480636596,
+    "vit": 0.4364582061767578,
     "slowfast": 0.0,
     "audio": 0.0,
     "text": 0.5000140070915222,
     "violence_stream": 0.0,
-    "final": 0.6066750678420066
+    "final": 0.3728665459156036
   },
   "fusion_weights": {
     "clip": 0.15,
@@ -20,5 +20,5 @@
     "review": 0.55,
     "block": 0.78
   },
-  "decision": "REVIEW"
+  "decision": "ALLOW"
 }

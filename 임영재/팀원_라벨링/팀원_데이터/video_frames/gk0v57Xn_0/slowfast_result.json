@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/gk0v57Xn_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.2688553035259247
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.23583194613456726
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.22938062250614166
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.06543079018592834
+        },
+        {
+          "index": 247,
+          "label": "knitting\t247",
+          "prob": 0.05947581306099892
+        }
+      ],
+      "top1_prob": 0.2688553035259247,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.5522278547286987
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.2268834114074707
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.07066018879413605
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.056425273418426514
+        },
+        {
+          "index": 247,
+          "label": "knitting\t247",
+          "prob": 0.029112033545970917
+        }
+      ],
+      "top1_prob": 0.5522278547286987,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.49138039350509644
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.4086858332157135
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.02780872769653797
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.01211575884371996
+        },
+        {
+          "index": 205,
+          "label": "tossing coin\t205",
+          "prob": 0.010241788811981678
+        }
+      ],
+      "top1_prob": 0.49138039350509644,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4374878505865733,
+    "max_top1_prob": 0.5522278547286987,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

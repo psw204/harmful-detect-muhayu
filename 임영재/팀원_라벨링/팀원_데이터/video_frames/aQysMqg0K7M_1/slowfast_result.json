@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.38742098212242126,
       "violence_hint": 0.09804274141788483
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 54,
-          "label": "finger snapping\t54",
-          "prob": 0.2398601770401001
-        },
-        {
-          "index": 103,
-          "label": "bee keeping\t103",
-          "prob": 0.20110490918159485
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.1663259118795395
-        },
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.11330117285251617
-        },
-        {
-          "index": 53,
-          "label": "kicking field goal\t53",
-          "prob": 0.036675162613391876
-        }
-      ],
-      "top1_prob": 0.2398601770401001,
-      "violence_hint": 0.11330117285251617
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.4532240405678749,
+    "num_clips": 3,
+    "avg_top1_prob": 0.5243453284104665,
     "max_top1_prob": 0.6410579681396484,
-    "avg_violence_hint": 0.06573101971298456,
-    "max_violence_hint": 0.11330117285251617
+    "avg_violence_hint": 0.04987430199980736,
+    "max_violence_hint": 0.09804274141788483
   }
 }

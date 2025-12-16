@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_794",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 112,
+          "label": "sanding floor\t112",
+          "prob": 0.7499315142631531
+        },
+        {
+          "index": 113,
+          "label": "belly dancing\t113",
+          "prob": 0.09140270948410034
+        },
+        {
+          "index": 353,
+          "label": "playing trombone\t353",
+          "prob": 0.0901394709944725
+        },
+        {
+          "index": 114,
+          "label": "sneezing\t114",
+          "prob": 0.031007438898086548
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 0.019109925255179405
+        }
+      ],
+      "top1_prob": 0.7499315142631531,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 112,
+          "label": "sanding floor\t112",
+          "prob": 0.5315797924995422
+        },
+        {
+          "index": 113,
+          "label": "belly dancing\t113",
+          "prob": 0.37731054425239563
+        },
+        {
+          "index": 353,
+          "label": "playing trombone\t353",
+          "prob": 0.038565509021282196
+        },
+        {
+          "index": 114,
+          "label": "sneezing\t114",
+          "prob": 0.03238071873784065
+        },
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 0.010202308185398579
+        }
+      ],
+      "top1_prob": 0.5315797924995422,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.6407556533813477,
+    "max_top1_prob": 0.7499315142631531,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

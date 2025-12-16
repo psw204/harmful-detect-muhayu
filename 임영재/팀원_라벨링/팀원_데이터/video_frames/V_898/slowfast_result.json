@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_898",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.2558879554271698
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.1463003009557724
+        },
+        {
+          "index": 348,
+          "label": "throwing ball\t348",
+          "prob": 0.10295683145523071
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.08025047928094864
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.06186910346150398
+        }
+      ],
+      "top1_prob": 0.2558879554271698,
+      "violence_hint": 0.1463003009557724
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.42351245880126953
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.12416476011276245
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.08342613279819489
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.07408375293016434
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.06947167217731476
+        }
+      ],
+      "top1_prob": 0.42351245880126953,
+      "violence_hint": 0.06947167217731476
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.5368646383285522
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.10229798406362534
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.07885661721229553
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.04339950904250145
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.02722340263426304
+        }
+      ],
+      "top1_prob": 0.5368646383285522,
+      "violence_hint": 0.5368646383285522
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4054216841856639,
+    "max_top1_prob": 0.5368646383285522,
+    "avg_violence_hint": 0.25087887048721313,
+    "max_violence_hint": 0.5368646383285522
+  }
+}

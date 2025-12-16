@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/OAfV0xPIhZw_3",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.47242382168769836
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.27437421679496765
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.06959418952465057
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.048025645315647125
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.025211764499545097
+        }
+      ],
+      "top1_prob": 0.47242382168769836,
+      "violence_hint": 0.47242382168769836
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.5064141750335693
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.2087741643190384
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.06534405052661896
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.04251477122306824
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.033631231635808945
+        }
+      ],
+      "top1_prob": 0.5064141750335693,
+      "violence_hint": 0.5064141750335693
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.2745639979839325
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.15609757602214813
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.09677167981863022
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06102827936410904
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.0527104027569294
+        }
+      ],
+      "top1_prob": 0.2745639979839325,
+      "violence_hint": 0.2745639979839325
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4178006649017334,
+    "max_top1_prob": 0.5064141750335693,
+    "avg_violence_hint": 0.4178006649017334,
+    "max_violence_hint": 0.5064141750335693
+  }
+}

@@ -1,8 +1,8 @@
 {
   "model": "openai/clip-vit-base-patch32",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_761",
-  "num_frames_total": 198,
-  "num_frames_used": 20,
+  "num_frames_total": 179,
+  "num_frames_used": 18,
   "prompts": {
     "harmful": [
       "a violent scene with people fighting, punching or kicking",
@@ -71,21 +71,15 @@
       "violence_prob": 0.38325196504592896
     },
     "clip_002_frame_041.jpg": {
-      "violence_prob": 0.3794715702533722
+      "violence_prob": 0.3794851005077362
     },
     "clip_002_frame_051.jpg": {
-      "violence_prob": 0.3895682096481323
-    },
-    "clip_003_frame_001.jpg": {
-      "violence_prob": 0.4193223714828491
-    },
-    "clip_003_frame_011.jpg": {
-      "violence_prob": 0.38437896966934204
+      "violence_prob": 0.3895582854747772
     }
   },
   "overall": {
-    "avg_violence_prob": 0.40830028653144834,
+    "avg_violence_prob": 0.4090171108643214,
     "max_violence_prob": 0.4707655906677246,
-    "p95_violence_prob": 0.4614556312561035
+    "p95_violence_prob": 0.46243562698364254
   }
 }

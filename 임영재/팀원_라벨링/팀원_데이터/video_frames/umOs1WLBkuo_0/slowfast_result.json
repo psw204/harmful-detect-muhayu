@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/umOs1WLBkuo_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.04145142063498497
+        },
+        {
+          "index": 60,
+          "label": "laughing\t60",
+          "prob": 0.03997800126671791
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.03799518942832947
+        },
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.032467592507600784
+        },
+        {
+          "index": 134,
+          "label": "playing cards\t134",
+          "prob": 0.029881874099373817
+        }
+      ],
+      "top1_prob": 0.04145142063498497,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.10535396635532379
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.07265929877758026
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.046125706285238266
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.043794892728328705
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.039347536861896515
+        }
+      ],
+      "top1_prob": 0.10535396635532379,
+      "violence_hint": 0.046125706285238266
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.3054673671722412
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.09876168519258499
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.07724057883024216
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.07123684138059616
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.055511049926280975
+        }
+      ],
+      "top1_prob": 0.3054673671722412,
+      "violence_hint": 0.3054673671722412
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.15075758472085,
+    "max_top1_prob": 0.3054673671722412,
+    "avg_violence_hint": 0.11719769115249316,
+    "max_violence_hint": 0.3054673671722412
+  }
+}

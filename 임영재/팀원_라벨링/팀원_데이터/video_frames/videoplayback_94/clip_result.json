@@ -1,8 +1,8 @@
 {
   "model": "openai/clip-vit-base-patch32",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/videoplayback_94",
-  "num_frames_total": 150,
-  "num_frames_used": 15,
+  "num_frames_total": 120,
+  "num_frames_used": 12,
   "prompts": {
     "harmful": [
       "a violent scene with people fighting, punching or kicking",
@@ -23,54 +23,45 @@
   },
   "per_frame": {
     "clip_000_frame_000.jpg": {
-      "violence_prob": 0.8127793073654175
+      "violence_prob": 0.812718391418457
     },
     "clip_000_frame_010.jpg": {
-      "violence_prob": 0.8390654921531677
+      "violence_prob": 0.8389197587966919
     },
     "clip_000_frame_020.jpg": {
-      "violence_prob": 0.8292809724807739
+      "violence_prob": 0.8292319774627686
     },
     "clip_000_frame_030.jpg": {
-      "violence_prob": 0.8333704471588135
+      "violence_prob": 0.8334318399429321
     },
     "clip_000_frame_040.jpg": {
-      "violence_prob": 0.8657046556472778
+      "violence_prob": 0.8656331300735474
     },
     "clip_000_frame_050.jpg": {
-      "violence_prob": 0.8683099150657654
+      "violence_prob": 0.8683699369430542
     },
     "clip_001_frame_000.jpg": {
-      "violence_prob": 0.8705241084098816
+      "violence_prob": 0.870468020439148
     },
     "clip_001_frame_010.jpg": {
-      "violence_prob": 0.8722224831581116
+      "violence_prob": 0.8721511960029602
     },
     "clip_001_frame_020.jpg": {
       "violence_prob": 0.8126727342605591
     },
     "clip_001_frame_030.jpg": {
-      "violence_prob": 0.8737703561782837
+      "violence_prob": 0.8737248182296753
     },
     "clip_001_frame_040.jpg": {
-      "violence_prob": 0.8067402839660645
+      "violence_prob": 0.8066853284835815
     },
     "clip_001_frame_050.jpg": {
-      "violence_prob": 0.8343735337257385
-    },
-    "clip_002_frame_000.jpg": {
-      "violence_prob": 0.8180944919586182
-    },
-    "clip_002_frame_010.jpg": {
-      "violence_prob": 0.8326716423034668
-    },
-    "clip_002_frame_020.jpg": {
-      "violence_prob": 0.7877970933914185
+      "violence_prob": 0.8343849182128906
     }
   },
   "overall": {
-    "avg_violence_prob": 0.8371585011482239,
-    "max_violence_prob": 0.8737703561782837,
-    "p95_violence_prob": 0.8726868450641632
+    "avg_violence_prob": 0.8431993375221888,
+    "max_violence_prob": 0.8737248182296753,
+    "p95_violence_prob": 0.872859326004982
   }
 }

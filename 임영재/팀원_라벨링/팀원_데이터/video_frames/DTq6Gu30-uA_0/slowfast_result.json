@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/DTq6Gu30-uA_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.7452383041381836
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.08621429651975632
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.033135682344436646
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.020350882783532143
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.013824321329593658
+        }
+      ],
+      "top1_prob": 0.7452383041381836,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.7197602391242981
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.07419208437204361
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.0660109743475914
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.03224658966064453
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.021984223276376724
+        }
+      ],
+      "top1_prob": 0.7197602391242981,
+      "violence_hint": 0.03224658966064453
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.2794938385486603
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.23831596970558167
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.11311650276184082
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.08880604803562164
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.08875304460525513
+        }
+      ],
+      "top1_prob": 0.2794938385486603,
+      "violence_hint": 0.08880604803562164
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.581497460603714,
+    "max_top1_prob": 0.7452383041381836,
+    "avg_violence_hint": 0.04035087923208872,
+    "max_violence_hint": 0.08880604803562164
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_551",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.8890148401260376
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.0583343580365181
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.01337395142763853
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.004415787290781736
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.004155581351369619
+        }
+      ],
+      "top1_prob": 0.8890148401260376,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.8234480023384094
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.03022063337266445
+        },
+        {
+          "index": 311,
+          "label": "golf driving\t311",
+          "prob": 0.02937551960349083
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.02856253646314144
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.01647859811782837
+        }
+      ],
+      "top1_prob": 0.8234480023384094,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.53484708070755
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.09101426601409912
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.06642172485589981
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.06086992844939232
+        },
+        {
+          "index": 251,
+          "label": "surfing crowd\t251",
+          "prob": 0.037277910858392715
+        }
+      ],
+      "top1_prob": 0.53484708070755,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.749103307723999,
+    "max_top1_prob": 0.8890148401260376,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

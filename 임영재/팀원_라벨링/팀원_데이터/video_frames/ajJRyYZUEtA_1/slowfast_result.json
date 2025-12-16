@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/ajJRyYZUEtA_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.12249795347452164
+        },
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.11493447422981262
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.11033625900745392
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.10764934867620468
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.07613763958215714
+        }
+      ],
+      "top1_prob": 0.12249795347452164,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.19893001019954681
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.14862073957920074
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.08944093436002731
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.07956384867429733
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.06942567974328995
+        }
+      ],
+      "top1_prob": 0.19893001019954681,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 227,
+          "label": "riding mountain bike\t227",
+          "prob": 0.6424651741981506
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.07143446058034897
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.03780272230505943
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.028944354504346848
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.02721470035612583
+        }
+      ],
+      "top1_prob": 0.6424651741981506,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.32129771262407303,
+    "max_top1_prob": 0.6424651741981506,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

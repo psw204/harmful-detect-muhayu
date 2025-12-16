@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_2",
+  "frames_per_clip": 32,
+  "clip_sec": 1.92,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.92,
+      "topk": [
+        {
+          "index": 39,
+          "label": "skydiving\t39",
+          "prob": 0.5820989608764648
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.19626018404960632
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 0.0721609890460968
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.06741942465305328
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.03748635947704315
+        }
+      ],
+      "top1_prob": 0.5820989608764648,
+      "violence_hint": 0.06741942465305328
+    },
+    {
+      "index": 1,
+      "start_sec": 1.92,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 39,
+          "label": "skydiving\t39",
+          "prob": 0.8524035215377808
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 0.0485449880361557
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.04019664600491524
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.016665298491716385
+        },
+        {
+          "index": 38,
+          "label": "tying tie\t38",
+          "prob": 0.012531301006674767
+        }
+      ],
+      "top1_prob": 0.8524035215377808,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 3.84,
+      "end_sec": 5.76,
+      "topk": [
+        {
+          "index": 39,
+          "label": "skydiving\t39",
+          "prob": 0.8723297119140625
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.03857269510626793
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.0350445918738842
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.011925437487661839
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 0.01113907527178526
+        }
+      ],
+      "top1_prob": 0.8723297119140625,
+      "violence_hint": 0.0350445918738842
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.7689440647761027,
+    "max_top1_prob": 0.8723297119140625,
+    "avg_violence_hint": 0.03415467217564583,
+    "max_violence_hint": 0.06741942465305328
+  }
+}

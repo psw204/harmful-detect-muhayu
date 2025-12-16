@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/cfOKjx8l_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.1384534388780594
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.11181212216615677
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.09285397082567215
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.08165831863880157
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.07432905584573746
+        }
+      ],
+      "top1_prob": 0.1384534388780594,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.2849337160587311
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.2617081105709076
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.18217548727989197
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.05682593584060669
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.026856165379285812
+        }
+      ],
+      "top1_prob": 0.2849337160587311,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.2149960696697235
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.19680091738700867
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.13515716791152954
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.09745311737060547
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.04005332291126251
+        }
+      ],
+      "top1_prob": 0.2149960696697235,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.21279440820217133,
+    "max_top1_prob": 0.2849337160587311,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

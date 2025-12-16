@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_667",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.890294075012207
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.055158521980047226
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.01668882742524147
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.01335313729941845
+        },
+        {
+          "index": 251,
+          "label": "surfing crowd\t251",
+          "prob": 0.007557059172540903
+        }
+      ],
+      "top1_prob": 0.890294075012207,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.9989328980445862
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.0006812516949139535
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.00013142662646714598
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 6.834338273620233e-05
+        },
+        {
+          "index": 376,
+          "label": "shining shoes\t376",
+          "prob": 5.7138444390147924e-05
+        }
+      ],
+      "top1_prob": 0.9989328980445862,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.5211240649223328
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.12273845821619034
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.06657721102237701
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.037146907299757004
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.03102969378232956
+        }
+      ],
+      "top1_prob": 0.5211240649223328,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.803450345993042,
+    "max_top1_prob": 0.9989328980445862,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

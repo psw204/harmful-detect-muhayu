@@ -71,45 +71,11 @@
       ],
       "top1_prob": 0.2327139973640442,
       "violence_hint": 0.0
-    },
-    {
-      "index": 2,
-      "start_sec": 2.782608695652174,
-      "end_sec": 4.173913043478261,
-      "topk": [
-        {
-          "index": 333,
-          "label": "pushing wheelchair\t333",
-          "prob": 0.04467858374118805
-        },
-        {
-          "index": 346,
-          "label": "driving tractor\t346",
-          "prob": 0.02784106507897377
-        },
-        {
-          "index": 369,
-          "label": "peeling apples\t369",
-          "prob": 0.025415057316422462
-        },
-        {
-          "index": 334,
-          "label": "carving pumpkin\t334",
-          "prob": 0.022084390744566917
-        },
-        {
-          "index": 382,
-          "label": "playing basketball\t382",
-          "prob": 0.019107714295387268
-        }
-      ],
-      "top1_prob": 0.04467858374118805,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 3,
-    "avg_top1_prob": 0.20324917137622833,
+    "num_clips": 2,
+    "avg_top1_prob": 0.2825344651937485,
     "max_top1_prob": 0.33235493302345276,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

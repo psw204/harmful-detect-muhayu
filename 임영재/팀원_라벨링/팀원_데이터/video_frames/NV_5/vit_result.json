@@ -1,0 +1,43 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_5",
+  "num_frames_total": 100,
+  "num_frames_used": 10,
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.27329471707344055
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.2103397250175476
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.20554021000862122
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.14600631594657898
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.19034475088119507
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.21672679483890533
+    },
+    "clip_001_frame_010.jpg": {
+      "violence_prob": 0.2325052171945572
+    },
+    "clip_001_frame_020.jpg": {
+      "violence_prob": 0.24618084728717804
+    },
+    "clip_001_frame_030.jpg": {
+      "violence_prob": 0.24847854673862457
+    },
+    "clip_001_frame_040.jpg": {
+      "violence_prob": 0.24268466234207153
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.22121017873287202,
+    "max_violence_prob": 0.27329471707344055,
+    "p95_violence_prob": 0.26212744042277336
+  }
+}

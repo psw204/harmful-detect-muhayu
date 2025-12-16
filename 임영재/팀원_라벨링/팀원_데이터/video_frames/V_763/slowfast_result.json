@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.19115981459617615,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 172,
-          "label": "carrying baby\t172",
-          "prob": 0.34106123447418213
-        },
-        {
-          "index": 40,
-          "label": "playing cello\t40",
-          "prob": 0.12897081673145294
-        },
-        {
-          "index": 122,
-          "label": "folding clothes\t122",
-          "prob": 0.0735294446349144
-        },
-        {
-          "index": 378,
-          "label": "scuba diving\t378",
-          "prob": 0.05331191420555115
-        },
-        {
-          "index": 156,
-          "label": "ripping paper\t156",
-          "prob": 0.03951573744416237
-        }
-      ],
-      "top1_prob": 0.34106123447418213,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.27353319711983204,
+    "num_clips": 3,
+    "avg_top1_prob": 0.2510238513350487,
     "max_top1_prob": 0.44121530652046204,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

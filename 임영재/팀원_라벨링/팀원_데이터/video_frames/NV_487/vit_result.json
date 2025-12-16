@@ -1,49 +1,43 @@
 {
   "model": "jaranohaal/vit-base-violence-detection",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_487",
-  "num_frames_total": 115,
-  "num_frames_used": 12,
+  "num_frames_total": 92,
+  "num_frames_used": 10,
   "per_frame": {
     "clip_000_frame_000.jpg": {
-      "violence_prob": 0.3921983242034912
+      "violence_prob": 0.7946925163269043
     },
     "clip_000_frame_010.jpg": {
-      "violence_prob": 0.3629087507724762
+      "violence_prob": 0.8041735291481018
     },
     "clip_000_frame_020.jpg": {
-      "violence_prob": 0.35916101932525635
+      "violence_prob": 0.8031014800071716
     },
     "clip_000_frame_030.jpg": {
-      "violence_prob": 0.39653539657592773
+      "violence_prob": 0.8186529278755188
     },
     "clip_000_frame_040.jpg": {
-      "violence_prob": 0.3910926282405853
+      "violence_prob": 0.8117030262947083
     },
     "clip_001_frame_004.jpg": {
-      "violence_prob": 0.3937074840068817
+      "violence_prob": 0.8243709206581116
     },
     "clip_001_frame_014.jpg": {
-      "violence_prob": 0.40806326270103455
+      "violence_prob": 0.8157271146774292
     },
     "clip_001_frame_024.jpg": {
-      "violence_prob": 0.3741101920604706
+      "violence_prob": 0.8092426061630249
     },
     "clip_001_frame_034.jpg": {
-      "violence_prob": 0.39077645540237427
+      "violence_prob": 0.8366658687591553
     },
     "clip_001_frame_044.jpg": {
-      "violence_prob": 0.3891143500804901
-    },
-    "clip_002_frame_008.jpg": {
-      "violence_prob": 0.37413668632507324
-    },
-    "clip_002_frame_018.jpg": {
-      "violence_prob": 0.3873116374015808
+      "violence_prob": 0.8294351100921631
     }
   },
   "overall": {
-    "avg_violence_prob": 0.38492634892463684,
-    "max_violence_prob": 0.40806326270103455,
-    "p95_violence_prob": 0.4017229363322258
+    "avg_violence_prob": 0.8147765100002289,
+    "max_violence_prob": 0.8366658687591553,
+    "p95_violence_prob": 0.8334120273590088
   }
 }

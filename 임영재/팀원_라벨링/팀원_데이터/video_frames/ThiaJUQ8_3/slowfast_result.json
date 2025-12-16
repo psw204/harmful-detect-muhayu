@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.6265677213668823,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 103,
-          "label": "bee keeping\t103",
-          "prob": 0.8395968079566956
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.0794009193778038
-        },
-        {
-          "index": 199,
-          "label": "pushing cart\t199",
-          "prob": 0.02695365808904171
-        },
-        {
-          "index": 355,
-          "label": "country line dancing\t355",
-          "prob": 0.0258555319160223
-        },
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.004085106309503317
-        }
-      ],
-      "top1_prob": 0.8395968079566956,
-      "violence_hint": 0.004085106309503317
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.641602411866188,
-    "max_top1_prob": 0.8395968079566956,
-    "avg_violence_hint": 0.0010212765773758292,
-    "max_violence_hint": 0.004085106309503317
+    "num_clips": 3,
+    "avg_top1_prob": 0.5756042798360189,
+    "max_top1_prob": 0.6265677213668823,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
   }
 }

@@ -71,46 +71,12 @@
       ],
       "top1_prob": 0.551719069480896,
       "violence_hint": 0.0
-    },
-    {
-      "index": 2,
-      "start_sec": 2.782608695652174,
-      "end_sec": 4.173913043478261,
-      "topk": [
-        {
-          "index": 329,
-          "label": "waxing eyebrows\t329",
-          "prob": 0.883888304233551
-        },
-        {
-          "index": 325,
-          "label": "drinking\t325",
-          "prob": 0.061175160109996796
-        },
-        {
-          "index": 147,
-          "label": "eating doughnuts\t147",
-          "prob": 0.03472039848566055
-        },
-        {
-          "index": 376,
-          "label": "shining shoes\t376",
-          "prob": 0.0193275585770607
-        },
-        {
-          "index": 93,
-          "label": "scrambling eggs\t93",
-          "prob": 0.00043643222306855023
-        }
-      ],
-      "top1_prob": 0.883888304233551,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 3,
-    "avg_top1_prob": 0.7729342977205912,
-    "max_top1_prob": 0.883888304233551,
+    "num_clips": 2,
+    "avg_top1_prob": 0.7174572944641113,
+    "max_top1_prob": 0.8831955194473267,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

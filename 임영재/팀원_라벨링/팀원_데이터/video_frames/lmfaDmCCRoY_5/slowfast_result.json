@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.5648585557937622,
       "violence_hint": 0.5648585557937622
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 85,
-          "label": "windsurfing\t85",
-          "prob": 0.5610992312431335
-        },
-        {
-          "index": 342,
-          "label": "climbing a rope\t342",
-          "prob": 0.15250563621520996
-        },
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.10729118436574936
-        },
-        {
-          "index": 348,
-          "label": "throwing ball\t348",
-          "prob": 0.049875322729349136
-        },
-        {
-          "index": 283,
-          "label": "sword fighting\t283",
-          "prob": 0.02548959106206894
-        }
-      ],
-      "top1_prob": 0.5610992312431335,
-      "violence_hint": 0.02548959106206894
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.37236224487423897,
+    "num_clips": 3,
+    "avg_top1_prob": 0.3094499160846074,
     "max_top1_prob": 0.5648585557937622,
-    "avg_violence_hint": 0.15912254992872477,
+    "avg_violence_hint": 0.20366686955094337,
     "max_violence_hint": 0.5648585557937622
   }
 }

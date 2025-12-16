@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.33509865403175354,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 148,
-          "label": "ice fishing\t148",
-          "prob": 0.17558610439300537
-        },
-        {
-          "index": 346,
-          "label": "driving tractor\t346",
-          "prob": 0.07267545908689499
-        },
-        {
-          "index": 20,
-          "label": "wrestling\t20",
-          "prob": 0.07125844061374664
-        },
-        {
-          "index": 333,
-          "label": "pushing wheelchair\t333",
-          "prob": 0.07069917768239975
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.06881873309612274
-        }
-      ],
-      "top1_prob": 0.17558610439300537,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.4679257720708847,
+    "num_clips": 3,
+    "avg_top1_prob": 0.5653723279635111,
     "max_top1_prob": 0.9006542563438416,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

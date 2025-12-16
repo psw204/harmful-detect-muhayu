@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.33721405267715454,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 327,
-          "label": "playing monopoly\t327",
-          "prob": 0.3177390992641449
-        },
-        {
-          "index": 23,
-          "label": "riding scooter\t23",
-          "prob": 0.2919544279575348
-        },
-        {
-          "index": 328,
-          "label": "salsa dancing\t328",
-          "prob": 0.07172149419784546
-        },
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.0386846624314785
-        },
-        {
-          "index": 35,
-          "label": "picking fruit\t35",
-          "prob": 0.033323388546705246
-        }
-      ],
-      "top1_prob": 0.3177390992641449,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.3412122204899788,
+    "num_clips": 3,
+    "avg_top1_prob": 0.3490365942319234,
     "max_top1_prob": 0.4512242078781128,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

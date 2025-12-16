@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_273",
+  "frames_per_clip": 32,
+  "clip_sec": 1.7777777777777777,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.7777777777777777,
+      "topk": [
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.17410096526145935
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.16357408463954926
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.032346539199352264
+        },
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.031318262219429016
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.030471425503492355
+        }
+      ],
+      "top1_prob": 0.17410096526145935,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.7777777777777777,
+      "end_sec": 3.5555555555555554,
+      "topk": [
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.0856061726808548
+        },
+        {
+          "index": 85,
+          "label": "windsurfing\t85",
+          "prob": 0.08343232423067093
+        },
+        {
+          "index": 342,
+          "label": "climbing a rope\t342",
+          "prob": 0.05088962987065315
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.04084700345993042
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.03210604935884476
+        }
+      ],
+      "top1_prob": 0.0856061726808548,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.12985356897115707,
+    "max_top1_prob": 0.17410096526145935,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

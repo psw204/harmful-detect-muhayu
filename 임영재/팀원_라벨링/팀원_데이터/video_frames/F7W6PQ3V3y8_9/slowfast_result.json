@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/F7W6PQ3V3y8_9",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.9835588335990906
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.016338201239705086
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 7.775390258757398e-05
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 1.7874410332296975e-05
+        },
+        {
+          "index": 53,
+          "label": "kicking field goal\t53",
+          "prob": 2.517458597139921e-06
+        }
+      ],
+      "top1_prob": 0.9835588335990906,
+      "violence_hint": 2.517458597139921e-06
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.8285908102989197
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.1694769710302353
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0013865443179383874
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0004688309272751212
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 4.3326308514224365e-05
+        }
+      ],
+      "top1_prob": 0.8285908102989197,
+      "violence_hint": 4.3326308514224365e-05
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.9708143472671509
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.02821836620569229
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0007691849023103714
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0001638276589801535
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 1.8523367543821223e-05
+        }
+      ],
+      "top1_prob": 0.9708143472671509,
+      "violence_hint": 1.8523367543821223e-05
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.9276546637217203,
+    "max_top1_prob": 0.9835588335990906,
+    "avg_violence_hint": 2.1455711551728502e-05,
+    "max_violence_hint": 4.3326308514224365e-05
+  }
+}

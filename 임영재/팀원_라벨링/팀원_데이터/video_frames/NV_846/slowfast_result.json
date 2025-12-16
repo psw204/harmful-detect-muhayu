@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_846",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.20762494206428528
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.16144360601902008
+        },
+        {
+          "index": 218,
+          "label": "ironing\t218",
+          "prob": 0.07890980690717697
+        },
+        {
+          "index": 143,
+          "label": "making a sandwich\t143",
+          "prob": 0.0740719884634018
+        },
+        {
+          "index": 161,
+          "label": "taking a shower\t161",
+          "prob": 0.050353169441223145
+        }
+      ],
+      "top1_prob": 0.20762494206428528,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.135185107588768
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.12750057876110077
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.08246643841266632
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.05246684327721596
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.0334896482527256
+        }
+      ],
+      "top1_prob": 0.135185107588768,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 0.40759095549583435
+        },
+        {
+          "index": 192,
+          "label": "bungee jumping\t192",
+          "prob": 0.11914221942424774
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.05881667137145996
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.050523966550827026
+        },
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.028275951743125916
+        }
+      ],
+      "top1_prob": 0.40759095549583435,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2501336683829625,
+    "max_top1_prob": 0.40759095549583435,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

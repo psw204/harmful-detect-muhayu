@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_498",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677344010677345,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677344010677345,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.44473204016685486
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.10398402810096741
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.06741297990083694
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.04991259053349495
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.03787663206458092
+        }
+      ],
+      "top1_prob": 0.44473204016685486,
+      "violence_hint": 0.03787663206458092
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677344010677345,
+      "end_sec": 2.135468802135469,
+      "topk": [
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.3834117650985718
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.24423278868198395
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.2330767661333084
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.059843942523002625
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.026852527633309364
+        }
+      ],
+      "top1_prob": 0.3834117650985718,
+      "violence_hint": 0.026852527633309364
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135468802135469,
+      "end_sec": 3.203203203203204,
+      "topk": [
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.37018534541130066
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.19583168625831604
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.04562478885054588
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.04537861794233322
+        },
+        {
+          "index": 20,
+          "label": "wrestling\t20",
+          "prob": 0.044652894139289856
+        }
+      ],
+      "top1_prob": 0.37018534541130066,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.39944305022557575,
+    "max_top1_prob": 0.44473204016685486,
+    "avg_violence_hint": 0.02157638656596343,
+    "max_violence_hint": 0.03787663206458092
+  }
+}

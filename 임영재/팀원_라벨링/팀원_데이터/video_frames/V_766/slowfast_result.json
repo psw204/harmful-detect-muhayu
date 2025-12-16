@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_766",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.9278568625450134
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.04876811057329178
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.006682215724140406
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.004602625500410795
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.0024583155754953623
+        }
+      ],
+      "top1_prob": 0.9278568625450134,
+      "violence_hint": 0.006682215724140406
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.9867042303085327
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.01095647644251585
+        },
+        {
+          "index": 258,
+          "label": "breading or breadcrumbing\t258",
+          "prob": 0.0006086004432290792
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.0005392991588450968
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.00041130551835522056
+        }
+      ],
+      "top1_prob": 0.9867042303085327,
+      "violence_hint": 0.00041130551835522056
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.902321994304657
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.07833652943372726
+        },
+        {
+          "index": 258,
+          "label": "breading or breadcrumbing\t258",
+          "prob": 0.007954235188663006
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.00756843714043498
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.002518236869946122
+        }
+      ],
+      "top1_prob": 0.902321994304657,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.9389610290527344,
+    "max_top1_prob": 0.9867042303085327,
+    "avg_violence_hint": 0.0023645070808318755,
+    "max_violence_hint": 0.006682215724140406
+  }
+}

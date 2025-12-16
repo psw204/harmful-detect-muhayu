@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_937",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9051112532615662
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.0280178003013134
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.005189176648855209
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.004258398432284594
+        },
+        {
+          "index": 128,
+          "label": "tai chi\t128",
+          "prob": 0.0040803090669214725
+        }
+      ],
+      "top1_prob": 0.9051112532615662,
+      "violence_hint": 0.9051112532615662
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.5875899791717529
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.06196892261505127
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.03882506862282753
+        },
+        {
+          "index": 128,
+          "label": "tai chi\t128",
+          "prob": 0.0229788850992918
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.01577681489288807
+        }
+      ],
+      "top1_prob": 0.5875899791717529,
+      "violence_hint": 0.5875899791717529
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.24966326355934143
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.08742080628871918
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.059661541134119034
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.059523239731788635
+        },
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.03833567723631859
+        }
+      ],
+      "top1_prob": 0.24966326355934143,
+      "violence_hint": 0.08742080628871918
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5807881653308868,
+    "max_top1_prob": 0.9051112532615662,
+    "avg_violence_hint": 0.5267073462406794,
+    "max_violence_hint": 0.9051112532615662
+  }
+}

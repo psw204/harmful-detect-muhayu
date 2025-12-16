@@ -1,0 +1,61 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_794",
+  "num_frames_total": 92,
+  "num_frames_used": 10,
+  "prompts": {
+    "harmful": [
+      "a violent scene with people fighting, punching or kicking",
+      "a person shooting a gun at another person",
+      "visible blood, gore or serious injury",
+      "a person holding a weapon in a threatening or aggressive way",
+      "a brutal fight scene from an action movie",
+      "an explicit violent scene that should not be shown to children"
+    ],
+    "benign": [
+      "people calmly talking with no fighting or violence",
+      "a person holding a harmless everyday object, no threat",
+      "no blood or injury, just normal healthy people",
+      "a person holding tools or everyday items in a safe way",
+      "a normal peaceful scene with people standing or walking",
+      "a safe and non-violent scene that is appropriate for all ages"
+    ]
+  },
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.4783341586589813
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.420669287443161
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.3635450601577759
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.37240171432495117
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.31258881092071533
+    },
+    "clip_001_frame_004.jpg": {
+      "violence_prob": 0.34496480226516724
+    },
+    "clip_001_frame_014.jpg": {
+      "violence_prob": 0.30764222145080566
+    },
+    "clip_001_frame_024.jpg": {
+      "violence_prob": 0.3334832191467285
+    },
+    "clip_001_frame_034.jpg": {
+      "violence_prob": 0.3523573577404022
+    },
+    "clip_001_frame_044.jpg": {
+      "violence_prob": 0.4004242420196533
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.3686410874128342,
+    "max_violence_prob": 0.4783341586589813,
+    "p95_violence_prob": 0.4523849666118621
+  }
+}

@@ -139,47 +139,13 @@
       ],
       "top1_prob": 0.2116542011499405,
       "violence_hint": 0.0562121756374836
-    },
-    {
-      "index": 4,
-      "start_sec": 3.4594594594594597,
-      "end_sec": 4.324324324324325,
-      "topk": [
-        {
-          "index": 154,
-          "label": "throwing discus\t154",
-          "prob": 0.13822732865810394
-        },
-        {
-          "index": 150,
-          "label": "kicking soccer ball\t150",
-          "prob": 0.09838839620351791
-        },
-        {
-          "index": 235,
-          "label": "mopping floor\t235",
-          "prob": 0.07106809318065643
-        },
-        {
-          "index": 288,
-          "label": "using segway\t288",
-          "prob": 0.06975135207176208
-        },
-        {
-          "index": 174,
-          "label": "sharpening knives\t174",
-          "prob": 0.04481799528002739
-        }
-      ],
-      "top1_prob": 0.13822732865810394,
-      "violence_hint": 0.09838839620351791
     }
   ],
   "overall": {
-    "num_clips": 5,
-    "avg_top1_prob": 0.19341252744197845,
+    "num_clips": 4,
+    "avg_top1_prob": 0.20720882713794708,
     "max_top1_prob": 0.2584759294986725,
-    "avg_violence_hint": 0.06328823864459991,
+    "avg_violence_hint": 0.054513199254870415,
     "max_violence_hint": 0.10063033550977707
   }
 }

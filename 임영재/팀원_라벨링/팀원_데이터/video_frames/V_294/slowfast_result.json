@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_294",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.527999997138977
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.07804498076438904
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.05824309587478638
+        },
+        {
+          "index": 361,
+          "label": "kissing\t361",
+          "prob": 0.028927762061357498
+        },
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.028325291350483894
+        }
+      ],
+      "top1_prob": 0.527999997138977,
+      "violence_hint": 0.527999997138977
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.24743366241455078
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.09164900332689285
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.0545288547873497
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.05370645597577095
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.05229375883936882
+        }
+      ],
+      "top1_prob": 0.24743366241455078,
+      "violence_hint": 0.24743366241455078
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.4241015315055847
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.17221884429454803
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.10394452512264252
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.05901651456952095
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.040070898830890656
+        }
+      ],
+      "top1_prob": 0.4241015315055847,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.39984506368637085,
+    "max_top1_prob": 0.527999997138977,
+    "avg_violence_hint": 0.2584778865178426,
+    "max_violence_hint": 0.527999997138977
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_20",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.23968465626239777
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.22658653557300568
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.1527508944272995
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.13925975561141968
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.06479986757040024
+        }
+      ],
+      "top1_prob": 0.23968465626239777,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.1831960380077362
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.15687844157218933
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.09921364486217499
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.0847991481423378
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.08194354921579361
+        }
+      ],
+      "top1_prob": 0.1831960380077362,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.20978686213493347
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.19467762112617493
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.17877525091171265
+        },
+        {
+          "index": 280,
+          "label": "catching fish\t280",
+          "prob": 0.03573619946837425
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.031149649992585182
+        }
+      ],
+      "top1_prob": 0.20978686213493347,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2108891854683558,
+    "max_top1_prob": 0.23968465626239777,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

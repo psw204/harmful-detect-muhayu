@@ -139,45 +139,11 @@
       ],
       "top1_prob": 0.7810887694358826,
       "violence_hint": 0.0
-    },
-    {
-      "index": 4,
-      "start_sec": 5.12,
-      "end_sec": 6.4,
-      "topk": [
-        {
-          "index": 245,
-          "label": "doing laundry\t245",
-          "prob": 0.3099977374076843
-        },
-        {
-          "index": 254,
-          "label": "springboard diving\t254",
-          "prob": 0.11095518618822098
-        },
-        {
-          "index": 327,
-          "label": "playing monopoly\t327",
-          "prob": 0.10584206879138947
-        },
-        {
-          "index": 373,
-          "label": "petting cat\t373",
-          "prob": 0.0419698990881443
-        },
-        {
-          "index": 396,
-          "label": "bowling\t396",
-          "prob": 0.03595271706581116
-        }
-      ],
-      "top1_prob": 0.3099977374076843,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 5,
-    "avg_top1_prob": 0.801764440536499,
+    "num_clips": 4,
+    "avg_top1_prob": 0.9247061163187027,
     "max_top1_prob": 0.9997895359992981,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

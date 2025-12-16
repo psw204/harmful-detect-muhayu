@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/Jq8neqBlL2Y_3",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.27530086040496826
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.14328771829605103
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.04199366644024849
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.03222658112645149
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.023954203352332115
+        }
+      ],
+      "top1_prob": 0.27530086040496826,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.59713214635849
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.028723813593387604
+        },
+        {
+          "index": 134,
+          "label": "playing cards\t134",
+          "prob": 0.012800518423318863
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.011320690624415874
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.01079065166413784
+        }
+      ],
+      "top1_prob": 0.59713214635849,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.05568531155586243
+        },
+        {
+          "index": 219,
+          "label": "cutting nails\t219",
+          "prob": 0.04882238805294037
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.04712671786546707
+        },
+        {
+          "index": 5,
+          "label": "roller skating\t5",
+          "prob": 0.03525940701365471
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.034203026443719864
+        }
+      ],
+      "top1_prob": 0.05568531155586243,
+      "violence_hint": 0.04712671786546707
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.3093727727731069,
+    "max_top1_prob": 0.59713214635849,
+    "avg_violence_hint": 0.01570890595515569,
+    "max_violence_hint": 0.04712671786546707
+  }
+}

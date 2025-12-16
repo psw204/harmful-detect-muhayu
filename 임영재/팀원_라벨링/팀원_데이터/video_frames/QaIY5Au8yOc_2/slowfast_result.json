@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.8552953600883484,
       "violence_hint": 0.8552953600883484
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 64,
-          "label": "hitting baseball\t64",
-          "prob": 0.6580532789230347
-        },
-        {
-          "index": 37,
-          "label": "playing ukulele\t37",
-          "prob": 0.060662642121315
-        },
-        {
-          "index": 382,
-          "label": "playing basketball\t382",
-          "prob": 0.029603291302919388
-        },
-        {
-          "index": 165,
-          "label": "climbing tree\t165",
-          "prob": 0.024014264345169067
-        },
-        {
-          "index": 287,
-          "label": "paragliding\t287",
-          "prob": 0.01739457994699478
-        }
-      ],
-      "top1_prob": 0.6580532789230347,
-      "violence_hint": 0.6580532789230347
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.7484085559844971,
+    "num_clips": 3,
+    "avg_top1_prob": 0.7785269816716512,
     "max_top1_prob": 0.8817778825759888,
-    "avg_violence_hint": 0.7484085559844971,
+    "avg_violence_hint": 0.7785269816716512,
     "max_violence_hint": 0.8817778825759888
   }
 }

@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_612",
+  "frames_per_clip": 32,
+  "clip_sec": 1.5238095238095237,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.5238095238095237,
+      "topk": [
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.7782249450683594
+        },
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.07348215579986572
+        },
+        {
+          "index": 142,
+          "label": "getting a tattoo\t142",
+          "prob": 0.018317900598049164
+        },
+        {
+          "index": 5,
+          "label": "roller skating\t5",
+          "prob": 0.015936903655529022
+        },
+        {
+          "index": 47,
+          "label": "riding unicycle\t47",
+          "prob": 0.013932685367763042
+        }
+      ],
+      "top1_prob": 0.7782249450683594,
+      "violence_hint": 0.07348215579986572
+    },
+    {
+      "index": 1,
+      "start_sec": 1.5238095238095237,
+      "end_sec": 3.0476190476190474,
+      "topk": [
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.564816415309906
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.09788405150175095
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.04001346975564957
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 0.02563951164484024
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.021756421774625778
+        }
+      ],
+      "top1_prob": 0.564816415309906,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.6715206801891327,
+    "max_top1_prob": 0.7782249450683594,
+    "avg_violence_hint": 0.03674107789993286,
+    "max_violence_hint": 0.07348215579986572
+  }
+}

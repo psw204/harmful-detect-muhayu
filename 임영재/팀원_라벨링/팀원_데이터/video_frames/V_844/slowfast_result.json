@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_844",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.38589829206466675
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.24464011192321777
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.1632055789232254
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.1373254507780075
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.059210244566202164
+        }
+      ],
+      "top1_prob": 0.38589829206466675,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.5377740263938904
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.11386363953351974
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.09247906506061554
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.08174818754196167
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.06327048689126968
+        }
+      ],
+      "top1_prob": 0.5377740263938904,
+      "violence_hint": 0.5377740263938904
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.36452093720436096
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.19706518948078156
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.13989190757274628
+        },
+        {
+          "index": 209,
+          "label": "cheerleading\t209",
+          "prob": 0.04691599681973457
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.03761119768023491
+        }
+      ],
+      "top1_prob": 0.36452093720436096,
+      "violence_hint": 0.36452093720436096
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.42939775188763935,
+    "max_top1_prob": 0.5377740263938904,
+    "avg_violence_hint": 0.3007649878660838,
+    "max_violence_hint": 0.5377740263938904
+  }
+}

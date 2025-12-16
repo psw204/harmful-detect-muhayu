@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_881",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.7806406021118164
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.07354790717363358
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.03316212072968483
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.019198749214410782
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.011931806802749634
+        }
+      ],
+      "top1_prob": 0.7806406021118164,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.45772525668144226
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.30020585656166077
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.2225547432899475
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.016555188223719597
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.0006915350677445531
+        }
+      ],
+      "top1_prob": 0.45772525668144226,
+      "violence_hint": 0.2225547432899475
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.48415571451187134
+        },
+        {
+          "index": 43,
+          "label": "trimming trees\t43",
+          "prob": 0.22570842504501343
+        },
+        {
+          "index": 395,
+          "label": "making a cake\t395",
+          "prob": 0.22474250197410583
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.029584459960460663
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.008083349093794823
+        }
+      ],
+      "top1_prob": 0.48415571451187134,
+      "violence_hint": 0.48415571451187134
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5741738577683767,
+    "max_top1_prob": 0.7806406021118164,
+    "avg_violence_hint": 0.2355701526006063,
+    "max_violence_hint": 0.48415571451187134
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/POGFN_432",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.23055748641490936
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.1080588847398758
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.10750885307788849
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.07406213134527206
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.056836552917957306
+        }
+      ],
+      "top1_prob": 0.23055748641490936,
+      "violence_hint": 0.23055748641490936
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.1339440643787384
+        },
+        {
+          "index": 311,
+          "label": "golf driving\t311",
+          "prob": 0.10490569472312927
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.06724855303764343
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.06645997613668442
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.06147686392068863
+        }
+      ],
+      "top1_prob": 0.1339440643787384,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 311,
+          "label": "golf driving\t311",
+          "prob": 0.5450778603553772
+        },
+        {
+          "index": 17,
+          "label": "playing harp\t17",
+          "prob": 0.13380874693393707
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.05565926060080528
+        },
+        {
+          "index": 203,
+          "label": "changing oil\t203",
+          "prob": 0.03163775056600571
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.030654972419142723
+        }
+      ],
+      "top1_prob": 0.5450778603553772,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.303193137049675,
+    "max_top1_prob": 0.5450778603553772,
+    "avg_violence_hint": 0.07685249547163646,
+    "max_violence_hint": 0.23055748641490936
+  }
+}

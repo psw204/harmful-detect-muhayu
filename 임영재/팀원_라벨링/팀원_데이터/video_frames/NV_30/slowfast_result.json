@@ -105,46 +105,12 @@
       ],
       "top1_prob": 0.9457328915596008,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 160,
-          "label": "hockey stop\t160",
-          "prob": 0.9763626456260681
-        },
-        {
-          "index": 367,
-          "label": "smoking hookah\t367",
-          "prob": 0.008265209384262562
-        },
-        {
-          "index": 151,
-          "label": "playing controller\t151",
-          "prob": 0.007313510403037071
-        },
-        {
-          "index": 182,
-          "label": "pumping gas\t182",
-          "prob": 0.0050393082201480865
-        },
-        {
-          "index": 166,
-          "label": "tickling\t166",
-          "prob": 0.0004652812785934657
-        }
-      ],
-      "top1_prob": 0.9763626456260681,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.872838094830513,
-    "max_top1_prob": 0.9763626456260681,
+    "num_clips": 3,
+    "avg_top1_prob": 0.8383299112319946,
+    "max_top1_prob": 0.9457328915596008,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

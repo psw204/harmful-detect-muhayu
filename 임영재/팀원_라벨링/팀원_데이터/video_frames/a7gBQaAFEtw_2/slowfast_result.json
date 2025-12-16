@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/a7gBQaAFEtw_2",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.7915516495704651
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.0658959299325943
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.013063068501651287
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.010097467340528965
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.007124871481209993
+        }
+      ],
+      "top1_prob": 0.7915516495704651,
+      "violence_hint": 0.7915516495704651
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.37101584672927856
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.07011622190475464
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.026340017095208168
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.021489905193448067
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.01845494471490383
+        }
+      ],
+      "top1_prob": 0.37101584672927856,
+      "violence_hint": 0.37101584672927856
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.22129373252391815
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.13028350472450256
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.07151076197624207
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.031034773215651512
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.025149710476398468
+        }
+      ],
+      "top1_prob": 0.22129373252391815,
+      "violence_hint": 0.22129373252391815
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.46128707627455395,
+    "max_top1_prob": 0.7915516495704651,
+    "avg_violence_hint": 0.46128707627455395,
+    "max_violence_hint": 0.7915516495704651
+  }
+}

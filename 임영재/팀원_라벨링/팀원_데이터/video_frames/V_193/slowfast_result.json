@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_193",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.4720560610294342
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.09014925360679626
+        },
+        {
+          "index": 49,
+          "label": "hopscotch\t49",
+          "prob": 0.022666608914732933
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.02066160924732685
+        },
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 0.01741764508187771
+        }
+      ],
+      "top1_prob": 0.4720560610294342,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.31316879391670227
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.022443419322371483
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.022324662655591965
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.020500196143984795
+        },
+        {
+          "index": 183,
+          "label": "rock climbing\t183",
+          "prob": 0.019246019423007965
+        }
+      ],
+      "top1_prob": 0.31316879391670227,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.049730267375707626
+        },
+        {
+          "index": 44,
+          "label": "bookbinding\t44",
+          "prob": 0.03755948692560196
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.02894519828259945
+        },
+        {
+          "index": 159,
+          "label": "blowing nose\t159",
+          "prob": 0.02421635016798973
+        },
+        {
+          "index": 18,
+          "label": "balloon blowing\t18",
+          "prob": 0.023912400007247925
+        }
+      ],
+      "top1_prob": 0.049730267375707626,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2783183741072814,
+    "max_top1_prob": 0.4720560610294342,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

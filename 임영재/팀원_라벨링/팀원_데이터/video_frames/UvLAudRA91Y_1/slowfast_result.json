@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/UvLAudRA91Y_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.18515703082084656
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.0638604387640953
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.061650946736335754
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.05090320110321045
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.0447726771235466
+        }
+      ],
+      "top1_prob": 0.18515703082084656,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.053893789649009705
+        },
+        {
+          "index": 244,
+          "label": "cooking sausages\t244",
+          "prob": 0.03684534877538681
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.03540508449077606
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.03373057767748833
+        },
+        {
+          "index": 247,
+          "label": "knitting\t247",
+          "prob": 0.029586831107735634
+        }
+      ],
+      "top1_prob": 0.053893789649009705,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.03041847050189972
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.025211365893483162
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.025111159309744835
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.02496589533984661
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.024502957239747047
+        }
+      ],
+      "top1_prob": 0.03041847050189972,
+      "violence_hint": 0.025111159309744835
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.08982309699058533,
+    "max_top1_prob": 0.18515703082084656,
+    "avg_violence_hint": 0.008370386436581612,
+    "max_violence_hint": 0.025111159309744835
+  }
+}

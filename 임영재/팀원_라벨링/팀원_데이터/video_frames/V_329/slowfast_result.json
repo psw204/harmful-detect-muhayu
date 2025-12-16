@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.881194531917572,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 235,
-          "label": "mopping floor\t235",
-          "prob": 0.8159778714179993
-        },
-        {
-          "index": 154,
-          "label": "throwing discus\t154",
-          "prob": 0.09291581809520721
-        },
-        {
-          "index": 164,
-          "label": "pumping fist\t164",
-          "prob": 0.0902690589427948
-        },
-        {
-          "index": 220,
-          "label": "golf chipping\t220",
-          "prob": 0.00031261518597602844
-        },
-        {
-          "index": 296,
-          "label": "riding or walking with horse\t296",
-          "prob": 0.00012400465493556112
-        }
-      ],
-      "top1_prob": 0.8159778714179993,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6660186648368835,
+    "num_clips": 3,
+    "avg_top1_prob": 0.6160322626431783,
     "max_top1_prob": 0.881194531917572,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

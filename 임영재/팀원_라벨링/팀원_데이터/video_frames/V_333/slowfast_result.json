@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.3368034362792969,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 235,
-          "label": "mopping floor\t235",
-          "prob": 0.8613555431365967
-        },
-        {
-          "index": 154,
-          "label": "throwing discus\t154",
-          "prob": 0.050747837871313095
-        },
-        {
-          "index": 164,
-          "label": "pumping fist\t164",
-          "prob": 0.04598658159375191
-        },
-        {
-          "index": 288,
-          "label": "using segway\t288",
-          "prob": 0.025433650240302086
-        },
-        {
-          "index": 150,
-          "label": "kicking soccer ball\t150",
-          "prob": 0.002896507503464818
-        }
-      ],
-      "top1_prob": 0.8613555431365967,
-      "violence_hint": 0.002896507503464818
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.42928121984004974,
-    "max_top1_prob": 0.8613555431365967,
-    "avg_violence_hint": 0.0007241268758662045,
-    "max_violence_hint": 0.002896507503464818
+    "num_clips": 3,
+    "avg_top1_prob": 0.28525644540786743,
+    "max_top1_prob": 0.3368034362792969,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
   }
 }

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/gNIohJfdvEc_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.5657892227172852
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.07182008028030396
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.06955553591251373
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.024304009974002838
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.020918814465403557
+        }
+      ],
+      "top1_prob": 0.5657892227172852,
+      "violence_hint": 0.5657892227172852
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.5303890705108643
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.08905959874391556
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.04943833127617836
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.041082222014665604
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.03692706301808357
+        }
+      ],
+      "top1_prob": 0.5303890705108643,
+      "violence_hint": 0.5303890705108643
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.19385524094104767
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.08774135261774063
+        },
+        {
+          "index": 200,
+          "label": "spinning poi\t200",
+          "prob": 0.052071016281843185
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.04748092591762543
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.04245319217443466
+        }
+      ],
+      "top1_prob": 0.19385524094104767,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.43001117805639905,
+    "max_top1_prob": 0.5657892227172852,
+    "avg_violence_hint": 0.3653927644093831,
+    "max_violence_hint": 0.5657892227172852
+  }
+}

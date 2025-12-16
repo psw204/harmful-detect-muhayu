@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.7653002738952637,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 164,
-          "label": "pumping fist\t164",
-          "prob": 0.981637179851532
-        },
-        {
-          "index": 235,
-          "label": "mopping floor\t235",
-          "prob": 0.011768810451030731
-        },
-        {
-          "index": 154,
-          "label": "throwing discus\t154",
-          "prob": 0.006585102993994951
-        },
-        {
-          "index": 163,
-          "label": "planting trees\t163",
-          "prob": 7.695025487919338e-06
-        },
-        {
-          "index": 322,
-          "label": "waxing chest\t322",
-          "prob": 4.01757660029034e-07
-        }
-      ],
-      "top1_prob": 0.981637179851532,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.7234231308102608,
-    "max_top1_prob": 0.981637179851532,
-    "avg_violence_hint": 0.14490444213151932,
+    "num_clips": 3,
+    "avg_top1_prob": 0.637351781129837,
+    "max_top1_prob": 0.7653002738952637,
+    "avg_violence_hint": 0.19320592284202576,
     "max_violence_hint": 0.43046095967292786
   }
 }

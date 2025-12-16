@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/9N4HikpX_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.12115412950515747
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.06135525181889534
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.05522247031331062
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.04591226577758789
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.04196326434612274
+        }
+      ],
+      "top1_prob": 0.12115412950515747,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.09607252478599548
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.06867729127407074
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.04670603573322296
+        },
+        {
+          "index": 327,
+          "label": "playing monopoly\t327",
+          "prob": 0.044697243720293045
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.0424216203391552
+        }
+      ],
+      "top1_prob": 0.09607252478599548,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.05805931240320206
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.05686880648136139
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.054939448833465576
+        },
+        {
+          "index": 240,
+          "label": "weaving basket\t240",
+          "prob": 0.04870278760790825
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.04387736693024635
+        }
+      ],
+      "top1_prob": 0.05805931240320206,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.09176198889811833,
+    "max_top1_prob": 0.12115412950515747,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

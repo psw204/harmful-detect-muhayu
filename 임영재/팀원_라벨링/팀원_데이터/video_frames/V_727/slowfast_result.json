@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_727",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.1562861055135727
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.11131599545478821
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.11131371557712555
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.09345157444477081
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.036050718277692795
+        }
+      ],
+      "top1_prob": 0.1562861055135727,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.17375220358371735
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.08450882136821747
+        },
+        {
+          "index": 322,
+          "label": "waxing chest\t322",
+          "prob": 0.06757885962724686
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.04013039544224739
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.03386732190847397
+        }
+      ],
+      "top1_prob": 0.17375220358371735,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.16501915454864502,
+    "max_top1_prob": 0.17375220358371735,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

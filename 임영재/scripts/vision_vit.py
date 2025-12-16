@@ -36,10 +36,32 @@ import numpy as np
 from PIL import Image
 from tqdm import tqdm
 from transformers import AutoImageProcessor, ViTForImageClassification
+import transformers, warnings
+
+transformers.logging.set_verbosity_error()              # ⬅ transformers 워닝/로그 줄이기
+warnings.filterwarnings("ignore", category=FutureWarning, module="transformers")
 
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_ID = "jaranohaal/vit-base-violence-detection"
+FINETUNED_PATH = os.path.join(BASE_DIR, "vit_finetuned.pth")  # 또는 실제 파일 이름
 
+def load_model(device: str):
+    print(f"🔍 Loading ViT violence model ...")
+    processor = AutoImageProcessor.from_pretrained(MODEL_ID)
+    model = ViTForImageClassification.from_pretrained(MODEL_ID)
+
+    # 🔥 파인튜닝 weight 로드 (있으면)
+    if os.path.exists(FINETUNED_PATH):
+        print(f"🔧 Loading fine-tuned weights: {FINETUNED_PATH}")
+        state = torch.load(FINETUNED_PATH, map_location=device)
+        model.load_state_dict(state, strict=False)
+    else:
+        print(f"⚠️ Fine-tuned weights not found: {FINETUNED_PATH} (base 모델로 진행)")
+
+    model.to(device)
+    model.eval()
+    return processor, model
 
 def parse_args():
     ap = argparse.ArgumentParser()
@@ -60,14 +82,13 @@ def parse_args():
     return ap.parse_args()
 
 
-def load_model(device: str):
-    print(f"🔍 Loading ViT violence model: {MODEL_ID} ...")
-    processor = AutoImageProcessor.from_pretrained(MODEL_ID)
-    model = ViTForImageClassification.from_pretrained(MODEL_ID)
-    model.to(device)
-    model.eval()
-    return processor, model
-
+# def load_model(device: str):
+#     print(f"🔍 Loading ViT violence model: {MODEL_ID} ...")
+#     processor = AutoImageProcessor.from_pretrained(MODEL_ID)
+#     model = ViTForImageClassification.from_pretrained(MODEL_ID)
+#     model.to(device)
+#     model.eval()
+#     return processor, model
 
 @torch.no_grad()
 def compute_violence_scores(
@@ -81,19 +102,10 @@ def compute_violence_scores(
     image_paths: 리스트[str]
     반환: dict {filename: {"violence_prob": float}}
 
-    - 모델의 id2label 을 보고 "violence" 라벨의 prob을 violence_prob로 사용
+    - jaranohaal/vit-base-violence-detection 에 대해
+      class 1 (index=1) 의 확률을 violence_prob 로 사용
     """
-    id2label = model.config.id2label
-    # violence 라벨 인덱스 찾기 (이름에 "violence" 가 들어간 것)
-    violence_indices = [
-        i for i, name in id2label.items()
-        if "violence" in name.lower()
-    ]
-    if not violence_indices:
-        # 방어적으로 index=1 을 violence 로 가정
-        print("⚠️ id2label 에 'violence' 포함 라벨이 없어 index 1 을 violence 로 사용합니다.")
-        violence_indices = [1]
-    v_idx = violence_indices[0]
+    v_idx = 1  # ✅ Violent 클래스 인덱스를 1로 고정
 
     per_frame = {}
 
@@ -125,6 +137,7 @@ def compute_violence_scores(
             per_frame[fname] = {"violence_prob": v_prob}
 
     return per_frame
+
 
 
 if __name__ == "__main__":

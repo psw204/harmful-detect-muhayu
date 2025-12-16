@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/BUjGBAPb_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.2881222665309906
+        },
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.1429869532585144
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.050051312893629074
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.0325448103249073
+        },
+        {
+          "index": 121,
+          "label": "feeding fish\t121",
+          "prob": 0.026755061000585556
+        }
+      ],
+      "top1_prob": 0.2881222665309906,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.2251836508512497
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.10641239583492279
+        },
+        {
+          "index": 240,
+          "label": "weaving basket\t240",
+          "prob": 0.03670671209692955
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.02928338572382927
+        },
+        {
+          "index": 356,
+          "label": "changing wheel\t356",
+          "prob": 0.027502963319420815
+        }
+      ],
+      "top1_prob": 0.2251836508512497,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 300,
+          "label": "wrapping present\t300",
+          "prob": 0.27698737382888794
+        },
+        {
+          "index": 282,
+          "label": "shaking head\t282",
+          "prob": 0.11039505153894424
+        },
+        {
+          "index": 93,
+          "label": "scrambling eggs\t93",
+          "prob": 0.10722773522138596
+        },
+        {
+          "index": 393,
+          "label": "massaging feet\t393",
+          "prob": 0.04722283035516739
+        },
+        {
+          "index": 240,
+          "label": "weaving basket\t240",
+          "prob": 0.025236574932932854
+        }
+      ],
+      "top1_prob": 0.27698737382888794,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2634310970703761,
+    "max_top1_prob": 0.2881222665309906,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

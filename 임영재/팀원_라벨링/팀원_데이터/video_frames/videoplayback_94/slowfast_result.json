@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.6864673495292664,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 347,
-          "label": "triple jump\t347",
-          "prob": 0.10907117277383804
-        },
-        {
-          "index": 84,
-          "label": "dancing gangnam style\t84",
-          "prob": 0.08979568630456924
-        },
-        {
-          "index": 328,
-          "label": "salsa dancing\t328",
-          "prob": 0.08756934851408005
-        },
-        {
-          "index": 372,
-          "label": "dribbling basketball\t372",
-          "prob": 0.024365268647670746
-        },
-        {
-          "index": 45,
-          "label": "ski jumping\t45",
-          "prob": 0.021158436313271523
-        }
-      ],
-      "top1_prob": 0.10907117277383804,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.31204805709421635,
+    "num_clips": 3,
+    "avg_top1_prob": 0.37970701853434247,
     "max_top1_prob": 0.6864673495292664,
-    "avg_violence_hint": 0.0241994746029377,
+    "avg_violence_hint": 0.03226596613725027,
     "max_violence_hint": 0.0967978984117508
   }
 }

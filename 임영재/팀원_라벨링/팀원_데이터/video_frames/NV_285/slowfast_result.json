@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_285",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.9999548196792603
+        },
+        {
+          "index": 246,
+          "label": "dying hair\t246",
+          "prob": 3.684248440549709e-05
+        },
+        {
+          "index": 218,
+          "label": "ironing\t218",
+          "prob": 8.036130566324573e-06
+        },
+        {
+          "index": 311,
+          "label": "golf driving\t311",
+          "prob": 1.3187089109578665e-07
+        },
+        {
+          "index": 159,
+          "label": "blowing nose\t159",
+          "prob": 4.941005826708533e-08
+        }
+      ],
+      "top1_prob": 0.9999548196792603,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.999476969242096
+        },
+        {
+          "index": 147,
+          "label": "eating doughnuts\t147",
+          "prob": 0.00010221030242973939
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 7.517563790315762e-05
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 5.9492314903764054e-05
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 5.014792986912653e-05
+        }
+      ],
+      "top1_prob": 0.999476969242096,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.8800702691078186
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.025433918461203575
+        },
+        {
+          "index": 254,
+          "label": "springboard diving\t254",
+          "prob": 0.021588584408164024
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.010696468874812126
+        },
+        {
+          "index": 120,
+          "label": "cartwheeling\t120",
+          "prob": 0.007207241374999285
+        }
+      ],
+      "top1_prob": 0.8800702691078186,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.9598340193430582,
+    "max_top1_prob": 0.9999548196792603,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

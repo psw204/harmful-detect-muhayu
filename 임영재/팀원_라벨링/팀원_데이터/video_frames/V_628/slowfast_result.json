@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.11687840521335602,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 166,
-          "label": "tickling\t166",
-          "prob": 0.27626609802246094
-        },
-        {
-          "index": 130,
-          "label": "riding camel\t130",
-          "prob": 0.17032268643379211
-        },
-        {
-          "index": 346,
-          "label": "driving tractor\t346",
-          "prob": 0.11291920393705368
-        },
-        {
-          "index": 51,
-          "label": "parasailing\t51",
-          "prob": 0.05398820340633392
-        },
-        {
-          "index": 345,
-          "label": "dancing ballet\t345",
-          "prob": 0.015898454934358597
-        }
-      ],
-      "top1_prob": 0.27626609802246094,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.45849110558629036,
+    "num_clips": 3,
+    "avg_top1_prob": 0.5192327747742335,
     "max_top1_prob": 0.7837873697280884,
-    "avg_violence_hint": 0.01255724485963583,
+    "avg_violence_hint": 0.016742993146181107,
     "max_violence_hint": 0.03725432604551315
   }
 }

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_734",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.9998866319656372
+        },
+        {
+          "index": 223,
+          "label": "playing clarinet\t223",
+          "prob": 0.00011270989489275962
+        },
+        {
+          "index": 234,
+          "label": "ice climbing\t234",
+          "prob": 2.2701816249082185e-07
+        },
+        {
+          "index": 231,
+          "label": "unloading truck\t231",
+          "prob": 1.1802982413655627e-07
+        },
+        {
+          "index": 217,
+          "label": "playing harmonica\t217",
+          "prob": 7.511123101267003e-08
+        }
+      ],
+      "top1_prob": 0.9998866319656372,
+      "violence_hint": 0.9998866319656372
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.9990098476409912
+        },
+        {
+          "index": 223,
+          "label": "playing clarinet\t223",
+          "prob": 0.0009817929239943624
+        },
+        {
+          "index": 234,
+          "label": "ice climbing\t234",
+          "prob": 2.9488189738913206e-06
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 1.213578002534632e-06
+        },
+        {
+          "index": 217,
+          "label": "playing harmonica\t217",
+          "prob": 1.019093360810075e-06
+        }
+      ],
+      "top1_prob": 0.9990098476409912,
+      "violence_hint": 0.9990098476409912
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.9998553991317749
+        },
+        {
+          "index": 223,
+          "label": "playing clarinet\t223",
+          "prob": 0.000126205530250445
+        },
+        {
+          "index": 234,
+          "label": "ice climbing\t234",
+          "prob": 5.965846412436804e-06
+        },
+        {
+          "index": 304,
+          "label": "swimming backstroke\t304",
+          "prob": 3.6110332075622864e-06
+        },
+        {
+          "index": 217,
+          "label": "playing harmonica\t217",
+          "prob": 2.2925557914277306e-06
+        }
+      ],
+      "top1_prob": 0.9998553991317749,
+      "violence_hint": 0.9998553991317749
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.9995839595794678,
+    "max_top1_prob": 0.9998866319656372,
+    "avg_violence_hint": 0.9995839595794678,
+    "max_violence_hint": 0.9998866319656372
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/ndNHBJbS_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.3149750530719757
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.0679030567407608
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.05984388291835785
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.030056845396757126
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.0220087468624115
+        }
+      ],
+      "top1_prob": 0.3149750530719757,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.24932068586349487
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.08058381080627441
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.06563962996006012
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.027105504646897316
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.022202370688319206
+        }
+      ],
+      "top1_prob": 0.24932068586349487,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.2561470866203308
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.06823576986789703
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.06320184469223022
+        },
+        {
+          "index": 248,
+          "label": "reading book\t248",
+          "prob": 0.03194192424416542
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.022126568481326103
+        }
+      ],
+      "top1_prob": 0.2561470866203308,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2734809418519338,
+    "max_top1_prob": 0.3149750530719757,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

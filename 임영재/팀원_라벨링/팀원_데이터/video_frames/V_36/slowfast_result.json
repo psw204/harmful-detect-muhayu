@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.13349778950214386,
       "violence_hint": 0.11567763984203339
-    },
-    {
-      "index": 3,
-      "start_sec": 3.84,
-      "end_sec": 5.12,
-      "topk": [
-        {
-          "index": 207,
-          "label": "hoverboarding\t207",
-          "prob": 0.19605231285095215
-        },
-        {
-          "index": 34,
-          "label": "trapezing\t34",
-          "prob": 0.18374918401241302
-        },
-        {
-          "index": 45,
-          "label": "ski jumping\t45",
-          "prob": 0.09964284300804138
-        },
-        {
-          "index": 179,
-          "label": "garbage collecting\t179",
-          "prob": 0.09834738075733185
-        },
-        {
-          "index": 306,
-          "label": "catching or throwing baseball\t306",
-          "prob": 0.07996111363172531
-        }
-      ],
-      "top1_prob": 0.19605231285095215,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.3316058926284313,
+    "num_clips": 3,
+    "avg_top1_prob": 0.3767904192209244,
     "max_top1_prob": 0.6160644292831421,
-    "avg_violence_hint": 0.1415604967623949,
+    "avg_violence_hint": 0.18874732901652655,
     "max_violence_hint": 0.3808090388774872
   }
 }

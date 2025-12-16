@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_367",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 309,
+          "label": "playing guitar\t309",
+          "prob": 0.16018569469451904
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.10770996659994125
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.10428503155708313
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.06072922423481941
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.050617773085832596
+        }
+      ],
+      "top1_prob": 0.16018569469451904,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.9309578537940979
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.011504941619932652
+        },
+        {
+          "index": 328,
+          "label": "salsa dancing\t328",
+          "prob": 0.0098895113915205
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0048065269365906715
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.0037370154168456793
+        }
+      ],
+      "top1_prob": 0.9309578537940979,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.574303925037384
+        },
+        {
+          "index": 245,
+          "label": "doing laundry\t245",
+          "prob": 0.044022005051374435
+        },
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.04105527698993683
+        },
+        {
+          "index": 162,
+          "label": "bench pressing\t162",
+          "prob": 0.02790621854364872
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.02046038582921028
+        }
+      ],
+      "top1_prob": 0.574303925037384,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5551491578420004,
+    "max_top1_prob": 0.9309578537940979,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

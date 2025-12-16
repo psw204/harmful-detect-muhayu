@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.9999586343765259,
       "violence_hint": 0.9999586343765259
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 91,
-          "label": "punching person (boxing)\t91",
-          "prob": 0.9999549388885498
-        },
-        {
-          "index": 287,
-          "label": "paragliding\t287",
-          "prob": 3.74832161469385e-05
-        },
-        {
-          "index": 109,
-          "label": "flying kite\t109",
-          "prob": 2.9412512958515435e-06
-        },
-        {
-          "index": 224,
-          "label": "faceplanting\t224",
-          "prob": 1.8326378494748496e-06
-        },
-        {
-          "index": 116,
-          "label": "side kick\t116",
-          "prob": 4.774028639076278e-07
-        }
-      ],
-      "top1_prob": 0.9999549388885498,
-      "violence_hint": 0.9999549388885498
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.999819278717041,
+    "num_clips": 3,
+    "avg_top1_prob": 0.9997740586598715,
     "max_top1_prob": 0.9999586343765259,
-    "avg_violence_hint": 0.999819278717041,
+    "avg_violence_hint": 0.9997740586598715,
     "max_violence_hint": 0.9999586343765259
   }
 }

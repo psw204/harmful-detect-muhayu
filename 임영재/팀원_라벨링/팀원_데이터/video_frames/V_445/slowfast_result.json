@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_445",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.18758061528205872
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.10063406825065613
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.07625992596149445
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.06212284043431282
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.051819514483213425
+        }
+      ],
+      "top1_prob": 0.18758061528205872,
+      "violence_hint": 0.051819514483213425
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.3059791922569275
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.08275991678237915
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.06317701190710068
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.05498024448752403
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.045558296144008636
+        }
+      ],
+      "top1_prob": 0.3059791922569275,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.3343794345855713
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.0713982880115509
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.06823018193244934
+        },
+        {
+          "index": 250,
+          "label": "punching bag\t250",
+          "prob": 0.06285116821527481
+        },
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.040849681943655014
+        }
+      ],
+      "top1_prob": 0.3343794345855713,
+      "violence_hint": 0.06285116821527481
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2759797473748525,
+    "max_top1_prob": 0.3343794345855713,
+    "avg_violence_hint": 0.03822356089949608,
+    "max_violence_hint": 0.06285116821527481
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/1O4KGHbRt3M_3",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9415382742881775
+        },
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.015168428421020508
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.010243318974971771
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.01016027107834816
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.002474592998623848
+        }
+      ],
+      "top1_prob": 0.9415382742881775,
+      "violence_hint": 0.9415382742881775
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.8724693655967712
+        },
+        {
+          "index": 263,
+          "label": "massaging person's head\t263",
+          "prob": 0.06229429319500923
+        },
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.017975864931941032
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.008375134319067001
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.00574688334017992
+        }
+      ],
+      "top1_prob": 0.8724693655967712,
+      "violence_hint": 0.8724693655967712
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.826802134513855
+        },
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.05178722366690636
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.03314995393157005
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.012127310037612915
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.007688532117754221
+        }
+      ],
+      "top1_prob": 0.826802134513855,
+      "violence_hint": 0.826802134513855
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.8802699247996012,
+    "max_top1_prob": 0.9415382742881775,
+    "avg_violence_hint": 0.8802699247996012,
+    "max_violence_hint": 0.9415382742881775
+  }
+}

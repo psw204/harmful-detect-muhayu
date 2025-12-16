@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.10453066974878311,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 1,
-          "label": "marching\t1",
-          "prob": 0.06392385810613632
-        },
-        {
-          "index": 149,
-          "label": "snowkiting\t149",
-          "prob": 0.04343540221452713
-        },
-        {
-          "index": 8,
-          "label": "drawing\t8",
-          "prob": 0.04138398543000221
-        },
-        {
-          "index": 391,
-          "label": "water sliding\t391",
-          "prob": 0.03841310366988182
-        },
-        {
-          "index": 372,
-          "label": "dribbling basketball\t372",
-          "prob": 0.032809071242809296
-        }
-      ],
-      "top1_prob": 0.06392385810613632,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.11889361403882504,
+    "num_clips": 3,
+    "avg_top1_prob": 0.13721686601638794,
     "max_top1_prob": 0.1865922212600708,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

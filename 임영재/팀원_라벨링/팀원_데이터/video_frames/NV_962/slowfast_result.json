@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.14094936847686768,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 329,
-          "label": "waxing eyebrows\t329",
-          "prob": 0.1819031834602356
-        },
-        {
-          "index": 255,
-          "label": "swing dancing\t255",
-          "prob": 0.1291539967060089
-        },
-        {
-          "index": 66,
-          "label": "exercising with an exercise ball\t66",
-          "prob": 0.062350284308195114
-        },
-        {
-          "index": 325,
-          "label": "drinking\t325",
-          "prob": 0.0611574724316597
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.03516227379441261
-        }
-      ],
-      "top1_prob": 0.1819031834602356,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.2726767733693123,
+    "num_clips": 3,
+    "avg_top1_prob": 0.30293463667233783,
     "max_top1_prob": 0.42976313829421997,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

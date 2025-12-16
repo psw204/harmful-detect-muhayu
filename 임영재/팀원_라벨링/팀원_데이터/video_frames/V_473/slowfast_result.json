@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_473",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677344010677345,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677344010677345,
+      "topk": [
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.8565380573272705
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.04461067542433739
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.0377044603228569
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.010042021051049232
+        },
+        {
+          "index": 286,
+          "label": "doing aerobics\t286",
+          "prob": 0.009653358720242977
+        }
+      ],
+      "top1_prob": 0.8565380573272705,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677344010677345,
+      "end_sec": 2.135468802135469,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.48901861906051636
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.19827942550182343
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.06607931107282639
+        },
+        {
+          "index": 280,
+          "label": "catching fish\t280",
+          "prob": 0.03829954192042351
+        },
+        {
+          "index": 274,
+          "label": "driving car\t274",
+          "prob": 0.03447290509939194
+        }
+      ],
+      "top1_prob": 0.48901861906051636,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135468802135469,
+      "end_sec": 3.203203203203204,
+      "topk": [
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.15388375520706177
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.14682696759700775
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.09936340153217316
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.09605282545089722
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.0698048546910286
+        }
+      ],
+      "top1_prob": 0.15388375520706177,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4998134771982829,
+    "max_top1_prob": 0.8565380573272705,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

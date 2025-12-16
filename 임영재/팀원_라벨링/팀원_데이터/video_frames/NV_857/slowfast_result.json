@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_857",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 163,
+          "label": "planting trees\t163",
+          "prob": 0.26297441124916077
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.07650916278362274
+        },
+        {
+          "index": 323,
+          "label": "auctioning\t323",
+          "prob": 0.06279385834932327
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.058174073696136475
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.0549972765147686
+        }
+      ],
+      "top1_prob": 0.26297441124916077,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.48530054092407227
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.22019684314727783
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.04753442108631134
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.03044624999165535
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.018350793048739433
+        }
+      ],
+      "top1_prob": 0.48530054092407227,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.2885424494743347
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.18571430444717407
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.12448349595069885
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.05230828747153282
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.03381993994116783
+        }
+      ],
+      "top1_prob": 0.2885424494743347,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.34560580054918927,
+    "max_top1_prob": 0.48530054092407227,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

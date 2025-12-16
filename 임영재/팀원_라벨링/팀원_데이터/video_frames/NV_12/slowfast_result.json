@@ -105,47 +105,13 @@
       ],
       "top1_prob": 1.0,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.84,
-      "end_sec": 5.12,
-      "topk": [
-        {
-          "index": 5,
-          "label": "roller skating\t5",
-          "prob": 1.0
-        },
-        {
-          "index": 356,
-          "label": "changing wheel\t356",
-          "prob": 6.541654696233523e-13
-        },
-        {
-          "index": 333,
-          "label": "pushing wheelchair\t333",
-          "prob": 1.8709652696482365e-13
-        },
-        {
-          "index": 398,
-          "label": "applying cream\t398",
-          "prob": 6.196984521670765e-14
-        },
-        {
-          "index": 134,
-          "label": "playing cards\t134",
-          "prob": 5.310884043196844e-14
-        }
-      ],
-      "top1_prob": 1.0,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.7126852348446846,
+    "num_clips": 3,
+    "avg_top1_prob": 0.6169136464595795,
     "max_top1_prob": 1.0,
-    "avg_violence_hint": 0.1330710845068097,
+    "avg_violence_hint": 0.1774281126757463,
     "max_violence_hint": 0.4765329658985138
   }
 }

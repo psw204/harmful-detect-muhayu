@@ -1,0 +1,49 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_515",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.50481116771698
+        },
+        {
+          "index": 28,
+          "label": "dunking basketball\t28",
+          "prob": 0.1856188327074051
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.12645520269870758
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.04001463204622269
+        },
+        {
+          "index": 256,
+          "label": "massaging legs\t256",
+          "prob": 0.026832278817892075
+        }
+      ],
+      "top1_prob": 0.50481116771698,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 1,
+    "avg_top1_prob": 0.50481116771698,
+    "max_top1_prob": 0.50481116771698,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

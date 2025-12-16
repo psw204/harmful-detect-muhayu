@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.2375085949897766,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 255,
-          "label": "swing dancing\t255",
-          "prob": 0.15389662981033325
-        },
-        {
-          "index": 330,
-          "label": "watering plants\t330",
-          "prob": 0.11842481046915054
-        },
-        {
-          "index": 333,
-          "label": "pushing wheelchair\t333",
-          "prob": 0.11125071346759796
-        },
-        {
-          "index": 306,
-          "label": "catching or throwing baseball\t306",
-          "prob": 0.08492129296064377
-        },
-        {
-          "index": 88,
-          "label": "bandaging\t88",
-          "prob": 0.0810663104057312
-        }
-      ],
-      "top1_prob": 0.15389662981033325,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.3511354550719261,
+    "num_clips": 3,
+    "avg_top1_prob": 0.4168817301591237,
     "max_top1_prob": 0.714339017868042,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

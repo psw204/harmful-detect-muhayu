@@ -1,0 +1,49 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/LMNJJere_0",
+  "num_frames_total": 120,
+  "num_frames_used": 12,
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.5550751090049744
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.5243798494338989
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.4948759973049164
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.4938330352306366
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.4955385625362396
+    },
+    "clip_000_frame_050.jpg": {
+      "violence_prob": 0.49235260486602783
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.4876311421394348
+    },
+    "clip_001_frame_010.jpg": {
+      "violence_prob": 0.4871453642845154
+    },
+    "clip_001_frame_020.jpg": {
+      "violence_prob": 0.49766939878463745
+    },
+    "clip_001_frame_030.jpg": {
+      "violence_prob": 0.5058926343917847
+    },
+    "clip_001_frame_040.jpg": {
+      "violence_prob": 0.49668994545936584
+    },
+    "clip_001_frame_050.jpg": {
+      "violence_prob": 0.49873146414756775
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.5024845922986666,
+    "max_violence_prob": 0.5550751090049744,
+    "p95_violence_prob": 0.5381927162408828
+  }
+}

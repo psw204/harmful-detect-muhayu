@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/b6XfVAZC9Zs_2",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.7385101914405823
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.11409544944763184
+        },
+        {
+          "index": 0,
+          "label": "riding a bike\t0",
+          "prob": 0.03602392598986626
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.022251470014452934
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.01601753756403923
+        }
+      ],
+      "top1_prob": 0.7385101914405823,
+      "violence_hint": 0.022251470014452934
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.2707165479660034
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.21782851219177246
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.1795593947172165
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.08389495313167572
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.03226858004927635
+        }
+      ],
+      "top1_prob": 0.2707165479660034,
+      "violence_hint": 0.1795593947172165
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.30378150939941406
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.23264098167419434
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.10886166244745255
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.0826926901936531
+        },
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.04820974916219711
+        }
+      ],
+      "top1_prob": 0.30378150939941406,
+      "violence_hint": 0.30378150939941406
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.43766941626866657,
+    "max_top1_prob": 0.7385101914405823,
+    "avg_violence_hint": 0.16853079137702784,
+    "max_violence_hint": 0.30378150939941406
+  }
+}

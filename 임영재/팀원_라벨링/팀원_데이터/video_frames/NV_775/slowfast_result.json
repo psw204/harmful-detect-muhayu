@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_775",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 109,
+          "label": "flying kite\t109",
+          "prob": 0.20212328433990479
+        },
+        {
+          "index": 58,
+          "label": "canoeing or kayaking\t58",
+          "prob": 0.15483945608139038
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.12937986850738525
+        },
+        {
+          "index": 188,
+          "label": "decorating the christmas tree\t188",
+          "prob": 0.11899565160274506
+        },
+        {
+          "index": 33,
+          "label": "making sushi\t33",
+          "prob": 0.052722182124853134
+        }
+      ],
+      "top1_prob": 0.20212328433990479,
+      "violence_hint": 0.12937986850738525
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 216,
+          "label": "holding snake\t216",
+          "prob": 0.4846968650817871
+        },
+        {
+          "index": 13,
+          "label": "training dog\t13",
+          "prob": 0.1465974599123001
+        },
+        {
+          "index": 33,
+          "label": "making sushi\t33",
+          "prob": 0.08939455449581146
+        },
+        {
+          "index": 190,
+          "label": "playing keyboard\t190",
+          "prob": 0.05765919387340546
+        },
+        {
+          "index": 58,
+          "label": "canoeing or kayaking\t58",
+          "prob": 0.039306432008743286
+        }
+      ],
+      "top1_prob": 0.4846968650817871,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.34341007471084595,
+    "max_top1_prob": 0.4846968650817871,
+    "avg_violence_hint": 0.06468993425369263,
+    "max_violence_hint": 0.12937986850738525
+  }
+}

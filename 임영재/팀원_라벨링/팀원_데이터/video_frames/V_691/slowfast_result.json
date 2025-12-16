@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_691",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.548049807548523
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.22984163463115692
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.0613531768321991
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.051322177052497864
+        },
+        {
+          "index": 251,
+          "label": "surfing crowd\t251",
+          "prob": 0.015103866346180439
+        }
+      ],
+      "top1_prob": 0.548049807548523,
+      "violence_hint": 0.0613531768321991
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.29323840141296387
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.09316745400428772
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.08156237751245499
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.06424123793840408
+        },
+        {
+          "index": 140,
+          "label": "shoveling snow\t140",
+          "prob": 0.04428909718990326
+        }
+      ],
+      "top1_prob": 0.29323840141296387,
+      "violence_hint": 0.06424123793840408
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.8950513005256653
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.014701093547046185
+        },
+        {
+          "index": 51,
+          "label": "parasailing\t51",
+          "prob": 0.008851033635437489
+        },
+        {
+          "index": 158,
+          "label": "air drumming\t158",
+          "prob": 0.00815446674823761
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.006036476232111454
+        }
+      ],
+      "top1_prob": 0.8950513005256653,
+      "violence_hint": 0.006036476232111454
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5787798364957174,
+    "max_top1_prob": 0.8950513005256653,
+    "avg_violence_hint": 0.043876963667571545,
+    "max_violence_hint": 0.06424123793840408
+  }
+}

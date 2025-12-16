@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/3Vw7MoNBgx4_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.31696704030036926
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.0683053582906723
+        },
+        {
+          "index": 372,
+          "label": "dribbling basketball\t372",
+          "prob": 0.06521740555763245
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.061308104544878006
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.054692357778549194
+        }
+      ],
+      "top1_prob": 0.31696704030036926,
+      "violence_hint": 0.0683053582906723
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.44653844833374023
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.06280740350484848
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.05677388980984688
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.0537155419588089
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.047934919595718384
+        }
+      ],
+      "top1_prob": 0.44653844833374023,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.3717067241668701
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.062278345227241516
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.05746659263968468
+        },
+        {
+          "index": 267,
+          "label": "whistling\t267",
+          "prob": 0.057043369859457016
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.053981442004442215
+        }
+      ],
+      "top1_prob": 0.3717067241668701,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.37840407093365985,
+    "max_top1_prob": 0.44653844833374023,
+    "avg_violence_hint": 0.022768452763557434,
+    "max_violence_hint": 0.0683053582906723
+  }
+}

@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.9682645201683044,
       "violence_hint": 0.9682645201683044
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 91,
-          "label": "punching person (boxing)\t91",
-          "prob": 0.6929185390472412
-        },
-        {
-          "index": 224,
-          "label": "faceplanting\t224",
-          "prob": 0.03375482186675072
-        },
-        {
-          "index": 354,
-          "label": "drop kicking\t354",
-          "prob": 0.0334518700838089
-        },
-        {
-          "index": 3,
-          "label": "playing cymbals\t3",
-          "prob": 0.021186890080571175
-        },
-        {
-          "index": 265,
-          "label": "extinguishing fire\t265",
-          "prob": 0.020400870591402054
-        }
-      ],
-      "top1_prob": 0.6929185390472412,
-      "violence_hint": 0.6929185390472412
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.8490282446146011,
+    "num_clips": 3,
+    "avg_top1_prob": 0.9010648131370544,
     "max_top1_prob": 0.9682645201683044,
-    "avg_violence_hint": 0.8490282446146011,
+    "avg_violence_hint": 0.9010648131370544,
     "max_violence_hint": 0.9682645201683044
   }
 }

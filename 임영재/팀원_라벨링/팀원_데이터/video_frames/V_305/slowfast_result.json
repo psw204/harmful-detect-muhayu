@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_305",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.5055223107337952
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.28909966349601746
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.1665591299533844
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.007943892851471901
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.00615348806604743
+        }
+      ],
+      "top1_prob": 0.5055223107337952,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.4318932294845581
+        },
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.3542456328868866
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.17970281839370728
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.008861425332725048
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.008027495816349983
+        }
+      ],
+      "top1_prob": 0.4318932294845581,
+      "violence_hint": 0.008027495816349983
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 154,
+          "label": "throwing discus\t154",
+          "prob": 0.44930413365364075
+        },
+        {
+          "index": 235,
+          "label": "mopping floor\t235",
+          "prob": 0.4020152986049652
+        },
+        {
+          "index": 164,
+          "label": "pumping fist\t164",
+          "prob": 0.07313740998506546
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.017042499035596848
+        },
+        {
+          "index": 277,
+          "label": "playing kickball\t277",
+          "prob": 0.005207614041864872
+        }
+      ],
+      "top1_prob": 0.44930413365364075,
+      "violence_hint": 0.005207614041864872
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4622398912906647,
+    "max_top1_prob": 0.5055223107337952,
+    "avg_violence_hint": 0.004411703286071618,
+    "max_violence_hint": 0.008027495816349983
+  }
+}

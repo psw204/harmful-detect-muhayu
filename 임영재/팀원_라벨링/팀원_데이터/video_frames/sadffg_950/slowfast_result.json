@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/sadffg_950",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.25315210223197937
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.1376810520887375
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.1142582967877388
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.06121386960148811
+        },
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.053961094468832016
+        }
+      ],
+      "top1_prob": 0.25315210223197937,
+      "violence_hint": 0.25315210223197937
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.24410580098628998
+        },
+        {
+          "index": 258,
+          "label": "breading or breadcrumbing\t258",
+          "prob": 0.16218888759613037
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.13312911987304688
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.1145172268152237
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.05770247057080269
+        }
+      ],
+      "top1_prob": 0.24410580098628998,
+      "violence_hint": 0.13312911987304688
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 87,
+          "label": "skiing (not slalom or crosscountry)\t87",
+          "prob": 0.6454288959503174
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.10110504925251007
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.040890078991651535
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.026701712980866432
+        },
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.026531049981713295
+        }
+      ],
+      "top1_prob": 0.6454288959503174,
+      "violence_hint": 0.026701712980866432
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.38089559972286224,
+    "max_top1_prob": 0.6454288959503174,
+    "avg_violence_hint": 0.13766097836196423,
+    "max_violence_hint": 0.25315210223197937
+  }
+}

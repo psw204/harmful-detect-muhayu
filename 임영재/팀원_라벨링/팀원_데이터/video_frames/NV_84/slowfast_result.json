@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_84",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.25818932056427
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.18595582246780396
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.0450887456536293
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.043604910373687744
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.042013488709926605
+        }
+      ],
+      "top1_prob": 0.25818932056427,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.9867188334465027
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.00426721666008234
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.0016543035162612796
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.0013851895928382874
+        },
+        {
+          "index": 347,
+          "label": "triple jump\t347",
+          "prob": 0.001199311576783657
+        }
+      ],
+      "top1_prob": 0.9867188334465027,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.9832452535629272
+        },
+        {
+          "index": 84,
+          "label": "dancing gangnam style\t84",
+          "prob": 0.004085390362888575
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.0019765342585742474
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.0019629490561783314
+        },
+        {
+          "index": 313,
+          "label": "rock scissors paper\t313",
+          "prob": 0.0014912430197000504
+        }
+      ],
+      "top1_prob": 0.9832452535629272,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.7427178025245667,
+    "max_top1_prob": 0.9867188334465027,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

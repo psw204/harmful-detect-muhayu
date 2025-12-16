@@ -105,46 +105,12 @@
       ],
       "top1_prob": 0.38836774230003357,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 300,
-          "label": "wrapping present\t300",
-          "prob": 0.9360180497169495
-        },
-        {
-          "index": 136,
-          "label": "playing violin\t136",
-          "prob": 0.02067432552576065
-        },
-        {
-          "index": 103,
-          "label": "bee keeping\t103",
-          "prob": 0.012201493605971336
-        },
-        {
-          "index": 372,
-          "label": "dribbling basketball\t372",
-          "prob": 0.0031338597182184458
-        },
-        {
-          "index": 261,
-          "label": "stretching arm\t261",
-          "prob": 0.00284178857691586
-        }
-      ],
-      "top1_prob": 0.9360180497169495,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6552699431777,
-    "max_top1_prob": 0.9360180497169495,
+    "num_clips": 3,
+    "avg_top1_prob": 0.5616872409979502,
+    "max_top1_prob": 0.7543529272079468,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

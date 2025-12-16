@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/HtbVjsRA_1",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.8058499097824097
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.048888057470321655
+        },
+        {
+          "index": 315,
+          "label": "baking cookies\t315",
+          "prob": 0.031485553830862045
+        },
+        {
+          "index": 324,
+          "label": "jetskiing\t324",
+          "prob": 0.02094661444425583
+        },
+        {
+          "index": 189,
+          "label": "answering questions\t189",
+          "prob": 0.018386879935860634
+        }
+      ],
+      "top1_prob": 0.8058499097824097,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 23,
+          "label": "riding scooter\t23",
+          "prob": 0.24019575119018555
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.14860738813877106
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.09748243540525436
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.05288664996623993
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.03908040374517441
+        }
+      ],
+      "top1_prob": 0.24019575119018555,
+      "violence_hint": 0.03908040374517441
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.334911584854126
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.13441592454910278
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.06559320539236069
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.06426200270652771
+        },
+        {
+          "index": 299,
+          "label": "parkour\t299",
+          "prob": 0.059535183012485504
+        }
+      ],
+      "top1_prob": 0.334911584854126,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.4603190819422404,
+    "max_top1_prob": 0.8058499097824097,
+    "avg_violence_hint": 0.01302680124839147,
+    "max_violence_hint": 0.03908040374517441
+  }
+}

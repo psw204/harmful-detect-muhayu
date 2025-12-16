@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.15866437554359436,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 49,
-          "label": "hopscotch\t49",
-          "prob": 0.1616835743188858
-        },
-        {
-          "index": 130,
-          "label": "riding camel\t130",
-          "prob": 0.09397421777248383
-        },
-        {
-          "index": 227,
-          "label": "riding mountain bike\t227",
-          "prob": 0.0882883071899414
-        },
-        {
-          "index": 357,
-          "label": "feeding goats\t357",
-          "prob": 0.07820479571819305
-        },
-        {
-          "index": 209,
-          "label": "cheerleading\t209",
-          "prob": 0.047325499355793
-        }
-      ],
-      "top1_prob": 0.1616835743188858,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.15604411996901035,
+    "num_clips": 3,
+    "avg_top1_prob": 0.1541643018523852,
     "max_top1_prob": 0.21989594399929047,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

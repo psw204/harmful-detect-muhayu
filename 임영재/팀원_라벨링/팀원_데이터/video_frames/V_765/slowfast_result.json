@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_765",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 259,
+          "label": "somersaulting\t259",
+          "prob": 0.7996760606765747
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.16505348682403564
+        },
+        {
+          "index": 302,
+          "label": "archery\t302",
+          "prob": 0.017632856965065002
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.0035274222027510405
+        },
+        {
+          "index": 330,
+          "label": "watering plants\t330",
+          "prob": 0.0017608540365472436
+        }
+      ],
+      "top1_prob": 0.7996760606765747,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.37074708938598633
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.18725724518299103
+        },
+        {
+          "index": 45,
+          "label": "ski jumping\t45",
+          "prob": 0.10136937350034714
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.07805939018726349
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.04497275501489639
+        }
+      ],
+      "top1_prob": 0.37074708938598633,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.43251943588256836
+        },
+        {
+          "index": 329,
+          "label": "waxing eyebrows\t329",
+          "prob": 0.16417790949344635
+        },
+        {
+          "index": 172,
+          "label": "carrying baby\t172",
+          "prob": 0.08196492493152618
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.06512472778558731
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.05288718640804291
+        }
+      ],
+      "top1_prob": 0.43251943588256836,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5343141953150431,
+    "max_top1_prob": 0.7996760606765747,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/_q5Nwh4Z6ao_7",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.12263742834329605
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.06902777403593063
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.044112689793109894
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.0287813451141119
+        },
+        {
+          "index": 0,
+          "label": "riding a bike\t0",
+          "prob": 0.02320776879787445
+        }
+      ],
+      "top1_prob": 0.12263742834329605,
+      "violence_hint": 0.0287813451141119
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.1628965437412262
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.10983134806156158
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.06754937022924423
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.050174612551927567
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.027385471388697624
+        }
+      ],
+      "top1_prob": 0.1628965437412262,
+      "violence_hint": 0.1628965437412262
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.315969854593277
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.10859869420528412
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.09099219739437103
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.048905450850725174
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.04687710851430893
+        }
+      ],
+      "top1_prob": 0.315969854593277,
+      "violence_hint": 0.315969854593277
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.20050127555926642,
+    "max_top1_prob": 0.315969854593277,
+    "avg_violence_hint": 0.16921591448287168,
+    "max_violence_hint": 0.315969854593277
+  }
+}

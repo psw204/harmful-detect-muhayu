@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/FSaZ8wiFw8Q_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.568808913230896
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.13168424367904663
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.0332038439810276
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.029744919389486313
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.023941824212670326
+        }
+      ],
+      "top1_prob": 0.568808913230896,
+      "violence_hint": 0.568808913230896
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.3047778904438019
+        },
+        {
+          "index": 345,
+          "label": "dancing ballet\t345",
+          "prob": 0.05752316117286682
+        },
+        {
+          "index": 253,
+          "label": "pushing car\t253",
+          "prob": 0.049795448780059814
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.0397115983068943
+        },
+        {
+          "index": 53,
+          "label": "kicking field goal\t53",
+          "prob": 0.03928356617689133
+        }
+      ],
+      "top1_prob": 0.3047778904438019,
+      "violence_hint": 0.3047778904438019
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.9696717262268066
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.008972231298685074
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.008438395336270332
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.004922762513160706
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.0020087389275431633
+        }
+      ],
+      "top1_prob": 0.9696717262268066,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6144195099671682,
+    "max_top1_prob": 0.9696717262268066,
+    "avg_violence_hint": 0.2911956012248993,
+    "max_violence_hint": 0.568808913230896
+  }
+}

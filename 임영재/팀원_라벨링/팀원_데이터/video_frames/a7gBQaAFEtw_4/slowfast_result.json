@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.3422057330608368,
       "violence_hint": 0.023905133828520775
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 23,
-          "label": "riding scooter\t23",
-          "prob": 0.2149379402399063
-        },
-        {
-          "index": 328,
-          "label": "salsa dancing\t328",
-          "prob": 0.15604621171951294
-        },
-        {
-          "index": 257,
-          "label": "beatboxing\t257",
-          "prob": 0.0739804208278656
-        },
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.06755919009447098
-        },
-        {
-          "index": 54,
-          "label": "finger snapping\t54",
-          "prob": 0.03379536420106888
-        }
-      ],
-      "top1_prob": 0.2149379402399063,
-      "violence_hint": 0.0739804208278656
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.2893112637102604,
+    "num_clips": 3,
+    "avg_top1_prob": 0.31410237153371173,
     "max_top1_prob": 0.3422057330608368,
-    "avg_violence_hint": 0.03151891008019447,
-    "max_violence_hint": 0.0739804208278656
+    "avg_violence_hint": 0.017365073164304096,
+    "max_violence_hint": 0.028190085664391518
   }
 }

@@ -1,0 +1,83 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_485",
+  "frames_per_clip": 32,
+  "clip_sec": 1.391304347826087,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.391304347826087,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.334147572517395
+        },
+        {
+          "index": 179,
+          "label": "garbage collecting\t179",
+          "prob": 0.11340925842523575
+        },
+        {
+          "index": 1,
+          "label": "marching\t1",
+          "prob": 0.04600301384925842
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.025963347405195236
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.02578851208090782
+        }
+      ],
+      "top1_prob": 0.334147572517395,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.391304347826087,
+      "end_sec": 2.782608695652174,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.5946284532546997
+        },
+        {
+          "index": 325,
+          "label": "drinking\t325",
+          "prob": 0.07320446521043777
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.031520240008831024
+        },
+        {
+          "index": 30,
+          "label": "eating spaghetti\t30",
+          "prob": 0.03100585751235485
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.02870381623506546
+        }
+      ],
+      "top1_prob": 0.5946284532546997,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 2,
+    "avg_top1_prob": 0.46438801288604736,
+    "max_top1_prob": 0.5946284532546997,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

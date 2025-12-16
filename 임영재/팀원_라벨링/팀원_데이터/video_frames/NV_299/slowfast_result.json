@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_299",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0677333333333334,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0677333333333334,
+      "topk": [
+        {
+          "index": 340,
+          "label": "dancing charleston\t340",
+          "prob": 0.5669978857040405
+        },
+        {
+          "index": 396,
+          "label": "bowling\t396",
+          "prob": 0.17462806403636932
+        },
+        {
+          "index": 339,
+          "label": "ice skating\t339",
+          "prob": 0.15895019471645355
+        },
+        {
+          "index": 341,
+          "label": "abseiling\t341",
+          "prob": 0.08013391494750977
+        },
+        {
+          "index": 266,
+          "label": "hammer throw\t266",
+          "prob": 0.003835729556158185
+        }
+      ],
+      "top1_prob": 0.5669978857040405,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0677333333333334,
+      "end_sec": 2.135466666666667,
+      "topk": [
+        {
+          "index": 340,
+          "label": "dancing charleston\t340",
+          "prob": 0.6962300539016724
+        },
+        {
+          "index": 339,
+          "label": "ice skating\t339",
+          "prob": 0.1793082058429718
+        },
+        {
+          "index": 396,
+          "label": "bowling\t396",
+          "prob": 0.06746108084917068
+        },
+        {
+          "index": 341,
+          "label": "abseiling\t341",
+          "prob": 0.0495673269033432
+        },
+        {
+          "index": 373,
+          "label": "petting cat\t373",
+          "prob": 0.0008727031527087092
+        }
+      ],
+      "top1_prob": 0.6962300539016724,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.135466666666667,
+      "end_sec": 3.2032000000000003,
+      "topk": [
+        {
+          "index": 340,
+          "label": "dancing charleston\t340",
+          "prob": 0.6345268487930298
+        },
+        {
+          "index": 339,
+          "label": "ice skating\t339",
+          "prob": 0.23422527313232422
+        },
+        {
+          "index": 396,
+          "label": "bowling\t396",
+          "prob": 0.06657478213310242
+        },
+        {
+          "index": 341,
+          "label": "abseiling\t341",
+          "prob": 0.051295340061187744
+        },
+        {
+          "index": 266,
+          "label": "hammer throw\t266",
+          "prob": 0.002210538135841489
+        }
+      ],
+      "top1_prob": 0.6345268487930298,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.6325849294662476,
+    "max_top1_prob": 0.6962300539016724,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

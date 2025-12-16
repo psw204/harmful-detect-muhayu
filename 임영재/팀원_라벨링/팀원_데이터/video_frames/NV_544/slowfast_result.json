@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_544",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.18892307579517365
+        },
+        {
+          "index": 16,
+          "label": "applauding\t16",
+          "prob": 0.133780375123024
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.1151820719242096
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.08551975339651108
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.08205290138721466
+        }
+      ],
+      "top1_prob": 0.18892307579517365,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.32231250405311584
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.1372591257095337
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.09721449762582779
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.06475983560085297
+        },
+        {
+          "index": 34,
+          "label": "trapezing\t34",
+          "prob": 0.044204194098711014
+        }
+      ],
+      "top1_prob": 0.32231250405311584,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.31220743060112
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.2918125092983246
+        },
+        {
+          "index": 296,
+          "label": "riding or walking with horse\t296",
+          "prob": 0.07790498435497284
+        },
+        {
+          "index": 288,
+          "label": "using segway\t288",
+          "prob": 0.05027061328291893
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.04504114389419556
+        }
+      ],
+      "top1_prob": 0.31220743060112,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2744810034831365,
+    "max_top1_prob": 0.32231250405311584,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

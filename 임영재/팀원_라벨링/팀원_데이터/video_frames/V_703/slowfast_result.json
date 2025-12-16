@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/V_703",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.2959105670452118
+        },
+        {
+          "index": 151,
+          "label": "playing controller\t151",
+          "prob": 0.09364206343889236
+        },
+        {
+          "index": 107,
+          "label": "fixing hair\t107",
+          "prob": 0.08802805095911026
+        },
+        {
+          "index": 357,
+          "label": "feeding goats\t357",
+          "prob": 0.04076375067234039
+        },
+        {
+          "index": 367,
+          "label": "smoking hookah\t367",
+          "prob": 0.03590722009539604
+        }
+      ],
+      "top1_prob": 0.2959105670452118,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.2635127604007721
+        },
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.1851445436477661
+        },
+        {
+          "index": 378,
+          "label": "scuba diving\t378",
+          "prob": 0.045379240065813065
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.0340692400932312
+        },
+        {
+          "index": 220,
+          "label": "golf chipping\t220",
+          "prob": 0.03143654763698578
+        }
+      ],
+      "top1_prob": 0.2635127604007721,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 40,
+          "label": "playing cello\t40",
+          "prob": 0.6232557892799377
+        },
+        {
+          "index": 364,
+          "label": "laying bricks\t364",
+          "prob": 0.04925642907619476
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.036247871816158295
+        },
+        {
+          "index": 278,
+          "label": "sticking tongue out\t278",
+          "prob": 0.018751341849565506
+        },
+        {
+          "index": 156,
+          "label": "ripping paper\t156",
+          "prob": 0.013901333324611187
+        }
+      ],
+      "top1_prob": 0.6232557892799377,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.3942263722419739,
+    "max_top1_prob": 0.6232557892799377,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

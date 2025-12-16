@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.05891669541597366,
       "violence_hint": 0.04612549766898155
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 258,
-          "label": "breading or breadcrumbing\t258",
-          "prob": 0.1269652098417282
-        },
-        {
-          "index": 1,
-          "label": "marching\t1",
-          "prob": 0.12079963088035583
-        },
-        {
-          "index": 150,
-          "label": "kicking soccer ball\t150",
-          "prob": 0.0678730458021164
-        },
-        {
-          "index": 350,
-          "label": "running on treadmill\t350",
-          "prob": 0.05388002097606659
-        },
-        {
-          "index": 259,
-          "label": "somersaulting\t259",
-          "prob": 0.04253154993057251
-        }
-      ],
-      "top1_prob": 0.1269652098417282,
-      "violence_hint": 0.0678730458021164
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.15327952802181244,
+    "num_clips": 3,
+    "avg_top1_prob": 0.16205096741517386,
     "max_top1_prob": 0.33593836426734924,
-    "avg_violence_hint": 0.04498407710343599,
-    "max_violence_hint": 0.0678730458021164
+    "avg_violence_hint": 0.037354420870542526,
+    "max_violence_hint": 0.06593776494264603
   }
 }

@@ -105,47 +105,13 @@
       ],
       "top1_prob": 0.13800296187400818,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 265,
-          "label": "extinguishing fire\t265",
-          "prob": 0.34984806180000305
-        },
-        {
-          "index": 372,
-          "label": "dribbling basketball\t372",
-          "prob": 0.11912832409143448
-        },
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.10878720879554749
-        },
-        {
-          "index": 65,
-          "label": "clay pottery making\t65",
-          "prob": 0.055896975100040436
-        },
-        {
-          "index": 136,
-          "label": "playing violin\t136",
-          "prob": 0.05353093892335892
-        }
-      ],
-      "top1_prob": 0.34984806180000305,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.18444063514471054,
-    "max_top1_prob": 0.34984806180000305,
-    "avg_violence_hint": 0.06238473765552044,
+    "num_clips": 3,
+    "avg_top1_prob": 0.12930482625961304,
+    "max_top1_prob": 0.1465950459241867,
+    "avg_violence_hint": 0.08317965020736058,
     "max_violence_hint": 0.1465950459241867
   }
 }

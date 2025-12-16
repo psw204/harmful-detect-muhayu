@@ -1,0 +1,49 @@
+{
+  "model": "jaranohaal/vit-base-violence-detection",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/rfthfd_536",
+  "num_frames_total": 120,
+  "num_frames_used": 12,
+  "per_frame": {
+    "clip_000_frame_000.jpg": {
+      "violence_prob": 0.15169867873191833
+    },
+    "clip_000_frame_010.jpg": {
+      "violence_prob": 0.12189637124538422
+    },
+    "clip_000_frame_020.jpg": {
+      "violence_prob": 0.12303009629249573
+    },
+    "clip_000_frame_030.jpg": {
+      "violence_prob": 0.15687085688114166
+    },
+    "clip_000_frame_040.jpg": {
+      "violence_prob": 0.1407712996006012
+    },
+    "clip_000_frame_050.jpg": {
+      "violence_prob": 0.14461709558963776
+    },
+    "clip_001_frame_000.jpg": {
+      "violence_prob": 0.15413017570972443
+    },
+    "clip_001_frame_010.jpg": {
+      "violence_prob": 0.14010903239250183
+    },
+    "clip_001_frame_020.jpg": {
+      "violence_prob": 0.15968617796897888
+    },
+    "clip_001_frame_030.jpg": {
+      "violence_prob": 0.15554696321487427
+    },
+    "clip_001_frame_040.jpg": {
+      "violence_prob": 0.12709249556064606
+    },
+    "clip_001_frame_050.jpg": {
+      "violence_prob": 0.12492305040359497
+    }
+  },
+  "overall": {
+    "avg_violence_prob": 0.14169769113262495,
+    "max_violence_prob": 0.15968617796897888,
+    "p95_violence_prob": 0.1581377513706684
+  }
+}

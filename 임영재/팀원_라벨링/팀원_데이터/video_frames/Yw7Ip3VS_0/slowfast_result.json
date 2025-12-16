@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.12103517353534698,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 49,
-          "label": "hopscotch\t49",
-          "prob": 0.11734072864055634
-        },
-        {
-          "index": 219,
-          "label": "cutting nails\t219",
-          "prob": 0.08782658725976944
-        },
-        {
-          "index": 304,
-          "label": "swimming backstroke\t304",
-          "prob": 0.05232258141040802
-        },
-        {
-          "index": 378,
-          "label": "scuba diving\t378",
-          "prob": 0.04016171023249626
-        },
-        {
-          "index": 248,
-          "label": "reading book\t248",
-          "prob": 0.04014752060174942
-        }
-      ],
-      "top1_prob": 0.11734072864055634,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.11966037563979626,
+    "num_clips": 3,
+    "avg_top1_prob": 0.12043359130620956,
     "max_top1_prob": 0.13152001798152924,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

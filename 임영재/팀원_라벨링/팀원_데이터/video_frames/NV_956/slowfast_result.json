@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.9966551065444946,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 255,
-          "label": "swing dancing\t255",
-          "prob": 0.9815766215324402
-        },
-        {
-          "index": 66,
-          "label": "exercising with an exercise ball\t66",
-          "prob": 0.004257482010871172
-        },
-        {
-          "index": 364,
-          "label": "laying bricks\t364",
-          "prob": 0.0038527357392013073
-        },
-        {
-          "index": 327,
-          "label": "playing monopoly\t327",
-          "prob": 0.0021006513852626085
-        },
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.0015923226019367576
-        }
-      ],
-      "top1_prob": 0.9815766215324402,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.9046455919742584,
+    "num_clips": 3,
+    "avg_top1_prob": 0.8790019154548645,
     "max_top1_prob": 0.9966551065444946,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

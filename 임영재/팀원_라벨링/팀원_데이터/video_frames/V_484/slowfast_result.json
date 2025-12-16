@@ -105,46 +105,12 @@
       ],
       "top1_prob": 0.23823370039463043,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.203203203203204,
-      "end_sec": 4.270937604270938,
-      "topk": [
-        {
-          "index": 22,
-          "label": "hurling (sport)\t22",
-          "prob": 0.9628109931945801
-        },
-        {
-          "index": 324,
-          "label": "jetskiing\t324",
-          "prob": 0.017171228304505348
-        },
-        {
-          "index": 199,
-          "label": "pushing cart\t199",
-          "prob": 0.012631121091544628
-        },
-        {
-          "index": 323,
-          "label": "auctioning\t323",
-          "prob": 0.0020976371597498655
-        },
-        {
-          "index": 322,
-          "label": "waxing chest\t322",
-          "prob": 0.0016361877787858248
-        }
-      ],
-      "top1_prob": 0.9628109931945801,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.39185985177755356,
-    "max_top1_prob": 0.9628109931945801,
+    "num_clips": 3,
+    "avg_top1_prob": 0.2015428046385447,
+    "max_top1_prob": 0.23823370039463043,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

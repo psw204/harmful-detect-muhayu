@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/0H2s9UJcNJ0_2",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.23683801293373108
+        },
+        {
+          "index": 255,
+          "label": "swing dancing\t255",
+          "prob": 0.14784027636051178
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.07427487522363663
+        },
+        {
+          "index": 343,
+          "label": "crying\t343",
+          "prob": 0.06552381068468094
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.049365513026714325
+        }
+      ],
+      "top1_prob": 0.23683801293373108,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.09631659090518951
+        },
+        {
+          "index": 281,
+          "label": "eating chips\t281",
+          "prob": 0.04852582514286041
+        },
+        {
+          "index": 105,
+          "label": "snatch weight lifting\t105",
+          "prob": 0.04657362028956413
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.04622574523091316
+        },
+        {
+          "index": 152,
+          "label": "giving or receiving award\t152",
+          "prob": 0.04413984343409538
+        }
+      ],
+      "top1_prob": 0.09631659090518951,
+      "violence_hint": 0.04622574523091316
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.07544513046741486
+        },
+        {
+          "index": 176,
+          "label": "headbutting\t176",
+          "prob": 0.04442761465907097
+        },
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.03384220227599144
+        },
+        {
+          "index": 3,
+          "label": "playing cymbals\t3",
+          "prob": 0.025098461657762527
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.019410712644457817
+        }
+      ],
+      "top1_prob": 0.07544513046741486,
+      "violence_hint": 0.03384220227599144
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.13619991143544516,
+    "max_top1_prob": 0.23683801293373108,
+    "avg_violence_hint": 0.02668931583563487,
+    "max_violence_hint": 0.04622574523091316
+  }
+}

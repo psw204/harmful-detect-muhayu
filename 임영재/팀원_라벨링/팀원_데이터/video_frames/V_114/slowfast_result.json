@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.30205947160720825,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 298,
-          "label": "long jump\t298",
-          "prob": 0.19164597988128662
-        },
-        {
-          "index": 253,
-          "label": "pushing car\t253",
-          "prob": 0.14977319538593292
-        },
-        {
-          "index": 66,
-          "label": "exercising with an exercise ball\t66",
-          "prob": 0.08030995726585388
-        },
-        {
-          "index": 50,
-          "label": "playing piano\t50",
-          "prob": 0.0775807648897171
-        },
-        {
-          "index": 255,
-          "label": "swing dancing\t255",
-          "prob": 0.05850451812148094
-        }
-      ],
-      "top1_prob": 0.19164597988128662,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.1638045608997345,
+    "num_clips": 3,
+    "avg_top1_prob": 0.1545240879058838,
     "max_top1_prob": 0.30205947160720825,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

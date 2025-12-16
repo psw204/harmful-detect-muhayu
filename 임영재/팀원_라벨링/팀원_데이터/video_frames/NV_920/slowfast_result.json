@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.6816375255584717,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.310344827586207,
-      "end_sec": 4.413793103448276,
-      "topk": [
-        {
-          "index": 255,
-          "label": "swing dancing\t255",
-          "prob": 0.5221182703971863
-        },
-        {
-          "index": 216,
-          "label": "holding snake\t216",
-          "prob": 0.20216777920722961
-        },
-        {
-          "index": 347,
-          "label": "triple jump\t347",
-          "prob": 0.15038424730300903
-        },
-        {
-          "index": 328,
-          "label": "salsa dancing\t328",
-          "prob": 0.06909641623497009
-        },
-        {
-          "index": 327,
-          "label": "playing monopoly\t327",
-          "prob": 0.035797521471977234
-        }
-      ],
-      "top1_prob": 0.5221182703971863,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6217963844537735,
+    "num_clips": 3,
+    "avg_top1_prob": 0.6550224224726359,
     "max_top1_prob": 0.6983587145805359,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

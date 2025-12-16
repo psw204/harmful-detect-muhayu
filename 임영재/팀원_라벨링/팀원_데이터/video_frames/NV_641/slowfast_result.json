@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_641",
+  "frames_per_clip": 32,
+  "clip_sec": 1.103448275862069,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.103448275862069,
+      "topk": [
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06310039013624191
+        },
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.05072445049881935
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.04981862008571625
+        },
+        {
+          "index": 365,
+          "label": "barbequing\t365",
+          "prob": 0.048587288707494736
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.03691431134939194
+        }
+      ],
+      "top1_prob": 0.06310039013624191,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.103448275862069,
+      "end_sec": 2.206896551724138,
+      "topk": [
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.056073665618896484
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.05108090862631798
+        },
+        {
+          "index": 365,
+          "label": "barbequing\t365",
+          "prob": 0.05060558766126633
+        },
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.050391778349876404
+        },
+        {
+          "index": 79,
+          "label": "cracking neck\t79",
+          "prob": 0.04071950167417526
+        }
+      ],
+      "top1_prob": 0.056073665618896484,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.206896551724138,
+      "end_sec": 3.310344827586207,
+      "topk": [
+        {
+          "index": 317,
+          "label": "washing feet\t317",
+          "prob": 0.0629095807671547
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.05811408534646034
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.03709724172949791
+        },
+        {
+          "index": 365,
+          "label": "barbequing\t365",
+          "prob": 0.03600357845425606
+        },
+        {
+          "index": 2,
+          "label": "dodgeball\t2",
+          "prob": 0.026714542880654335
+        }
+      ],
+      "top1_prob": 0.0629095807671547,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.06069454550743103,
+    "max_top1_prob": 0.06310039013624191,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

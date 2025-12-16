@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/8VqTmuq4HcI_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.447223037481308
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.38447144627571106
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.058524154126644135
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.030648455023765564
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.022612376138567924
+        }
+      ],
+      "top1_prob": 0.447223037481308,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.5230076313018799
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.3869442939758301
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.023959985002875328
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.019578222185373306
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.019268257543444633
+        }
+      ],
+      "top1_prob": 0.5230076313018799,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.557213306427002
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.3708861768245697
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.02199431136250496
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.015724996104836464
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.012727957218885422
+        }
+      ],
+      "top1_prob": 0.557213306427002,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.50914799173673,
+    "max_top1_prob": 0.557213306427002,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_120",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.12358051538467407
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.07108654826879501
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.06768137961626053
+        },
+        {
+          "index": 312,
+          "label": "presenting weather forecast\t312",
+          "prob": 0.051630377769470215
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.04660512134432793
+        }
+      ],
+      "top1_prob": 0.12358051538467407,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.9267433881759644
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.029880285263061523
+        },
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.00726790027692914
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.00565364258363843
+        },
+        {
+          "index": 346,
+          "label": "driving tractor\t346",
+          "prob": 0.0032651338260620832
+        }
+      ],
+      "top1_prob": 0.9267433881759644,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 157,
+          "label": "swimming butterfly stroke\t157",
+          "prob": 0.49095210433006287
+        },
+        {
+          "index": 333,
+          "label": "pushing wheelchair\t333",
+          "prob": 0.27576136589050293
+        },
+        {
+          "index": 398,
+          "label": "applying cream\t398",
+          "prob": 0.090293750166893
+        },
+        {
+          "index": 119,
+          "label": "recording music\t119",
+          "prob": 0.017338665202260017
+        },
+        {
+          "index": 334,
+          "label": "carving pumpkin\t334",
+          "prob": 0.012618683278560638
+        }
+      ],
+      "top1_prob": 0.49095210433006287,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.5137586692969004,
+    "max_top1_prob": 0.9267433881759644,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}

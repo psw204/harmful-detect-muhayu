@@ -1,8 +1,8 @@
 {
   "model": "openai/clip-vit-base-patch32",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_606",
-  "num_frames_total": 105,
-  "num_frames_used": 11,
+  "num_frames_total": 84,
+  "num_frames_used": 9,
   "prompts": {
     "harmful": [
       "a violent scene with people fighting, punching or kicking",
@@ -23,42 +23,36 @@
   },
   "per_frame": {
     "clip_000_frame_000.jpg": {
-      "violence_prob": 0.2665970027446747
+      "violence_prob": 0.2665044367313385
     },
     "clip_000_frame_010.jpg": {
-      "violence_prob": 0.28503188490867615
+      "violence_prob": 0.28494277596473694
     },
     "clip_000_frame_020.jpg": {
-      "violence_prob": 0.3076988160610199
+      "violence_prob": 0.30774572491645813
     },
     "clip_000_frame_030.jpg": {
-      "violence_prob": 0.2626135051250458
+      "violence_prob": 0.26251375675201416
     },
     "clip_000_frame_040.jpg": {
-      "violence_prob": 0.18658122420310974
+      "violence_prob": 0.1866915374994278
     },
     "clip_001_frame_008.jpg": {
-      "violence_prob": 0.1805790513753891
+      "violence_prob": 0.18062902987003326
     },
     "clip_001_frame_018.jpg": {
-      "violence_prob": 0.1751384735107422
+      "violence_prob": 0.17510460317134857
     },
     "clip_001_frame_028.jpg": {
-      "violence_prob": 0.29505112767219543
+      "violence_prob": 0.29501137137413025
     },
     "clip_001_frame_038.jpg": {
-      "violence_prob": 0.21431052684783936
-    },
-    "clip_002_frame_006.jpg": {
-      "violence_prob": 0.2721155285835266
-    },
-    "clip_002_frame_016.jpg": {
-      "violence_prob": 0.15717847645282745
+      "violence_prob": 0.21420276165008545
     }
   },
   "overall": {
-    "avg_violence_prob": 0.2366268743168224,
-    "max_violence_prob": 0.3076988160610199,
-    "p95_violence_prob": 0.30137497186660767
+    "avg_violence_prob": 0.24148288865884146,
+    "max_violence_prob": 0.30774572491645813,
+    "p95_violence_prob": 0.302651983499527
   }
 }

@@ -105,46 +105,12 @@
       ],
       "top1_prob": 0.0905103012919426,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2,
-      "end_sec": 4.266666666666667,
-      "topk": [
-        {
-          "index": 373,
-          "label": "petting cat\t373",
-          "prob": 0.09215912967920303
-        },
-        {
-          "index": 265,
-          "label": "extinguishing fire\t265",
-          "prob": 0.08440350741147995
-        },
-        {
-          "index": 79,
-          "label": "cracking neck\t79",
-          "prob": 0.08206940442323685
-        },
-        {
-          "index": 355,
-          "label": "country line dancing\t355",
-          "prob": 0.04459274932742119
-        },
-        {
-          "index": 314,
-          "label": "high jump\t314",
-          "prob": 0.03579523041844368
-        }
-      ],
-      "top1_prob": 0.09215912967920303,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.09008430875837803,
-    "max_top1_prob": 0.09215912967920303,
+    "num_clips": 3,
+    "avg_top1_prob": 0.0893927017847697,
+    "max_top1_prob": 0.09087472409009933,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

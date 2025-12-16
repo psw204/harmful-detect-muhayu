@@ -37,46 +37,12 @@
       ],
       "top1_prob": 0.3571963608264923,
       "violence_hint": 0.0
-    },
-    {
-      "index": 1,
-      "start_sec": 1.28,
-      "end_sec": 2.56,
-      "topk": [
-        {
-          "index": 308,
-          "label": "blowing glass\t308",
-          "prob": 0.5301521420478821
-        },
-        {
-          "index": 307,
-          "label": "massaging back\t307",
-          "prob": 0.34035712480545044
-        },
-        {
-          "index": 322,
-          "label": "waxing chest\t322",
-          "prob": 0.08337000757455826
-        },
-        {
-          "index": 310,
-          "label": "playing chess\t310",
-          "prob": 0.02078033983707428
-        },
-        {
-          "index": 324,
-          "label": "jetskiing\t324",
-          "prob": 0.005986947100609541
-        }
-      ],
-      "top1_prob": 0.5301521420478821,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 2,
-    "avg_top1_prob": 0.4436742514371872,
-    "max_top1_prob": 0.5301521420478821,
+    "num_clips": 1,
+    "avg_top1_prob": 0.3571963608264923,
+    "max_top1_prob": 0.3571963608264923,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0
   }

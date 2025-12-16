@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/EUgjFWbm_0",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.5483487844467163
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.04358361288905144
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.041137825697660446
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.03878626972436905
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.023361586034297943
+        }
+      ],
+      "top1_prob": 0.5483487844467163,
+      "violence_hint": 0.041137825697660446
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.18081659078598022
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.12201163172721863
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.11732462793588638
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.06265738606452942
+        },
+        {
+          "index": 132,
+          "label": "tossing salad\t132",
+          "prob": 0.0601896196603775
+        }
+      ],
+      "top1_prob": 0.18081659078598022,
+      "violence_hint": 0.11732462793588638
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.40018218755722046
+        },
+        {
+          "index": 355,
+          "label": "country line dancing\t355",
+          "prob": 0.09623543918132782
+        },
+        {
+          "index": 91,
+          "label": "punching person (boxing)\t91",
+          "prob": 0.055063556879758835
+        },
+        {
+          "index": 287,
+          "label": "paragliding\t287",
+          "prob": 0.04103073850274086
+        },
+        {
+          "index": 261,
+          "label": "stretching arm\t261",
+          "prob": 0.03490713611245155
+        }
+      ],
+      "top1_prob": 0.40018218755722046,
+      "violence_hint": 0.055063556879758835
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.376449187596639,
+    "max_top1_prob": 0.5483487844467163,
+    "avg_violence_hint": 0.07117533683776855,
+    "max_violence_hint": 0.11732462793588638
+  }
+}

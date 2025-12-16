@@ -1,0 +1,24 @@
+{
+  "scores": {
+    "clip": 0.663314926624298,
+    "vit": 0.43204986304044724,
+    "slowfast": 0.24530038237571716,
+    "audio": 0.0,
+    "text": 0.0,
+    "violence_stream": 0.24530038237571716,
+    "final": 0.42005225241184235
+  },
+  "fusion_weights": {
+    "clip": 0.15,
+    "vit": 0.6,
+    "violence": 0.25,
+    "audio": 0.0,
+    "text": 0.0
+  },
+  "thresholds": {
+    "allow": 0.3,
+    "review": 0.55,
+    "block": 0.78
+  },
+  "decision": "ALLOW"
+}

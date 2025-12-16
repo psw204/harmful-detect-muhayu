@@ -105,45 +105,11 @@
       ],
       "top1_prob": 0.5588307976722717,
       "violence_hint": 0.0
-    },
-    {
-      "index": 3,
-      "start_sec": 3.2032000000000003,
-      "end_sec": 4.270933333333334,
-      "topk": [
-        {
-          "index": 105,
-          "label": "snatch weight lifting\t105",
-          "prob": 0.2262374311685562
-        },
-        {
-          "index": 395,
-          "label": "making a cake\t395",
-          "prob": 0.10395009070634842
-        },
-        {
-          "index": 49,
-          "label": "hopscotch\t49",
-          "prob": 0.10222026705741882
-        },
-        {
-          "index": 398,
-          "label": "applying cream\t398",
-          "prob": 0.06873046606779099
-        },
-        {
-          "index": 209,
-          "label": "cheerleading\t209",
-          "prob": 0.04922156408429146
-        }
-      ],
-      "top1_prob": 0.2262374311685562,
-      "violence_hint": 0.0
     }
   ],
   "overall": {
-    "num_clips": 4,
-    "avg_top1_prob": 0.6712050922214985,
+    "num_clips": 3,
+    "avg_top1_prob": 0.8195276459058126,
     "max_top1_prob": 0.9876696467399597,
     "avg_violence_hint": 0.0,
     "max_violence_hint": 0.0

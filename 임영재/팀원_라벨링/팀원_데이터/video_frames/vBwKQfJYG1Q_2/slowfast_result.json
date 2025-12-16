@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/vBwKQfJYG1Q_2",
+  "frames_per_clip": 32,
+  "clip_sec": 1.0666666666666667,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.0666666666666667,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.8871170282363892
+        },
+        {
+          "index": 150,
+          "label": "kicking soccer ball\t150",
+          "prob": 0.04810463264584541
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.013924090191721916
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.007314267102628946
+        },
+        {
+          "index": 149,
+          "label": "snowkiting\t149",
+          "prob": 0.005053401459008455
+        }
+      ],
+      "top1_prob": 0.8871170282363892,
+      "violence_hint": 0.8871170282363892
+    },
+    {
+      "index": 1,
+      "start_sec": 1.0666666666666667,
+      "end_sec": 2.1333333333333333,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.9375193119049072
+        },
+        {
+          "index": 65,
+          "label": "clay pottery making\t65",
+          "prob": 0.016222858801484108
+        },
+        {
+          "index": 316,
+          "label": "using computer\t316",
+          "prob": 0.006881494540721178
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.005998426582664251
+        },
+        {
+          "index": 54,
+          "label": "finger snapping\t54",
+          "prob": 0.004428104963153601
+        }
+      ],
+      "top1_prob": 0.9375193119049072,
+      "violence_hint": 0.9375193119049072
+    },
+    {
+      "index": 2,
+      "start_sec": 2.1333333333333333,
+      "end_sec": 3.2,
+      "topk": [
+        {
+          "index": 257,
+          "label": "beatboxing\t257",
+          "prob": 0.5641365051269531
+        },
+        {
+          "index": 265,
+          "label": "extinguishing fire\t265",
+          "prob": 0.10550711303949356
+        },
+        {
+          "index": 314,
+          "label": "high jump\t314",
+          "prob": 0.02934899367392063
+        },
+        {
+          "index": 74,
+          "label": "tapping guitar\t74",
+          "prob": 0.023076022043824196
+        },
+        {
+          "index": 242,
+          "label": "stomping grapes\t242",
+          "prob": 0.022611098363995552
+        }
+      ],
+      "top1_prob": 0.5641365051269531,
+      "violence_hint": 0.5641365051269531
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.7962576150894165,
+    "max_top1_prob": 0.9375193119049072,
+    "avg_violence_hint": 0.7962576150894165,
+    "max_violence_hint": 0.9375193119049072
+  }
+}

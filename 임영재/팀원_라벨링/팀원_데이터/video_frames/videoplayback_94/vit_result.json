@@ -1,58 +1,49 @@
 {
   "model": "jaranohaal/vit-base-violence-detection",
   "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/videoplayback_94",
-  "num_frames_total": 150,
-  "num_frames_used": 15,
+  "num_frames_total": 120,
+  "num_frames_used": 12,
   "per_frame": {
     "clip_000_frame_000.jpg": {
-      "violence_prob": 0.5609854459762573
+      "violence_prob": 0.6074740886688232
     },
     "clip_000_frame_010.jpg": {
-      "violence_prob": 0.5668982863426208
+      "violence_prob": 0.5928854942321777
     },
     "clip_000_frame_020.jpg": {
-      "violence_prob": 0.5673293471336365
+      "violence_prob": 0.5548998117446899
     },
     "clip_000_frame_030.jpg": {
-      "violence_prob": 0.579211413860321
+      "violence_prob": 0.5133249163627625
     },
     "clip_000_frame_040.jpg": {
-      "violence_prob": 0.5778695344924927
+      "violence_prob": 0.5235554575920105
     },
     "clip_000_frame_050.jpg": {
-      "violence_prob": 0.5743783116340637
+      "violence_prob": 0.5283327698707581
     },
     "clip_001_frame_000.jpg": {
-      "violence_prob": 0.5656304359436035
+      "violence_prob": 0.5468609929084778
     },
     "clip_001_frame_010.jpg": {
-      "violence_prob": 0.5562779307365417
+      "violence_prob": 0.6098054647445679
     },
     "clip_001_frame_020.jpg": {
-      "violence_prob": 0.5491341948509216
+      "violence_prob": 0.6321657299995422
     },
     "clip_001_frame_030.jpg": {
-      "violence_prob": 0.5434694886207581
+      "violence_prob": 0.5964174866676331
     },
     "clip_001_frame_040.jpg": {
-      "violence_prob": 0.5415104031562805
+      "violence_prob": 0.5882235169410706
     },
     "clip_001_frame_050.jpg": {
-      "violence_prob": 0.5447728633880615
-    },
-    "clip_002_frame_000.jpg": {
-      "violence_prob": 0.5431573390960693
-    },
-    "clip_002_frame_010.jpg": {
-      "violence_prob": 0.541663408279419
-    },
-    "clip_002_frame_020.jpg": {
-      "violence_prob": 0.5418912768363953
+      "violence_prob": 0.5514565110206604
     }
   },
   "overall": {
-    "avg_violence_prob": 0.5569453120231629,
-    "max_violence_prob": 0.579211413860321,
-    "p95_violence_prob": 0.5782720983028412
+    "avg_violence_prob": 0.5704501867294312,
+    "max_violence_prob": 0.6321657299995422,
+    "p95_violence_prob": 0.6198675841093063
   }
 }

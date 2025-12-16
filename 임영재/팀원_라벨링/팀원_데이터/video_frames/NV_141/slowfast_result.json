@@ -1,0 +1,117 @@
+{
+  "model": "slowfast_r101",
+  "frames_dir": "/home/jovyan/kau-muhayu-multimodal-harmful-content-detect/임영재/팀원_라벨링/팀원_데이터/video_frames/NV_141",
+  "frames_per_clip": 32,
+  "clip_sec": 1.28,
+  "clips": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 1.28,
+      "topk": [
+        {
+          "index": 268,
+          "label": "crawling baby\t268",
+          "prob": 0.24266278743743896
+        },
+        {
+          "index": 273,
+          "label": "motorcycling\t273",
+          "prob": 0.21317261457443237
+        },
+        {
+          "index": 272,
+          "label": "playing xylophone\t272",
+          "prob": 0.061905037611722946
+        },
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.05305803194642067
+        },
+        {
+          "index": 166,
+          "label": "tickling\t166",
+          "prob": 0.040466248989105225
+        }
+      ],
+      "top1_prob": 0.24266278743743896,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 1,
+      "start_sec": 1.28,
+      "end_sec": 2.56,
+      "topk": [
+        {
+          "index": 168,
+          "label": "waiting in line\t168",
+          "prob": 0.07556691020727158
+        },
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.0655050128698349
+        },
+        {
+          "index": 130,
+          "label": "riding camel\t130",
+          "prob": 0.04954834654927254
+        },
+        {
+          "index": 103,
+          "label": "bee keeping\t103",
+          "prob": 0.04293576627969742
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.03832310065627098
+        }
+      ],
+      "top1_prob": 0.07556691020727158,
+      "violence_hint": 0.0
+    },
+    {
+      "index": 2,
+      "start_sec": 2.56,
+      "end_sec": 3.84,
+      "topk": [
+        {
+          "index": 306,
+          "label": "catching or throwing baseball\t306",
+          "prob": 0.40195024013519287
+        },
+        {
+          "index": 275,
+          "label": "exercising arm\t275",
+          "prob": 0.10898016393184662
+        },
+        {
+          "index": 207,
+          "label": "hoverboarding\t207",
+          "prob": 0.06920228153467178
+        },
+        {
+          "index": 122,
+          "label": "folding clothes\t122",
+          "prob": 0.03814593702554703
+        },
+        {
+          "index": 199,
+          "label": "pushing cart\t199",
+          "prob": 0.034498367458581924
+        }
+      ],
+      "top1_prob": 0.40195024013519287,
+      "violence_hint": 0.0
+    }
+  ],
+  "overall": {
+    "num_clips": 3,
+    "avg_top1_prob": 0.2400599792599678,
+    "max_top1_prob": 0.40195024013519287,
+    "avg_violence_hint": 0.0,
+    "max_violence_hint": 0.0
+  }
+}
